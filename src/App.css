@@ -53,3 +53,40 @@
   font-family: Arial;
   color: white;
 }
+
+.Videos{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+  margin: 10px 0;
+  font-family: Arial;
+  color: white;
+}
+
+.imgCard{
+  width: 100%;
+  height: 180px;
+}
+
+.titleCard{
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.linkVideo{
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: indigo;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  margin: 10px 0;
+}
+
+.linkVideo:hover{
+  background-color: rgb(251,58,190);
+}
