@@ -14,13 +14,13 @@ function Videos(){
             paragraph="La popular broma de borrar System32 para que tu pc sea mas rapida puede generar mas problemas de lo que crees"/>
 
             <Card imgUrl={pac} title="Los fantasmas de pacman"
-            paragraph=""/>
+            paragraph="El popular juego guarda algunos secretos sobre el comportamiento de sus enemigos, una forma de programacion interesante"/>
 
             <Card imgUrl={cpu} title="Procesador multi nucleo"  
-            paragraph=""/>
+            paragraph="Los procesadores tienen diferentes propiedades y una de ellas es el numero de nucleos que pose, aprende mas en el video"/>
 
             <Card imgUrl={lib} title="Librerias de programacion" 
-            paragraph=""/>
+            paragraph="Las librerias de programacion son un tema recurrente dentro de la programacion, visita el video para saber mas sobre ellas"/>
 
         </div>
     );
