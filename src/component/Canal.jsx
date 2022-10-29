@@ -1,0 +1,15 @@
+import React from "react";
+import '../App.css';
+
+function Canal(){
+    return (
+        <section className="Canal">
+            <div className="BrandContenido">
+                <h2>Un canal dedicado a los temas de informatica, videojuegos y techrunners</h2>
+                <a href="#" className="Btn">Ir al canal</a>
+            </div>
+        </section>
+    );
+}
+
+export default Canal;
