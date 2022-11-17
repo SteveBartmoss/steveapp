@@ -145,3 +145,23 @@
 .Btn:hover{
   background-color: rgb(251,58,190);
 }
+
+/* estilos de apartado steve o del componente Stiker*/
+
+.imgSteve{
+  width: 500px;
+  height: 250px;
+}
+
+.InfoSteve{
+  display: flex;
+  background-color: #282c34;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+.Content{
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+}

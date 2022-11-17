@@ -9,6 +9,7 @@ import '../App.css';
 
 function Videos(){
     return(
+        
         <div className="Videos">
             <Card imgUrl={sys32} title="Borrar Sytem32" 
             paragraph="La popular broma de borrar System32 para que tu pc sea mas rapida puede generar mas problemas de lo que crees"/>
