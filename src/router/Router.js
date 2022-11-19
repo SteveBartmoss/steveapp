@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Home from "../component/Home";
-import About from "../component/About";
-import News from "../component/News";
-import Almanac from "../component/Almanac";
-import Steve from "../component/Steve";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import News from "../pages/News";
+import Almanac from "../pages/Almanac";
+import Steve from "../pages/Steve";
 import "../App.css";
 
 function Router(){

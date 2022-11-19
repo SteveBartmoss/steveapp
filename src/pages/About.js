@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Stiker from "./Stiker";
+import Stiker from "../component/Stiker";
 import perfil from "../img/perfil2.jpg";
 import ban from "../img/baner\ canal.png";
 import sunset from "../img/sunsetMiniatura.jpg";

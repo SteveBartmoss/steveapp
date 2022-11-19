@@ -1,10 +1,10 @@
 import React from "react";
-import Baner from "./Baner";
-import Videos from "./Videos";
+import Baner from "../component/Baner";
+import Videos from "../component/Videos";
 import "../App.css";
-import Discord from "./Discord";
-import Review from "./Review";
-import Canal from "./Canal";
+import Discord from "../component/Discord";
+import Review from "../component/Review";
+import Canal from "../component/Canal";
 
 
 

@@ -7,7 +7,7 @@ function Stiker({imge, title, paragrap}){
             <img className="imgSteve" src={imge} />
             <div>
                 <h1 className="title1 Content">{title}</h1>
-                    <p className="Content">{paragrap}</p>
+                <p className="Content">{paragrap}</p>
             </div>
         </div>
     );

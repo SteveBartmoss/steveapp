@@ -1,7 +1,7 @@
 import React from "react";
-import Books from "./Books";
-import Movies from "./Movies";
-import Stiker from "./Stiker";
+import Books from "../component/Books";
+import Movies from "../component/Movies";
+import Stiker from "../component/Stiker";
 import steve from "../img/miniatura.jpg";
 import "../App.css";
 
