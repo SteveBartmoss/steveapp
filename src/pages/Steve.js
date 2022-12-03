@@ -1,8 +1,10 @@
 import React from "react";
-import Books from "../component/Books";
-import Movies from "../component/Movies";
 import Stiker from "../component/Stiker";
-import steve from "../img/miniatura.jpg";
+import Data from "../component/Data";
+import steve from "../img/steveA.png";
+import game from "../img/game.png";
+import music from "../img/music.png";
+import arcade from "../img/arcade.png";
 import "../App.css";
 
 
@@ -19,10 +21,22 @@ function Steve(){
                 personas pero espera en algun momento poder migrarse a su propia plataforma Steve labs. "
             />
             
-            <h1 className="title1">Peliculasfavoritas</h1>
-            <Movies />
-            <h1 className="title1">Libros favoritos</h1>
-            <Books />
+            <Stiker imge={game} title="Jugos favoritos"
+                paragrap="Los video juegos estan presentes en una gran parte de mi vida y estos son algunos titulos que me gustan:
+                Halo reach, Cyberpunk, Age of empires, Minecraft, Left 4 dead, COD blacp ops zombies, The legen of zelda ocarina of time"
+            />
+
+            <Data imge={music} title="Mi perfil de spotify"
+                paragrap="Si quieres saber que tipode musica escuho o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
+                para que puedas seguirme, quizas algunas de mis playlist te agraden"
+                url="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4"
+            />
+
+            <Data imge={arcade} title="Mi perifl de steam"
+                paragrap="Si quires agregarme en steam para jugar o para ver mi biblioteca de juegos o las resenas de titulos que he jugado
+                puedes seguirme con el enlace a mi perfil que aparece a continuacion"
+                url="https://steamcommunity.com/id/tonyhallan/"
+            />
 
         </div>
         
