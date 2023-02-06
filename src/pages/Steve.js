@@ -2,10 +2,10 @@ import React from "react";
 import Stiker from "../component/Stiker";
 import Data from "../component/Data";
 import steve from "../img/steveA.png";
-import game from "../img/game.png";
 import music from "../img/music.png";
 import arcade from "../img/arcade.png";
 import "../App.css";
+import { Grid } from "../component/Grid";
 
 
 function Steve(){
@@ -21,10 +21,7 @@ function Steve(){
                 personas pero espera en algun momento poder migrarse a su propia plataforma Steve labs. "
             />
             
-            <Stiker imge={game} title="Jugos favoritos"
-                paragrap="Los video juegos estan presentes en una gran parte de mi vida y estos son algunos titulos que me gustan:
-                Halo reach, Cyberpunk, Age of empires, Minecraft, Left 4 dead, COD blacp ops zombies, The legen of zelda ocarina of time"
-            />
+            <Grid/>
 
             <Data imge={music} title="Mi perfil de spotify"
                 paragrap="Si quieres saber que tipode musica escuho o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
@@ -37,6 +34,8 @@ function Steve(){
                 puedes seguirme con el enlace a mi perfil que aparece a continuacion"
                 url="https://steamcommunity.com/id/tonyhallan/"
             />
+
+            
 
         </div>
         
