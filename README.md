@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Pagina creada para el canal de steve, Hi stalker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto se creo para tener una pagina web propia y esta desplegado en el siguiente enlace: 
+[https://stevechambitas.netlify.app/]. Dentro de la misma se iran aplicando nuevas aactualizaciones 
+para agregar mas funcionalidades a la pagina y que no sea solo una pagina statica.
 
-## Available Scripts
+## Historial de Actualizaciones
 
-In the project directory, you can run:
+Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
-### `npm start`
+### `13/01/2023`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La pagina fue creada y desplegada en netlify y puede ser consultada, cuenta con las siguentes secciones:
+home, about, news, almanac, steve
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `6/02/2023`
 
-### `npm test`
+Se implemento un carrusel para la informacion de steve, aun esta en desarrollo y falta definir los estilos,
+la funcionalidad ya esta completa y se creo un hook para menejar el cambio de las tajetas y que al llegar al final de carrusel que se reinicie y si esta al principio y retrocede valla al final.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Libre uso
 
-### `npm run build`
+No es un codigo tan bueno pero si alguna implementacion te sirve como referencia o quizas soluciona tu problema puedes usarlo sin ningun problema.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Nota: esta pagina fue posible gracias al curso de Fernando Herrera. Puedes ir y conseguir su curzo si quieres apoyar y aprender**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Canal de steve
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Puedes ir al canal de steve en el siguiente enlace: 
+[https://www.youtube.com/@stevechambitas2782/featured]
 
-### `npm run eject`
+# Page created for steve's channel, Hi stalker
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project was created to have its own web page and is displayed in the following link:
+[https://stevechambitas.netlify.app/]. Within it, new updates will be applied in order to add more functionalities to the site to add more functionalities to the site and to make it more than just a static site.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Upgrade History
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This is a summary of the changes that the page undergoes to see how it evolves.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `01/13/2023`
 
-## Learn More
+The page was created and deployed in netlify and can be consulted, it has the following sections:
+home, about, news, almanac, steve
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `02/06/2023`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A carousel was implemented for steve's information, it is still under development and the styles need to be defined,
+The functionality is already complete and a hook was created to manage the change of the tabs and that when reaching the end of the carousel it restarts and if it is at the beginning and goes back it goes to the end.
 
-### Code Splitting
+## steve's Channel
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You can go to steve's channel at the following link:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[https://www.youtube.com/@stevechambitas2782/featured]
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
