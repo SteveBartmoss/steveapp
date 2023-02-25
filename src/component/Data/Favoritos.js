@@ -30,6 +30,22 @@ export const Favoritos=[
         'imagen': book,
         'parrafo': 'Algunoas de mis peliculas favoritas que inspiran la tematica del canal',
         'titulos': ['Volver al futuro','Ready Player One', 'Blade runer', 'Drive', 'Iron man']
-    }
-
+    },
+    {
+        
+        'id': 5,
+        'titulo': 'Caricaturas Favoritas',
+        'imagen': book,
+        'parrafo': 'Algunas de mis caricaturas favoritas',
+        'titulos': ['Un show mas','Hora de aventura', 'clarence', 'Tio grandpa', 'Hey arnoold']
+    },
+    {
+        
+        'id': 6,
+        'titulo': 'Animes',
+        'imagen': arcade,
+        'parrafo': 'Algunas de mis caricaturas favoritas',
+        'titulos': ['Cowboy','Bersek', 'clarence', 'Tio grandpa', 'Hey arnoold']
+    },
+    
 ]
