@@ -13,7 +13,6 @@ function Router(){
         <BrowserRouter>
             <div>
                 <NavBar />
-
                 <Routes>
                     <Route path="/" element={<Home/>}/>
 

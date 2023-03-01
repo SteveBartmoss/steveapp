@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# steveapp
-steve app
-=======
 # Pagina creada para el canal de steve, Hi stalker
 
 Este proyecto se creo para tener una pagina web propia y esta desplegado en el siguiente enlace: 

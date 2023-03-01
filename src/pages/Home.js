@@ -10,16 +10,20 @@ import Canal from "../component/Canal";
 
 function Home(){
     return(
+        <>
+        <Baner/>
         <div className="Contenedor">
-            <Baner/>
             <h3 className="title1">Videos con mas visitas</h3>
             <Videos/>
             <Discord/>
+        </div>
+        
+        <div className="Contenedor">
             <h3 className="title1">Reviews mas recientes</h3>
             <Review/>
             <Canal/>
         </div>
-
+        </>
     );
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import Stiker from "../component/Stiker";
-import ban from "../img/baner\ canal.png";
+import ban from "../img/baner canal.png";
 
 function Almanac(){
     return(

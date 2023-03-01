@@ -2,14 +2,14 @@ import React from "react";
 import "../App.css";
 import Stiker from "../component/Stiker";
 import perfil from "../img/perfil2.jpg";
-import ban from "../img/baner\ canal.png";
+import ban from "../img/baner canal.png";
 import sunset from "../img/sunsetMiniatura.jpg";
 
 
 
 function About(){
     return(
-        <div className="Contenedor">
+        <div className="contenedor-about">
 
             <Stiker imge={perfil} title="Acerca de steve chambitas"
                 paragrap="Steve chambitas es un proyecto que tiene como objetivo dar a conocer algunos temas de programacion y de informatica, sin el rigor o formalidad

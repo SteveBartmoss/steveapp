@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { getFavById } from "./Helpers/getFav";
 import { useCarrusel } from "./Hooks/useCarrusel";
 
