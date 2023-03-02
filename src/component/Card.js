@@ -3,7 +3,7 @@ import '../App.css';
 
 function Card({imgUrl,title,paragraph,urlVideo}){
     return(
-        <div>
+        <div className="div-card">
             <img className="imgCard" src={imgUrl}/>
             <h3 className="titleCard">{title}</h3>
             <p>{paragraph}</p>
