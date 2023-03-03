@@ -224,6 +224,27 @@
 
 /* estilos de apartado steve o del componente Stiker*/
 
+.portada{
+  width: 100%;
+  height: 500px;
+  background: url("./img/portada.jpg") no-repeat center center/cover;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.img-portada{
+  width: 400px;
+  height: 250px;
+}
+
+.frame-img{
+  background-color: #244e4f;
+  padding: 20px;
+}
 
 .imgSteve{
   width: 500px;
@@ -254,8 +275,19 @@
   margin: auto;
 }
 
+/* estilos del footer*/
+
+.footer-text{
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+
 .footer{
   text-align: center;
   background-color: #244e4f;
-  margin: 0;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
 }

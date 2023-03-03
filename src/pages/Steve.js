@@ -6,11 +6,17 @@ import music from "../img/music.png";
 import arcade from "../img/arcade.png";
 import "../App.css";
 import { Grid } from "../component/Grid";
+import Portada from "../component/Portada";
 
 
 function Steve(){
     return(
+
+        <>
+        <Portada image={steve} />
         <div className="Contenedor">
+
+            
 
             <Stiker imge={steve} title="Steve"
                 paragrap="Estudiante de ingenieria en sistemas al cual le gustan los temas del a cultura geek, peliculas de ciencia ficcion, videojuegos
@@ -38,6 +44,8 @@ function Steve(){
             
 
         </div>
+
+        </>
         
     );
 }
