@@ -5,7 +5,7 @@ import ban from "../img/baner canal.png";
 
 function Almanac(){
     return(
-        <div className="Contenedor">
+        <div className="contenedor-logros">
             <h1 className="title1">Logros desbloqueados</h1>
             <div className="div-logros">
                 <Logro imge={ban} title="22/11/22 Tenemos publicaciones"

@@ -5,6 +5,8 @@ import "../App.css";
 import Discord from "../component/Discord";
 import Review from "../component/Review";
 import Canal from "../component/Canal";
+import Footer from "../component/Pie";
+import Pie from "../component/Pie";
 
 
 
@@ -23,6 +25,7 @@ function Home(){
             <Review/>
             <Canal/>
         </div>
+        <Pie/>
         </>
     );
 }

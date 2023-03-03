@@ -23,7 +23,7 @@ function Review(){
                 paragraph="Un juego que propone un desafio helado para todos los que se atrevan a jugarlo"
                 urlVideo="https://www.youtube.com/watch?v=vfIXW96xbZA"/>
 
-                <Card imgUrl={sunset} title="Sunset Overdruve" 
+                <Card imgUrl={sunset} title="Sunset Overdrive" 
                 paragraph="Un juego que tal vez no fue tan valorado pero que tiene mucho para ofrecer si lo pruebas"
                 urlVideo="https://www.youtube.com/watch?v=Ip7WDHnbB5s"/>
 
