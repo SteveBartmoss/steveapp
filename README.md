@@ -18,6 +18,17 @@ home, about, news, almanac, steve
 Se implemento un carrusel para la informacion de steve, aun esta en desarrollo y falta definir los estilos,
 la funcionalidad ya esta completa y se creo un hook para menejar el cambio de las tajetas y que al llegar al final de carrusel que se reinicie y si esta al principio y retrocede valla al final.
 
+### `1/03/2023`
+
+Se cierra la version uno de la pagina y se deja la version en la rama v1 para poder desplegar esa version en 
+caso de tener problemas o si se requiere hacer una consulta, la verison uno es la que esta actualmente desplegada en el hosting, la version dos esta en desarrollo y sera desplegada tan pronto como se termine
+
+### `4/03/2023`
+
+Se implemente un nuevo diseno para el apartado de esteve, se tiene un portada y proximamente de pondra una malla para almacenar difentes elementos, aun no se decide los fondos ni los colores definitivos. La pagina home ya tiene un dieno definitivo y se estara trabajando en el css para que result mas llamtivo o mejor para el usuario
+
+
+
 ## Libre uso
 
 No es un codigo tan bueno pero si alguna implementacion te sirve como referencia o quizas soluciona tu problema puedes usarlo sin ningun problema.
