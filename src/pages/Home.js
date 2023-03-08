@@ -15,16 +15,16 @@ function Home(){
         <>
         <Baner/>
         <div className="Contenedor">
-            <h3 className="title1">Videos con mas visitas</h3>
-            <Videos/>
-            <Discord/>
+            <h3 className="title1">Videos con mas visitas</h3>   
         </div>
+        <Videos/>
+        <Discord/>
         
         <div className="Contenedor">
             <h3 className="title1">Reviews mas recientes</h3>
-            <Review/>
-            <Canal/>
         </div>
+        <Review/>
+        <Canal/>
         <Pie/>
         </>
     );

@@ -7,6 +7,7 @@ import arcade from "../img/arcade.png";
 import "../App.css";
 import { Grid } from "../component/Grid";
 import Portada from "../component/Portada";
+import Actividad from "../component/Actividad";
 
 
 function Steve(){
@@ -14,11 +15,10 @@ function Steve(){
 
         <>
         <Portada image={steve} />
-        <div className="Contenedor">
-
-            
-
-            <Stiker imge={steve} title="Steve"
+        <div className="grid-steve">
+            <div>
+                <Actividad juego={"border lands"} />
+                <Stiker imge={steve} title="Steve"
                 paragrap="Estudiante de ingenieria en sistemas al cual le gustan los temas del a cultura geek, peliculas de ciencia ficcion, videojuegos
                 y temas de programacion, crear contenido para el canal me divierte y ademas me ayuda un poco a investigar sobre temas de mi carrera y ademas comparto
                 algunos temas con otras personas haciendo que mas personas se puedan interesar por la informatica.
@@ -40,6 +40,14 @@ function Steve(){
                 puedes seguirme con el enlace a mi perfil que aparece a continuacion"
                 url="https://steamcommunity.com/id/tonyhallan/"
             />
+            </div>
+            
+            <Actividad juego={"border lands"} />
+
+        </div>
+        <div className="Contenedor">
+
+            
 
             
 

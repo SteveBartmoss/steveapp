@@ -6,7 +6,7 @@ function Portada({image}){
             <div className="frame-img">
                 <img className="img-portada"  src={image}/>
                 <h1 className="title1">Steve</h1>
-                <p>Estudiante, programadpor, amante de los videjuegos</p>
+                <p className="text-portada">Estudiante, programadpor, amante de los videjuegos</p>
             </div>
         </section>
     );

@@ -11,6 +11,7 @@ import Baner from "./Baner";
 function Videos(){
     return(
         
+        <section className="back-videos">
         <div className="grid-videos">
             <div className="Videos">
                 <Card imgUrl={sys32} title="Borrar Sytem32" 
@@ -29,8 +30,10 @@ function Videos(){
                 paragraph="Las librerias de programacion son un tema recurrente dentro de la programacion, visita el video para saber mas sobre ellas"
                 urlVideo="https://www.youtube.com/watch?v=V4ZxnSYly-Y"/>
             </div>
-            <Baner/>
+            <section className="columna">
+            </section>
         </div>
+        </section>
     );
 }
 

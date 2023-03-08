@@ -64,6 +64,15 @@
   justify-content: flex-end;
 }
 
+/* estilos de la rows and colums */
+.columna{
+  width: 100%;
+  background: url("./img/columna.jpg") no-repeat center center/cover;
+  height: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .title1{
   font-size: 30px;
   font-family: 'Roboto';
@@ -72,13 +81,31 @@
 
 /* estilos del contenedor videos visitas*/
 
+.back-videos{
+  width: 100%;
+  background: url("./img/back1.jpg") no-repeat center center/cover;
+}
 .grid-videos{
   display: grid;
   grid-template-columns: 3fr 1fr;
   /*background-color: #413154;*/
 }
 
+.back-article{
+  width: 100%;
+  background: url("./img/articulos.jpg") no-repeat center center/cover;
+  height: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* estilos del contenedor de reviews */
+
+.back-review{
+  width: 100%;
+  background: url("./img/back2.jpg") no-repeat center center/cover;
+}
+
 .grid-reviews{
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -96,7 +123,7 @@
 /* estilos de los cards*/
 
 .back-card{
-  background-color: #413154;
+  background-color: rgba(128, 128, 128, 0.2);
 }
 
 .div-card{
@@ -246,6 +273,11 @@
   padding: 20px;
 }
 
+.text-portada{
+  color: white;
+  font-family: 'Roboto';
+}
+
 .imgSteve{
   width: 500px;
   height: 250px;
@@ -261,6 +293,20 @@
   text-align: justify;
 }
 
+.grid-steve{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #051e39;
+  column-gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.div-actividad{
+  background-color: rgba(128, 128, 128, 0.2);
+  margin-left: 10px;
+  text-align: justify;
+}
 .Content{
   color: white;
   font-size: 20px;

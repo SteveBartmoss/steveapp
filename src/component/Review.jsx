@@ -8,8 +8,11 @@ import Baner from "./Baner";
 
 function Review(){
     return (
+        <section className="back-review">
         <div className="grid-reviews">
-            <Baner/>
+            <section className="back-article">
+
+            </section>
             <div className="Videos">
                 <Card imgUrl={need} title="Net for speed Heat" 
                 paragraph="Un nuevo need for speed pero Esta a la altura de la edad de oro?"
@@ -27,8 +30,9 @@ function Review(){
                 paragraph="Un juego que tal vez no fue tan valorado pero que tiene mucho para ofrecer si lo pruebas"
                 urlVideo="https://www.youtube.com/watch?v=Ip7WDHnbB5s"/>
 
+            </div>
         </div>
-        </div>
+        </section>
     );
 }
 
