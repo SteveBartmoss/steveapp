@@ -31,6 +31,9 @@ function Videos(){
                 urlVideo="https://www.youtube.com/watch?v=V4ZxnSYly-Y"/>
             </div>
             <section className="columna">
+                <div className="div-columna">
+                    <h1>Los graficos acabaran con los juegos</h1>
+                </div>
             </section>
         </div>
         </section>

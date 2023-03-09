@@ -293,10 +293,14 @@
   text-align: justify;
 }
 
+.back-steve{
+  width: 100%;
+  background: url("./img/articulos.jpg") no-repeat center center/cover;
+}
 .grid-steve{
   display: grid;
   grid-template-columns: 3fr 1fr;
-  background-color: #051e39;
+  background-color: #244e4f;
   column-gap: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -306,7 +310,25 @@
   background-color: rgba(128, 128, 128, 0.2);
   margin-left: 10px;
   text-align: justify;
+  border-radius: 10px;
 }
+
+.text-actividad{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.biblio{
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
 .Content{
   color: white;
   font-size: 20px;
