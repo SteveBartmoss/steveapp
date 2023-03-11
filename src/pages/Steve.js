@@ -8,6 +8,7 @@ import "../App.css";
 import { Grid } from "../component/Grid";
 import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
+import Lateral from "../component/LateralSteve";
 
 
 function Steve(){
@@ -50,7 +51,7 @@ function Steve(){
             />
             </div>
             
-            <Actividad juego={"border lands"} />
+            <Lateral/>
 
         </div>
         <div className="Contenedor">

@@ -1,3 +1,16 @@
+/* paleta de colores 1
+#f3aead
+#9a1a7e
+#f034bf
+#c82495
+#311324
+#672d4b
+#8b2357
+#b46182
+#e82464
+#e87e86
+*/
+
 
 .App-header {
   background-color: #282c34;
@@ -67,10 +80,16 @@
 /* estilos de la rows and colums */
 .columna{
   width: 100%;
-  background: url("./img/columna.jpg") no-repeat center center/cover;
+  /*background: url("./img/columna.jpg") no-repeat center center/cover;*/
   height: 800px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.div-columna{
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgba(128, 128, 128, 0.2);
 }
 
 .title1{
@@ -89,11 +108,12 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   /*background-color: #413154;*/
+  margin-right: 10px;
 }
 
 .back-article{
   width: 100%;
-  background: url("./img/articulos.jpg") no-repeat center center/cover;
+  /*background: url("./img/articulos.jpg") no-repeat center center/cover;*/
   height: 800px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -103,12 +123,13 @@
 
 .back-review{
   width: 100%;
-  background: url("./img/back2.jpg") no-repeat center center/cover;
+  background: url("./img/back2.png") no-repeat center center/cover;
 }
 
 .grid-reviews{
   display: grid;
   grid-template-columns: 1fr 3fr;
+  margin-left: 10px;
 }
 .Videos{
   display: grid;
@@ -327,6 +348,18 @@
   color: white;
   font-size: 20px;
   font-family: 'Roboto';
+}
+
+.img-prog{
+  height: 50px;
+  width: 50px;
+}
+
+.div-prog{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 .Content{

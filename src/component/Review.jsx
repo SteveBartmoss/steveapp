@@ -11,7 +11,20 @@ function Review(){
         <section className="back-review">
         <div className="grid-reviews">
             <section className="back-article">
-
+                <div className="div-columna">
+                    <h1 className="title1">Los graficos acabaran con los juegos</h1>
+                    <p className="biblio">Actualmente los graficos de un juego son un aspecto tan significativo que se puede pensar que no es
+                        no es posible que un juego actual tenga graficos menores que sus competidores despues de todo mientras
+                        mejores sean los graficos el juego se disfruta ma cierto ? Bueno esto no siempre es asi ya que actualmente tenemos titulos
+                        que visualmente resultan muy llamativos ya que los graficos son bastante detallados y en algunos casos tratan de ser realistas
+                        pero las mecanicas estan pesimas o nos encontramos con un mundo extremadamente realista pero que no tiene nada intereseante 
+                        para hacer lo cual en la mayoria de casos resulta molesto ya que visualmente el titulo es llamativo pero una vez que se prueba
+                        uno se da cuenta de que realmente esl juego se trata de un cascaron vacio
+                    </p>
+                    <center>
+                        <a className="linkVideo">Seguir leyendo</a>
+                    </center>
+                </div>
             </section>
             <div className="Videos">
                 <Card imgUrl={need} title="Net for speed Heat" 
