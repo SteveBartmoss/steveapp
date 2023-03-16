@@ -34,6 +34,26 @@ function News(){
                 persona si no poder entretener a los usuarios"
             />
 
+            <Stiker imge={need} title="True history"
+                paragrap="La historia de le tecnologia puede ser interesante y siempre en bueno saber que hay detras de lo que
+                usamos cotidianamente, en esta seccion contare algunas historias sobre como surguieron programas especificos o 
+                historias relacionadas con la computacion que tengan una parte interesante para conocer."
+            />
+
+            <Stiker imge={need} title="Its free"
+                paragrap="Las ventajas del software libre no solo son mayor control sobre tus dato y tu informacion si no que
+                ademas es gratis, como una contribucion no tan buena a la comunidad de gnu probare y recomendare programas de gnu
+                para tener una alternativa a la aplicacion de pago que se usa contidianamente o que se suele usar en la industria
+                con esto no solo se vuelve popular el software libre si no que tu bolsillo tambien se vera beneficiado por el ahorro"
+            />
+
+            <Stiker imge={need} title="Ditro Runner"
+                paragrap="El camino del lado luminoso del software no es simple pero es el camino que hay que recorrer pero esta
+                seccion busca ayudar a los novatos que se sienten abrumados por la cantidad de distribuciones que existen que utilizan
+                el kernel de linux, por eso probare una distribucion de linux y desde un punto de vista de novato puntuare la dificultad
+                que presenta usar la distribucion, tambien dare la opinion sobre el aspecto de la distribucion"
+            />
+
         </div>
     );
 }
