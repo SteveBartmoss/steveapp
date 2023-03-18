@@ -2,9 +2,11 @@ import React from "react";
 import "../App.css";
 import Stiker from "../component/Stiker";
 import need from "../img/heatminiatura.png";
+import Pie from "../component/Pie";
 
 function News(){
     return(
+        <>
         <div className="Contenedor">
             <h1 className="title1">Seccion mas reciente</h1>
             <Stiker imge={need} title="Opinion sobre videojuegos"
@@ -47,7 +49,7 @@ function News(){
                 con esto no solo se vuelve popular el software libre si no que tu bolsillo tambien se vera beneficiado por el ahorro"
             />
 
-            <Stiker imge={need} title="Ditro Runner"
+            <Stiker imge={need} title="Distro Runner"
                 paragrap="El camino del lado luminoso del software no es simple pero es el camino que hay que recorrer pero esta
                 seccion busca ayudar a los novatos que se sienten abrumados por la cantidad de distribuciones que existen que utilizan
                 el kernel de linux, por eso probare una distribucion de linux y desde un punto de vista de novato puntuare la dificultad
@@ -55,6 +57,8 @@ function News(){
             />
 
         </div>
+        <Pie/>
+        </>
     );
 }
 

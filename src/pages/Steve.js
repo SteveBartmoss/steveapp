@@ -9,6 +9,7 @@ import { Grid } from "../component/Grid";
 import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
+import Pie from "../component/Pie";
 
 
 function Steve(){
@@ -74,7 +75,7 @@ function Steve(){
             
 
         </div>
-
+        <Pie/>
         </>
         
     );

@@ -4,11 +4,13 @@ import Stiker from "../component/Stiker";
 import perfil from "../img/perfil2.jpg";
 import ban from "../img/baner canal.png";
 import sunset from "../img/sunsetMiniatura.jpg";
+import Pie from "../component/Pie";
 
 
 
 function About(){
     return(
+        <>
         <div className="contenedor-about">
 
             <Stiker imge={perfil} title="Acerca de steve chambitas"
@@ -40,6 +42,8 @@ function About(){
 
             
         </div>
+        <Pie />
+        </>
         
     );
 }
