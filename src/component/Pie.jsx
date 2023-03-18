@@ -3,7 +3,7 @@ import React from "react";
 function Pie(){
     return(
         <div className="footer">
-            <p className="footer-text">Steve chambitas</p>
+            <a className="footer-text" href="https://www.youtube.com/@stevechambitas2782">steve chambitas</a>
         </div>
     );
 }
