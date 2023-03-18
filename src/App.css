@@ -35,6 +35,12 @@
 #EF7030
 #10104F
 #42AC98
+
+#44E1F2
+#285459
+#4F868C
+#4BF2F2
+#0D0D0D
 */
 
 
@@ -65,7 +71,8 @@
   font-size: 17px;
   list-style: none;
   height: 50px;
-  background-color: #125173;
+  /*background-color: #125173;*/
+  background-color: #024059;
 }
 
 .iten{
@@ -78,7 +85,9 @@
 }
 
 .iten:hover{
-  background-color: #236e86;
+  /*background-color: #236e86;*/
+  color: #44e1f2;
+  background-color: #F2E307;
 }
 
 .menu li{
@@ -87,7 +96,8 @@
 }
 
 .active{
-  background-color: #236e86;
+  /*background-color: #236e86;*/
+  background-color: #f2cc0f;
 }
 
 /* estilo del baner */
@@ -347,7 +357,8 @@
 .grid-steve{
   display: grid;
   grid-template-columns: 3fr 1fr;
-  background-color: #244e4f;
+  /*background-color: #244e4f;*/
+  background-color: #1f253d;
   column-gap: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -379,6 +390,10 @@
 .img-prog{
   height: 50px;
   width: 50px;
+}
+
+.div-lateral{
+  background-color: #4d4b8e;
 }
 
 .div-prog{
