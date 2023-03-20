@@ -3,6 +3,8 @@ import "../App.css";
 import Stiker from "../component/Stiker";
 import need from "../img/heatminiatura.png";
 import Pie from "../component/Pie";
+import real from "../img/realman.jpg"
+import lab from "../img/labs.png"
 
 function News(){
     return(
@@ -16,7 +18,7 @@ function News(){
             />
             <h1 className="title1">Proximanente</h1>
 
-            <Stiker imge={need} title="The real man dont click"
+            <Stiker imge={real} title="The real man dont click"
                 paragrap="El camino para convertirse en un usuario de linux completo no es facil pero es el camino que hay
                 que seguir, explorar algo diferente es una buen forma de obtener conocimiento y quiza obtener un nuevo gusto 
                 esta es la historia de las cosas que tuve que aprender y de los fallos que cometi durante mi paso de windows a
@@ -24,7 +26,7 @@ function News(){
                 al lado oscuro de lo usarios de windows"
             />
 
-            <Stiker imge={need} title="Stevelabs"
+            <Stiker imge={lab} title="Stevelabs"
                 paragrap="Tutoriales de un chico que no es precisamente un hacker/desarrollador Senior o simplemente
                 un verdadero erudito de la programacion pero comparte lo que sabe y que quisa pueda servirte"
             />
