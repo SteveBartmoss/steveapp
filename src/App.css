@@ -434,3 +434,15 @@
   display: grid;
   grid-template-columns: 1fr;
 }
+
+/* estilos del articulo*/
+
+.articulo-div{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.contenido-articulo{
+  width: 95%;
+  margin-left: 10px;
+}
