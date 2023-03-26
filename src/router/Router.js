@@ -7,6 +7,7 @@ import Almanac from "../pages/Almanac";
 import Steve from "../pages/Steve";
 import "../App.css";
 import { NavBar } from "./NavBar";
+import Articulo from "../Articles/RC1";
 
 function Router(){
     return(
@@ -14,6 +15,7 @@ function Router(){
             <div>
                 <NavBar />
                 <Routes>
+
                     <Route path="/" element={<Home/>}/>
 
                     <Route path="home" element={<Home/>}/>
@@ -26,6 +28,7 @@ function Router(){
 
                     <Route path="steve" element={<Steve/>}/>
 
+                    <Route path="RC1" element={<Articulo/>}/>
                 </Routes>
 
             </div>
