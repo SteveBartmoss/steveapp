@@ -3,17 +3,18 @@ import React from "react";
 function Articulo(){
     return(
         <>
-            <div>
-                <h1>El cyber punk esta delante de nosotros</h1>
-                <p>La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
+            <div className="articulo-div">
+                <div className="contenido-articulo">
+                <h1 className="title1">El cyber punk esta delante de nosotros</h1>
+                <p className="Content">La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
                     la tematica futurista y distopica de una sociedad cyberpunk ya que para ser honestos a quien
                     no le gusta la idea de que tengamos autos voladores, implamentes tecnologicos y a una red de
                     tecnologia que nos permite estar conectados con la mayoria. Pero esto no esta lejos de nuestra
                     actualidad y de hecho la gran mayoria de personas esta viviendo en una epoca de tecnologia al 
                     nivel de una historia cyberpunk aunque no lo paresca hay una gran muestra de esto en muchos lados
-                    como podemos ver a continuacion,
+                    como podemos ver a continuacion.
                 </p>
-                <p>
+                <p className="Content">
                     La mayoría de personas que no vivieron la revolución tecnologica no entenderán porque el cyberpunk 
                     y es una realidad ya que ellos nacieron cuando ya todo estaba normalizado o simplemente ya había mucha 
                     más tecnología que antes, para alguien que nació entre el 2015 y el 2018 no resulta nuevo ver sitios de 
@@ -59,7 +60,10 @@ function Articulo(){
                     el futuro pero esto no parece tener el impacto que se esperaba. En cualquier caso el avance de la tecnología no se detiene y lo único que nos queda 
                     es obtener lo bueno que nos ofrece y solventar las desventajas que esto conyeba.  
                 </p>
+                </div>
             </div>
         </>
     );
 }
+
+export default Articulo;
