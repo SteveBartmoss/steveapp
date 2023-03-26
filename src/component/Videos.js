@@ -32,17 +32,17 @@ function Videos(){
             </div>
             <section className="columna">
                 <div className="div-columna">
-                    <h1 className="title1">Los graficos acabaran con los juegos</h1>
-                    <p className="biblio">Actualmente los graficos de un juego son un aspecto tan significativo que se puede pensar que no es
-                        no es posible que un juego actual tenga graficos menores que sus competidores despues de todo mientras
-                        mejores sean los graficos el juego se disfruta ma cierto ? Bueno esto no siempre es asi ya que actualmente tenemos titulos
-                        que visualmente resultan muy llamativos ya que los graficos son bastante detallados y en algunos casos tratan de ser realistas
-                        pero las mecanicas estan pesimas o nos encontramos con un mundo extremadamente realista pero que no tiene nada intereseante 
-                        para hacer lo cual en la mayoria de casos resulta molesto ya que visualmente el titulo es llamativo pero una vez que se prueba
-                        uno se da cuenta de que realmente esl juego se trata de un cascaron vacio
+                    <h1 className="title1">El cyber punk esta delante de nosotros</h1>
+                    <p className="biblio">La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
+                    la tematica futurista y distopica de una sociedad cyberpunk ya que para ser honestos a quien
+                    no le gusta la idea de que tengamos autos voladores, implamentes tecnologicos y a una red de
+                    tecnologia que nos permite estar conectados con la mayoria. Pero esto no esta lejos de nuestra
+                    actualidad y de hecho la gran mayoria de personas esta viviendo en una epoca de tecnologia al 
+                    nivel de una historia cyberpunk aunque no lo paresca hay una gran muestra de esto en muchos lados
+                    como podemos ver a continuacion.
                     </p>
                     <center>
-                        <a className="linkVideo">Seguir leyendo</a>
+                        <a className="linkVideo" href="/RC1">Seguir leyendo</a>
                     </center>
                 </div>
             </section>
