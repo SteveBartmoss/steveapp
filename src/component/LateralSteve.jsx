@@ -45,6 +45,9 @@ function Lateral(){
                 <img className="img-prog" src={ubuntu} />
             </div>
             <p>Ubuntu ya que es para novatos</p>
+
+            <h1 className="title1">Manejador de versiones usado</h1>
+            <p>Github un clasico</p>
         </div>
         </>
     );
