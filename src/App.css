@@ -68,7 +68,7 @@
 /* estilos del menu */
 
 .menu{
-  font-size: 17px;
+  font-size: 20px;
   list-style: none;
   height: 50px;
   /*background-color: #125173;*/
@@ -81,7 +81,7 @@
   padding: 15px;
   display: block;
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .iten:hover{
