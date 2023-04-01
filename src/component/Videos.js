@@ -33,7 +33,7 @@ function Videos(){
             <section className="columna">
                 <div className="div-columna">
                     <h1 className="title1">El cyber punk esta delante de nosotros</h1>
-                    <p className="biblio">La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
+                    <p className="content-columna">La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
                     la tematica futurista y distopica de una sociedad cyberpunk ya que para ser honestos a quien
                     no le gusta la idea de que tengamos autos voladores, implamentes tecnologicos y a una red de
                     tecnologia que nos permite estar conectados con la mayoria. Pero esto no esta lejos de nuestra
