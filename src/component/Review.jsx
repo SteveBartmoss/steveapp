@@ -13,7 +13,7 @@ function Review(){
             <section className="back-article">
                 <div className="div-columna">
                     <h1 className="title1">Los graficos acabaran con los juegos</h1>
-                    <p className="biblio">Actualmente los graficos de un juego son un aspecto tan significativo que se puede pensar que no es
+                    <p className="content-columna">Actualmente los graficos de un juego son un aspecto tan significativo que se puede pensar que no es
                         no es posible que un juego actual tenga graficos menores que sus competidores despues de todo mientras
                         mejores sean los graficos el juego se disfruta ma cierto ? Bueno esto no siempre es asi ya que actualmente tenemos titulos
                         que visualmente resultan muy llamativos ya que los graficos son bastante detallados y en algunos casos tratan de ser realistas
