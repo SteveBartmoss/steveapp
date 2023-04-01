@@ -86,7 +86,8 @@
 
 .iten:hover{
   /*background-color: #236e86;*/
-  color: #44e1f2;
+  /*color: #44e1f2;*/
+  color: #3bd5e6;
   background-color: #F2E307;
 }
 
@@ -114,6 +115,18 @@
 }
 
 /* estilos de la rows and colums */
+
+.content-columna{
+  /*background-color: rgb(69, 40, 58);*/
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+
 .columna{
   width: 100%;
   /*background: url("./img/columna.jpg") no-repeat center center/cover;*/
@@ -313,7 +326,7 @@
   height: 500px;
   background: url("./img/portada.jpg") no-repeat center center/cover;
   padding-bottom: 50px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -358,15 +371,17 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   /*background-color: #244e4f;*/
-  background-color: #1f253d;
+  background-color: #010626;
   column-gap: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  /*margin-left: 10px;*/
+  /*margin-right: 10px;*/
 }
 
 .div-actividad{
-  background-color: rgba(128, 128, 128, 0.2);
+  /*background-color: rgba(128, 128, 128, 0.2);*/
+  background-color: #3B848C;
   margin-left: 10px;
+  margin-top: 10px;
   text-align: justify;
   border-radius: 10px;
 }
@@ -381,10 +396,15 @@
 }
 
 .biblio{
+  /*background-color: rgb(69, 40, 58);*/
+  background-color: #3B848C;
   margin-left: 10px;
+  margin-top: 10px;
   color: white;
   font-size: 20px;
   font-family: 'Roboto';
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 
 .img-prog{
@@ -393,7 +413,16 @@
 }
 
 .div-lateral{
-  background-color: #4d4b8e;
+  background-color: #010626;
+  padding: 10px;
+}
+
+.back-color{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #325559;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .div-prog{
