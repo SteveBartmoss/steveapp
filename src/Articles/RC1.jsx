@@ -1,20 +1,34 @@
 import React from "react";
+import autor from "../img/steveA.png"
+
 
 function Articulo(){
     return(
         <>
+            <div className="encabezado">
+                <img className="imgAutor" src={autor}/>
+                <div className="text-head">
+                    <h1 className="title1">El cyber punk esta delante de nosotros</h1>
+                    <p className="Content">Escrito por Seteve</p>
+                    <p className="Content">Fecha de publicacion: 06/04/2023</p>
+                </div>
+            </div> 
+
             <div className="articulo-div">
+
                 <div className="contenido-articulo">
-                <h1 className="title1">El cyber punk esta delante de nosotros</h1>
-                <p className="Content">La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
+
+                    <div className="text-cuerpo">
+                                 
+                    <p className="Content">La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
                     la tematica futurista y distopica de una sociedad cyberpunk ya que para ser honestos a quien
                     no le gusta la idea de que tengamos autos voladores, implamentes tecnologicos y a una red de
                     tecnologia que nos permite estar conectados con la mayoria. Pero esto no esta lejos de nuestra
                     actualidad y de hecho la gran mayoria de personas esta viviendo en una epoca de tecnologia al 
                     nivel de una historia cyberpunk aunque no lo paresca hay una gran muestra de esto en muchos lados
                     como podemos ver a continuacion.
-                </p>
-                <p className="Content">
+                    </p>
+                    <p className="Content">
                     La mayoría de personas que no vivieron la revolución tecnologica no entenderán porque el cyberpunk 
                     y es una realidad ya que ellos nacieron cuando ya todo estaba normalizado o simplemente ya había mucha 
                     más tecnología que antes, para alguien que nació entre el 2015 y el 2018 no resulta nuevo ver sitios de 
@@ -59,9 +73,19 @@ function Articulo(){
                     se inicia el camino de las tecnologías que están disponibles en la actualidad, las obras de ficción se plantean cómo una advertencia de lo que nos separa 
                     el futuro pero esto no parece tener el impacto que se esperaba. En cualquier caso el avance de la tecnología no se detiene y lo único que nos queda 
                     es obtener lo bueno que nos ofrece y solventar las desventajas que esto conyeba.  
-                </p>
+                    </p>
+                    
+                    </div>
                 </div>
+
+                <div>
+                    <h1 className="title1">Tambien te pueden interesar</h1>
+                    <p className="Content">Lista de videos y de articulos para recomendar</p>
+                </div>
+
             </div>
+
+            
         </>
     );
 }
