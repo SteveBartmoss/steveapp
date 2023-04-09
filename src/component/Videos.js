@@ -42,7 +42,7 @@ function Videos(){
                     como podemos ver a continuacion.
                     </p>
                     <center>
-                        <a className="linkVideo" href="/RC1">Seguir leyendo</a>
+                        <a className="linkVideo" href="article">Seguir leyendo</a>
                     </center>
                 </div>
             </section>
