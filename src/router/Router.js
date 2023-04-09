@@ -28,7 +28,7 @@ function Router(){
 
                     <Route path="steve" element={<Steve/>}/>
 
-                    <Route path="RC1" element={<Articulo/>}/>
+                    <Route path="article" element={<Articulo/>}/>
                 </Routes>
 
             </div>
