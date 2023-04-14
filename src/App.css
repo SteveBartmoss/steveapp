@@ -43,6 +43,8 @@
 #0D0D0D
 */
 
+/* media querys mas comiunes 
+576px, 768px, 992px, 1200px */
 
 .App-header {
   background-color: #282c34;
@@ -496,4 +498,29 @@
 .text-cuerpo{
   background-color: #051e39;
   padding: 20px 20px;
+}
+
+/*media query 576 */
+
+@media(max-width: 576px){
+  .menu{
+    background-color: #244e4f;
+  }
+
+  .grid-videos{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .Videos{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-reviews{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  
 }
