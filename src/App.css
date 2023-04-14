@@ -504,7 +504,16 @@
 
 @media(max-width: 576px){
   .menu{
-    background-color: #244e4f;
+    font-size: 20px;
+    list-style: none;
+    height: 100%;
+    /*background-color: #125173;*/
+    background-color: #024059;
+  }
+
+  .menu li{
+    display: block;
+    text-align: center;
   }
 
   .grid-videos{
