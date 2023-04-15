@@ -1,9 +1,7 @@
 import React from "react";
 import "../App.css";
 import Stiker from "../component/Stiker";
-import perfil from "../img/perfil2.jpg";
 import ban from "../img/baner canal.png";
-import sunset from "../img/sunsetMiniatura.jpg";
 import Pie from "../component/Pie";
 
 
@@ -13,7 +11,7 @@ function About(){
         <>
         <div className="contenedor-about">
 
-            <Stiker imge={perfil} title="Acerca de steve chambitas"
+            <Stiker imge={"/Assets/perfil2.jpg"} title="Acerca de steve chambitas"
                 paragrap="Steve chambitas es un proyecto que tiene como objetivo dar a conocer algunos temas de programacion y de informatica, sin el rigor o formalidad
                 que se maneja en una carrera. La idea es presentar los temas de manera simple para que las personas se interesen por la informatica, al mostrar
                 los temas de formas mas formal tambien se vuelve mas complejo pudiendo abrumar a las personas o incluso asustarlas generando desinformacion.
@@ -33,7 +31,7 @@ function About(){
                 pero lamentablemente mi presupuesto no es tanto pero el contenido siempre busca ser util para los demas."
             />
 
-            <Stiker imge={sunset} title="Reviews de juegos"
+            <Stiker imge={"/Assets/sunsetMiniatura.jpg"} title="Reviews de juegos"
                 paragrap="Comparto mi opinion sobre un juego en una lista de los elementos de un juego como puede ser sus graficos,
                 la historia, la jugabilidad, la banda sonora entre otros, no considero ser un profesional del tema pero si trato de dar inforimaicon
                 util y de mejorar continuamente, ya sea mis habilidades de edicion, mis giones y mi narracion. Si eres fan de algun juego sobre el que opine
