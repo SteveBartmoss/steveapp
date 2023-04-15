@@ -1,14 +1,5 @@
 import React from "react";
-import java from "../img/java.png";
-import c from "../img/c.png";
-import cplus from "../img/c++.png";
-import py from "../img/py.png";
-import js from "../img/js.png";
-import mysql from "../img/mysql.png";
-import sql from "../img/sql.png";
-import mongo from "../img/mongo.png";
-import vscode from "../img/vscode.png";
-import ubuntu from "../img/ubuntu.png";
+
 
 function Lateral(){
     return(
@@ -18,41 +9,41 @@ function Lateral(){
             <div className="back-color">
             <h1 className="title1">Lenguajes de programacion que he usado</h1>
             <div className="div-prog">
-                <img className="img-prog" src={java} />
-                <img className="img-prog" src={c} />
-                <img className="img-prog" src={cplus} />
-                <img className="img-prog" src={py} />
-                <img className="img-prog" src={js} />
+                <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral"/>
+                <img className="img-prog" src={"/Assets/c.png"} alt="imgLateral"/>
+                <img className="img-prog" src={"/Assets/c++.png"} alt="imgLateral"/>
+                <img className="img-prog" src={"/Assets/py.png"} alt="imgLateral"/>
+                <img className="img-prog" src={"/Assets/js.png"} alt="imgLateral"/>
             </div>
             </div>
 
             <div className="back-color">
             <h1 className="title1">Conocimientos en bases de datos</h1>
             <div className="div-prog">
-                <img className="img-prog" src={mysql} />
-                <img className="img-prog" src={sql} />
-                <img className="img-prog" src={mongo} />
+                <img className="img-prog" src={"/Assets/mysql.png"} alt="imgLateral"/>
+                <img className="img-prog" src={"/Assets/sql.png"} alt="imgLateral"/>
+                <img className="img-prog" src={"/Assets/mongo.png"} alt="imgLateral"/>
             </div>
             </div>
 
             <div className="back-color">
             <h1 className="title1">Lenguaje de programacion Favorito</h1>
             <div>
-                <img className="img-prog" src={java} />
+                <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral"/>
             </div>
             </div>
 
             <div className="back-color">
             <h1 className="title1">Editor de codigo Favorito</h1>
             <div>
-                <img className="img-prog" src={vscode} />
+                <img className="img-prog" src={"/Assets/vscode.png"} alt="imgLateral"/>
             </div>
             </div>
 
             <div className="back-color">
             <h1 className="title1">Distribucion que usa actual mente</h1>
             <div>
-                <img className="img-prog" src={ubuntu} />
+                <img className="img-prog" src={"/Assets/ubuntu.png"} alt="imgLateral"/>
             </div>
             </div>
 
