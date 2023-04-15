@@ -1,12 +1,11 @@
 import React from "react";
-import autor from "../img/steveA.png"
 
 
 function Articulo(){
     return(
         <>
             <div className="encabezado">
-                <img className="imgAutor" src={autor}/>
+                <img className="imgAutor" src={"/Assets/steveA.png"} alt="imgAutor"/>
                 <div className="text-head">
                     <h1 className="title1">El cyber punk esta delante de nosotros</h1>
                     <p className="Content">Escrito por Seteve</p>
