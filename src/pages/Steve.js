@@ -1,9 +1,6 @@
 import React from "react";
 import Stiker from "../component/Stiker";
 import Data from "../component/Data";
-import steve from "../img/steveA.png";
-import music from "../img/music.png";
-import arcade from "../img/arcade.png";
 import "../App.css";
 import { Grid } from "../component/Grid";
 import Portada from "../component/Portada";
@@ -16,7 +13,7 @@ function Steve(){
     return(
 
         <>
-        <Portada image={steve} />
+        <Portada image={"/Assets/steveA.png"} />
         <div className="grid-steve">
             <div>
                 <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"}/>
@@ -37,20 +34,20 @@ function Steve(){
             
             <Grid/>
 
-            <Data imge={music} title="Mi perfil de spotify"
+            <Data imge={"/Assets/music.png"} title="Mi perfil de spotify"
                 paragrap="Si quieres saber que tipo de musica escuho o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
                 para que puedas seguirme, quizas algunas de mis playlist te agraden"
                 url="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4"
             />
 
-            <Data imge={arcade} title="Mi perifl de steam"
+            <Data imge={"/Assets/arcade.png"} title="Mi perifl de steam"
                 paragrap="Si quires agregarme en steam para jugar o para ver mi biblioteca de juegos o las resenas de titulos que he jugado
                 puedes seguirme con el enlace a mi perfil que aparece a continuacion"
                 url="https://steamcommunity.com/id/tonyhallan/"
             />
 
 
-            <Stiker imge={steve} title="PC Check Actual"
+            <Stiker imge={"/Assets/steveA.png"} title="PC Check Actual"
                 paragrap="El pc de edicion y para jugar de steve no resulta tan potente como el de otros creadores top, pero tiene 
                 lo necesario para que se pueda jugar decentemente y tambien para crear los videos necesarios. A continuacion
                 se describen los componentes que lleva: 
