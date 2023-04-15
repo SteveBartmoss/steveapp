@@ -14,13 +14,13 @@ export const Grid=()=>{
         <div className="InfoSteve">
             {favorito.map((favorito)=>(
                 <>
-                    key={favorito.id}
+                    
                     <img className="imgSteve" src={favorito.imagen} alt="imagenfav"/>
                     <div>
                         <h1 className="title1 Content">{favorito.titulo}</h1>
                         <p className="Content">{favorito.parrafo}</p>
                         <ul>
-                            {favorito.titulos.map((parrafo)=>(<li key={favorito.id} className="Content">{parrafo}</li>))}
+                            {favorito.titulos.map((parrafo)=>(<li className="Content">{parrafo}</li>))}
                         </ul>
                     </div>
                 </>
