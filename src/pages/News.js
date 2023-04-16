@@ -9,13 +9,13 @@ function News(){
     return(
         <>
         <div className="Contenedor">
-            <h1 className="title1">Seccion mas reciente</h1>
+            <h1 className="title1">Secciones mas reciente</h1>
+
             <Stiker imge={"/Assets/heatminiatura.png"} title="Opinion sobre videojuegos"
                 paragrap="Seccion del canal en el que se comparte la opinion de steve sobre los juegos, opinando sobre
                 los graficos, la banda sonora, las mecanicas, la historia y otros aspectos para que la gente vea un punto 
                 de vista sobre el juego y decida si le interesa el juego o mejor pasa de el"
             />
-            <h1 className="title1">Proximanente</h1>
 
             <Stiker imge={"/Assets/realman.jpg"} title="The real man dont click"
                 paragrap="El camino para convertirse en un usuario de linux completo no es facil pero es el camino que hay
@@ -25,17 +25,20 @@ function News(){
                 al lado oscuro de lo usarios de windows"
             />
 
-            <Stiker imge={"/Assets/labs.png"} title="Stevelabs"
-                paragrap="Tutoriales de un chico que no es precisamente un hacker/desarrollador Senior o simplemente
-                un verdadero erudito de la programacion pero comparte lo que sabe y que quisa pueda servirte"
-            />
-
-            <Stiker imge={"/Assets/heatminiatura.png"} title="Rows and Colums"
+            <Stiker imge={"/Assets/rwMin.jpg"} title="Rows and Colums"
                 paragrap="Una seccion mas tranquila donde compartire opiones sobre temas, reflexiones o simplemente alguna idea
                 sobre un tema, no tiene el animo de influenciar a la gente ni de ser tomadas como una ley o la verdad absoluta
                 solo un contenido mas simple que permitira escribir un guion que no precisamente busca tener que informar a las
                 persona si no poder entretener a los usuarios"
             />
+
+            <h1 className="title1">Proximanente</h1>
+
+            <Stiker imge={"/Assets/labs.png"} title="Stevelabs"
+                paragrap="Tutoriales de un chico que no es precisamente un hacker/desarrollador Senior o simplemente
+                un verdadero erudito de la programacion pero comparte lo que sabe y que quisa pueda servirte"
+            />
+
 
             <Stiker imge={"/Assets/heatminiatura.png"} title="True history"
                 paragrap="La historia de le tecnologia puede ser interesante y siempre en bueno saber que hay detras de lo que
