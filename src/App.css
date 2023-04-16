@@ -504,6 +504,7 @@
 /*media query 576 */
 
 @media(max-width: 576px){
+
   .menu{
     font-size: 20px;
     list-style: none;
@@ -531,4 +532,34 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .InfoSteve{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .imgSteve{
+    width: 200px;
+    height: 125px;
+  }
+
+  .grid-logro{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .imgLogro{
+    width: 200px;
+    height: 125px;
+  }
+
+  .img-portada{
+    width: 200px;
+    height: 125px;
+  }
+
+  .grid-steve{
+    grid-template-columns: 1fr;
+  }
+
 }
