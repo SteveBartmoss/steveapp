@@ -464,6 +464,7 @@
   height: 50px;
   display: grid;
   grid-template-columns: 1fr;
+  margin-top: 10px;
 }
 
 /* estilos del articulo*/
