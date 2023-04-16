@@ -38,6 +38,19 @@ function About(){
                 tampoco te lo tomes enserio al final puedes disfrutar el juego que quieras :)"
             />
 
+            <Stiker imge={"/Assets/rwMin.jpg"} title={"Row And Colums"}
+                paragrap="Una seccion donde compartire una refleccion u opinion sobre algun tema con lo cual no se busca crear polemica 
+                 sino crear un contenido mas variado y que se pueda escuchar de fondo al hacer una activiad o simplemente para pasaf el rato,
+                 tambien ma ayudara a tener mas contenido en los tiempos ajustados de la escuela y el trabajo pero debe verse siempre con la ide
+                 de que es contenido para entretener y no busca influenciar de ninguna manera a los espectadores"
+            />
+
+            <Stiker imge={"/Assets/realman.jpg"} title={"The real man dont click"}
+                paragrap="Hace un tiempo empece a usar un sistema operativo basado e linux porque tenia que pasar una materia pero al interactuar
+                con este nuevo kernel me di cuenta de ciertas cosas, algnas buenas, otras desesperantes y unas cuantas divertidas por lo que me 
+                parecio buena idea contar mi experiencia de paso de windows a linux y hacer un poco de comedia por el camino, la idea del video no
+                es ofender y espero que nadie se sienta mal por los chistes o el lenguaje usado solo tomenlo con humor"
+            />
             
         </div>
         <Pie />
