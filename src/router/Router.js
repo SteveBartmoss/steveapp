@@ -9,6 +9,7 @@ import "../App.css";
 import { NavBar } from "./NavBar";
 import Articulo from "../Articles/RC1";
 import DumixHome from "../dumix/dumixHome";
+import Greview from "../Game/Greview";
 
 function Router(){
     return(
@@ -30,6 +31,8 @@ function Router(){
                     <Route path="steve" element={<Steve/>}/>
 
                     <Route path="article" element={<Articulo/>}/>
+
+                    <Route path="review" element={<Greview/>}/>
 
                     <Route path="dumix" element={<DumixHome/>}/>
 
