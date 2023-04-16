@@ -1,4 +1,5 @@
 import React from "react";
+import Pie from "../component/Pie";
 
 
 function Articulo(){
@@ -96,7 +97,7 @@ function Articulo(){
 
             </div>
 
-            
+            <Pie/>
         </>
     );
 }
