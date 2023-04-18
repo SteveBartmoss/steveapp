@@ -502,6 +502,11 @@
   padding: 20px 20px;
 }
 
+.lateral-rc{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 /*media query 576 */
 
 @media(max-width: 576px){
