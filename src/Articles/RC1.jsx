@@ -1,5 +1,6 @@
 import React from "react";
 import Pie from "../component/Pie";
+import Card from "../component/Card";
 
 
 function Articulo(){
@@ -93,6 +94,22 @@ function Articulo(){
                 <div>
                     <h1 className="title1">Tambien te pueden interesar</h1>
                     <p className="Content">Lista de videos y de articulos para recomendar</p>
+                    <div className="lateral-rc">
+
+                        <Card imgUrl={"/Assets/realman.jpg"} 
+                        title={"The real man dont click"}
+                        paragraph="Una nueva seccion en el canal que muestra lo que te puede pasar si inicias tu camino
+                        en el lado luminoso del software y decides ver hacia donde lleva el agujero de conejo"
+                        urlVideo="https://www.youtube.com/watch?v=j65kY_mo4hs"
+                        />
+
+                        <Card imgUrl={"/Assets/rwMin.jpg"}
+                        title={"Rows And Colums"}
+                        paragraph="Una seccion del canal que comparte el punto de vista de un joven estudiante que le echa
+                        ganas a la vida, tomate un respiro del estudio y relajate con algo que puede escuhar de fondo"
+                        urlVideo="#"
+                        />
+                    </div>
                 </div>
 
             </div>
