@@ -1,9 +1,15 @@
 import React from "react";
+import Baner from "../component/Baner";
+import DumixAbout from "./pages/dumixAbout";
 
 function DumixHome(){
     return(
         <>
-            <h1 className="title1">Dumix Home</h1>
+            <Baner/>
+            <div>
+                <h1 className="title1">Contenido principal</h1>
+            </div>
+            <DumixAbout />
         </>
     );
 }
