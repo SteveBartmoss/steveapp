@@ -15,7 +15,7 @@ function Steve(){
         <>
         <Portada image={"/Assets/steveA.png"} />
         <div className="grid-steve">
-            <div>
+            <div className="main-contetn">
                 <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"}/>
 
                 <div className="biblio">
@@ -32,22 +32,22 @@ function Steve(){
                 </div>
 
             
-            <Grid/>
+                <Grid/>
 
-            <Data imge={"/Assets/music.png"} title="Mi perfil de spotify"
+                <Data imge={"/Assets/music.png"} title="Mi perfil de spotify"
                 paragrap="Si quieres saber que tipo de musica escuho o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
                 para que puedas seguirme, quizas algunas de mis playlist te agraden"
                 url="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4"
-            />
+                />
 
-            <Data imge={"/Assets/arcade.png"} title="Mi perifl de steam"
+                <Data imge={"/Assets/arcade.png"} title="Mi perifl de steam"
                 paragrap="Si quires agregarme en steam para jugar o para ver mi biblioteca de juegos o las resenas de titulos que he jugado
                 puedes seguirme con el enlace a mi perfil que aparece a continuacion"
                 url="https://steamcommunity.com/id/tonyhallan/"
-            />
+                />
 
 
-            <Stiker imge={"/Assets/steveA.png"} title="PC Check Actual"
+                <Stiker imge={"/Assets/steveA.png"} title="PC Check Actual"
                 paragrap="El pc de edicion y para jugar de steve no resulta tan potente como el de otros creadores top, pero tiene 
                 lo necesario para que se pueda jugar decentemente y tambien para crear los videos necesarios. A continuacion
                 se describen los componentes que lleva: 
@@ -56,18 +56,14 @@ function Steve(){
                 MotherBoard:
                 RAM: 2x8gigas,
                 HDD: 1x1tb, 1x2tb"
-            />
+                />
 
             </div>
             
-            <Lateral/>
+                <Lateral/>
 
-        </div>
+            </div>
         <div className="Contenedor">
-
-            
-
-            
 
         </div>
         <Pie/>
