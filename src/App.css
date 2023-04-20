@@ -500,6 +500,7 @@
   background-color: #051e39;
   /*background-color: #29292c;*/
   padding: 20px 20px;
+  overflow: scroll;
 }
 
 .lateral-rc{
