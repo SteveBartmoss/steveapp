@@ -10,6 +10,8 @@ import { NavBar } from "./NavBar";
 import Articulo from "../Articles/RC1";
 import DumixHome from "../dumix/dumixHome";
 import Greview from "../Game/Greview";
+import RoutesDumix from "../dumix/routes/dumixRoutes";
+import PrimerosPasos from "../dumix/Linux1/linuxMain";
 
 function Router(){
     return(
@@ -35,6 +37,8 @@ function Router(){
                     <Route path="review" element={<Greview/>}/>
 
                     <Route path="dumix" element={<DumixHome/>}/>
+
+                    <Route path="dumix/*" element={<RoutesDumix/>}/>
 
                 </Routes>
 
