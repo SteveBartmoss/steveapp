@@ -16,8 +16,19 @@ function DumixHome(){
                     para crear un archovo, como ver los permisos, como listar los elementos de un 
                     directorio, como navegae entre direcctorios. Esta parte busca dar una introduccion
                     a los usuarios que nunca han utilizado comandos</p>
-                    <button>Ir al curso</button>
+                    <a href="dumix/presentacion">Ir al curso</a>
                 </div>
+
+                <div>
+                    <h1 className="title1">Pimp my terminal</h1>
+                    <p className="Content">Un poco de estilo a nadie le queda mal y si vas pasar gran
+                    parte de tu tiempo interactuando con la terminal de comando es buena idea que puedas
+                    personalizarla y asi por lo menos tener un area de trabajo mas agradable, este post 
+                    te dara algunsejos para tener un cli mas a la moda y digna de un hackerma asi podras
+                    impresionar a las nenas cuando les muestras todo el tiempo que ahorras por usar vim</p>
+                    <a href="dumix/pimpterminal">Ir al post</a>
+                </div>
+                
             </div>
             <DumixAbout />
         </>
