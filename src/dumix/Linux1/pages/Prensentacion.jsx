@@ -2,7 +2,7 @@ import React from "react";
 
 function Presentacion(){
     return(
-        <div>
+        <div className="div-curso">
             <h1 className="title1">Hola a todos</h1>
             <p className="Content">Este curso tiene como finalidad dar una introduccion
             a las personas que nunca han utilizado un sistema operativo linux pero tambien
@@ -31,8 +31,14 @@ function Presentacion(){
           decir que les gusta complicarse la vida porque si ya todos usan un sistema para que buscar una alternativa.
           </p> 
 
-          <p className="Content">Conocer este nuevo sistema operativo te permitira</p>
-
+          <p className="Content">Conocer este nuevo sistema operativo te permitira concer nuevos temas como 
+          el uso de comandos, permisos sobre archivos, interactuar con una terminal entre muchos otros temas, 
+          aunque no lo paresca este sistema esta presente en muchos lados como pueden ser los telefonos moviles
+          android, servidores de alojamiento de paginas web y muchas otras empresas usan linux por diferentes ventajas
+          que ofrecen. Aun con lo anterior considero que si eres estudiante de una carrera relacionada a informatica,
+          computacion, comunicaciones o incluso de electronica te sera de mucha ayuda aprender este sistema y ademas
+          puede ser mas comodo trabajar en un entorno de linux</p>
+          
         </div>
     );
 }
