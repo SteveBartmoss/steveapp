@@ -508,6 +508,20 @@
   grid-template-columns: 1fr;
 }
 
+/*estilos de dumix*/
+
+.grid-dumix{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.linux-menu{
+  
+}
+
+.div-curso{
+}
+
 /*media query 576 */
 
 @media(max-width: 576px){
