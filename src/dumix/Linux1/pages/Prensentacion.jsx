@@ -38,6 +38,13 @@ function Presentacion(){
           que ofrecen. Aun con lo anterior considero que si eres estudiante de una carrera relacionada a informatica,
           computacion, comunicaciones o incluso de electronica te sera de mucha ayuda aprender este sistema y ademas
           puede ser mas comodo trabajar en un entorno de linux</p>
+
+          <h1 className="title1">¿Porque usar un cli?</h1>
+
+          <p className="Content">La letras cli hacen referencia a Comand Line Interface que es una interfaz que
+          recibe comandos y que seguramente la has utilizado alguna vez si tuviste que instalar algo del viejo y
+          confiable steam verde, normalmente la terminal de comandos se trata de una ventana negra en la que solo
+          aparece una linea de texto que comun mente se llamaba promp</p>
           
         </div>
     );
