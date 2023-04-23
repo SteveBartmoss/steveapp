@@ -50,7 +50,8 @@ function Presentacion(){
             <p className="Content">steve@steve-HP-Notebook:~$</p>
           </div>
 
-          <p className="Content">Usar una terminal  </p>
+          <p className="Content">Usar una terminal puede parecer dificil pero no es para tanto solo se trata de
+          escribir intrucciones para la computadora lo cual era bastante comun con las primeras computadoras</p>
 
 
           
