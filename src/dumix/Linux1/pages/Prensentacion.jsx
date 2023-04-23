@@ -45,6 +45,14 @@ function Presentacion(){
           recibe comandos y que seguramente la has utilizado alguna vez si tuviste que instalar algo del viejo y
           confiable steam verde, normalmente la terminal de comandos se trata de una ventana negra en la que solo
           aparece una linea de texto que comun mente se llamaba promp</p>
+
+          <div className="bash">
+            <p className="Content">steve@steve-HP-Notebook:~$</p>
+          </div>
+
+          <p className="Content">Usar una terminal  </p>
+
+
           
         </div>
     );
