@@ -13,6 +13,14 @@ function Linux1NavBar(){
                 <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="comandline">Comand Line</NavLink>
             </li>
 
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="sintaxis">Sintaxis</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="directorio">Directorio</NavLink>
+            </li>
+
         </div>
     );
 }
