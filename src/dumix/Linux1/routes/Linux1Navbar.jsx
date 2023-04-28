@@ -21,6 +21,38 @@ function Linux1NavBar(){
                 <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="directorio">Directorio</NavLink>
             </li>
 
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="archivos">Archivos</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="editores">Editores</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="paquetes">Paquetes</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="redireccion">Redireccion</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="sudo">Sudo</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="system">System</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="usuarios">Usuarios</NavLink>
+            </li>
+
+            <li>
+                <NavLink className={({isActive})=> `tema ${isActive ? 'Active':''}`} to="permisos">Permisos</NavLink>
+            </li>
+
         </div>
     );
 }
