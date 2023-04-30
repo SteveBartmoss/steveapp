@@ -525,6 +525,21 @@
   background-color: #24283B;
 }
 
+.tema{
+  font-size: 20px;
+  color: #ffff;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+.tema:hover{
+  color: #3bd5e6;
+  background-color: #F2E307;
+}
+
 .div-curso{
   background-color: #1A1B26;
 }
