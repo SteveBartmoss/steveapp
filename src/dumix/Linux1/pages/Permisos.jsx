@@ -1,6 +1,6 @@
 import React from "react";
 
-function Permisos(){
+function Rwx(){
     return(
         <div className="div-curso">
             <h1 className="title1">Permisos</h1>
@@ -8,4 +8,4 @@ function Permisos(){
     );
 }
 
-export default Permisos;
+export default Rwx;
