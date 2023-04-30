@@ -3,7 +3,10 @@ import React from "react";
 function Presentacion(){
     return(
         <div className="div-curso">
-            <h1 className="title1">Hola a todos</h1>
+
+            <center>
+                <h1 className="title1">Hola a todos</h1>
+            </center>
             
             <p className="Content">Este curso tiene como finalidad dar una introduccion
             a las personas que nunca han utilizado un sistema operativo linux pero tambien
@@ -23,7 +26,9 @@ function Presentacion(){
             comandos pueden no ser los mismos y en ese caso se debe buscar el equivalente del comando
             porque en este curso solo se mostraran comandos con la sintaxis de linux</p>
 
-            <h1 className="title1">¿De que sirve aprender Linux?</h1>
+            <center>
+                <h1 className="title1">¿De que sirve aprender Linux?</h1>
+            </center>
 
             <p className="Content">Para la mayoria de las personas solo existe un sistema operativo que es 
             windows y una pequeña parte sabe que existe otro sistema porque tienen acceso a un equipo de apple
