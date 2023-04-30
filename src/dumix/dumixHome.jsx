@@ -16,7 +16,7 @@ function DumixHome(){
                     para crear un archovo, como ver los permisos, como listar los elementos de un 
                     directorio, como navegae entre direcctorios. Esta parte busca dar una introduccion
                     a los usuarios que nunca han utilizado comandos</p>
-                    <a href="dumix/curse">Ir al curso</a>
+                    <a href="dumix/linux1">Ir al curso</a>
                 </div>
 
                 <div>
