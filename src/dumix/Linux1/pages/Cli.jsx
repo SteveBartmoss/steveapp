@@ -3,7 +3,11 @@ import React from "react";
 function Cli(){
     return(
         <div className="div-curso">
-            <h1 className="title1">¿Que es CLI?</h1>
+
+            <center>
+                <h1 className="title1">¿Que es CLI?</h1>
+            </center>
+            
         
             <p className="Content">La letras cli hacen referencia a Comand Line Interface que es una interfaz que
             recibe comandos y que seguramente la has utilizado alguna vez si tuviste que instalar algo del viejo y
@@ -22,7 +26,10 @@ function Cli(){
             se crearon las interfaces de usuarios para hacer que mas personas pudieran usar una computadora.
             </p>
 
-            <h1 className="title1">¿Porque usar un cli?</h1>
+            <center>
+                <h1 className="title1">¿Porque usar un cli?</h1>
+            </center>
+            
 
             <p className="Content">Si bien el uso de una terminal dejo de ser popular y actualmente solo se usa para
             intalar programas avanzados o para revisar la ip de un equipo aprender a usarla puede ser de gran ayuda
