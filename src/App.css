@@ -512,6 +512,7 @@
 
 /*#1A1B26*/
 /*#414868*/
+/*#26A269*/
 
 .grid-dumix{
   display: flex;
@@ -552,6 +553,13 @@
   width: 300px;
   height: 50px;
   background-color: black;
+}
+
+.promp{
+  color: #26A269;
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: 'Roboto';
 }
 
 /*media query 576 */
