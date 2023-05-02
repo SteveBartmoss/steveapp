@@ -562,6 +562,27 @@
   font-family: 'Roboto';
 }
 
+/*estilo de la terminal*/
+
+.cli{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-cli{
+  background-color: #282c34;
+  width: 1000px;
+  margin-left: 10px;
+}
+
+.body-cli{
+  width: 1000px;
+  margin-left: 10px;
+  text-align: left;
+  height: 100px;
+  background-color: black;
+}
+
 /*media query 576 */
 
 @media(max-width: 576px){
