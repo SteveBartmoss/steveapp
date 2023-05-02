@@ -41,7 +41,22 @@ function Cli(){
             distribucion que tiene instalada basta con buscar en entre las aplicaciones la que diga terminal en el caso
             del sistema operativo windows podemos buscar usando el menu la aplicacion de cmd o tambien la aplicacion de
             power shell difernecia antre ambas queda como tarea de los usarios de windows.
-            </p> 
+            </p>
+
+            <div className="cli">
+                <div className="title-cli">
+                    <center>
+                        <p className="Content">Terminal</p>
+                    </center>
+                </div>
+                <div className="body-cli">
+                    <p className="promp">steve@steve-HP-Notebook:~$</p>
+                </div>
+            </div>
+
+            <p className="Content"> si logra ver una pantalla similar a la representacion que se muestra en la parte superior
+            entonces logro abrir con exito nuna nueva terminal
+            </p>
         </div>
         
         
