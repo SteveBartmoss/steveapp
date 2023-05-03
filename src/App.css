@@ -46,6 +46,10 @@
 /* media querys mas comiunes 
 576px, 768px, 992px, 1200px */
 
+.center{
+  text-align: center;
+}
+
 .App-header {
   background-color: #282c34;
 }
