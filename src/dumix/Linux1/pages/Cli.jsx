@@ -4,9 +4,9 @@ function Cli(){
     return(
         <div className="div-curso">
 
-            <center>
+            <div className="center">
                 <h1 className="title1">¿Que es CLI?</h1>
-            </center>
+            </div>
             
         
             <p className="Content">La letras cli hacen referencia a Comand Line Interface que es una interfaz que
@@ -15,7 +15,7 @@ function Cli(){
             aparece una linea de texto que comun mente se llamaba promp</p>
 
             <div className="bash">
-                <p className="promp">steve@steve-HP-Notebook:~$</p>
+                <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
             </div>
 
             <p className="Content">Usar una terminal puede parecer dificil pero no es para tanto solo se trata de
@@ -26,9 +26,9 @@ function Cli(){
             se crearon las interfaces de usuarios para hacer que mas personas pudieran usar una computadora.
             </p>
 
-            <center>
+            <div className="center">
                 <h1 className="title1">¿Porque usar un cli?</h1>
-            </center>
+            </div>
             
 
             <p className="Content">Si bien el uso de una terminal dejo de ser popular y actualmente solo se usa para
@@ -57,7 +57,7 @@ function Cli(){
                     </center>
                 </div>
                 <div className="body-cli">
-                    <p className="promp">steve@steve-HP-Notebook:~$</p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
                 </div>
             </div>
 
