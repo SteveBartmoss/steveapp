@@ -25,9 +25,19 @@ caso de tener problemas o si se requiere hacer una consulta, la verison uno es l
 
 ### `4/03/2023`
 
-Se implemente un nuevo diseno para el apartado de esteve, se tiene un portada y proximamente de pondra una malla para almacenar difentes elementos, aun no se decide los fondos ni los colores definitivos. La pagina home ya tiene un dieno definitivo y se estara trabajando en el css para que result mas llamtivo o mejor para el usuario
+Se implemente un nuevo diseno para el apartado de esteve, se tiene un portada y proximamente de pondra una malla para almacenar difentes elementos, aun no se decide los fondos ni los colores definitivos. La pagina home ya tiene un diseño definitivo y se estara trabajando en el css para que result mas llamtivo o mejor para el usuario
 
+### `16/04/2023`
 
+Se cierra la version dos de la pagina en la cual se cuenta con un nuevo diseno de la pagina home, steve, un nuevo apartado como los articulos de row and colums y se implementan reseñas de juegos que no requieren un analsis tan complejo, el seguimiento de este archivo no se habia tomado en cuenta pero se trata de llevar una mejor constancia
+
+### `17/04/2023`
+
+Dumix ha llegado, se trata de una serie de paginas que compartiran con los usuarios conocimientos sobre comandos basicos y que puede ser de ayuda para usuarios inexperstos o que solo quieren corroborar el funcionamiento de algun comando y a pesar de que el nombre de la seccion puede resultar ofensivo la intension no es esa
+
+### `03/05/2023`
+
+Un nuevo modulo de la pagina se implementara con el nombre de have fun que tiene como objetivo practicar el uso de las apis por parte del desarrollador y que dara un poco de entretenimiento para los usuarios
 
 ## Libre uso
 
