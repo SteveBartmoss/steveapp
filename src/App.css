@@ -518,6 +518,12 @@
 /*#414868*/
 /*#26A269*/
 
+/* colores de fondo */
+
+/*#1b1b1b*/
+/*#343434*/
+/*#4e4e4e*/
+
 .grid-dumix{
   display: flex;
   flex-direction: row;
@@ -527,7 +533,8 @@
   display: flex;
   flex-direction: column;
   padding-right: 10px;
-  background-color: #24283B;
+  /*background-color: #24283B;*/
+  background-color: #343434;
 }
 
 .tema{
@@ -546,7 +553,8 @@
 }
 
 .div-curso{
-  background-color: #1A1B26;
+  /*background-color: #1A1B26;*/
+  background-color: #1b1b1b;
   padding-left: 10px;
   padding-right: 10px;
 }
