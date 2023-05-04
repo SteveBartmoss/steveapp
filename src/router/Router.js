@@ -11,6 +11,7 @@ import Articulo from "../Articles/RC1";
 import DumixHome from "../dumix/dumixHome";
 import Greview from "../Game/Greview";
 import RoutesDumix from "../dumix/routes/dumixRoutes";
+import FunHome from "../HaveFun/FunHome";
 
 function Router(){
     return(
@@ -38,6 +39,9 @@ function Router(){
                     <Route path="dumix" element={<DumixHome/>}/>
 
                     <Route path="dumix/*" element={<RoutesDumix/>}/>
+
+                    <Route path="havefun" element={<FunHome/>}/>
+
 
                 </Routes>
 
