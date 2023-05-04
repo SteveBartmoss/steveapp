@@ -26,9 +26,13 @@ export const NavBar=()=>{
             </li>
 
             <li>
+                <NavLink className={({isActive})=>`iten ${isActive ? 'active':''}`}to="havefun">Have Fun</NavLink>
+            </li>
+
+            <li>
                 <NavLink className={({isActive})=>`iten ${isActive ? 'active':''}`}to="steve">Steve</NavLink>
             </li>
-            
+
             </div> 
     );
 }
