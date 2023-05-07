@@ -1,9 +1,9 @@
 import React from "react";
 
-function RicosoApp(){
+function RickosoApp(){
     return(
         <h1 className="Content">Rickoso App</h1>
     );
 }
 
-export default RicosoApp;
+export default RickosoApp;
