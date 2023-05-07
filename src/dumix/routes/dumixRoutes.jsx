@@ -14,6 +14,7 @@ import Sudo from "../Linux1/pages/Sudo";
 import System from "../Linux1/pages/System";
 import Usuarios from "../Linux1/pages/Usuarios";
 import Rwx from "../Linux1/pages/Permisos";
+import TerminalApp from "../pages/terminalApps";
 
 function RoutesDumix (){
     return(
@@ -52,6 +53,10 @@ function RoutesDumix (){
                 
             <Routes>
                 <Route path="pimp" element={<Pimp />} />
+            </Routes>
+
+            <Routes>
+                <Route path="terminalapps" element={<TerminalApp/>}/>
             </Routes>
 
         </div>
