@@ -594,6 +594,18 @@
   background-color: black;
 }
 
+/*estilos de codigo*/
+
+.div-code{
+  width: 500px;
+  background-color: lightgray;
+}
+
+.code-simple{
+  font-family: 'Console';
+  font-size: 20px;
+}
+
 /*media query 576 */
 
 @media(max-width: 576px){
