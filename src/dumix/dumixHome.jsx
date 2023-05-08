@@ -7,7 +7,10 @@ function DumixHome(){
         <>
             <Baner/>
             <div>
-                <h1 className="title1">Contenido principal</h1>
+                <di className="center">
+                    <h1 className="title1">Contenido principal</h1>
+                </di>
+                
                 <div>
                     <h1 className="title1">Primeros pasos</h1>
                     <p className="Content">En esta seccion se abordaran temas para personas
