@@ -39,6 +39,14 @@ function DumixHome(){
                     consola de linux</p>
                     <a href="dumix/terminalapps">Ir al post</a>
                 </div>
+
+                <div>
+                    <h1 className="title1">Vimgg una guia para mortales</h1>
+                    <p className="Content">Una recopilacion de las mejores aplicaciones que se pueden usar 
+                    en la terminal y que resultan bastante utiles cuando se esta interactuando con la 
+                    consola de linux</p>
+                    <a href="dumix/vimgg">Ir al post</a>
+                </div>
                 
             </div>
             <DumixAbout />
