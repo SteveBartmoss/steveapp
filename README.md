@@ -39,6 +39,10 @@ Dumix ha llegado, se trata de una serie de paginas que compartiran con los usuar
 
 Un nuevo modulo de la pagina se implementara con el nombre de have fun que tiene como objetivo practicar el uso de las apis por parte del desarrollador y que dara un poco de entretenimiento para los usuarios
 
+### `08/05/2023`
+
+Ya se definieron algunas nuevas aplicaciones para el apartado have fun, estara en desarrollo el modulo de gifapp como primer proyecto
+
 ## Libre uso
 
 No es un codigo tan bueno pero si alguna implementacion te sirve como referencia o quizas soluciona tu problema puedes usarlo sin ningun problema.
