@@ -5,7 +5,7 @@ import DumixAbout from "./pages/dumixAbout";
 function DumixHome(){
     return(
         <>
-            <Baner/>
+            <div className="back-dumix"></div>
             <div>
                 <di className="center">
                     <h1 className="title1">Contenido principal</h1>
@@ -42,9 +42,9 @@ function DumixHome(){
 
                 <div>
                     <h1 className="title1">Vimgg una guia para mortales</h1>
-                    <p className="Content">Una recopilacion de las mejores aplicaciones que se pueden usar 
-                    en la terminal y que resultan bastante utiles cuando se esta interactuando con la 
-                    consola de linux</p>
+                    <p className="Content">Empezar a utilizar vim no es facil pero en esta seccion se encuentran
+                    tutoriales o consejos que pueden hacer mas facil el cambio a este tipo de aplicaciones
+                    y puede que al final te convence y se convierte en tu editor predilecto</p>
                     <a href="dumix/vimgg">Ir al post</a>
                 </div>
                 
