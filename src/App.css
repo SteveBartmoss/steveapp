@@ -524,6 +524,18 @@
 /*#343434*/
 /*#4e4e4e*/
 
+.back-dumix{
+  width: 100%;
+  height: 800px;
+  background: url("./img/dumixBack.jpg") no-repeat center center/cover;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .grid-dumix{
   display: flex;
   flex-direction: row;
