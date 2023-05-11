@@ -15,6 +15,7 @@ import System from "../Linux1/pages/System";
 import Usuarios from "../Linux1/pages/Usuarios";
 import Rwx from "../Linux1/pages/Permisos";
 import TerminalApp from "../pages/terminalApps";
+import Vimgg from "../pages/vimgg";
 
 function RoutesDumix (){
     return(
@@ -57,6 +58,10 @@ function RoutesDumix (){
 
             <Routes>
                 <Route path="terminalapps" element={<TerminalApp/>}/>
+            </Routes>
+
+            <Routes>
+                <Route path="vimgg" element={<Vimgg/>} />
             </Routes>
 
         </div>
