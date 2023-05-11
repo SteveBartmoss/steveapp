@@ -60,13 +60,38 @@ function Sintaxis(){
             agregando mas informacio al resultado o filtrando los resultados del comando por otro lado los 
             argumentos se tratan de los elementos sobre los que se aplicara el comando generalmente se utilizan 
             estas reglas para los comandos pero esto puede variar al existir comandos que no reciben argumentos 
-            o que no tienen opciones.</p>
+            o que no tienen opciones en el ejemplo mostrado al inicio se ejecuto el comando sin usar ningun agumento
+            y por eso mostro la salida anterior.</p>
 
-            <p className="title1">Argumentos</p>
+            <h1 className="title1">Argumentos</h1>
             
-            <p className="Content">En el ejemplo mostrado al inicio se ejecuto el comando sin usar ningun agumento
-            y por eso mostro la salida </p>
+            <p className="Content">Los argumentos se usan para que el comando sepa sobre que archivo trabajara
+            y en general se puede especificar diferentes elementos como argumento, en el ejemplo anterior se
+            le puede enviar como argumento el nombre de un directorio el comando mostrara los elementos de 
+            ese directorio a continuacion se muestra un ejemplo</p>
 
+            <div className="cli">
+                <div className="title-cli">
+                    <center>
+                        <p className="Content">Terminal</p>
+                    </center>
+                </div>
+                <div className="body-cli">
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls Documentos</span></p>
+                    <p className="Content">Notas.txt Tarea.txt Hola.txt Guion.txt DotFile.txt</p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                </div>
+            </div>
+
+            <p className="Content">En el ejemplo anterior el comando mostro los elementos de la carpeta documentos
+            y aunque el comando se puede usar en archivos de texto resulta poco practico ya que solo muestra 
+            el mismo archivo de texto por lo que es mejor usar como parametro un fichero para mostrar el contenido
+            del mismo</p>
+
+            <h1 className="title1">Opciones</h1>
+
+            <p className="Content">Las opciones de un comando pueden modificar la informacion que muestra o tambien
+            se puede decir que cambian la salida del comando</p>
         </div>
     );
 }
