@@ -1,5 +1,4 @@
 import React from "react";
-import Baner from "../component/Baner";
 import DumixAbout from "./pages/dumixAbout";
 
 function DumixHome(){
@@ -19,7 +18,7 @@ function DumixHome(){
                     para crear un archovo, como ver los permisos, como listar los elementos de un 
                     directorio, como navegae entre direcctorios. Esta parte busca dar una introduccion
                     a los usuarios que nunca han utilizado comandos</p>
-                    <a href="dumix/linux1">Ir al curso</a>
+                    <a className="dumix-btn" href="dumix/linux1">Ir al curso</a>
                 </div>
 
                 <div>
@@ -29,7 +28,7 @@ function DumixHome(){
                     personalizarla y asi por lo menos tener un area de trabajo mas agradable, este post 
                     te dara algunsejos para tener un cli mas a la moda y digna de un hackerma asi podras
                     impresionar a las nenas cuando les muestras todo el tiempo que ahorras por usar vim</p>
-                    <a href="dumix/pimp">Ir al post</a>
+                    <a className="dumix-btn" href="dumix/pimp">Ir al post</a>
                 </div>
 
                 <div>
@@ -37,7 +36,7 @@ function DumixHome(){
                     <p className="Content">Una recopilacion de las mejores aplicaciones que se pueden usar 
                     en la terminal y que resultan bastante utiles cuando se esta interactuando con la 
                     consola de linux</p>
-                    <a href="dumix/terminalapps">Ir al post</a>
+                    <a className="dumix-btn" href="dumix/terminalapps">Ir al post</a>
                 </div>
 
                 <div>
@@ -45,7 +44,7 @@ function DumixHome(){
                     <p className="Content">Empezar a utilizar vim no es facil pero en esta seccion se encuentran
                     tutoriales o consejos que pueden hacer mas facil el cambio a este tipo de aplicaciones
                     y puede que al final te convence y se convierte en tu editor predilecto</p>
-                    <a href="dumix/vimgg">Ir al post</a>
+                    <a className="dumix-btn" href="dumix/vimgg">Ir al post</a>
                 </div>
                 
             </div>
