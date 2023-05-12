@@ -8,51 +8,51 @@ function Linux1NavBar(){
             <div className="linux-menu">
                 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="presentacion">Presentacion</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="presentacion">Presentacion</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="comandline">Comand Line</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="comandline">Comand Line</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="sintaxis">Sintaxis</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="sintaxis">Sintaxis</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="directorio">Directorio</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="directorio">Directorio</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="archivos">Archivos</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="archivos">Archivos</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="editores">Editores</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="editores">Editores</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="paquetes">Paquetes</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="paquetes">Paquetes</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="redireccion">Redireccion</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="redireccion">Redireccion</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="sudo">Sudo</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="sudo">Sudo</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="system">System</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="system">System</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="usuarios">Usuarios</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="usuarios">Usuarios</NavLink>
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'active':''}`} to="permisos">Permisos</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="permisos">Permisos</NavLink>
                 </li>
             </div>
             <Outlet />
