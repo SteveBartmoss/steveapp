@@ -554,6 +554,17 @@
   margin: 10px 0;
 }
 
+.display-topics{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+}
+
+.div-topic{
+  width: 500px;
+  background-color: #3b062c;
+}
+
 .linux-menu{
   display: flex;
   flex-direction: column;
@@ -573,8 +584,12 @@
 }
 
 .tema:hover{
-  color: #3bd5e6;
-  background-color: #F2E307;
+  /*color: #3bd5e6;*/
+  background-color: #005b99;
+}
+
+.select{
+  background-color: #005b99;
 }
 
 .div-curso{
@@ -627,7 +642,7 @@
 }
 
 .code-simple{
-  font-family: 'Console';
+  font-family: 'Iconsolata', monospace;
   font-size: 20px;
 }
 
