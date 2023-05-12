@@ -4,9 +4,9 @@ function DumixAbout(){
     return(
         <>
 
-        <dic className="center">
+        <div className="center">
             <h1 className="title1">¿Que es dumix?</h1>
-        </dic>
+        </div>
         
         <p className="Content">Ya que mis habilidades para apoyar al desarrollo del codigo abierto
         no son las mejores y mi tiempo es limitado, cree este apartado en mi pagina en el compartari
