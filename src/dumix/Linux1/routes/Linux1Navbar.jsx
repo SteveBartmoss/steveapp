@@ -20,7 +20,7 @@ function Linux1NavBar(){
                 </li>
 
                 <li>
-                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="directorio">Directorio</NavLink>
+                    <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="directorio">Directorios</NavLink>
                 </li>
 
                 <li>
