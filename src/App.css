@@ -614,6 +614,10 @@
   font-family: 'Roboto';
 }
 
+.directorio{
+  color: #005b99;
+}
+
 /*estilo de la terminal*/
 
 .cli{
