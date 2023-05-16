@@ -27,7 +27,7 @@ function Sintaxis(){
                 </div>
                 <div className="body-cli">
                     <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls</span></p>
-                    <p className="Content">Descargas Escritorio Musica Publico Documentos</p>
+                    <p className="Content"><span className="directorio">Descargas Documentos Escritorio Musica Publico</span></p>
                     <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
                 </div>
             </div>
@@ -91,7 +91,104 @@ function Sintaxis(){
             <h1 className="title1">Opciones</h1>
 
             <p className="Content">Las opciones de un comando pueden modificar la informacion que muestra o tambien
-            se puede decir que cambian la salida del comando</p>
+            se puede decir que cambian la salida del comando, en los ejemplos anteriores se usaba el comando ls no 
+            llevaba una opcion pero el comando puede llevar opciones como se puede observar en el siguiente ejemplo
+            </p>
+
+            <div className="cli">
+                <div className="title-cli">
+                    <center>
+                        <p className="Content">Terminal</p>
+                    </center>
+                </div>
+                <div className="body-cli">
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls -l</span></p>
+                    <p className="Content">Total 48</p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 may 14 22:40 <span className="directorio">Descargas</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Documentos</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Escritorio</span></p>
+                    <p className="Content">drwxr-xr-x 4 steve steve 4096 abr 22 22:05 <span className="directorio">Imágenes</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Música</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <spa className="directorio">Plantillas</spa></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Público</span></p>
+                    <p className="Content">drwx------ 6 steve steve 4096 abr 22 22:52 <span className="directorio">snap</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <pan className="directorio">Vídeos</pan></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                </div>
+            </div>
+
+            <p className="Content">En el ejemplo anterior al comando ls se le agrego la opcion de -l lo cual cambio
+            la salida del comando y muestra mas opciones ya que este es el formato de salida largo con lo cual se 
+            obtiene mas informacion ademas del simple listado de los elementos de un directorio, otra opcion que se puede 
+            usar es la siguiente.</p>
+
+            <div className="cli">
+                <div className="title-cli">
+                    <center>
+                        <p className="Content">Terminal</p>
+                    </center>
+                </div>
+                <div className="body-cli">
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls -r</span></p>
+                    <p className="Content"><span className="directorio">Publico Musica Escritorio Documentos Descargas</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                </div>
+            </div>
+
+            <p className="Content">En este caso la opcion r hace que el orden del listado este invertido y como se puede
+            estar pensado las opciones se pueden usar combianadas o ejecutar al mismo tiempo para combinar los efectos de ambas
+            opciones como se puede ver a continuacion</p>
+
+            <div className="cli">
+                <div className="title-cli">
+                    <center>
+                        <p className="Content">Terminal</p>
+                    </center>
+                </div>
+                <div className="body-cli">
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls -l -r</span></p>
+                    <p className="Content">Total 48</p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <pan className="directorio">Vídeos</pan></p>
+                    <p className="Content">drwx------ 6 steve steve 4096 abr 22 22:52 <span className="directorio">snap</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Público</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <spa className="directorio">Plantillas</spa></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Música</span></p>
+                    <p className="Content">drwxr-xr-x 4 steve steve 4096 abr 22 22:05 <span className="directorio">Imágenes</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Escritorio</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Documentos</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 may 14 22:40 <span className="directorio">Descargas</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                </div>
+            </div>
+
+            <p className="Content">Se debe observar que las opciones por lo general siguen la sintaxis  que se muestra a continuacion</p>
+
+            <div className="center">
+                <div className="div-code">
+                    <p className="code-simple">comando -[opciones] [argumentos]</p>
+                </div>
+            </div>
+
+            <p className="Content">Siempre debe ir el caracter - antes de la opcion que se usara ya que esto es el indicador del 
+            uso de una opcion y no de un parametro, en el caso de que se use mas de una opcion se puede poner el caracter - antes
+            de cada una de las opciones o antes de la primer opcion y depues las otras opciones como en los siuientes ejemplos
+            </p>
+
+            <div className="center">
+                <div className="div-code">
+                    <p className="code-simple">ls -l -r</p>
+                    <p className="code-simple">ls -lr</p>
+                    <p className="code-simple">ls -rl</p>
+                </div>
+            </div>
+
+            <p className="Content">En el ejemplo anterior tanto -l -r y -lr son combinaciones validas de las opciones y queda 
+            a dexcision del usuario usar una u otra forma y tambien hay que observar que el comando -rl tambien mostrara la
+            misma salida pero puede que en otros casos el orden si pueda afectar la salida del comando, otro aspecto importante
+            es que las opciones tambien suelen seguir reglas nemotecnicas para hacer que sea facil recordad para que se usa en 
+            los caso anteriores -l corresponde a "long" y -r a "reverse" con lo cual se hace facil recordad como se ve modificada
+            la salida del comando.</p>
+
         </div>
     );
 }
