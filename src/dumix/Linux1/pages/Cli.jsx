@@ -68,7 +68,26 @@ function Cli(){
             <h1 className="title1">El promp de la terminal</h1>
 
             <p className="Content">Al abrir la terminal notaras que hay unas palabras escritas bueno eso
-            es lo que normalmente llamamos promp</p>
+            es lo que normalmente llamamos promp que es los que marca la posicion del cursor en la pantalla 
+            y aporta informacion como el mobre del usuario y el hots, el directorion el que no es encontramos
+            y alguna otra informacion que puede variar.</p>
+
+            <p className="Content">Por lo general la estructura de un propmp sige estos parametros </p>
+
+            <div className="center">
+                <div className="div-code">
+                    <p className="code-simple">[usuario] @ [host] : [directorio] $</p>
+                </div>
+            </div>
+
+           <p className="Content">El usuario hace referencia a la sesion que se inicio, el host es el
+           nombre que el sistema le asigno al equipo, el direcotrio es la informacion que puede
+           resultar mas util y en el ejemplo el elemento que indica el directorio actual es ~ que hace
+           referencia a la direccion /home/steve que es la direccion de la carpeta personas del usuario. 
+           La informacion que muestra la promp se puede modificar por lo que los elementos pueden variar
+           segun la configuracion del usuario pero en sistemas instalados por defecto si se sigue el
+           ejemplo o algun otro con variaciones lijeras</p> 
+            
         </div>
         
         
