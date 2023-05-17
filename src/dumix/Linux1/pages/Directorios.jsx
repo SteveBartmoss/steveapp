@@ -10,7 +10,7 @@ function Directorio(){
             practicos cumplen con la misma funcion y no tienen diferencia en su uso 
             convencional</p>
 
-            <h1 className="title1">Estructura de los direcctorio de linux</h1>
+            <h1 className="title1">Estructura de los direcctorios de linux</h1>
 
             <p className="Content">La configuracion de los directorios en linux puede
             parecer compleja pero con si se analiza se descubrira que tiene una mejor
@@ -47,8 +47,53 @@ function Directorio(){
                 </div>
             </div>
 
+            <h1 className="title1">Tipos de directorios</h1>
+
+            <p className="Content">Si bien la mayoria de los directorios se tratan de
+            carpetas no todas cumplen con la misma funcion o tiene los mismo permisos
+            con lo cual se pueden tener ciertos tipos de directorios como se puede
+            ver a continuacion</p>
+
+            <h1 className="title1">Directorios compartidos</h1>
+
+            <p className="Content">Estos direcctorios pueden ser accedidos desde otros
+            equipos con lo cual contienen archivos que pueden ser usador por otra maquina
+            </p>
+
+            <h1 className="title1">Directorios no compartidos</h1>
+
+            <p className="Content">Este tipo de directorio no puede ser compartido y su
+            acceso se suele limitar al adiministrador del sistema impidiendo tambien la
+            modificacion del contenido si no es adiministrador</p>
+
+            <h1 className="title1">Directorios no variables</h1>
+
+            <p className="Content">Este tipo de directorio suele varias su contenido sin
+            intervencion de adiministrador o incluso del usuarios ya que su contenido se 
+            modifica por el sistema</p>
+
+            <h1 className="title1">Directorios estaticos</h1>
+
+            <p className="Content">Estos tipo de directorio no varia su contenido y 
+            los cambios pueden estar limitados por el adiministrador o el usuario</p>
+
             <h1 className="title1">Directorio raiz (/)</h1>
 
+            <p className="Content">Este directorio generalmente se representa con el simbolo / 
+            se le llama raiz y es debido a que los demas directorios estan dentro del directorio 
+            raiz de ahi que se llame de esta manera ya que se piensa como el contenedor de todo 
+            el sistema</p>
+
+            <h1 className="title1">Directorio bin</h1>
+
+            <p className="Content">Este directorio contiene archivos binarios para que los usuarios
+            puedan usar el equipo y para que el sistema puede trabajar correctamente, la mayoria de 
+            los comandos que se ejecutan desde la terminal se encuentran en este directorio y de ahi
+            la importancia de esta carpeta y sus archivos</p>
+
+            <h1 className="title1">Directorio boot</h1>
+
+            <p className="Content"></p>
         </di>
         
     );
