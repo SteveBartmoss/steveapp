@@ -43,6 +43,10 @@ Un nuevo modulo de la pagina se implementara con el nombre de have fun que tiene
 
 Ya se definieron algunas nuevas aplicaciones para el apartado have fun, estara en desarrollo el modulo de gifapp como primer proyecto
 
+### `17/05/2023`
+
+Ya se completaron algunos temas del curso de linux pero aun pueden estaer sujetos a cambios, hace falta invertir mas tiempo en el css pero se trabajara posteriormente, las paginas de have fun aun sigen en espero pero se pondra su implementacion los mas pronto posible. El build de produccion aun no se genera pero cuando se tenga terminado el curso de linux se generara el builde de producccion
+
 ## Libre uso
 
 No es un codigo tan bueno pero si alguna implementacion te sirve como referencia o quizas soluciona tu problema puedes usarlo sin ningun problema.
@@ -78,7 +82,3 @@ The functionality is already complete and a hook was created to manage the chang
 You can go to steve's channel at the following link:
 
 [https://www.youtube.com/@stevechambitas2782/featured]
-
-### `npm run build` fails to minify
-
->>>>>>> master
