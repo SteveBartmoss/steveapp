@@ -64,6 +64,11 @@ function Cli(){
             <p className="Content"> si logra ver una pantalla similar a la representacion que se muestra en la parte superior
             entonces logro abrir con exito nuna nueva terminal
             </p>
+
+            <h1 className="title1">El promp de la terminal</h1>
+
+            <p className="Content">Al abrir la terminal notaras que hay unas palabras escritas bueno eso
+            es lo que normalmente llamamos promp</p>
         </div>
         
         
