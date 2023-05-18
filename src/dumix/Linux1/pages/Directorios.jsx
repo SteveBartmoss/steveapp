@@ -3,14 +3,17 @@ import React from "react";
 function Directorio(){
     return(
         <di className="div-curso">
-            <h1 className="title1">Directorios</h1>
+
+           <div className="center">
+                <h1 className="title-subject">Directorios</h1>
+           </div> 
 
             <p className="Content">Los directiorios en linux son como las carpetas
             en widows solo que se cambia la forma en la que se llaman pero a niveles
             practicos cumplen con la misma funcion y no tienen diferencia en su uso 
             convencional</p>
 
-            <h1 className="title1">Estructura de los direcctorios de linux</h1>
+            <h1 className="title-subject">Estructura de los direcctorios de linux</h1>
 
             <p className="Content">La configuracion de los directorios en linux puede
             parecer compleja pero con si se analiza se descubrira que tiene una mejor
@@ -77,23 +80,24 @@ function Directorio(){
             <p className="Content">Estos tipo de directorio no varia su contenido y 
             los cambios pueden estar limitados por el adiministrador o el usuario</p>
 
-            <h1 className="title1">Directorio raiz (/)</h1>
+            <h1 className="title1">Directorio <span className="key-word">/</span> (raiz)</h1>
 
             <p className="Content">Este directorio generalmente se representa con el simbolo / 
             se le llama raiz y es debido a que los demas directorios estan dentro del directorio 
             raiz de ahi que se llame de esta manera ya que se piensa como el contenedor de todo 
             el sistema</p>
 
-            <h1 className="title1">Directorio bin</h1>
+            <h1 className="title1">Directorio <span className="key-word">bin</span></h1>
 
             <p className="Content">Este directorio contiene archivos binarios para que los usuarios
             puedan usar el equipo y para que el sistema puede trabajar correctamente, la mayoria de 
             los comandos que se ejecutan desde la terminal se encuentran en este directorio y de ahi
             la importancia de esta carpeta y sus archivos</p>
 
-            <h1 className="title1">Directorio boot</h1>
+            <h1 className="title1">Directorio <span className="key-word">boot</span></h1>
 
-            <p className="Content"></p>
+            <p className="Content">Este directorio contiene los archivos necesarios para que el
+            sistema pueda arrancar</p>
         </di>
         
     );
