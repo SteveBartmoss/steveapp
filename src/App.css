@@ -618,6 +618,16 @@
   color: #005b99;
 }
 
+.key-word{
+  color: #409cdc;
+}
+
+.title-subject{
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: white;
+}
+
 /*estilo de la terminal*/
 
 .cli{
