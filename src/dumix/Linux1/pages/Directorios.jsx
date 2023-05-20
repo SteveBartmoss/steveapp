@@ -13,7 +13,9 @@ function Directorio(){
             practicos cumplen con la misma funcion y no tienen diferencia en su uso 
             convencional</p>
 
-            <h1 className="title-subject">Estructura de los direcctorios de linux</h1>
+            <div className="center">
+                <h1 className="title-subject">Estructura de los direcctorios de linux</h1>
+            </div>
 
             <p className="Content">La configuracion de los directorios en linux puede
             parecer compleja pero con si se analiza se descubrira que tiene una mejor
@@ -50,7 +52,7 @@ function Directorio(){
                 </div>
             </div>
 
-            <h1 className="title1">Tipos de directorios</h1>
+            <h1 className="title-subject">Tipos de directorios</h1>
 
             <p className="Content">Si bien la mayoria de los directorios se tratan de
             carpetas no todas cumplen con la misma funcion o tiene los mismo permisos
@@ -97,7 +99,28 @@ function Directorio(){
             <h1 className="title1">Directorio <span className="key-word">boot</span></h1>
 
             <p className="Content">Este directorio contiene los archivos necesarios para que el
-            sistema pueda arrancar</p>
+            sistema pueda arrancar entre los cuales se puede encontrar el kernel y un gestor de arranque
+            como puede ser grub, el contenido de este directorio no suele modificarse a no ser que el 
+            adiministrador realice una configuracion y algunas veces se crea una particion diferente para
+            este direcotorio
+            </p>
+
+            <h1 className="title1">Directorio <span className="key-word">dev</span></h1>
+
+            <p className="Content">Aqui es donde normalmente se encuentran los dispositivos que 
+            se conectan en el equipo ya que linux trata los dispositivos como archivos y la manera
+            en la que accede a estos dispositivos es leyendo y escribiendo en el archivo destinado
+            al dispositivo que conectamos, de esta forma en este directorio veriamos un archivo para
+            una memoria usb que se conecte, para un mouse, un teclado o incluso una lectora de discos
+            </p>
+
+            <h1 className="title1">Directorio <span className="key-word">etc</span></h1>
+
+            <p className="Content">Esta carpeta tiene los archivos de configuracion de sistema ya que 
+            muchas aplicaciones se controlan desde aqui pero aun asi estos archivos pueden ser sustituidos
+            por los archivos del usuario que se encuentran dentro de la carpeta home del usuario.
+            </p>
+
         </di>
         
     );
