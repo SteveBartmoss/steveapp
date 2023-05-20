@@ -56,6 +56,9 @@ function Linux1NavBar(){
                 </li>
             </div>
             <Outlet />
+            <div className="div-asite">
+                <h1 className="title1">Tambien te puede interesar</h1>
+            </div> 
         </div>
     );
 }
