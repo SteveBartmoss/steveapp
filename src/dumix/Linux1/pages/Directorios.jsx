@@ -119,7 +119,23 @@ function Directorio(){
             <p className="Content">Esta carpeta tiene los archivos de configuracion de sistema ya que 
             muchas aplicaciones se controlan desde aqui pero aun asi estos archivos pueden ser sustituidos
             por los archivos del usuario que se encuentran dentro de la carpeta home del usuario.
+            Algunas de las aplicaciones que contienen archivos en esta carpeta son apt, xwindow o 
+            aplicaciones externas como google chrome.
             </p>
+
+            <h1 className="title1">Directorio <span className="key-word">home</span></h1>
+
+            <p className="Content">Aqui es donde se encuentras los archivos de todos los usuarios
+            menos del usuario root (ya que este ultimo tiene su propio directorio) los archivos de 
+            esta carpeta pueden ser compartidos con otros usuarios, algunos de los archivos que se
+            almacenan aqui son fotos, videos, musica, documentos entre otros. Cada usuario tiene su 
+            propia carpeta que generalmente tiene el mismo nombre que el usuario al que pertenece, 
+            dentro de la carpeta personal de un usuario se pueden encontrar archivos de cofiguracion
+            segun lo deseen los usuarios
+            </p>
+
+            <h1 className="title1">Directorio <span className="key-word">lib</span></h1>
+
 
         </di>
         
