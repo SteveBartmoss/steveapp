@@ -587,9 +587,12 @@
 }
 
 .linux-menu{
+  height: 600px;
   display: flex;
   flex-direction: column;
   padding-right: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
   /*background-color: #24283B;*/
   background-color: #343434;
 }
@@ -615,7 +618,7 @@
 
 .div-curso{
   width: 900px;
-  height: 700px;
+  height: 600px;
   /*background-color: #1A1B26;*/
   background-color: #1b1b1b;
   padding-left: 10px;
