@@ -567,7 +567,7 @@
 }
 
 .div-vimgg{
-  background-color:  #212f3c ;
+  background-color:  #212f3c;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 5px;
@@ -614,10 +614,18 @@
 }
 
 .div-curso{
+  width: 900px;
+  height: 700px;
   /*background-color: #1A1B26;*/
   background-color: #1b1b1b;
   padding-left: 10px;
   padding-right: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.div-asite{
+  width: 300px;
 }
 
 .bash{
@@ -658,12 +666,12 @@
 
 .title-cli{
   background-color: #282c34;
-  width: 1000px;
+  width: 800px;
   margin-left: 10px;
 }
 
 .body-cli{
-  width: 1000px;
+  width: 800px;
   margin-left: 10px;
   text-align: left;
   background-color: black;
