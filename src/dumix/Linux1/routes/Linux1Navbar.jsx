@@ -3,6 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 function Linux1NavBar(){
     return(
+        <>
         <div className="grid-dumix">
 
             <div className="linux-menu">
@@ -58,8 +59,13 @@ function Linux1NavBar(){
             <Outlet />
             <div className="div-asite">
                 <h1 className="title1">Tambien te puede interesar</h1>
-            </div> 
+            </div>
+
         </div>
+        <div>
+            <p className="Content">Footer</p>
+        </div>
+        </>
     );
 }
 
