@@ -21,6 +21,12 @@ function FunHome(){
             sobre tus personajes favoritos de rick y morty</p>
             <a href="havefun/rickosoapp">visitar</a>
         </div>
+
+        <div>
+            <h1 className="title1">AssembleApp</h1>
+            <p className="Content">Encuentra informacion sobre tus super heroes favoritos y diviertete
+            por unos momentos con esta aplicacions de super heroes</p>
+        </div>
     </>
     );
 }
