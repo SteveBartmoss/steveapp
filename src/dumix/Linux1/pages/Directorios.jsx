@@ -141,6 +141,12 @@ function Directorio(){
             usados por multiples usuarios y su contenido no es variable ya que solo el administrador 
             realiza cambios en los elementos de esta carpeta</p>
 
+            <h1 className="title1">Directorio <span className="key-word">mnt</span></h1>
+
+            <p className="Content">Esta carpeta esta destinada para tener los puntos de montaje de los 
+            dispositivos de almacenamiento, los discos externos se encuentran aqui y el su contnido puede
+            variar y diferentes usuarios pueden acceder a estos archivos</p>
+            
         </di>
         
     );
