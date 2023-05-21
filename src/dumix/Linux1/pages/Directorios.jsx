@@ -2,7 +2,7 @@ import React from "react";
 
 function Directorio(){
     return(
-        <di className="div-curso">
+        <div className="div-curso">
 
            <div className="center">
                 <h1 className="title-subject">Directorios</h1>
@@ -153,8 +153,7 @@ function Directorio(){
            puntos de montaje de los dispositivos extraibles como una memoria usb y lectores de discos, aunque
            se hace la diferencia entre los dos directorios en este directorio se puede montar los dicos que 
            se montan en el directorio mnt se pueden montar aqui tambien</p>
-           
-        </di>
+        </div>
         
     );
 }
