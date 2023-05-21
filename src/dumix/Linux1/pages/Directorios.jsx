@@ -136,6 +136,10 @@ function Directorio(){
 
             <h1 className="title1">Directorio <span className="key-word">lib</span></h1>
 
+            <p className="Content">Dentro de esta carpeta se encuentran librerias necesarias para que 
+            los archivos binarios anteriormente mencionados puedan funcionar, estas librerias pueden ser 
+            usados por multiples usuarios y su contenido no es variable ya que solo el administrador 
+            realiza cambios en los elementos de esta carpeta</p>
 
         </di>
         
