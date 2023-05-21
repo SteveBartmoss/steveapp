@@ -660,6 +660,12 @@
   color: white;
 }
 
+.dumix-foot{
+  height: 50px;
+  background-color: #244e4f;
+  text-align: center;
+}
+
 /*estilo de la terminal*/
 
 .cli{
