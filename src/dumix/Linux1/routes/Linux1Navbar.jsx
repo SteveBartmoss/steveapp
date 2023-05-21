@@ -62,8 +62,8 @@ function Linux1NavBar(){
             </div>
 
         </div>
-        <div>
-            <p className="Content">Footer</p>
+        <div className="dumix-foot">
+            <p className="Content">Sigue aprendiendo</p>
         </div>
         </>
     );
