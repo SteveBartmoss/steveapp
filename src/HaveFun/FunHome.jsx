@@ -26,6 +26,7 @@ function FunHome(){
             <h1 className="title1">AssembleApp</h1>
             <p className="Content">Encuentra informacion sobre tus super heroes favoritos y diviertete
             por unos momentos con esta aplicacions de super heroes</p>
+            <a href="havefun/marvelapp">visitar</a>
         </div>
     </>
     );
