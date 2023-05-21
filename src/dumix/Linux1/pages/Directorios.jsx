@@ -153,6 +153,16 @@ function Directorio(){
            puntos de montaje de los dispositivos extraibles como una memoria usb y lectores de discos, aunque
            se hace la diferencia entre los dos directorios en este directorio se puede montar los dicos que 
            se montan en el directorio mnt se pueden montar aqui tambien</p>
+
+           <h1 className="title1">Directorio <span className="key-word">opt</span></h1>
+
+           <p className="Content">Dentro de esta carpeta podemos encontrar los archivos de los 
+           programas que son externas al sistema operativo como puede ser google chrome o discord
+           al igual que otras carpetas los archivos que estan aqui pueden ser usados por otros usuarios
+           que estan presentes en el equipo, esta carpeta es similar a usr/local pero se creo porque 
+           estos programas no cumplen con el estandar requerido para que sean almacenados en la carpet 
+           usr</p>
+           
         </div>
         
     );
