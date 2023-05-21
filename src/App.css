@@ -664,6 +664,7 @@
   height: 50px;
   background-color: #244e4f;
   text-align: center;
+  margin: none;
 }
 
 /*estilo de la terminal*/
