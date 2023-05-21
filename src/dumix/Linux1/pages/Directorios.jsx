@@ -162,6 +162,16 @@ function Directorio(){
            que estan presentes en el equipo, esta carpeta es similar a usr/local pero se creo porque 
            estos programas no cumplen con el estandar requerido para que sean almacenados en la carpet 
            usr</p>
+
+           <h1 className="title1">Directorio <span className="key-word">proc</span></h1>
+
+           <p className="Content">Los archivos que estan aqui son archivos virtuales que muestran 
+           informacion sobre procesos que se estan ejecutando en el equipo tambien proporcionan 
+           informacion sobre aplicaciones que estan siendo ejecutadas y por esto se tiene una 
+           carpeta por cada aplaicacion y proceso que esta siendo ejecutado, estos archivos no estan
+           siendo almacenados en el disco duro si no que se encuentran en la memoria ram del equipo 
+           por esta razon el contendio de la carpeta se elimina siempre que se apaga la computadora
+           </p>
            
         </div>
         
