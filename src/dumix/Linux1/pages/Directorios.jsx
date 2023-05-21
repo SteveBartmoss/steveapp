@@ -146,7 +146,14 @@ function Directorio(){
             <p className="Content">Esta carpeta esta destinada para tener los puntos de montaje de los 
             dispositivos de almacenamiento, los discos externos se encuentran aqui y el su contnido puede
             variar y diferentes usuarios pueden acceder a estos archivos</p>
-            
+
+           <h1 className="title1">Directorio <span className="key-word">media</span></h1> 
+
+           <p className="Content">Al igual que el directorio anterior esta destinado a contener los 
+           puntos de montaje de los dispositivos extraibles como una memoria usb y lectores de discos, aunque
+           se hace la diferencia entre los dos directorios en este directorio se puede montar los dicos que 
+           se montan en el directorio mnt se pueden montar aqui tambien</p>
+           
         </di>
         
     );
