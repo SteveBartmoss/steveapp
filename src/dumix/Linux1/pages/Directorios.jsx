@@ -173,7 +173,7 @@ function Directorio(){
            por esta razon el contendio de la carpeta se elimina siempre que se apaga la computadora.
            </p>
 
-           <h1 className="title1">Directorio <span>root</span></h1>
+           <h1 className="title1">Directorio <span className="key-word">root</span></h1>
 
            <p className="Content">El contenido de este directorio no esta compartido para otros 
            usuarios y tampoco se ve modificado a no ser que el administrador del sistema lo haga 
