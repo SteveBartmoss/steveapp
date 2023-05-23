@@ -111,7 +111,7 @@ function Directorio(){
             se conectan en el equipo ya que linux trata los dispositivos como archivos y la manera
             en la que accede a estos dispositivos es leyendo y escribiendo en el archivo destinado
             al dispositivo que conectamos, de esta forma en este directorio veriamos un archivo para
-            una memoria usb que se conecte, para un mouse, un teclado o incluso una lectora de discos
+            una memoria usb que se conecte, para un mouse, un teclado o incluso una lectora de discos.
             </p>
 
             <h1 className="title1">Directorio <span className="key-word">etc</span></h1>
@@ -131,7 +131,7 @@ function Directorio(){
             almacenan aqui son fotos, videos, musica, documentos entre otros. Cada usuario tiene su 
             propia carpeta que generalmente tiene el mismo nombre que el usuario al que pertenece, 
             dentro de la carpeta personal de un usuario se pueden encontrar archivos de cofiguracion
-            segun lo deseen los usuarios
+            segun lo deseen los usuarios.
             </p>
 
             <h1 className="title1">Directorio <span className="key-word">lib</span></h1>
@@ -139,20 +139,20 @@ function Directorio(){
             <p className="Content">Dentro de esta carpeta se encuentran librerias necesarias para que 
             los archivos binarios anteriormente mencionados puedan funcionar, estas librerias pueden ser 
             usados por multiples usuarios y su contenido no es variable ya que solo el administrador 
-            realiza cambios en los elementos de esta carpeta</p>
+            realiza cambios en los elementos de esta carpeta.</p>
 
             <h1 className="title1">Directorio <span className="key-word">mnt</span></h1>
 
             <p className="Content">Esta carpeta esta destinada para tener los puntos de montaje de los 
             dispositivos de almacenamiento, los discos externos se encuentran aqui y el su contnido puede
-            variar y diferentes usuarios pueden acceder a estos archivos</p>
+            variar y diferentes usuarios pueden acceder a estos archivos.</p>
 
            <h1 className="title1">Directorio <span className="key-word">media</span></h1> 
 
            <p className="Content">Al igual que el directorio anterior esta destinado a contener los 
            puntos de montaje de los dispositivos extraibles como una memoria usb y lectores de discos, aunque
            se hace la diferencia entre los dos directorios en este directorio se puede montar los dicos que 
-           se montan en el directorio mnt se pueden montar aqui tambien</p>
+           se montan en el directorio mnt se pueden montar aqui tambien.</p>
 
            <h1 className="title1">Directorio <span className="key-word">opt</span></h1>
 
@@ -161,7 +161,7 @@ function Directorio(){
            al igual que otras carpetas los archivos que estan aqui pueden ser usados por otros usuarios
            que estan presentes en el equipo, esta carpeta es similar a usr/local pero se creo porque 
            estos programas no cumplen con el estandar requerido para que sean almacenados en la carpet 
-           usr</p>
+           usr.</p>
 
            <h1 className="title1">Directorio <span className="key-word">proc</span></h1>
 
@@ -170,8 +170,15 @@ function Directorio(){
            informacion sobre aplicaciones que estan siendo ejecutadas y por esto se tiene una 
            carpeta por cada aplaicacion y proceso que esta siendo ejecutado, estos archivos no estan
            siendo almacenados en el disco duro si no que se encuentran en la memoria ram del equipo 
-           por esta razon el contendio de la carpeta se elimina siempre que se apaga la computadora
+           por esta razon el contendio de la carpeta se elimina siempre que se apaga la computadora.
            </p>
+
+           <h1 className="title1">Directorio <span>root</span></h1>
+
+           <p className="Content">El contenido de este directorio no esta compartido para otros 
+           usuarios y tampoco se ve modificado a no ser que el administrador del sistema lo haga 
+           ya que esta carpeta representa la misma carpet de home pero en este caso esta destinado 
+           para el administrador del sistema o el usuario root.</p>
            
         </div>
         
