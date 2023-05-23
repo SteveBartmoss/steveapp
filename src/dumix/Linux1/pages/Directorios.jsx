@@ -179,6 +179,8 @@ function Directorio(){
            usuarios y tampoco se ve modificado a no ser que el administrador del sistema lo haga 
            ya que esta carpeta representa la misma carpet de home pero en este caso esta destinado 
            para el administrador del sistema o el usuario root.</p>
+
+           <h1 className="title1">Directorio <span className="key-word">sbin</span></h1>
            
         </div>
         
