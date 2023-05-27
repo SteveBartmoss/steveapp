@@ -187,7 +187,11 @@ function Directorio(){
            ser llamados desde la cuenta de super usuario o del usuario root y de ahi viene la s del 
            directorio</p>
 
-           
+           <h1 className="title1">Direcotrio <span className="key-word">srv</span></h1>
+
+           <p className="Content">Dentro de este directorio estan los archivos que pertenecen a 
+           servidores que se pueden tener instalados el el equipo como por ejemplo el servidor apache
+           o algun servidor ftp</p>
            
         </div>
         
