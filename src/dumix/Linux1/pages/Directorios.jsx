@@ -181,6 +181,13 @@ function Directorio(){
            para el administrador del sistema o el usuario root.</p>
 
            <h1 className="title1">Directorio <span className="key-word">sbin</span></h1>
+
+           <p className="Content">Este directorio tiene la misma funcion que eñl directorio bin ay 
+           que tambien tiene archivos binarios que se pueden ejecutar pero en este caso solo pueden 
+           ser llamados desde la cuenta de super usuario o del usuario root y de ahi viene la s del 
+           directorio</p>
+
+           
            
         </div>
         
