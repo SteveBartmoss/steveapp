@@ -17,9 +17,8 @@ function GifApp(){
         <>
             <h1 className="title1">GifExpertApp</h1>
 
-            <AddCategory />
+            <AddCategory newCategorie={setCategories}/>
 
-            <button onClick={onAddCategory}>Agregar</button>
 
             <ol>
                 { categories.map(category =>{
