@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import AddCategory from "./component/AddCategory";
+import AddCategory from "../component/AddCategory";
 
 function GifApp(){
 
@@ -8,12 +8,14 @@ function GifApp(){
     const onAddCategory = () =>{
         //se crea un nuevo arreglo y al final se le agrega la nueva categoria
         setCategories(['amd',...categories]);
+        // segunda opcion en la segunda opcion se utilizan callbacks
+        //setCategories(cat=>['amd',...categories])
     }
 
 
     return(
         <>
-            <h1 className="Content">Gif expert</h1>
+            <h1 className="title1">GifExpertApp</h1>
 
             <AddCategory />
 
