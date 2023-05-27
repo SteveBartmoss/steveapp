@@ -191,7 +191,14 @@ function Directorio(){
 
            <p className="Content">Dentro de este directorio estan los archivos que pertenecen a 
            servidores que se pueden tener instalados el el equipo como por ejemplo el servidor apache
-           o algun servidor ftp</p>
+           o algun servidor ftp </p>
+
+           <h1 className="title1">Directorio <span className="key-word">tmp</span></h1>
+           
+           <p className="Content">Aqui es donde pogramas almacenan variables que son requeridas para 
+           funcionar o archivos que se requieren al momento de ejecucion pero no es necesarios que se 
+           al macene todo el tiempo y por esta razon el sistema operativo borra el contenido de este 
+           directorio cuando se apaga el equipo</p>
            
         </div>
         
