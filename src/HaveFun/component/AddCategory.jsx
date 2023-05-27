@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 
-function AddCategory(){
+function AddCategory({newCategorie,elements}){
 
-    const [input, setInput] = useState(''); 
+    const [inputValue, setInputValue] = useState(''); 
 
     const onInputChange=(event)=>{
-        setInput(event.target.value);
+        setInputValue(event.target.value);
     }
 
     const onSumit=(event)=>{
         event.preventDefault();
+        if(inputValue.trim().length<=1) return;
+        newCategorie(categories=>[inputValue,...categories]);
+        setInputValue('');
     }
 
     return(
@@ -17,7 +20,7 @@ function AddCategory(){
             <input 
             type="text" 
             placeholder="buscar un gif" 
-            value={input}
+            value={inputValue}
             onChange={(event)=>onInputChange(event)}
             />
         </form>
