@@ -204,7 +204,15 @@ function Directorio(){
 
            <p className="Content">Este directorio contiene todos los programas instalados por lo 
            que dentro estaran los archivos necesarios para que los programas puedan ser ejecutados de 
-           manera correcta, el contenido de este directorio puede ser compartido con otros usuarios</p>
+           manera correcta, el contenido de este directorio puede ser compartido con otros usuarios
+           </p>
+
+           <h1 className="title1">Directorio <span className="key-word">var</span></h1>
+
+           <p className="Content">Este direcotorio almacena variables y archivos temporales como pueden 
+           ser los logs del sistema, los registros de algunos programas o informacion que sea necesaria 
+           durante el tiempo de ejecucion de algun programa
+           </p>
            
         </div>
         
