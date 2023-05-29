@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import AddCategory from "../component/AddCategory";
+import PushCategory from "../component/PushCategory";
 
 function GifApp(){
 
     const [categories, setCategories] = useState([['hack']]);
 
-    const onAddCategory = () =>{
+    const onAddCategory = (onNewCategory) =>{
         //se crea un nuevo arreglo y al final se le agrega la nueva categoria
-        setCategories(['amd',...categories]);
+        //setCategories(['amd',...categories]);
         // segunda opcion en la segunda opcion se utilizan callbacks
         //setCategories(cat=>['amd',...categories])
     }
@@ -17,7 +18,9 @@ function GifApp(){
         <>
             <h1 className="title1">GifExpertApp</h1>
 
-            <AddCategory newCategorie={setCategories}/>
+            <PushCategory  onNewCategory={event=>onAddCategory(event)}/>
+
+            {/*<AddCategory newCategorie={setCategories} elements={categories}/>*/}
 
 
             <ol>
