@@ -213,7 +213,13 @@ function Directorio(){
            ser los logs del sistema, los registros de algunos programas o informacion que sea necesaria 
            durante el tiempo de ejecucion de algun programa
            </p>
-           
+
+           <h1 className="title1">Direcotrio <span className="key-word">sys</span></h1>
+
+           <p className="Content">Dentro de este direcotior podemos encontrar archivos referentes al 
+           kernel, a las particiones del sistema, drivers y otros elementos relacionados con el 
+           funcionamiento del sistema operativo
+           </p>
         </div>
         
     );
