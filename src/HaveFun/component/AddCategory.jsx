@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AddCategory({newCategorie}){
+function AddCategory({newCategorie,elements}){
 
     const [inputValue, setInputValue] = useState(''); 
 
