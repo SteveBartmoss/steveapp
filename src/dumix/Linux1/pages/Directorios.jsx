@@ -199,6 +199,12 @@ function Directorio(){
            funcionar o archivos que se requieren al momento de ejecucion pero no es necesarios que se 
            al macene todo el tiempo y por esta razon el sistema operativo borra el contenido de este 
            directorio cuando se apaga el equipo</p>
+
+           <h1 className="title1">Directorio <span className="key-word">usr</span></h1>
+
+           <p className="Content">Este directorio contiene todos los programas instalados por lo 
+           que dentro estaran los archivos necesarios para que los programas puedan ser ejecutados de 
+           manera correcta, el contenido de este directorio puede ser compartido con otros usuarios</p>
            
         </div>
         
