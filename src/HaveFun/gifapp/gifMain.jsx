@@ -6,9 +6,9 @@ function GifApp(){
 
     const [categories, setCategories] = useState([['hack']]);
 
-    const onAddCategory = (onNewCategory) =>{
+    const onAddCategory = (newCategory) =>{
         //se crea un nuevo arreglo y al final se le agrega la nueva categoria
-        //setCategories(['amd',...categories]);
+        setCategories([newCategory,...categories]);
         // segunda opcion en la segunda opcion se utilizan callbacks
         //setCategories(cat=>['amd',...categories])
     }
