@@ -56,15 +56,13 @@ function Linux1NavBar(){
                     <NavLink className={({isActive})=> `tema ${isActive ? 'select':''}`} to="permisos">Permisos</NavLink>
                 </li>
             </div>
+
             <Outlet />
             <div className="div-asite">
                 <h1 className="title1">Tambien te puede interesar</h1>
             </div>
 
-        </div>
-        <div className="dumix-foot">
-            <p className="Content">Sigue aprendiendo</p>
-        </div>
+        </div>            
         </>
     );
 }
