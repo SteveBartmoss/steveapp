@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function PushCategory({onNewCategory}){
 
-    const [inputValue, setInputValue]=useState();
+    const [inputValue, setInputValue]=useState('');
 
     const onInputChange=(event)=>{
         setInputValue(event.target.value);
