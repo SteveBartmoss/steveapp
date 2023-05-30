@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 //import AddCategory from "../component/AddCategory";
 import PushCategory from "../component/PushCategory";
+import GifGrid from "../component/GifGrid";
 
 function GifApp(){
 
@@ -26,11 +27,10 @@ function GifApp(){
             {/*<AddCategory newCategorie={setCategories} elements={categories}/>*/}
 
 
-            <ol>
-                { categories.map(category =>{
-                    return <li key={ category}className="Content">{category}</li>
-                })}
-            </ol>
+            { categories.map(category =>{
+                    return <GifGrid key={category} value={category}/>
+            })}
+
 
         </>
     );
