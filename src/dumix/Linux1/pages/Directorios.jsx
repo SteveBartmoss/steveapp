@@ -220,6 +220,17 @@ function Directorio(){
            kernel, a las particiones del sistema, drivers y otros elementos relacionados con el 
            funcionamiento del sistema operativo
            </p>
+
+           <h1 className="title1">Imprimir el direcotorio de trabajo</h1>
+
+           <p className="Content">Conocer el directorio en el que uno se encuentra puede ser de utilidad 
+           y aunque el promp puede indicar el directorio, tambien es posible que no lo haga ya que se 
+           modifico por lo cual podemos usar el comando pwd que muestra el direcotorio en el que se esta 
+           en la sesion actual</p>
+
+           <p className="Content">El resultado de emitir el comando pwd al abrir una nueva terminal deberia 
+           ser similar al siguiente ejemplo</p>
+           
         </div>
         
     );
