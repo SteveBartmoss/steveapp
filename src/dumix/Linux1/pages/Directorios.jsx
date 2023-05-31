@@ -221,6 +221,13 @@ function Directorio(){
            funcionamiento del sistema operativo
            </p>
 
+           <p className="Content">Como se puede ver la estructura de linux puede parecer complicada 
+           pero en la practica todo esta mejor ordenado que en los sistemas de linux y ademas es mas 
+           claro ya que la mayoria de carpetas siguen reglas de mnemotecnia que permiten asociar facilmente 
+           el contenido de la carpeta como por ejemplo el directorio srv que hace referencia a server, el 
+           directorio usr que hace referencia user de esta manera los nombres hacen referencia a que funcion 
+           cumple</p>
+
            <h1 className="title1">Imprimir el direcotorio de trabajo</h1>
 
            <p className="Content">Conocer el directorio en el que uno se encuentra puede ser de utilidad 
