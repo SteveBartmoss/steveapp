@@ -216,7 +216,7 @@ function Directorio(){
 
            <h1 className="title1">Direcotrio <span className="key-word">sys</span></h1>
 
-           <p className="Content">Dentro de este direcotior podemos encontrar archivos referentes al 
+           <p className="Content">Dentro de este direcotorio podemos encontrar archivos referentes al 
            kernel, a las particiones del sistema, drivers y otros elementos relacionados con el 
            funcionamiento del sistema operativo
            </p>
@@ -230,7 +230,9 @@ function Directorio(){
 
            <p className="Content">El resultado de emitir el comando pwd al abrir una nueva terminal deberia 
            ser similar al siguiente ejemplo</p>
-           
+
+
+
         </div>
         
     );
