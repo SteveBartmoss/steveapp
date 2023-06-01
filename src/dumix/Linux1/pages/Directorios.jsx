@@ -18,7 +18,7 @@ function Directorio(){
             </div>
 
             <p className="Content">La configuracion de los directorios en linux puede
-            parecer compleja pero con si se analiza se descubrira que tiene una mejor
+            parecer compleja pero si se analiza se descubrira que tiene una mejor
             organizacion que la de windows solo que las diferencias pueden llegar a
             ser muchas, a continuacion se muestra la salida estandar de la organizacion
             </p>
@@ -37,8 +37,8 @@ function Directorio(){
                 </div>
             </div>
 
-            <p className="Content">Puede que estes pensado que la salida del comando no 
-            corresponde al tipica salida del comando ls pero esto es porque el comando 
+            <p className="Content">Puede que estes pensado que la salida del comando anterior 
+            no corresponde al tipica salida de ls pero esto es porque el comando 
             se ejecuto en el direcctorio root o / y por eso muestra un resultado que el
             que se obtiene al usar el comando en el directorio home del usuario</p>
 
