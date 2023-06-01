@@ -47,6 +47,10 @@ Ya se definieron algunas nuevas aplicaciones para el apartado have fun, estara e
 
 Ya se completaron algunos temas del curso de linux pero aun pueden estaer sujetos a cambios, hace falta invertir mas tiempo en el css pero se trabajara posteriormente, las paginas de have fun aun sigen en espero pero se pondra su implementacion los mas pronto posible. El build de produccion aun no se genera pero cuando se tenga terminado el curso de linux se generara el builde de producccion
 
+### `31/05/2023`
+
+Ya se completo la descripcion de la estrucutra de directorios del sistema linux, se tiene un progreso del 30% para la aplicacion gifapp de la section have fun, faltan estilos para la aplicacion de gifapp
+
 ## Libre uso
 
 No es un codigo tan bueno pero si alguna implementacion te sirve como referencia o quizas soluciona tu problema puedes usarlo sin ningun problema.
