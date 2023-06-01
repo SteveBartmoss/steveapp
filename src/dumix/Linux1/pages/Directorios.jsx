@@ -238,6 +238,20 @@ function Directorio(){
            <p className="Content">El resultado de emitir el comando pwd al abrir una nueva terminal deberia 
            ser similar al siguiente ejemplo</p>
 
+           <div className="cli">
+                <div className="title-cli">
+                    <center>
+                        <p className="Content">Terminal</p>
+                    </center>
+                </div>
+                <div className="body-cli">
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>/<span className="Content">$ pwd</span></p>
+                    <p className="Content"><span className="directorio">bin boot dev etc home lib media opt proc root sbin 
+                    srv sys tmp usr var</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>/<span className="Content">$</span></p>
+                </div>
+            </div>
+
 
 
         </div>
