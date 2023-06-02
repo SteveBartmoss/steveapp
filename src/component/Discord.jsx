@@ -6,7 +6,7 @@ function Discord(){
         <section className="Discord">
             <div className="BrandContenido">
                 <h2>Un servidor de discord con temas de videojuegos e informatica</h2>
-                <a href="https://discord.gg/QTdVBq5Q9r" className="Btn">Ir a discord</a>
+                <a href="https://discord.gg/QTdVBq5Q9r" target="_target" className="Btn">Ir a discord</a>
             </div>
         </section>
     );
