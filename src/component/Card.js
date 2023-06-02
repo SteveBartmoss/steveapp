@@ -8,7 +8,7 @@ function Card({imgUrl,title,paragraph,urlVideo}){
             <img className="imgCard" src={imgUrl} alt="imagenVideo"/>
             <h3 className="titleCard">{title}</h3>
             <p>{paragraph}</p>
-            <a className="linkVideo" href={urlVideo}>Ir al video</a>
+            <a className="linkVideo" href={urlVideo} target="_blank">Ir al video</a>
         </div>
         </div>
     );
