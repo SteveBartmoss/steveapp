@@ -8,7 +8,7 @@ function Data({imge, title, paragrap, url}){
             <div>
                 <h1 className="title1 Content">{title}</h1>
                 <p className="Content">{paragrap}</p>
-                <a className="linkVideo" href={url}>Ir al enlace</a>
+                <a className="linkVideo" href={url} target="_blank">Ir al enlace</a>
             </div>
             
         </div>
