@@ -28,6 +28,12 @@ function FunHome(){
             por unos momentos con esta aplicacions de super heroes</p>
             <a href="havefun/marvelapp">visitar</a>
         </div>
+
+        <div>
+            <h1 className="title1">AtrapalosApp</h1>
+            <p className="Content">Busca la informacion de tu pokemon favorito en esta aplicacion que 
+            te brinda la informacion de la mayoria de los pokemon gracias a la pokeapi</p>
+        </div>
     </>
     );
 }
