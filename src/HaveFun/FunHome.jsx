@@ -33,6 +33,7 @@ function FunHome(){
             <h1 className="title1">AtrapalosApp</h1>
             <p className="Content">Busca la informacion de tu pokemon favorito en esta aplicacion que 
             te brinda la informacion de la mayoria de los pokemon gracias a la pokeapi</p>
+            <a href="havefun/pokeapp">visitar</a>
         </div>
     </>
     );
