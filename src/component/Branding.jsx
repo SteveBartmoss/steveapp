@@ -6,7 +6,7 @@ function Branding({name, title, url}){
         <section className={name}>
             <div className="BrandContenido">
                 <h2>{title}</h2>
-                <a href={url} target="_blank" className="Btn">Ir al canal</a>
+                <a href={url} rel="noreferrer" target="_blank" className="Btn">Ir al canal</a>
             </div>
         </section>
     );
