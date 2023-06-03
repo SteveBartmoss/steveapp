@@ -246,8 +246,7 @@ function Directorio(){
                 </div>
                 <div className="body-cli">
                     <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>/<span className="Content">$ pwd</span></p>
-                    <p className="Content"><span className="directorio">bin boot dev etc home lib media opt proc root sbin 
-                    srv sys tmp usr var</span></p>
+                    <p className="Content">/home/steve</p>
                     <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>/<span className="Content">$</span></p>
                 </div>
             </div>
