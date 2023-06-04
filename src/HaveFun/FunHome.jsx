@@ -1,8 +1,10 @@
 import React from "react";
+import DivBaner from "../component/DivBaner";
 
 function FunHome(){
     return(
     <>
+        <DivBaner name="baner-have-fun" />
         <h1 className="title1">have fun page</h1>
 
         <p className="Content">Un apartado donde puedes divertirte un poco con las aplicaciones
