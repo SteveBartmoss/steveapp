@@ -8,13 +8,15 @@ import Review from "../component/Review";
 //import Footer from "../component/Pie";
 import Pie from "../component/Pie";
 import Branding from "../component/Branding";
+import DivBaner from "../component/DivBaner";
 
 
 
 function Home(){
     return(
         <>
-        <Baner/>
+        <DivBaner name="Baner" />
+        {/*<Baner/>*/}
         <div className="Contenedor">
             <h3 className="title1">Videos con mas visitas</h3>   
         </div>
