@@ -1,9 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 import { getGifs } from "../helpers/getGifs";
 
 function GifGrid({value}){
 
-    getGifs(value);
+    useEffect(()=>{
+        getGifs(value); 
+    },[]);
 
     return(
         <>
