@@ -16,7 +16,6 @@ function Home(){
     return(
         <>
         <DivBaner name="Baner" />
-        {/*<Baner/>*/}
         <div className="Contenedor">
             <h3 className="title1">Videos con mas visitas</h3>   
         </div>
