@@ -1,5 +1,5 @@
 import React from "react";
-import Baner from "../component/Baner";
+//import Baner from "../component/Baner";
 import Videos from "../component/Videos";
 import "../App.css";
 //import Discord from "../component/Discord";
