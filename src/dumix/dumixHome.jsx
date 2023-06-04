@@ -7,8 +7,6 @@ function DumixHome(){
         <>
             <DivBaner name="back-dumix" />
 
-            {/*<div className="back-dumix"></div>*/}
-            
             <div className="center">
                 <h1 className="title1">Contenido principal</h1>
             </div>
