@@ -1,10 +1,13 @@
 import React from "react";
 import DumixAbout from "./pages/dumixAbout";
+import DivBaner from "../component/DivBaner";
 
 function DumixHome(){
     return(
         <>
-            <div className="back-dumix"></div>
+            <DivBaner name="back-dumix" />
+
+            {/*<div className="back-dumix"></div>*/}
             
             <div className="center">
                 <h1 className="title1">Contenido principal</h1>
