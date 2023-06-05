@@ -5,7 +5,6 @@ function FunHome(){
     return(
     <>
         <DivBaner name="baner-have-fun" />
-        <h1 className="title1">have fun page</h1>
 
         <p className="Content">Un apartado donde puedes divertirte un poco con las aplicaciones
         que ofrecen diferentes interacciones e informacion de que te puede agradar</p>
