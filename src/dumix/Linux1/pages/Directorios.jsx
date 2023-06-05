@@ -272,6 +272,13 @@ function Directorio(){
             directorio superior, por ejemplo si estamos en la ruta /home/steve usando el comando cd.. 
             cambiariamos al direcotrio /home.</p>
 
+            <p className="Content">A la forma de agrupar los nombres de los directorios usando <span className="key-word">/</span> 
+            como separador se le llema ruta asi que en realidad /home/steve representa la ruta del directorio 
+            steve asi que de esta manera le indicamos al systema el camino paso a paso para llegar al 
+            directorio, existen rutas absolutas y rutas relativas las cuales se explican a continuacion.</p>
+
+
+
         </div>
         
     );
