@@ -45,11 +45,11 @@ Ya se definieron algunas nuevas aplicaciones para el apartado have fun, estara e
 
 ### `17/05/2023`
 
-Ya se completaron algunos temas del curso de linux pero aun pueden estaer sujetos a cambios, hace falta invertir mas tiempo en el css pero se trabajara posteriormente, las paginas de have fun aun sigen en espero pero se pondra su implementacion los mas pronto posible. El build de produccion aun no se genera pero cuando se tenga terminado el curso de linux se generara el builde de producccion
+Ya se completaron algunos temas del curso de linux pero aun pueden estaer sujetos a cambios, hace falta invertir mas tiempo en el css pero se trabajara posteriormente, las paginas de have fun aun sigen en espero pero se pondra su implementacion los mas pronto posible. El build de produccion aun no se genera pero cuando se tenga terminado el curso de linux se generara el build de producccion
 
 ### `31/05/2023`
 
-Ya se completo la descripcion de la estrucutra de directorios del sistema linux, se tiene un progreso del 30% para la aplicacion gifapp de la section have fun, faltan estilos para la aplicacion de gifapp
+Ya se completo la descripcion de la estrucutra de directorios del sistema linux, se tiene un progreso del 30% para la aplicacion gifapp de la section have fun, faltan estilos para la aplicacion de gifapp pero se trabajara en eso una vez que se tenga terminada la funcionalidad de la pagina.
 
 ## Libre uso
 
@@ -80,6 +80,39 @@ home, about, news, almanac, steve
 
 A carousel was implemented for steve's information, it is still under development and the styles need to be defined,
 The functionality is already complete and a hook was created to manage the change of the tabs and that when reaching the end of the carousel it restarts and if it is at the beginning and goes back it goes to the end.
+
+### `03/01/2023`
+
+Version one of the site is closed and the version is left in the v1 branch in order to be able to deploy that version in case of problems or if a query is required. 
+If you have problems or if you need to make a query, version one is the one that is currently deployed on the hosting, version two is under development and will be deployed as soon as it is finished.
+
+### `03/04/2023`
+
+We are implementing a new design for the steve section, we have a cover and soon we will put a mesh to store different elements, we have not yet decided the backgrounds or the definitive colors. The home page already has a definitive design and will be working on the css to make it more striking or better for the user.
+
+### `04/16/2023`
+
+Version two of the site is closed with a new design of the home page, steve, a new section such as row and colums articles and game reviews that do not require such a complex analysis are implemented, the monitoring of this file had not been taken into account but it is to keep a better record.
+
+### `04/17/2023`
+
+Dumix has arrived, it is a series of pages that will share with users knowledge about basic commands and that can be helpful for inexperienced users or just want to check the operation of some command and although the name of the section may be offensive the intention is not that.
+
+### `05/03/2023`
+
+A new module of the site will be implemented under the name of have fun which aims to practice the use of the apis by the developer and will provide some entertainment for the users.
+
+### `05/08/2023`
+
+Some new applications have already been defined for the have fun section, the gifapp module will be under development as the first project.
+
+### `05/17/2023`
+
+Some topics of the linux course have been completed but may still be subject to changes, we need to invest more time in the css but we will work on it later, the have fun pages are still waiting but we will implement them as soon as possible. The production build is not yet generated but when the linux course is finished the production build will be generated.
+
+### `05/31/2023`
+
+Already completed the description of the directory structure of the linux system, we have a progress of 30% for the gifapp application of the section have fun, missing styles for the gifapp application but we will work on that once we have finished the functionality of the page.
 
 ## steve's Channel
 
