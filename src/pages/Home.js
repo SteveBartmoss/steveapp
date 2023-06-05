@@ -1,11 +1,7 @@
 import React from "react";
-//import Baner from "../component/Baner";
 import Videos from "../component/Videos";
 import "../App.css";
-//import Discord from "../component/Discord";
 import Review from "../component/Review";
-//import Canal from "../component/Canal";
-//import Footer from "../component/Pie";
 import Pie from "../component/Pie";
 import Branding from "../component/Branding";
 import DivBaner from "../component/DivBaner";
