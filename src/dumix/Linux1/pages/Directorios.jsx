@@ -251,6 +251,12 @@ function Directorio(){
                 </div>
             </div>
 
+            <p className="Content">En el ejemplo anterior el directorio home esta presente en el promp 
+            del terminal ya que el simbolo <span className="key-word">~</span> hace referencia a la ruta 
+            /home/steve que suele ser el direcotorio del usuario que esta presente por defecto cuando se 
+            inicia una nueva terminal ya que suele ser donde se encuentran los archivos del usuario y por 
+            esta razon se inicia por defecto en esta ruta.</p>
+
 
 
         </div>
