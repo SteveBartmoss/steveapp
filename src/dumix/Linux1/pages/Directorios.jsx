@@ -257,7 +257,20 @@ function Directorio(){
             inicia una nueva terminal ya que suele ser donde se encuentran los archivos del usuario y por 
             esta razon se inicia por defecto en esta ruta.</p>
 
+            <h1 className="title1">Cambiar el directorio</h1>
 
+            <p className="Content">Ahora que ya sabemos imprimir el trabajo podemos querer cambiar el 
+            directorio en el que nos encontramos y esto puede ser por diversas rasones como por ejemplo 
+            para ver el contenido del directorio, crear un archivo dentro de otro directorio o para poder 
+            correr un script o programa que se encuentra en un directorio especifico.</p>
+
+            <p className="Content">Para esto se pude utilizar el comando <span className="key-word">cd</span> (hace referencia 
+            a change directory) solo se tiene que usaer el comando seguido del nombre del directorio 
+            al que se entrar o navegar como por ejemplo <span>cd srv</span> con el cual se navega 
+            al direcotorio srv, ademas de entrar a un directorio podemos salir del direcotrio actual 
+            pasando como parametro <span className="key-word">..</span> con lo cual se navega al 
+            directorio superior, por ejemplo si estamos en la ruta /home/steve usando el comando cd.. 
+            cambiariamos al direcotrio /home.</p>
 
         </div>
         
