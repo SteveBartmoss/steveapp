@@ -282,7 +282,11 @@ function Directorio(){
             <p className="Content">Una ruta es absoluta si inicia por el directorio raiz (representado 
             por /) asi que la ruta /home/steve es una ruta absoluta ya que indica el camino exacto 
             hacia el directorio por lo cual se conoce como absoluta.</p>
-            
+
+            <h1 className="title1">Rutas Relativas</h1>
+
+            <p className="Content">A diferencia de una ruta absoluts </p>
+
         </div>
         
     );
