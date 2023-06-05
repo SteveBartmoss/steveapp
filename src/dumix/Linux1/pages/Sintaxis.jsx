@@ -26,9 +26,9 @@ function Sintaxis(){
                     </center>
                 </div>
                 <div className="body-cli">
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls</span></p>
                     <p className="Content"><span className="directorio">Descargas Documentos Escritorio Musica Publico</span></p>
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
                 </div>
             </div>
 
@@ -77,9 +77,9 @@ function Sintaxis(){
                     </center>
                 </div>
                 <div className="body-cli">
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls Documentos</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls Documentos</span></p>
                     <p className="Content">Notas.txt Tarea.txt Hola.txt Guion.txt DotFile.txt</p>
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
                 </div>
             </div>
 
@@ -102,7 +102,7 @@ function Sintaxis(){
                     </center>
                 </div>
                 <div className="body-cli">
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls -l</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls -l</span></p>
                     <p className="Content">Total 48</p>
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 may 14 22:40 <span className="directorio">Descargas</span></p>
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Documentos</span></p>
@@ -113,7 +113,7 @@ function Sintaxis(){
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Público</span></p>
                     <p className="Content">drwx------ 6 steve steve 4096 abr 22 22:52 <span className="directorio">snap</span></p>
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <pan className="directorio">Vídeos</pan></p>
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
                 </div>
             </div>
 
@@ -129,9 +129,9 @@ function Sintaxis(){
                     </center>
                 </div>
                 <div className="body-cli">
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls -r</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls -r</span></p>
                     <p className="Content"><span className="directorio">Publico Musica Escritorio Documentos Descargas</span></p>
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
                 </div>
             </div>
 
@@ -146,7 +146,7 @@ function Sintaxis(){
                     </center>
                 </div>
                 <div className="body-cli">
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$ ls -l -r</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls -l -r</span></p>
                     <p className="Content">Total 48</p>
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <pan className="directorio">Vídeos</pan></p>
                     <p className="Content">drwx------ 6 steve steve 4096 abr 22 22:52 <span className="directorio">snap</span></p>
@@ -157,7 +157,7 @@ function Sintaxis(){
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Escritorio</span></p>
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Documentos</span></p>
                     <p className="Content">drwxr-xr-x 2 steve steve 4096 may 14 22:40 <span className="directorio">Descargas</span></p>
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
                 </div>
             </div>
 
