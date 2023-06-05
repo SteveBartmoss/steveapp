@@ -15,7 +15,7 @@ function Cli(){
             aparece una linea de texto que comun mente se llamaba promp</p>
 
             <div className="bash">
-                <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
             </div>
 
             <p className="Content">Usar una terminal puede parecer dificil pero no es para tanto solo se trata de
@@ -57,7 +57,7 @@ function Cli(){
                     </center>
                 </div>
                 <div className="body-cli">
-                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span>~<span className="Content">$</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
                 </div>
             </div>
 
