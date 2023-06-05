@@ -18,6 +18,11 @@ function GifGrid({value}){
     return(
         <>
             <h1 className="title1">{value}</h1>
+            <ol>
+            {images.map(image=>{
+                return <li key={image.id} className="Content">{image.title}</li>
+            })}
+            </ol>
         </>
     );
 }
