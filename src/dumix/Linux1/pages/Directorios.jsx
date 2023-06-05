@@ -277,8 +277,12 @@ function Directorio(){
             steve asi que de esta manera le indicamos al systema el camino paso a paso para llegar al 
             directorio, existen rutas absolutas y rutas relativas las cuales se explican a continuacion.</p>
 
+            <h1 className="title1">Rutas Absolutas</h1>
 
-
+            <p className="Content">Una ruta es absoluta si inicia por el directorio raiz (representado 
+            por /) asi que la ruta /home/steve es una ruta absoluta ya que indica el camino exacto 
+            hacia el directorio por lo cual se conoce como absoluta.</p>
+            
         </div>
         
     );
