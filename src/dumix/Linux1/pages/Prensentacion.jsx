@@ -8,7 +8,7 @@ function Presentacion(){
                 <h1 className="title1">Hola a todos</h1>
             </center>
             
-            <p className="Content">Este curso tiene como finalidad dar una introduccion
+            <p className="content-curso">Este curso tiene como finalidad dar una introduccion
             a las personas que nunca han utilizado un sistema operativo linux pero tambien
             para las personas que nnunca han interactuado con la terminal de comando, ya que
             no se tendra en cuenta el uso de la interfaz grafica del sisetma operativo pues
