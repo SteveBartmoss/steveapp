@@ -594,7 +594,8 @@
   overflow: hidden;
   overflow-y: scroll;
   /*background-color: #24283B;*/
-  background-color: #343434;
+  /*background-color: #343434;*/
+  background-color: #1b1b1b;
 }
 
 .tema{
@@ -639,6 +640,7 @@
 
 .div-asite{
   width: 300px;
+  background-color: #1b1b1b;
 }
 
 .bash{
