@@ -9,7 +9,7 @@ function Cli(){
             </div>
             
         
-            <p className="Content">La letras cli hacen referencia a Comand Line Interface que es una interfaz que
+            <p className="content-curso">La letras cli hacen referencia a Comand Line Interface que es una interfaz que
             recibe comandos y que seguramente la has utilizado alguna vez si tuviste que instalar algo del viejo y
             confiable steam verde, normalmente la terminal de comandos se trata de una ventana negra en la que solo
             aparece una linea de texto que comun mente se llamaba promp</p>
