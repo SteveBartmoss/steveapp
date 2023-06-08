@@ -8,7 +8,7 @@ function Directorio(){
                 <h1 className="title-subject">Directorios</h1>
            </div> 
 
-            <p className="Content">Los directiorios en linux son como las carpetas
+            <p className="content-curso">Los directiorios en linux son como las carpetas
             en widows solo que se cambia la forma en la que se llaman pero a niveles
             practicos cumplen con la misma funcion y no tienen diferencia en su uso 
             convencional</p>
