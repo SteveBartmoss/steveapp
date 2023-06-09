@@ -292,6 +292,25 @@ function Directorio(){
              completa ya que en el ejemplo estamos dentro de home y la ruta de home es /home/steve 
              y el directorio a que se accede esta dentro del direcotrio steve.</p>
 
+             <h1 className="title-subject">Atajos para direcctorios</h1>
+
+             <h1 className="title1">Punto .</h1>
+
+             <p className="content-curso">Este atajo siempre hace referencia al directorio actual 
+             y puede parecer que no es util pero su uso no esta tan pensado para navegar por directorios 
+             pero si para otro tipo de comandos.</p>
+
+             <h1 className="title1">Directorio personal (~)</h1>
+
+             <p className="content-curso">Este atajo siempre hara referencia al directorio /home/usuario 
+             por lo que es util para navegar de regreso a direccotrio del usuario actual o para indicar 
+             alguna ruta a un comando.</p>
+
+             <h1 className="title1">Directorio superior (..)</h1>
+
+             <p className="content-curso">Este atajo siempre hara referencia a un directorio arriba 
+             del direcotrio en que nos encontramos actualmente por lo cual es util para navegar por 
+             los directorios o tambien para otro tipo de comandos.</p>
 
         </div>
         
