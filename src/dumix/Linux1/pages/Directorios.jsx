@@ -285,7 +285,13 @@ function Directorio(){
 
             <h1 className="title1">Rutas Relativas</h1>
 
-            <p className="Content">A diferencia de una ruta absoluts </p>
+            <p className="Content">A diferencia de una ruta absoluta las rutas relativas no empiezan
+             por el simbolo / del directorio raiz, las rutas relativas empiezan por el nonbre de un 
+             directorio como por ejemplo cd Descargas, eso es porque el direcotorio al que queremos 
+             acceder esta dentro de la ruta actual y por esto no se tiene que especificar la ruta 
+             completa ya que en el ejemplo estamos dentro de home y la ruta de home es /home/steve 
+             y el directorio a que se accede esta dentro del direcotrio steve.</p>
+             
 
         </div>
         
