@@ -17,7 +17,7 @@ function Directorio(){
                 <h1 className="title-subject">Estructura de los direcctorios de linux</h1>
             </div>
 
-            <p className="Content">La configuracion de los directorios en linux puede
+            <p className="content-curso">La configuracion de los directorios en linux puede
             parecer compleja pero si se analiza se descubrira que tiene una mejor
             organizacion que la de windows solo que las diferencias pueden llegar a
             ser muchas, a continuacion se muestra la salida estandar de la organizacion
@@ -37,12 +37,12 @@ function Directorio(){
                 </div>
             </div>
 
-            <p className="Content">Puede que estes pensado que la salida del comando anterior 
+            <p className="content-curso">Puede que estes pensado que la salida del comando anterior 
             no corresponde al tipica salida de ls pero esto es porque el comando 
             se ejecuto en el direcctorio root o / y por eso muestra un resultado que el
             que se obtiene al usar el comando en el directorio home del usuario</p>
 
-            <p className="Content">Si se quiere ver el mismo resultado basta con ejecutar
+            <p className="content-curso">Si se quiere ver el mismo resultado basta con ejecutar
             los siguientes comandos en el immso orden</p>
 
             <div className="center">
@@ -54,51 +54,51 @@ function Directorio(){
 
             <h1 className="title-subject">Tipos de directorios</h1>
 
-            <p className="Content">Si bien la mayoria de los directorios se tratan de
+            <p className="content-curso">Si bien la mayoria de los directorios se tratan de
             carpetas no todas cumplen con la misma funcion o tiene los mismo permisos
             con lo cual se pueden tener ciertos tipos de directorios como se puede
             ver a continuacion</p>
 
             <h1 className="title1">Directorios compartidos</h1>
 
-            <p className="Content">Estos direcctorios pueden ser accedidos desde otros
+            <p className="content-curso">Estos direcctorios pueden ser accedidos desde otros
             equipos con lo cual contienen archivos que pueden ser usador por otra maquina
             </p>
 
             <h1 className="title1">Directorios no compartidos</h1>
 
-            <p className="Content">Este tipo de directorio no puede ser compartido y su
+            <p className="content-curso">Este tipo de directorio no puede ser compartido y su
             acceso se suele limitar al adiministrador del sistema impidiendo tambien la
             modificacion del contenido si no es adiministrador</p>
 
             <h1 className="title1">Directorios no variables</h1>
 
-            <p className="Content">Este tipo de directorio suele varias su contenido sin
+            <p className="content-curso">Este tipo de directorio suele varias su contenido sin
             intervencion de adiministrador o incluso del usuarios ya que su contenido se 
             modifica por el sistema</p>
 
             <h1 className="title1">Directorios estaticos</h1>
 
-            <p className="Content">Estos tipo de directorio no varia su contenido y 
+            <p className="content-curso">Estos tipo de directorio no varia su contenido y 
             los cambios pueden estar limitados por el adiministrador o el usuario</p>
 
             <h1 className="title1">Directorio <span className="key-word">/</span> (raiz)</h1>
 
-            <p className="Content">Este directorio generalmente se representa con el simbolo / 
+            <p className="content-curso">Este directorio generalmente se representa con el simbolo / 
             se le llama raiz y es debido a que los demas directorios estan dentro del directorio 
             raiz de ahi que se llame de esta manera ya que se piensa como el contenedor de todo 
             el sistema</p>
 
             <h1 className="title1">Directorio <span className="key-word">bin</span></h1>
 
-            <p className="Content">Este directorio contiene archivos binarios para que los usuarios
+            <p className="content-curso">Este directorio contiene archivos binarios para que los usuarios
             puedan usar el equipo y para que el sistema puede trabajar correctamente, la mayoria de 
             los comandos que se ejecutan desde la terminal se encuentran en este directorio y de ahi
             la importancia de esta carpeta y sus archivos</p>
 
             <h1 className="title1">Directorio <span className="key-word">boot</span></h1>
 
-            <p className="Content">Este directorio contiene los archivos necesarios para que el
+            <p className="content-curso">Este directorio contiene los archivos necesarios para que el
             sistema pueda arrancar entre los cuales se puede encontrar el kernel y un gestor de arranque
             como puede ser grub, el contenido de este directorio no suele modificarse a no ser que el 
             adiministrador realice una configuracion y algunas veces se crea una particion diferente para
