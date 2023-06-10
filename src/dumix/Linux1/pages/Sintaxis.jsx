@@ -3,7 +3,10 @@ import React from "react";
 function Sintaxis(){
     return(
         <div className="div-curso">
+
             <h1 className="title1">Sintaxis de los comandos</h1>
+
+            <hr className="line"/>
 
             <p className="content-curso">Un comando se trata basicamente de un programa que es llamado
             desde la terminal asi que basicamnete el sistema operativo lee la entrada de la terminal
