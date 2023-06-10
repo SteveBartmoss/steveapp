@@ -5,8 +5,10 @@ function Directorio(){
         <div className="div-curso">
 
            <div className="center">
-                <h1 className="title-subject">Directorios</h1>
-           </div> 
+            <h1 className="title-subject">Directorios</h1>
+           </div>
+
+           <hr className="line"/>
 
             <p className="content-curso">Los directiorios en linux son como las carpetas
             en widows solo que se cambia la forma en la que se llaman pero a niveles
