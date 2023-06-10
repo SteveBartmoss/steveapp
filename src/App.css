@@ -679,6 +679,13 @@
   margin: none;
 }
 
+.line {
+  height: 2px;
+  background-color: #005b99;
+  border-color: #005b99;
+  border-radius: 15%;
+}
+
 /*estilo de la terminal*/
 
 .cli{
