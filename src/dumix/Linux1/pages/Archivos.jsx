@@ -26,6 +26,32 @@ function Archivos(){
                 </div>
             </div>
 
+            <p className="content-curso">El comando anterior se puede usar con la 
+            opcion -l para optener un resultado mas detallado de los archivos como 
+            se puede ver en el siguiente ejemplo.</p>
+
+            <div className="cli">
+                <div className="title-cli">
+                    <center>
+                        <p className="Content">Terminal</p>
+                    </center>
+                </div>
+                <div className="body-cli">
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls -l -r</span></p>
+                    <p className="Content">Total 48</p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <pan className="directorio">Vídeos</pan></p>
+                    <p className="Content">drwx------ 6 steve steve 4096 abr 22 22:52 <span className="directorio">snap</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Público</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <spa className="directorio">Plantillas</spa></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Música</span></p>
+                    <p className="Content">drwxr-xr-x 4 steve steve 4096 abr 22 22:05 <span className="directorio">Imágenes</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Escritorio</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Documentos</span></p>
+                    <p className="Content">drwxr-xr-x 2 steve steve 4096 may 14 22:40 <span className="directorio">Descargas</span></p>
+                    <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
+                </div>
+            </div>
+
         </div>
     );
 }
