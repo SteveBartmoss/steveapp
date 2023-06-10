@@ -109,7 +109,7 @@ function Directorio(){
 
             <h1 className="title1">Directorio <span className="key-word">dev</span></h1>
 
-            <p className="Content">Aqui es donde normalmente se encuentran los dispositivos que 
+            <p className="content-curso">Aqui es donde normalmente se encuentran los dispositivos que 
             se conectan en el equipo ya que linux trata los dispositivos como archivos y la manera
             en la que accede a estos dispositivos es leyendo y escribiendo en el archivo destinado
             al dispositivo que conectamos, de esta forma en este directorio veriamos un archivo para
@@ -118,7 +118,7 @@ function Directorio(){
 
             <h1 className="title1">Directorio <span className="key-word">etc</span></h1>
 
-            <p className="Content">Esta carpeta tiene los archivos de configuracion de sistema ya que 
+            <p className="content-curso">Esta carpeta tiene los archivos de configuracion de sistema ya que 
             muchas aplicaciones se controlan desde aqui pero aun asi estos archivos pueden ser sustituidos
             por los archivos del usuario que se encuentran dentro de la carpeta home del usuario.
             Algunas de las aplicaciones que contienen archivos en esta carpeta son apt, xwindow o 
@@ -127,7 +127,7 @@ function Directorio(){
 
             <h1 className="title1">Directorio <span className="key-word">home</span></h1>
 
-            <p className="Content">Aqui es donde se encuentras los archivos de todos los usuarios
+            <p className="content-curso">Aqui es donde se encuentras los archivos de todos los usuarios
             menos del usuario root (ya que este ultimo tiene su propio directorio) los archivos de 
             esta carpeta pueden ser compartidos con otros usuarios, algunos de los archivos que se
             almacenan aqui son fotos, videos, musica, documentos entre otros. Cada usuario tiene su 
@@ -138,27 +138,27 @@ function Directorio(){
 
             <h1 className="title1">Directorio <span className="key-word">lib</span></h1>
 
-            <p className="Content">Dentro de esta carpeta se encuentran librerias necesarias para que 
+            <p className="content-curso">Dentro de esta carpeta se encuentran librerias necesarias para que 
             los archivos binarios anteriormente mencionados puedan funcionar, estas librerias pueden ser 
             usados por multiples usuarios y su contenido no es variable ya que solo el administrador 
             realiza cambios en los elementos de esta carpeta.</p>
 
             <h1 className="title1">Directorio <span className="key-word">mnt</span></h1>
 
-            <p className="Content">Esta carpeta esta destinada para tener los puntos de montaje de los 
+            <p className="content-curso">Esta carpeta esta destinada para tener los puntos de montaje de los 
             dispositivos de almacenamiento, los discos externos se encuentran aqui y el su contnido puede
             variar y diferentes usuarios pueden acceder a estos archivos.</p>
 
            <h1 className="title1">Directorio <span className="key-word">media</span></h1> 
 
-           <p className="Content">Al igual que el directorio anterior esta destinado a contener los 
+           <p className="content-curso">Al igual que el directorio anterior esta destinado a contener los 
            puntos de montaje de los dispositivos extraibles como una memoria usb y lectores de discos, aunque
            se hace la diferencia entre los dos directorios en este directorio se puede montar los dicos que 
            se montan en el directorio mnt se pueden montar aqui tambien.</p>
 
            <h1 className="title1">Directorio <span className="key-word">opt</span></h1>
 
-           <p className="Content">Dentro de esta carpeta podemos encontrar los archivos de los 
+           <p className="content-curso">Dentro de esta carpeta podemos encontrar los archivos de los 
            programas que son externas al sistema operativo como puede ser google chrome o discord
            al igual que otras carpetas los archivos que estan aqui pueden ser usados por otros usuarios
            que estan presentes en el equipo, esta carpeta es similar a usr/local pero se creo porque 
@@ -167,7 +167,7 @@ function Directorio(){
 
            <h1 className="title1">Directorio <span className="key-word">proc</span></h1>
 
-           <p className="Content">Los archivos que estan aqui son archivos virtuales que muestran 
+           <p className="content-curso">Los archivos que estan aqui son archivos virtuales que muestran 
            informacion sobre procesos que se estan ejecutando en el equipo tambien proporcionan 
            informacion sobre aplicaciones que estan siendo ejecutadas y por esto se tiene una 
            carpeta por cada aplaicacion y proceso que esta siendo ejecutado, estos archivos no estan
@@ -177,7 +177,7 @@ function Directorio(){
 
            <h1 className="title1">Directorio <span className="key-word">root</span></h1>
 
-           <p className="Content">El contenido de este directorio no esta compartido para otros 
+           <p className="content-curso">El contenido de este directorio no esta compartido para otros 
            usuarios y tampoco se ve modificado a no ser que el administrador del sistema lo haga 
            ya que esta carpeta representa la misma carpet de home pero en este caso esta destinado 
            para el administrador del sistema o el usuario root.</p>
