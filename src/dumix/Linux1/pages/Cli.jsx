@@ -7,7 +7,8 @@ function Cli(){
             <div className="center">
                 <h1 className="title1">¿Que es CLI?</h1>
             </div>
-            
+
+            <hr className="line"/>
         
             <p className="content-curso">La letras cli hacen referencia a Comand Line Interface que es una interfaz que
             recibe comandos y que seguramente la has utilizado alguna vez si tuviste que instalar algo del viejo y
