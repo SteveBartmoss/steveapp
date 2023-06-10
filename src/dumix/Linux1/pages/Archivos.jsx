@@ -12,6 +12,13 @@ function Archivos(){
             informacion, o cumplen una funcion en el sistema operativo (en realidad 
             todo el sistema operativo esta completamente compuesto por archivos) 
             por esta razon es importante conocer el manejo de los mismos.</p>
+
+            <h1 className="title1">Listar archivos</h1>
+
+            <p className="content-curso">Uno de los primeros paso es saber como 
+            listar los archivos o el contenido de un directorio, el comando es 
+            bastante sencillo y ya se ha visto en temas anteriores y es el ls 
+            a continuacion se muestra su sintaxis.</p>
         </div>
     );
 }
