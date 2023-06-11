@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import { getGifs } from "../helpers/getGifs";
+import GifItems from "./GifItem";
+import { useFetchGifs } from "../hooks/useFetchGifs";
 
 function GifGrid({value}){
 
-    const [images, setImages]=useState([]);
+    const {images, isLoading}=useFetchGifs(value);
 
-    const getImages=async()=>{
-        const newImages=await getGifs(value);
-        setImages(newImages);
-    }
-
-    useEffect(()=>{
-        getImages(); 
-    },[]);
 
     return(
         <>
             <h1 className="title1">{value}</h1>
-            {images.map(image=>{
-                return <img key={image.id} src={image.url} />
-            })}
+            {
+                isLoading ? (<h1 className="title1">Cargando...</h1>):null
+            }
+            <div>
+                {images.map(image=>{
+                    return <GifItems key={image.id} title={image.tile} url={image.url}/>
+                })}
+            </div>
         </>
     );
 }
