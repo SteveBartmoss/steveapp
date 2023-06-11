@@ -732,6 +732,10 @@
   justify-content: flex-end;
 }
 
+.gif-div{
+  margin: auto;
+  width: 1000px;
+}
 /*media query 576 */
 
 @media(max-width: 576px){
