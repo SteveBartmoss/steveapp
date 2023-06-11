@@ -2,6 +2,7 @@ import React, { useState } from "react";
 //import AddCategory from "../component/AddCategory";
 import PushCategory from "../component/PushCategory";
 import GifGrid from "../component/GifGrid";
+import "../../App.css";
 
 function GifApp(){
 
@@ -19,20 +20,22 @@ function GifApp(){
 
 
     return(
-        <>
-            <h1 className="title1">GifExpertApp</h1>
+        <div className="gif-div">
+            <>
+            
+                <h1 className="title1">GifExpertApp</h1>
 
-            <PushCategory  onNewCategory={event=>onAddCategory(event)}/>
+                <PushCategory  onNewCategory={event=>onAddCategory(event)}/>
 
-            {/*<AddCategory newCategorie={setCategories} elements={categories}/>*/}
+                {/*<AddCategory newCategorie={setCategories} elements={categories}/>*/}
 
 
-            { categories.map(category =>{
+                { categories.map(category =>{
                     return <GifGrid key={category} value={category}/>
-            })}
+                })}
+            </>
 
-
-        </>
+        </div>
     );
 }
 
