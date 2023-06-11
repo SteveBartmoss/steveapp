@@ -20,10 +20,10 @@ function GifApp(){
 
 
     return(
-        <div className="gif-div">
-            <>
+        <div>
+            <div className="gif-div">
             
-                <h1 className="title1">GifExpertApp</h1>
+                <h1 className="gif-title1">GifExpertApp</h1>
 
                 <PushCategory  onNewCategory={event=>onAddCategory(event)}/>
 
@@ -33,8 +33,17 @@ function GifApp(){
                 { categories.map(category =>{
                     return <GifGrid key={category} value={category}/>
                 })}
-            </>
+            </div>
 
+            <div className="gif-footer">
+                <div className="footer-item">
+                    <h1 className="title1">Importante</h1>
+                    <p className="Content">Esta seccion fue creada gracias al curso de 
+                    react de Fernando Herrera, si quieres apoyarlo puedes comprar su 
+                    curso o recomendarlo.
+                    </p>
+                </div>
+            </div> 
         </div>
     );
 }
