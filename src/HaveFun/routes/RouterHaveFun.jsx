@@ -6,14 +6,13 @@ import MarvelApp from "../marvel/marvelMain";
 
 function HaveFunRouter(){
     return(
-        <div>
-
+        <>
             <Routes>
                 <Route path="gifapp" element={<GifApp />}/>
                 <Route path="rickosoapp" element={<RickosoApp />}/>
                 <Route path="marvelapp" element={<MarvelApp />}/>
             </Routes>
-        </div>
+        </>
     );
 }
 
