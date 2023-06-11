@@ -732,9 +732,63 @@
   justify-content: flex-end;
 }
 
+.gif{
+  width: 400px;
+}
+
+.gif-card{
+  margin: 50px;
+}
+
+.gif-title1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.gif-title2{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.div-input{
+  width: 500px;
+  margin: auto;
+}
+
+.gif-search{
+  width: 500px;
+  font-size: 30px;
+  font-family: 'Roboto';
+  background-color: #e8e8e8;
+  border: #e8e8e8;
+  border-radius: 5px;
+}
+
+.gif-grid{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
 .gif-div{
   margin: auto;
   width: 1000px;
+  height: 600px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.gif-footer{
+  height: 300px;
+  margin: 0px;
+  background-color: #244e4f;
+}
+.footer-item{
+  padding: 10px;
+  width: 300px;
 }
 /*media query 576 */
 
