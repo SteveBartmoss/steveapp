@@ -11,13 +11,13 @@ function GifGrid({value}){
 
     return(
         <>
-            <h1 className="title1">{value}</h1>
+            <h1 className="gif-title2">{value}</h1>
             {
                 isLoading ? (<h1 className="title1">Cargando...</h1>):null
             }
-            <div>
+            <div className="gif-grid">
                 {images.map(image=>{
-                    return <GifItems key={image.id} title={image.tile} url={image.url}/>
+                    return <GifItems key={image.id} title={image.title} url={image.url}/>
                 })}
             </div>
         </>
