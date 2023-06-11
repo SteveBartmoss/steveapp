@@ -16,14 +16,16 @@ function PushCategory({onNewCategory}){
     }
 
     return(
-        <form onSubmit={(event)=>onSumit(event)}>
-            <input 
-            type="text" 
-            placeholder="buscar un gif" 
-            value={inputValue}
-            onChange={(event)=>onInputChange(event)}
-            />
-        </form>
+        <div className="div-input">
+            <form onSubmit={(event)=>onSumit(event)}>
+                <input className="gif-search"
+                type="text" 
+                placeholder="buscar un gif" 
+                value={inputValue}
+                onChange={(event)=>onInputChange(event)}
+                />
+            </form>
+        </div>
     );
 
 }
