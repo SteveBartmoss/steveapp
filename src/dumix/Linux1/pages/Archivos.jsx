@@ -52,6 +52,9 @@ function Archivos(){
                 </div>
             </div>
 
+            <p className="content-curso">El reusultado anterior muestra las lista extentendida
+             de los archivos </p>
+
         </div>
     );
 }
