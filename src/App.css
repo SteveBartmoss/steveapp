@@ -732,6 +732,20 @@
   justify-content: flex-end;
 }
 
+.div-havefun{
+  width: 900px;
+  margin: auto;
+}
+
+.p-havefun{
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .gif{
   width: 400px;
 }
