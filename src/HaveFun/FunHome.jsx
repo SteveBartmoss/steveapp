@@ -48,6 +48,15 @@ function FunHome() {
                     </div>
                 </div>
 
+                <div className="card-havefun">
+                    <h1 className="h1-havefun">OraculoApp</h1>
+                    <p className="p-card">Una aplicacion a la cual puedes hacerle preguntas 
+                    para sabar mas sobre tu destino</p>
+                    <div className="button-havefun">
+                        <a className="a-card" href="havefun/yesornotapp">visitar</a>
+                    </div>
+                </div>
+
             </div>
 
             <div>
