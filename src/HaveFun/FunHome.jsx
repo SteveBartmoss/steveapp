@@ -9,7 +9,8 @@ function FunHome() {
             <div className="div-havefun">
 
                 <p className="p-havefun">Un apartado donde puedes divertirte un poco con las aplicaciones
-                    que ofrecen diferentes interacciones e informacion de que te puede agradar</p>
+                    que ofrecen diferentes interacciones e informacion de diferentes personajes 
+                    que te puede agradar</p>
 
                 <div className="card-havefun">
                     <h1 className="h1-havefun">gifApp</h1>
