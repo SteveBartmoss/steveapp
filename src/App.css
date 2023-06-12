@@ -746,6 +746,46 @@
   margin-right: 10px;
 }
 
+.h1-havefun{
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card-havefun{
+  width: 700px;
+  margin: 20px auto;
+  background-color: #024059;
+  padding: 5px;
+}
+
+.p-card{
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.a-card{
+  margin: auto;
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto';
+  text-decoration: none;
+}
+
+.button-havefun{
+  text-align: center;
+  background-color: #244e4f;
+  width: 80px;
+  height: 30px;
+  margin: auto;
+}
+
 .gif{
   width: 400px;
 }
