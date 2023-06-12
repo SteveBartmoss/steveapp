@@ -14,37 +14,43 @@ function FunHome() {
                 <div className="card-havefun">
                     <h1 className="h1-havefun">gifApp</h1>
                     <p className="p-card">Una aplicacion para buscar gifs que te gusten
-                    solo ingresa las palabras busca tus gifs favoritos</p>
+                        solo ingresa las palabras busca tus gifs favoritos</p>
                     <div className="button-havefun">
                         <a className="a-card" href="havefun/gifapp">visitar</a>
                     </div>
                 </div>
 
                 <div className="card-havefun">
-                    <h1 className="title1">rickosoApp</h1>
-                    <p className="Content">Relajate un rato y ponte rickoso mientras buscas informacion
+                    <h1 className="h1-havefun">rickosoApp</h1>
+                    <p className="p-card">Relajate un rato y ponte rickoso mientras buscas informacion
                         sobre tus personajes favoritos de rick y morty</p>
-                    <a href="havefun/rickosoapp">visitar</a>
+                    <div className="button-havefun">
+                        <a className="a-card" href="havefun/rickosoapp">visitar</a>
+                    </div>
                 </div>
 
                 <div className="card-havefun">
-                    <h1 className="title1">AssembleApp</h1>
-                    <p className="Content">Encuentra informacion sobre tus super heroes favoritos y diviertete
+                    <h1 className="h1-havefun">AssembleApp</h1>
+                    <p className="p-card">Encuentra informacion sobre tus super heroes favoritos y diviertete
                         por unos momentos con esta aplicacions de super heroes</p>
-                    <a href="havefun/marvelapp">visitar</a>
+                    <div className="button-havefun">
+                        <a className="a-card" href="havefun/marvelapp">visitar</a>
+                    </div>
                 </div>
 
                 <div className="card-havefun">
-                    <h1 className="title1">AtrapalosApp</h1>
-                    <p className="Content">Busca la informacion de tu pokemon favorito en esta aplicacion que
+                    <h1 className="h1-havefun">AtrapalosApp</h1>
+                    <p className="p-card">Busca la informacion de tu pokemon favorito en esta aplicacion que
                         te brinda la informacion de la mayoria de los pokemon gracias a la pokeapi</p>
-                    <a href="havefun/pokeapp">visitar</a>
+                    <div className="button-havefun">
+                        <a className="a-card" href="havefun/pokeapp">visitar</a>
+                    </div>
                 </div>
 
             </div>
 
             <div>
-               <h1 className="h1-havefun">Footer have fun</h1> 
+                <h1 className="h1-havefun">Footer have fun</h1>
             </div>
 
         </>
