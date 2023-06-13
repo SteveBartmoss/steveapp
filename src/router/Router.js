@@ -13,6 +13,8 @@ import Greview from "../Game/Greview";
 import RoutesDumix from "../dumix/routes/dumixRoutes";
 import FunHome from "../HaveFun/FunHome";
 import HaveFunRouter from "../HaveFun/routes/RouterHaveFun";
+import WebHome from "../WebArticles/WebHome";
+import Opinion1 from "../WebArticles/Web1/pages/Opinion1";
 
 function Router(){
     return(
@@ -41,9 +43,15 @@ function Router(){
 
                     <Route path="dumix/*" element={<RoutesDumix/>}/>
 
+                    <Route path="web" element={<WebHome/>} />
+
                     <Route path="havefun" element={<FunHome/>}/>
 
                     <Route path="havefun/*" element={<HaveFunRouter />} />
+
+                    <Route path="opinion1" element={<Opinion1 />} />
+
+
 
                 </Routes>
 
