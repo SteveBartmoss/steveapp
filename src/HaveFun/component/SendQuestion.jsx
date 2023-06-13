@@ -8,6 +8,13 @@ function SendQuestion({onNewQuestion}){
         setInputValue(event.target.value);
     }
 
+    const onSumit=(event)=>{
+        event.preventDefault();
+        if(inputValue.trim().length<=1) return;
+        onNewQuestion(inputValue.trim());
+        setInputValue('');
+    }
+
 
 }
 
