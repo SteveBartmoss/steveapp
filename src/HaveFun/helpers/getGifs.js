@@ -12,6 +12,6 @@ export const getGifs=async(prop)=>{
         }
     })
     
-    console.log(gifs);
+    //console.log(gifs);
     return gifs;
 }
