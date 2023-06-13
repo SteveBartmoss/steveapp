@@ -12,17 +12,17 @@ function Presentacion(){
             
             <p className="content-curso">Este curso tiene como finalidad dar una introduccion
             a las personas que nunca han utilizado un sistema operativo linux pero tambien
-            para las personas que nnunca han interactuado con la terminal de comando, ya que
-            no se tendra en cuenta el uso de la interfaz grafica del sisetma operativo pues
+            para las personas que no han interactuado con la terminal de comando, ya que
+            no se tendra en cuenta el uso de la interfaz grafica del sistema operativo pues
             en este apartado un sistema operativo como ubuntu no difiere tanto con windows y
             ciertamente lo interesante de usar linux no esta en el manejo de la interfaz de
             usuario si no el manejo de su terminal y de las herramientas que nos provee como 
             el manejador de paquetes.</p>
 
-            <p className="content-curso">No se espera que la persona que tome el curso tenga experiecia
+            <p className="content-curso">No se espera que la persona que tome el curso tenga experiencia
             en el sistema pero si algunos aspectos como tener instaldo un sistema operativo de linux,
             ya sea como maquina virtual, dual boot o que solo tengas instalado linux en tu maquina, lo 
-            anterior es para pode poner en practica los comandos que se mostraran durante el curso. 
+            anterior es para poder poner en practica los comandos que se mostraran durante el curso. 
             Otros sistemas operativos cuentan con su propia consola de comandos y es posible usarla de
             manera similar a como se utiliza la terminal de linx pero es importante mencionar que los
             comandos pueden no ser los mismos y en ese caso se debe buscar el equivalente del comando
