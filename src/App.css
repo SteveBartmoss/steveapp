@@ -46,6 +46,38 @@
 /* media querys mas comiunes 
 576px, 768px, 992px, 1200px */
 
+/* paleta de azul indigo*/
+:root{
+  --indigo-1: #000035;
+  --indigo-2: #062863;
+  --indigo-3: #1c4c96;
+  --indigo-4: #607ec9;
+  --indigo-5: #9ab4ff;
+  --indigo-6: #547071;
+  --indigo-7: #688391;
+  --indigo-8: #87a1ab;
+  --indigo-9: #a7bcf7;
+  --indigo-10: #c8dfe2;
+
+  --gris-1: #3c3c3c;
+  --gris-2: #515151;
+  --gris-3: #666666;
+  --gris-4: #8c8c8c;
+  --gris-5: #b5b5b5;
+  --gris-6: #171718;
+  --gris-7: #1f2124;
+  --gris-8: #393d42;
+  --gris-9: #6a6e73;
+  --gris-10: #9fa3a9;
+
+  --aqua-1: #005227;
+  --aqua-2: #038554;
+  --aqua-3: #03bb85;
+  --aqua-4: #68ddbd;
+  --aqua-5: #a4fff7;
+
+}
+
 .center{
   text-align: center;
 }
