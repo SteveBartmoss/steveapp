@@ -586,6 +586,11 @@
   margin: 10px 0;
 }
 
+.div-about{
+  width: 900px;
+  margin: auto;
+}
+
 /*estilos de vimgg*/
 .div-subject{
   background-color:  #0e6655;
