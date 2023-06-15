@@ -15,9 +15,7 @@ function DumixHome(){
                 
                 <div className="div-topic">
 
-                    <div className="center">
-                        <h1 className="title1">Primeros pasos</h1>
-                    </div>
+                    <h1 className="title1">Primeros pasos</h1>
                     
                     <p className="Content">En esta seccion se abordaran temas para personas
                     que no han interactuado con linux, se describira lo que es una terminal
