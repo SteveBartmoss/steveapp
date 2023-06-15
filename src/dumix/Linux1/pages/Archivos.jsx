@@ -52,8 +52,11 @@ function Archivos(){
                 </div>
             </div>
 
-            <p className="content-curso">El reusultado anterior muestra las lista extentendida
-             de los archivos </p>
+            <p className="content-curso">El resultado anterior muestra las lista extentendida
+             de los archivos donde podemos ver el tipo de archivo, los permisos del archivo, 
+             el propietario, el grupo propietario, tamaño del archivo, marca de tiempo, 
+             nombre del archivo. Esta informacion puede ser muy util a la hora de trabajar 
+             con archivos a continuacion se muestra mas sobre los apartados del resultado.</p>
 
         </div>
     );
