@@ -15,6 +15,18 @@ function SendQuestion({onNewQuestion}){
         setInputValue('');
     }
 
+    return(
+        <div>
+            <form onSubmit={(event)=>onSumit(event)}>
+                <input type="text"
+                placeholder="aks me a question"
+                value={inputValue}
+                onChange={(event)=>onInputChange(event)}
+                />
+            </form>
+        </div>
+    );
+
 
 }
 
