@@ -613,14 +613,23 @@
 /*estilos de los cursos de liniux*/
 
 .display-topics{
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  align-items: center;
+  width: 900px;
+  margin: auto;
 }
 
 .div-topic{
-  width: 500px;
-  background-color: #3b062c;
+  width: 700px;
+  margin: auto;
+  background-color: var(--indigo-2);
+  padding: 0 10px;
+}
+
+.div-topic h1{
+  text-align: center;
+}
+
+.div-topic p {
+  text-align: justify;
 }
 
 .linux-menu{
