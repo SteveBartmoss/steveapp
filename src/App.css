@@ -580,7 +580,7 @@
   border: 0;
   font-weight: bold;
   padding: 10px 20px;
-  background: #005b99;
+  background: var(--aqua-2);
   color: white;
   font-size: 15px;
   margin: 10px 0;
@@ -826,7 +826,7 @@
 
 .button-havefun{
   text-align: center;
-  background-color: var(--aqua-1);
+  background-color: var(--aqua-2);
   width: 80px;
   height: 30px;
   margin: auto;
