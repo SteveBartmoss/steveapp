@@ -37,7 +37,10 @@ function DumixHome(){
                     personalizarla y asi por lo menos tener un area de trabajo mas agradable, este post 
                     te dara algunsejos para tener un cli mas a la moda y digna de un hackerma asi podras
                     impresionar a las nenas cuando les muestras todo el tiempo que ahorras por usar vim</p>
-                    <a className="dumix-btn" href="dumix/pimp">Ir al post</a>
+                    <div className="center">
+                        <a className="dumix-btn" href="dumix/pimp">Ir al post</a>
+                    </div>
+                    
                 </div>
 
                 <div className="div-topic">
