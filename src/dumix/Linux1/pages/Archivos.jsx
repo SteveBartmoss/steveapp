@@ -58,6 +58,13 @@ function Archivos(){
              nombre del archivo. Esta informacion puede ser muy util a la hora de trabajar 
              con archivos a continuacion se muestra mas sobre los apartados del resultado.</p>
 
+             <h1 className="title1">Tipo de archivo</h1>
+
+             <p className="content-curso">El primer elemento que se muestra en la salida del 
+             comando es el tipo del archivo que se esta listando en el ejemplo que se muestra 
+             todos los archivos son del tipo directorio pero esto cambia segun el contenido 
+             del direcctorio en que se ejecuta el comando.</p>
+
         </div>
     );
 }
