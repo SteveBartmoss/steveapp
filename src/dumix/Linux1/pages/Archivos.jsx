@@ -73,14 +73,14 @@ function Archivos(){
              los siguientes: </p>
 
              <ul>
-                <li>- archivos regulares</li>
-                <li>b arhivos de bloque</li>
-                <li>c archivos de caracter</li>
-                <li>d archivos de directorios</li>
-                <li>l archivos de enlace simbolico</li>
-                <li>n archivos de red</li>
-                <li>p archivos de pipe</li>
-                <li>s archivos de socket</li>
+                <li className="file-item">- archivos regulares</li>
+                <li className="file-item">b arhivos de bloque</li>
+                <li className="file-item">c archivos de caracter</li>
+                <li className="file-item">d archivos de directorios</li>
+                <li className="file-item">l archivos de enlace simbolico</li>
+                <li className="file-item">n archivos de red</li>
+                <li className="file-item">p archivos de pipe</li>
+                <li className="file-item">s archivos de socket</li>
              </ul>
 
         </div>
