@@ -69,6 +69,20 @@ function Archivos(){
                 <p className="code-simple"><span className="key-word">d</span>rwxr-xr-x 2 steve steve 4096 abr 22 21:47</p>
              </div>
 
+             <p className="content-curso">Los diferentes de tipos de archivos que existen son 
+             los siguientes: </p>
+
+             <ul>
+                <li>- archivos regulares</li>
+                <li>b arhivos de bloque</li>
+                <li>c archivos de caracter</li>
+                <li>d archivos de directorios</li>
+                <li>l archivos de enlace simbolico</li>
+                <li>n archivos de red</li>
+                <li>p archivos de pipe</li>
+                <li>s archivos de socket</li>
+             </ul>
+
         </div>
     );
 }
