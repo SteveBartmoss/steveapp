@@ -83,6 +83,13 @@ function Archivos(){
                 <li className="file-item">s archivos de socket</li>
              </ul>
 
+             <h1 className="title1">Permisos del archivo</h1>
+
+             <p className="content-curso">El segundo elemento representa los permisos del 
+             archivo y esto nos permite modificar el archivo, solo abrir en modo lectura 
+             o si es el caso de ejecutar el archivo.</p>
+             
+
         </div>
     );
 }
