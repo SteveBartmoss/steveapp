@@ -732,6 +732,13 @@
   border-radius: 15%;
 }
 
+.file-item{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-size: 18px;
+}
+
 /*estilo de la terminal*/
 
 .cli{
