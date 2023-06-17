@@ -88,7 +88,10 @@ function Archivos(){
              <p className="content-curso">El segundo elemento representa los permisos del 
              archivo y esto nos permite modificar el archivo, solo abrir en modo lectura 
              o si es el caso de ejecutar el archivo.</p>
-             
+
+             <div className="div-code">
+                <p className="code-simple">d<span className="key-word">rwxr-xr-x</span> 2 steve steve 4096 abr 22 21:47</p>
+             </div>
 
         </div>
     );
