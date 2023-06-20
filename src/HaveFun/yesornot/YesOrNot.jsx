@@ -14,7 +14,6 @@ function YesOrNot(){
             <div>
                 <h1 className="title1">Yes or Not</h1>
                 <SendQuestion onNewQuestion={event=>onAddQuestion(event)} />
-
             </div>
         </div>
     );
