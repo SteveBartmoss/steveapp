@@ -99,6 +99,10 @@ function Archivos(){
              directos hacia el archivo que se listo, estos se pueden ver como apuntadores 
              hacia la ubicacion del archivo.</p>
 
+             <div className="div-code">
+                <p className="code-simple">drwxr-xr-x <span className="key-word">2</span> steve steve 4096 abr 22 21:47</p>
+             </div>
+
         </div>
     );
 }
