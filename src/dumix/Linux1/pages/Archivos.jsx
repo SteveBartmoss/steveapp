@@ -93,6 +93,12 @@ function Archivos(){
                 <p className="code-simple">d<span className="key-word">rwxr-xr-x</span> 2 steve steve 4096 abr 22 21:47</p>
              </div>
 
+             <h1 className="title1">Numero de enlaces directos</h1>
+
+             <p className="content-curso">El tercer elemento representa el numero de enlaces 
+             directos hacia el archivo que se listo, estos se pueden ver como apuntadores 
+             hacia la ubicacion del archivo.</p>
+
         </div>
     );
 }
