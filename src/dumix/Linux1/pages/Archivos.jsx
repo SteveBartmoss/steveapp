@@ -103,6 +103,13 @@ function Archivos(){
                 <p className="code-simple">drwxr-xr-x <span className="key-word">2</span> steve steve 4096 abr 22 21:47</p>
              </div>
 
+             <h1 className="title1">Propietario del archivo</h1>
+
+             <p className="content-curso">El cuarto elemento muestra quien es el propietario 
+             y al crear un archivo el propietario por defecto es el usuario que lo creo 
+             aunque esto puede ser cambiado</p>
+             
+
         </div>
     );
 }
