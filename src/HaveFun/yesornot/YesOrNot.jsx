@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SendQuestion from "../component/SendQuestion";
+import FrameAnswer from "../component/FrameAnswer";
 
 function YesOrNot(){
 
