@@ -7,7 +7,7 @@ function YesOrNot(){
 
     const [question, setQuestion]=useState('');
     const [answer, setAnswer]=useState({
-        answer: '',
+        res: '',
         forced: '',
         url: ''
     });
@@ -20,13 +20,14 @@ function YesOrNot(){
     const getAnswer=async()=>{
         const newAnswer=await getOracle();
         //console.log(newAnswer);
-        setAnswer({...newAnswer, answer: newAnswer.answer});
+        setAnswer(prevState=>({...prevState,res: newAnswer.answer, forced: newAnswer.forced, url: newAnswer.image }));
         console.log(answer);
     }
 
     useEffect(()=>{
         getAnswer();
     },[])
+
     return(
         <div>
             <div>
