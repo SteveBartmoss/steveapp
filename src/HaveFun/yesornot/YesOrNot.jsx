@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import SendQuestion from "../component/SendQuestion";
-import FrameAnswer from "../component/FrameAnswer";
 import { getOracle } from "../helpers/getOracle";
 
 function YesOrNot(){
