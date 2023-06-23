@@ -13,7 +13,8 @@ function YesOrNot(){
     });
 
     const onAddQuestion=(question)=>{
-        setQuestion(question)
+        setQuestion(question);
+        getAnswer();
         //console.log(question);
     }
 
@@ -24,15 +25,14 @@ function YesOrNot(){
         console.log(answer);
     }
 
-    useEffect(()=>{
-        getAnswer();
-    },[])
-
     return(
         <div>
             <div>
                 <h1 className="title1">Yes or Not</h1>
                 <SendQuestion onNewQuestion={event=>onAddQuestion(event)} />
+                <h1 className="title1">{question}</h1>
+                <h1 className="title1">{answer.res}</h1>
+                <img src={answer.url}/>
             </div>
         </div>
     );
