@@ -21,17 +21,19 @@ function YesOrNot(){
         const newAnswer=await getOracle();
         //console.log(newAnswer);
         setAnswer(prevState=>({...prevState,res: newAnswer.answer, forced: newAnswer.forced, url: newAnswer.image }));
-        console.log(answer);
+        //console.log(answer);
     }
 
     return(
         <div>
-            <div>
-                <h1 className="title1">Yes or Not</h1>
+            <div className="gif-div">
+                <h1 className="gif-title1">Yes or Not</h1>
                 <SendQuestion onNewQuestion={event=>onAddQuestion(event)} />
-                <h1 className="title1">{question}</h1>
-                <h1 className="title1">{answer.res}</h1>
-                <img src={answer.url}/>
+                <h1 className="gif-title1">{question}</h1>
+                <h1 className="gif-title1">{answer.res}</h1>
+                <div className="div-answer">
+                    <img className="oracle-answer" src={answer.url}/>
+                </div>
             </div>
         </div>
     );
