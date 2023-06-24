@@ -43,6 +43,14 @@ function GifApp(){
                     curso o recomendarlo.
                     </p>
                 </div>
+                <div>
+                    <h1 className="title1">Contacto</h1>
+                    <p className="Content">stevechambitas@gmai.com</p>
+
+                    <h1 className="title1">Githud</h1>
+                    <h1 className="title1">Youtube</h1>
+                    <h1 className="title1">Power by Giphy</h1>
+                </div>
             </div> 
         </div>
     );
