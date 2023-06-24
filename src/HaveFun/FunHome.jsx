@@ -22,6 +22,15 @@ function FunHome() {
                 </div>
 
                 <div className="card-havefun">
+                    <h1 className="h1-havefun">OraculoApp</h1>
+                    <p className="p-card">Una aplicacion a la cual puedes hacerle preguntas 
+                    para sabar mas sobre tu destino</p>
+                    <div className="button-havefun">
+                        <a className="a-card" href="havefun/yesornotapp">visitar</a>
+                    </div>
+                </div>
+
+                <div className="card-havefun">
                     <h1 className="h1-havefun">rickosoApp</h1>
                     <p className="p-card">Relajate un rato y ponte rickoso mientras buscas informacion
                         sobre tus personajes favoritos de rick y morty</p>
@@ -45,15 +54,6 @@ function FunHome() {
                         te brinda la informacion de la mayoria de los pokemon gracias a la pokeapi</p>
                     <div className="button-havefun">
                         <a className="a-card" href="havefun/pokeapp">visitar</a>
-                    </div>
-                </div>
-
-                <div className="card-havefun">
-                    <h1 className="h1-havefun">OraculoApp</h1>
-                    <p className="p-card">Una aplicacion a la cual puedes hacerle preguntas 
-                    para sabar mas sobre tu destino</p>
-                    <div className="button-havefun">
-                        <a className="a-card" href="havefun/yesornotapp">visitar</a>
                     </div>
                 </div>
 
