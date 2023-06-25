@@ -108,6 +108,11 @@ function Archivos(){
              <p className="content-curso">El cuarto elemento muestra quien es el propietario 
              y al crear un archivo el propietario por defecto es el usuario que lo creo 
              aunque esto puede ser cambiado</p>
+
+             <h1 className="title1">Grupo propietario del archivo</h1>
+
+             <p className="content-curso">El quinto elemento muestra el grupo al que 
+             pertenece el propietario del archivo</p>
              
 
         </div>
