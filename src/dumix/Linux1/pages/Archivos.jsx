@@ -109,6 +109,10 @@ function Archivos(){
              y al crear un archivo el propietario por defecto es el usuario que lo creo 
              aunque esto puede ser cambiado</p>
 
+             <div className="div-code">
+                <p className="code-simple">drwxr-xr-x 2 <span className="key-word">steve</span> steve 4096 abr 22 21:47</p>
+             </div>
+
              <h1 className="title1">Grupo propietario del archivo</h1>
 
              <p className="content-curso">El quinto elemento muestra el grupo al que 
