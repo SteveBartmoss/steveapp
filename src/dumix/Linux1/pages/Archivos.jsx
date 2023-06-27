@@ -130,6 +130,10 @@ function Archivos(){
              no se muestran en kilobytes porque seria un numero muy grande y en ese caso se 
              mutesra en otra unidad de medida</p>
 
+             <div className="div-code">
+                <p className="code-simple">drwxr-xr-x 2 steve steve <span className="key-word">4096</span> abr 22 21:47</p>
+             </div>
+
         </div>
     );
 }
