@@ -118,6 +118,9 @@ function Archivos(){
              <p className="content-curso">El quinto elemento muestra el grupo al que 
              pertenece el propietario del archivo</p>
              
+             <div className="div-code">
+                <p className="code-simple">drwxr-xr-x 2 steve <span className="key-word">steve</span> 4096 abr 22 21:47</p>
+             </div>
 
         </div>
     );
