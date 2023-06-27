@@ -123,6 +123,13 @@ function Archivos(){
                 <p className="code-simple">drwxr-xr-x 2 steve <span className="key-word">steve</span> 4096 abr 22 21:47</p>
              </div>
 
+             <h1 className="title1">Tamaño del archivo</h1>
+             
+             <p className="content-curso">El sexto elemento muestra el tamaño del archivo y 
+             en este caso puede variar la forma en que se muestra ya que elementos muy grandes
+             no se muestran en kilobytes porque seria un numero muy grande y en ese caso se 
+             mutesra en otra unidad de medida</p>
+
         </div>
     );
 }
