@@ -116,7 +116,8 @@ function Archivos(){
              <h1 className="title1">Grupo propietario del archivo</h1>
 
              <p className="content-curso">El quinto elemento muestra el grupo al que 
-             pertenece el propietario del archivo</p>
+             pertenece el propietario del archivo y este al igual que el propietario se 
+             asigna por defecto el grupo del usuario que creo el documento</p>
              
              <div className="div-code">
                 <p className="code-simple">drwxr-xr-x 2 steve <span className="key-word">steve</span> 4096 abr 22 21:47</p>
