@@ -22,7 +22,7 @@ function FooterHave() {
             <div className="item-grid">
                 <h1 className="title1">Contacto</h1>
                 <p className="Content">stevechambitas@gmai.com</p>
-
+                <a>mail</a>
                 <h1 className="title1">Githud</h1>
                 <h1 className="title1">Youtube</h1>
                 <h1 className="title1">Power by Giphy</h1>
