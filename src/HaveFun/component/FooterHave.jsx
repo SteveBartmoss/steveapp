@@ -24,8 +24,11 @@ function FooterHave() {
                 <p className="Content">stevechambitas@gmai.com</p>
                 <a>mail</a>
                 <h1 className="title1">Githud</h1>
+                <a>Githud</a>
                 <h1 className="title1">Youtube</h1>
+                <a>Youtube</a>
                 <h1 className="title1">Power by Giphy</h1>
+                <a>Giphy</a>
             </div>
         </div>
     );
