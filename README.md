@@ -55,6 +55,10 @@ Ya se completo la descripcion de la estrucutra de directorios del sistema linux,
 
 Se completo la funcionalidad de la aplicacion gifapp a un 90% lo cual es un porcentaje suficiente para poder cerrar la etapa de desarrollo y empezar dar estilos a la aplicacion para que tenga una mejor presentacion, se estara trabajando en este ultimo apartado. Se completo el tema de directorios en el apartado dumix y tambien se agregaron algunos elementos de estilo al curso como el cambio del fondo, nuevas divisiones entre temas y tambien un tamano de fuente diferente para los titulos, se estara trabajando en el proximo tema que es archivos.
 
+### `28/06/2023`
+
+Se completo una nueva funcion en la cual se puede hacer preguntas como si de una bola magica se tratara, se mejoraron algunos estilos del curso de linux para que se vea mejor en pantalla de resolucion mayor a las 14 pulgadas, en las proximas semana se generara los builds de produccion para que se pueda desplegar la nueva aplicacion.
+
 ## Libre uso
 
 No es un codigo tan bueno pero si alguna implementacion te sirve como referencia o quizas soluciona tu problema puedes usarlo sin ningun problema.
