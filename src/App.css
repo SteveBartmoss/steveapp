@@ -728,6 +728,10 @@
   margin: none;
 }
 
+.contacto{
+  text-decoration: none;
+}
+
 .line {
   height: 2px;
   background-color: #005b99;
