@@ -21,7 +21,7 @@ function FooterHave() {
             </div>
             <div className="item-grid">
                 <h1 className="title1">Contacto</h1>
-                <a>Conrreo</a>
+                <p className="Content">Enviame un <a href="mailto:stevechanvitas@gmail.com">Correo</a></p>
                 <h1 className="title1">Githud</h1>
                 <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
                 <h1 className="title1">Youtube</h1>
