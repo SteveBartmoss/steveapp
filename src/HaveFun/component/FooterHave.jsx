@@ -21,14 +21,13 @@ function FooterHave() {
             </div>
             <div className="item-grid">
                 <h1 className="title1">Contacto</h1>
-                <p className="Content">stevechambitas@gmai.com</p>
                 <a>mail</a>
                 <h1 className="title1">Githud</h1>
                 <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
                 <h1 className="title1">Youtube</h1>
                 <a href="https://www.youtube.com/@stevechambitas2782">Youtube</a>
                 <h1 className="title1">Power by Giphy</h1>
-                <a>Giphy</a>
+                <a href="https://giphy.com/">Giphy</a>
             </div>
         </div>
     );
