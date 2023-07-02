@@ -753,6 +753,8 @@
 /*estilo de la terminal*/
 
 .cli{
+  width: 800px;
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
