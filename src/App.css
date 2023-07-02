@@ -730,6 +730,10 @@
 
 .contacto{
   text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
 }
 
 .line {
