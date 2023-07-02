@@ -5,7 +5,7 @@ function Presentacion(){
         <div className="div-curso">
 
             <center>
-                <h1 className="title1">Hola a todos</h1>
+                <h1 className="title-subject">Hola a todos</h1>
             </center>
 
             <hr className="line"/>
@@ -29,7 +29,7 @@ function Presentacion(){
             porque en este curso solo se mostraran comandos con la sintaxis de linux.</p>
 
             <center>
-                <h1 className="title1">¿De que sirve aprender Linux?</h1>
+                <h1 className="title-subject">¿De que sirve aprender Linux?</h1>
             </center>
 
             <p className="content-curso">Para la mayoria de las personas solo existe un sistema operativo que es 
