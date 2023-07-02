@@ -3,7 +3,10 @@ import React from "react";
 function Archivos(){
     return(
         <div className="div-curso">
-            <h1 className="title-subject">Archivos</h1>
+
+            <div className="center">
+                <h1 className="title-subject">Archivos</h1>
+            </div>
 
             <hr className="line"/>
 
