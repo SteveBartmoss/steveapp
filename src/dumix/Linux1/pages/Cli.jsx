@@ -66,7 +66,9 @@ function Cli(){
             entonces logro abrir con exito nuna nueva terminal
             </p>
 
-            <h1 className="title-subject">El promp de la terminal</h1>
+            <div className="center">
+                <h1 className="title-subject">El promp de la terminal</h1>
+            </div>
 
             <p className="content-curso">Al abrir la terminal notaras que hay unas palabras escritas bueno eso
             es lo que normalmente llamamos promp que es los que marca la posicion del cursor en la pantalla 
