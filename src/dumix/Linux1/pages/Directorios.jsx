@@ -5,7 +5,7 @@ function Directorio(){
         <div className="div-curso">
 
            <div className="center">
-            <h1 className="title-subject">Directorios</h1>
+                <h1 className="title-subject">Directorios</h1>
            </div>
 
            <hr className="line"/>
@@ -54,7 +54,9 @@ function Directorio(){
                 </div>
             </div>
 
-            <h1 className="title-subject">Tipos de directorios</h1>
+            <div className="center">
+                <h1 className="title-subject">Tipos de directorios</h1>
+            </div>
 
             <p className="content-curso">Si bien la mayoria de los directorios se tratan de
             carpetas no todas cumplen con la misma funcion o tiene los mismo permisos
@@ -230,7 +232,9 @@ function Directorio(){
            directorio usr que hace referencia user de esta manera los nombres hacen referencia a que funcion 
            cumple</p>
 
-           <h1 className="title-subject">Imprimir el direcotorio de trabajo</h1>
+           <div className="center">
+                <h1 className="title-subject">Imprimir el direcotorio de trabajo</h1>
+           </div>
 
            <p className="Content">Conocer el directorio en el que uno se encuentra puede ser de utilidad 
            y aunque el promp puede indicar el directorio, tambien es posible que no lo haga ya que se 
@@ -259,7 +263,9 @@ function Directorio(){
             inicia una nueva terminal ya que suele ser donde se encuentran los archivos del usuario y por 
             esta razon se inicia por defecto en esta ruta.</p>
 
-            <h1 className="title-subject">Cambiar el directorio</h1>
+            <div className="center">
+                <h1 className="title-subject">Cambiar el directorio</h1>
+            </div>
 
             <p className="Content">Ahora que ya sabemos imprimir el trabajo podemos querer cambiar el 
             directorio en el que nos encontramos y esto puede ser por diversas rasones como por ejemplo 
@@ -294,7 +300,9 @@ function Directorio(){
              completa ya que en el ejemplo estamos dentro de home y la ruta de home es /home/steve 
              y el directorio a que se accede esta dentro del direcotrio steve.</p>
 
-             <h1 className="title-subject">Atajos para direcctorios</h1>
+             <div className="center">
+                <h1 className="title-subject">Atajos para direcctorios</h1>
+             </div>
 
              <h1 className="title1">Punto .</h1>
 
