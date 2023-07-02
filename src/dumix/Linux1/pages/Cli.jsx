@@ -5,7 +5,7 @@ function Cli(){
         <div className="div-curso">
 
             <div className="center">
-                <h1 className="title1">¿Que es CLI?</h1>
+                <h1 className="title-subject">¿Que es CLI?</h1>
             </div>
 
             <hr className="line"/>
@@ -28,7 +28,7 @@ function Cli(){
             </p>
 
             <div className="center">
-                <h1 className="title1">¿Porque usar un cli?</h1>
+                <h1 className="title-subject">¿Porque usar un cli?</h1>
             </div>
             
 
@@ -66,7 +66,7 @@ function Cli(){
             entonces logro abrir con exito nuna nueva terminal
             </p>
 
-            <h1 className="title1">El promp de la terminal</h1>
+            <h1 className="title-subject">El promp de la terminal</h1>
 
             <p className="content-curso">Al abrir la terminal notaras que hay unas palabras escritas bueno eso
             es lo que normalmente llamamos promp que es los que marca la posicion del cursor en la pantalla 
