@@ -4,7 +4,7 @@ function Sintaxis(){
     return(
         <div className="div-curso">
 
-            <h1 className="title1">Sintaxis de los comandos</h1>
+            <h1 className="title-subject">Sintaxis de los comandos</h1>
 
             <hr className="line"/>
 
@@ -66,7 +66,7 @@ function Sintaxis(){
             o que no tienen opciones en el ejemplo mostrado al inicio se ejecuto el comando sin usar ningun agumento
             y por eso mostro la salida anterior.</p>
 
-            <h1 className="title1">Argumentos</h1>
+            <h1 className="title-subject">Argumentos</h1>
             
             <p className="content-curso">Los argumentos se usan para que el comando sepa sobre que archivo trabajara
             y en general se puede especificar diferentes elementos como argumento, en el ejemplo anterior se
@@ -91,7 +91,7 @@ function Sintaxis(){
             el mismo archivo de texto por lo que es mejor usar como parametro un fichero para mostrar el contenido
             del mismo</p>
 
-            <h1 className="title1">Opciones</h1>
+            <h1 className="title-subject">Opciones</h1>
 
             <p className="content-curso">Las opciones de un comando pueden modificar la informacion que muestra o tambien
             se puede decir que cambian la salida del comando, en los ejemplos anteriores se usaba el comando ls no 
