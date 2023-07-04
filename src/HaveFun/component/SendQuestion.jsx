@@ -19,7 +19,7 @@ function SendQuestion({onNewQuestion}){
         <div className="div-input">
             <form onSubmit={(event)=>onSumit(event)}>
                 <input type="text" className="gif-search"
-                placeholder="aks me a question"
+                placeholder="why are you here?"
                 value={inputValue}
                 onChange={(event)=>onInputChange(event)}
                 />
