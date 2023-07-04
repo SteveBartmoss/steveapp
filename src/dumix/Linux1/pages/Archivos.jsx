@@ -141,6 +141,10 @@ function Archivos(){
 
              <p className="content-curso">El septimo elemento muestra la hora </p>
 
+             <div className="div-code">
+                <p className="code-simple">drwxr-xr-x 2 steve steve 4096 <span className="key-word">abr 22 21:47</span></p>
+             </div>
+
         </div>
     );
 }
