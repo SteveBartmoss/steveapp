@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SendQuestion from "../component/SendQuestion";
 import { getOracle } from "../helpers/getOracle";
 import FooterHave from "../component/FooterHave";
@@ -37,8 +37,6 @@ function YesOrNot(){
                 <SendQuestion onNewQuestion={event=>onAddQuestion(event)} />
                 { isQuestion ? ( <OracleAnswer res={answer.res} url={answer.url} ques={question}/>): <h1 className="gif-title1">Ask me someting :D</h1>
                 }
-                
-                
             </div>
 
             <FooterHave />
