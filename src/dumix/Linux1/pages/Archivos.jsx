@@ -139,7 +139,9 @@ function Archivos(){
 
              <h1 className="title1">Marca de tiempo</h1>
 
-             <p className="content-curso">El septimo elemento muestra la hora </p>
+             <p className="content-curso">El septimo elemento muestra la hora  y la fecha 
+             de la ultima modificacion del archivo, en el caso de los archivos que se crearon 
+             recientemente entonces solo mostrara la fecha de creacion del archivo</p>
 
              <div className="div-code">
                 <p className="code-simple">drwxr-xr-x 2 steve steve 4096 <span className="key-word">abr 22 21:47</span></p>
