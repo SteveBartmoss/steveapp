@@ -2,12 +2,13 @@ import React, { useEffect, useState } from "react";
 import SendQuestion from "../component/SendQuestion";
 import { getOracle } from "../helpers/getOracle";
 import FooterHave from "../component/FooterHave";
+import OracleAnswer from "../component/OracleAnswer";
 
 function YesOrNot(){
 
     const [question, setQuestion]=useState('');
 
-    const [isQuestion, setIsQuestion]=useState(true);
+    const [isQuestion, setIsQuestion]=useState(false);
 
     const [answer, setAnswer]=useState({
         res: '',
@@ -25,7 +26,7 @@ function YesOrNot(){
         const newAnswer=await getOracle();
         //console.log(newAnswer);
         setAnswer(prevState=>({...prevState,res: newAnswer.answer, forced: newAnswer.forced, url: newAnswer.image }));
-        setIsQuestion(false);
+        setIsQuestion(true);
         //console.log(answer);
     }
 
@@ -34,13 +35,10 @@ function YesOrNot(){
             <div className="gif-div">
                 <h1 className="gif-title1">Yes or Not</h1>
                 <SendQuestion onNewQuestion={event=>onAddQuestion(event)} />
-                { isQuestion ? (<h1 className="gif-title1">Ask me someting :D</h1>): null
+                { isQuestion ? ( <OracleAnswer res={answer.res} url={answer.url} ques={question}/>): <h1 className="gif-title1">Ask me someting :D</h1>
                 }
-                <h1 className="gif-title1">{question}</h1>
-                <h1 className="gif-title1">{answer.res}</h1>
-                <div className="div-answer">
-                    <img className="oracle-answer" src={answer.url} alt="Ask me Question"/>
-                </div>
+                
+                
             </div>
 
             <FooterHave />
