@@ -147,6 +147,8 @@ function Archivos(){
                 <p className="code-simple">drwxr-xr-x 2 steve steve 4096 <span className="key-word">abr 22 21:47</span></p>
              </div>
 
+             <h1 className="title1">Ordenar archivos listados</h1>
+
         </div>
     );
 }
