@@ -152,6 +152,10 @@ function Archivos(){
              <p className="content-curso">El octavo elemento muestra el nombre del archivo/
              directorio y tambien la extension del archivo</p>
 
+             <div className="div-code">
+                <p className="code-simple">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="key-word">Videos</span></p>
+             </div>
+
              <h1 className="title1">Ordenar archivos listados</h1>
 
         </div>
