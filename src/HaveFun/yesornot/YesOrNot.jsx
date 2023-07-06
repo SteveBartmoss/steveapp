@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState } from "react";
 import SendQuestion from "../component/SendQuestion";
 import { getOracle } from "../helpers/getOracle";
 import FooterHave from "../component/FooterHave";
