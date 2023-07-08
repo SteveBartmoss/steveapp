@@ -166,6 +166,8 @@ function Archivos(){
 
              <h1 className="title1">Ordenar archivos listados</h1>
 
+             <p className="content-curso">Cuando listamos archivos se ordenan de manera 
+             alfabetica ya que este es el modo predeterminado del comando ls</p>
         </div>
     );
 }
