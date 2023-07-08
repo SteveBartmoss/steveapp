@@ -160,6 +160,10 @@ function Archivos(){
              nombre tiene una flecha que apunta hacia el archivo o directorio al que 
              se refiere el archivo simbolico</p>
 
+             <div className="div-code">
+                <p className="code-simple">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 /etc/grub.conf <span className="key-word">-{">"}</span>../boot/grub.conf</p>
+             </div>
+
              <h1 className="title1">Ordenar archivos listados</h1>
 
         </div>
