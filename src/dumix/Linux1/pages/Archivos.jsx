@@ -156,6 +156,10 @@ function Archivos(){
                 <p className="code-simple">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="key-word">Videos</span></p>
              </div>
 
+             <p className="content-curso">En el caso de los enlaces simbolicos el 
+             nombre tiene una flecha que apunta hacia el archivo o directorio al que 
+             se refiere el archivo simbolico</p>
+
              <h1 className="title1">Ordenar archivos listados</h1>
 
         </div>
