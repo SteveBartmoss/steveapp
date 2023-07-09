@@ -68,7 +68,7 @@ function Archivos(){
              todos los archivos son del tipo directorio pero esto cambia segun el contenido 
              del direcctorio en que se ejecuta el comando.</p>
 
-             <div className="div-code">
+             <div className="div-code-long">
                 <p className="code-simple"><span className="key-word">d</span>rwxr-xr-x 2 steve steve 4096 abr 22 21:47</p>
              </div>
 
