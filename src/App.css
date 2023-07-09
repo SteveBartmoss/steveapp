@@ -780,6 +780,13 @@
   background-color: lightgray;
 }
 
+.div-code-long{
+  margin: auto;
+  width: 600px;
+  background-color: lightgray;
+  text-align: center;
+}
+
 .code-simple{
   font-family: 'Iconsolata', monospace;
   font-size: 20px;
