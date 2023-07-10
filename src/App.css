@@ -783,7 +783,7 @@
 .div-code-long{
   margin: auto;
   width: 600px;
-  background-color: lightgray;
+  background-color: var(--gris-9);
   text-align: center;
 }
 
