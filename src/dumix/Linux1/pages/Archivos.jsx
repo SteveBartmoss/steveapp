@@ -92,7 +92,7 @@ function Archivos(){
              archivo y esto nos permite modificar el archivo, solo abrir en modo lectura 
              o si es el caso de ejecutar el archivo.</p>
 
-             <div className="div-code">
+             <div className="div-code-long">
                 <p className="code-simple">d<span className="key-word">rwxr-xr-x</span> 2 steve steve 4096 abr 22 21:47</p>
              </div>
 
@@ -102,7 +102,7 @@ function Archivos(){
              directos hacia el archivo que se listo, estos se pueden ver como apuntadores 
              hacia la ubicacion del archivo.</p>
 
-             <div className="div-code">
+             <div className="div-code-long">
                 <p className="code-simple">drwxr-xr-x <span className="key-word">2</span> steve steve 4096 abr 22 21:47</p>
              </div>
 
@@ -112,7 +112,7 @@ function Archivos(){
              y al crear un archivo el propietario por defecto es el usuario que lo creo 
              aunque esto puede ser cambiado</p>
 
-             <div className="div-code">
+             <div className="div-code-long">
                 <p className="code-simple">drwxr-xr-x 2 <span className="key-word">steve</span> steve 4096 abr 22 21:47</p>
              </div>
 
@@ -122,7 +122,7 @@ function Archivos(){
              pertenece el propietario del archivo y este al igual que el propietario se 
              asigna por defecto el grupo del usuario que creo el documento</p>
              
-             <div className="div-code">
+             <div className="div-code-long">
                 <p className="code-simple">drwxr-xr-x 2 steve <span className="key-word">steve</span> 4096 abr 22 21:47</p>
              </div>
 
