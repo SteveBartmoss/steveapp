@@ -11,6 +11,7 @@ function RickosoNavBar(){
                     <li>Locaciones</li>
                     <li>Episodios</li>
                 </div>
+                <Outlet />
             </div>
         </div>
         </>
