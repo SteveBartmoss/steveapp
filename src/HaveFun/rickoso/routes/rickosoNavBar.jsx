@@ -17,4 +17,4 @@ function RickosoNavBar(){
     );
 }
 
-export default RickosoNavbar;
+export default RickosoNavBar;
