@@ -4,7 +4,11 @@ function HomeLabs(){
     return(
         <>
             <h1 className="title1">Steve Labs</h1>
-            <h1 className="title1">Comienza a aprender</h1>
+
+            <div className="center">
+                <h1 className="title1">Comienza a aprender</h1>
+            </div>
+
             <div>
                 <div>
                     <h1 className="title1">Primeros pasos en programacion</h1>
