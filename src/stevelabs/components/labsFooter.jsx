@@ -5,10 +5,11 @@ function LabsFooter(){
         <div className="div-about">
 
             <h1 className="title1">¿Programar es dificil?</h1>
-            <p className="Content">Ya que mis habilidades para apoyar al desarrollo del codigo abierto
-            no son las mejores y mi tiempo es limitado, cree este apartado en mi pagina para poder compartir
-            tutoriales para que la gente pueda introducirse a los comandos de linux de manera facil y perder
-            el miedo de usar la terminal.</p>
+            <p className="Content">La respuesta corta es si pero no solo debemos quedarnos con 
+            eso ya que esto puede variar mucho dependiendo de lo que queremos hacer
+            ya que existen algoritmos bastantes complejos pero que no siempre debemos 
+            imeplementar, ya que en muchos casos la programacion que usaremos no sera tan compleja
+            pero si pueden ser bastantes lineas de codgio las que se utilizen en una aplicacion.</p>
             <p className="Content">Por el momento solo se contaran con comandos basicos que se deben aprender 
             en linux pero con suerte la pagina contara con mas tutoriales y espero en algun momento obtener el 
             apoyo de personas mejor calificadas en el tema para poder ofrecer mejores conocmientos pero por ahora
@@ -26,7 +27,7 @@ function LabsFooter(){
 
             <hr className="about-line"></hr>
 
-            <h1 className="title1">Linux esta en todos lados</h1>
+            <h1 className="title1">La programacion esta en todos lados</h1>
 
             <p className="Content">Aunque no lo paresca linux es muy popular en las empresas y de hecho si tienes 
             un telefono con sistema android esta usando un sistema operativo basado en linux sin saberlo, ademas del 
