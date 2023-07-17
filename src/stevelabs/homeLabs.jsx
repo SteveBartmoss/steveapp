@@ -1,4 +1,5 @@
 import React from "react";
+import LabsAbout from "./components/labsAbout";
 
 function HomeLabs(){
     return(
@@ -19,6 +20,8 @@ function HomeLabs(){
                 </div>
                 
             </div>
+
+            <LabsAbout />
         </>
         
     );
