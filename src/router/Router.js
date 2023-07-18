@@ -42,11 +42,11 @@ function Router(){
 
                     <Route path="dumix/*" element={<RoutesDumix/>}/>
 
+                    <Route path="web" element={<WebHome/>} />
+
                     <Route path="havefun" element={<FunHome/>}/>
 
                     <Route path="havefun/*" element={<HaveFunRouter />} />
-
-                    <Route path="stevelabs" element={<HomeLabs />} />
 
                 </Routes>
 
