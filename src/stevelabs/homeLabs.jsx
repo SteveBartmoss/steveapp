@@ -18,6 +18,7 @@ function HomeLabs(){
                      ya que esta orientado a personas que comienzan a programar por lo cual no 
                      se esperan muchos conocimientos por parte de las personas que toman el curso 
                      el lenguaje que se utiliza sera c</p>
+                     <a href="#">Ir al curso</a>
                 </div>
                 
                 <div className="div-topic">
@@ -26,8 +27,9 @@ function HomeLabs(){
                     creados por un colaborador, los temas tratados seran sobre desarrollo de paginas 
                     web y que permitiran tener informacion sobre este tipo de temas
                     </p>
+                    <a href="#">Ver articulos</a>
                 </div>
-                
+
 
             </div>
 
