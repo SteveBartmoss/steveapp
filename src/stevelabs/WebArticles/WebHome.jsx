@@ -1,5 +1,5 @@
 import React from "react";
-import DivBaner from "../component/DivBaner";
+import DivBaner from "../../component/DivBaner";
 import WebAbout from "./pages/WebAbout";
 import { NavLink } from "react-router-dom";
 
