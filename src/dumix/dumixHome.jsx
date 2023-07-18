@@ -48,7 +48,7 @@ function DumixHome() {
                     <p className="Content">Una recopilacion de las mejores aplicaciones que se pueden usar
                         en la terminal y que resultan bastante utiles cuando se esta interactuando con la
                         consola de linux</p>
-                    <div>
+                    <div className="center">
                         <a className="dumix-btn" href="dumix/terminalapps">Ir al post</a>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function DumixHome() {
                     <p className="Content">Empezar a utilizar vim no es facil pero en esta seccion se encuentran
                         tutoriales o consejos que pueden hacer mas facil el cambio a este tipo de aplicaciones
                         y puede que al final te convence y se convierte en tu editor predilecto</p>
-                    <div>
+                    <div className="center">
                         <a className="dumix-btn" href="dumix/vimgg">Ir al post</a>
                     </div>
 
