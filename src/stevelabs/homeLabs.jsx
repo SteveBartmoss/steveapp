@@ -20,6 +20,15 @@ function HomeLabs(){
                      el lenguaje que se utiliza sera c</p>
                 </div>
                 
+                <div className="div-topic">
+                    <h1 className="title1">Web developer</h1>
+                    <p className="Content">En este apartado puede consultar los articulos que fueron
+                    creados por un colaborador, los temas tratados seran sobre desarrollo de paginas 
+                    web y que permitiran tener informacion sobre este tipo de temas
+                    </p>
+                </div>
+                
+
             </div>
 
             <LabsAbout />
