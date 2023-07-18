@@ -16,7 +16,8 @@ function HomeLabs(){
                     <h1 className="title1">Primeros pasos en programacion</h1>
                     <p className="Content">En este curso se abordan temas basicos de programacion
                      ya que esta orientado a personas que comienzan a programar por lo cual no 
-                     se esperan muchos conocimientos por parte de las personas que toman el curso</p>
+                     se esperan muchos conocimientos por parte de las personas que toman el curso 
+                     el lenguaje que se utiliza sera c</p>
                 </div>
                 
             </div>
