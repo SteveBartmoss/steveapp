@@ -10,10 +10,10 @@ function LabsAbout(){
             ya que existen algoritmos bastantes complejos pero que no siempre debemos 
             imeplementar, ya que en muchos casos la programacion que usaremos no sera tan compleja
             pero si pueden ser bastantes lineas de codgio las que se utilizen en una aplicacion.</p>
-            <p className="Content">Por el momento solo se contaran con comandos basicos que se deben aprender 
-            en linux pero con suerte la pagina contara con mas tutoriales y espero en algun momento obtener el 
-            apoyo de personas mejor calificadas en el tema para poder ofrecer mejores conocmientos pero por ahora
-            este es un pequeño aporte para la comunidad</p>
+            <p className="Content">En el curos de primeros pasos se mostraran implementaciones simples
+            de codigo que permitiran al usuario tener una primer experiencia con la programacion que no
+            sea tan abrumadora y que pemrita ter un poco mas de confianza, para poder tomar mayores retos 
+            que permitan obtener mejores conocimientos para implementaciones mas complejas.</p>
 
             <hr className="about-line"></hr>
 
