@@ -409,7 +409,7 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   /*background-color: #244e4f;*/
-  background-color: #010626;
+  background-color: black;
   column-gap: 10px;
   /*margin-left: 10px;*/
   /*margin-right: 10px;*/
@@ -451,7 +451,7 @@
 }
 
 .div-lateral{
-  background-color: #010626;
+  background-color: black;
   padding: 10px;
 }
 
