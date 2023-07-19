@@ -7,7 +7,7 @@ const WebRoutes = () => {
   return (
     <div>
          <Routes>
-                <Route path="/opinion1" element={< Opinion1/>} />
+                <Route path="opinion1" element={<Opinion1 />} />
          </Routes>
       
     </div>
