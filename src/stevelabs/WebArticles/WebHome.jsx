@@ -27,7 +27,7 @@ const WebHome = () => {
 
             <div className="center">
             
-            <NavLink to="/opinion1"><button className="dumix-btn" type="button"> Ir al articulo</button></NavLink>
+            <NavLink to="opinion1"><button className="dumix-btn" type="button"> Ir al articulo</button></NavLink>
             </div>
             
         </div>
