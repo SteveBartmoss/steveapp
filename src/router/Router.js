@@ -16,6 +16,7 @@ import HaveFunRouter from "../HaveFun/routes/RouterHaveFun";
 import HomeLabs from "../stevelabs/homeLabs";
 import WebAbout from "../stevelabs/WebArticles/pages/WebAbout";
 import WebHome from "../stevelabs/WebArticles/WebHome";
+import WebRoutes from "../stevelabs/WebArticles/routes/WebRoutes";
 
 function Router(){
     return(
@@ -44,7 +45,6 @@ function Router(){
 
                     <Route path="dumix/*" element={<RoutesDumix/>}/>
 
-
                     <Route path="havefun" element={<FunHome/>}/>
 
                     <Route path="havefun/*" element={<HaveFunRouter />} />
@@ -52,6 +52,8 @@ function Router(){
                     <Route path="stevelabs" element={<HomeLabs/>} />
 
                     <Route path="webdeveloper" element={<WebHome />} />
+
+                    <Route path="webdeveloper/*" element={<WebRoutes />} />
 
                 </Routes>
 
