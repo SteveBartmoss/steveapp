@@ -1,44 +1,61 @@
 import React from "react";
 
-function LabsAbout(){
-    return(<>
+function LabsAbout() {
+    return (<>
         <div className="div-about">
 
             <h1 className="title1">¿Programar es dificil?</h1>
-            <p className="Content">La respuesta corta es si pero no solo debemos quedarnos con 
-            eso ya que esto puede variar mucho dependiendo de lo que queremos hacer
-            ya que existen algoritmos bastantes complejos pero que no siempre debemos 
-            imeplementar, ya que en muchos casos la programacion que usaremos no sera tan compleja
-            pero si pueden ser bastantes lineas de codgio las que se utilizen en una aplicacion.</p>
+            <p className="Content">La respuesta corta es si pero no solo debemos quedarnos con
+                eso ya que esto puede variar mucho dependiendo de lo que queremos hacer
+                ya que existen algoritmos bastantes complejos pero que no siempre debemos
+                imeplementar, ya que en muchos casos la programacion que usaremos no sera tan compleja
+                pero si pueden ser bastantes lineas de codgio las que se utilizen en una aplicacion.</p>
             <p className="Content">En el curos de primeros pasos se mostraran implementaciones simples
-            de codigo que permitiran al usuario tener una primer experiencia con la programacion que no
-            sea tan abrumadora y que pemrita ter un poco mas de confianza, para poder tomar mayores retos 
-            que permitan obtener mejores conocimientos para implementaciones mas complejas.</p>
+                de codigo que permitiran al usuario tener una primer experiencia con la programacion que no
+                sea tan abrumadora y que pemrita ter un poco mas de confianza, para poder tomar mayores retos
+                que permitan obtener mejores conocimientos para implementaciones mas complejas.</p>
 
             <hr className="about-line"></hr>
 
             <h1 className="title1">¿Porque deberia aprender a programar?</h1>
 
             <p className="Content">Si no eres un usuario que esta enfocado a la informartica, las ingenierias de
-            computacion o ciencias puede que no sea una gran herramienta, no lo mal interpretes no es malo que aprendas
-            linux pero siendo un usario comun de computadora no obtendras una herramienta tan util pero es bueno conocer
-            una alternativa al tipico sistema operativo windows
+                computacion o ciencias puede que no sea una gran herramienta, no lo mal interpretes no es malo que aprendas
+                linux pero siendo un usario comun de computadora no obtendras una herramienta tan util pero es bueno conocer
+                una alternativa al tipico sistema operativo windows
             </p>
 
             <hr className="about-line"></hr>
 
             <h1 className="title1">La programacion esta en todos lados</h1>
 
-            <p className="Content">Aunque no lo paresca linux es muy popular en las empresas y de hecho si tienes 
-            un telefono con sistema android esta usando un sistema operativo basado en linux sin saberlo, ademas del 
-            ejemplo anterior muchas empresas de servicio de hosting o cloud utilizan sistemas de linux para sus
-            plataformas porque es un sistemas muy eficiente y bastante estable
+            <p className="Content">Aunque no lo paresca linux es muy popular en las empresas y de hecho si tienes
+                un telefono con sistema android esta usando un sistema operativo basado en linux sin saberlo, ademas del
+                ejemplo anterior muchas empresas de servicio de hosting o cloud utilizan sistemas de linux para sus
+                plataformas porque es un sistemas muy eficiente y bastante estable
             </p>
+
+            <div className="gif-footer">
+                <div className="footer-item">
+                    <h1 className="title1">Importante</h1>
+                    <p className="Content">Esta seccion es creada con el fin de compartir informacion
+                        con otros usuarios o personas que quieren empezar en el mundo de linux pero
+                        no proviene de un maestro o de alguien que cuenta con un doctorado en ciencias 
+                        de la computacion o carreras a fin,</p>
+                </div>
+                <div className="item-grid">
+                    <h1 className="title1">Contacto</h1>
+                    <p className="contacto">Enviame un <a className="contacto" href="mailto:stevechanvitas@gmail.com">Correo</a></p>
+                    <a className="contacto" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
+                    <a className="contacto" href="https://www.youtube.com/@stevechambitas2782">Youtube</a>
+                    <h1 className="title1">Power by <a className="contacto" href="https://giphy.com/">Giphy</a></h1>
+                </div>
+            </div>
 
         </div>
 
-        </>
-        );
+    </>
+    );
 }
 
 export default LabsAbout;
