@@ -14,6 +14,8 @@ import RoutesDumix from "../dumix/routes/dumixRoutes";
 import FunHome from "../HaveFun/FunHome";
 import HaveFunRouter from "../HaveFun/routes/RouterHaveFun";
 import HomeLabs from "../stevelabs/homeLabs";
+import WebAbout from "../stevelabs/WebArticles/pages/WebAbout";
+import WebHome from "../stevelabs/WebArticles/WebHome";
 
 function Router(){
     return(
@@ -48,6 +50,8 @@ function Router(){
                     <Route path="havefun/*" element={<HaveFunRouter />} />
 
                     <Route path="stevelabs" element={<HomeLabs/>} />
+
+                    <Route path="webdeveloper" element={<WebHome />} />
 
                 </Routes>
 
