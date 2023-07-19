@@ -31,7 +31,7 @@ function HomeLabs() {
                         web y que permitiran tener informacion sobre este tipo de temas
                     </p>
                     <div className="center">
-                        <a className="dumix-btn" href="#">Ver articulos</a>
+                        <a className="dumix-btn" href="webdeveloper">Ver articulos</a>
                     </div>
                 </div>
 
