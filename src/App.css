@@ -936,6 +936,14 @@
   text-align: justify;
 }
 
+/*articulos web*/
+
+.main-title{
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: white;
+}
+
 /*media query 576 */
 
 @media(max-width: 576px){
