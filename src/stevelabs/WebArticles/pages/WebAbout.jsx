@@ -7,7 +7,7 @@ const WebAbout = () => {
             <div className="div-about">
 
                 <div className="center">
-                    <h1 className="title1">¿Que es web (nombre provisional)? </h1>
+                    <h1 className="title1">¿Que es Web Developer? </h1>
                 </div>
                 <p className="Content">Ultimamente se a estado haciendo muy popular elo desarrollo web en la industria, y no es para menos,
                     hoy en dia practicamente cualquier empresa tiene una pagina web por mas basica que sea sumado al hecho de que debido al estudios emos aprendido
@@ -37,6 +37,23 @@ const WebAbout = () => {
                     Así que no es de extrañar que la nube se vaya a convertir en un estándar.
                 </p>
 
+            </div>
+
+            <div className="gif-footer">
+                <div className="footer-item">
+                    <h1 className="title1">Importante</h1>
+                    <p className="Content">Esta seccion es creada con el fin de compartir informacion
+                        con otros usuarios o personas que quieren empezar en el mundo de linux pero
+                        no proviene de un maestro o de alguien que cuenta con un doctorado en ciencias
+                        de la computacion o carreras a fin,</p>
+                </div>
+                <div className="item-grid">
+                    <h1 className="title1">Contacto</h1>
+                    <p className="contacto">Enviame un <a className="contacto" href="mailto:stevechanvitas@gmail.com">Correo</a></p>
+                    <a className="contacto" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
+                    <a className="contacto" href="https://www.youtube.com/@stevechambitas2782">Youtube</a>
+                    <h1 className="title1">Power by <a className="contacto" href="https://giphy.com/">Giphy</a></h1>
+                </div>
             </div>
 
         </>
