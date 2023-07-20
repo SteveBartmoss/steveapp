@@ -5,7 +5,7 @@ const Opinion1 = () => {
     <>
     <div className="div-about">
 
-         <h1 className="main-title">Herramientas que debes de aprender, si quieres desarrollar aplicaciones web en los próximos años.</h1>
+         <h1 className="main-title">Herramientas que debes de aprender, si quieres desarrollar aplicaciones web en los próximos años</h1>
          <hr className="line"/>
 
          <p className="content-curso">Ciertamente el desarrollo web siempre ha sido popular entre los programadores, desde que el internet comenzó a ser una herramienta mas usada a nivel global, a un punto donde en muchos países se considera por las personas comunes como una necesidad, como si se tratara de agua potable o energía eléctrica.</p>
@@ -16,7 +16,7 @@ const Opinion1 = () => {
 
          <p className="content-curso"> Una respuesta que tiene muchas vertientes, pero que este articulo te tratare de guiar hacia la mejor respuesta, ojo, la mejor respuesta hablando de manera completamente personal, por lo que sin más comencemos con esta pequeña introducción hacia las herramientas que yo te aconsejo aprender para programar páginas web en un futuro próximo.</p>
 
-         <h3 className="title1">Lenguaje de programación que necesitas conocer.</h3>
+         <h3 className="title1">JS un lenguaje de programación que necesitas conocer</h3>
          <hr className="line"/>
 
          <p className="content-curso">
@@ -26,7 +26,7 @@ const Opinion1 = () => {
          </p>
 
          <p className='content-curso'>
-         (Si te interesa saber más de este lenguaje de programación aquí te dejo un enlace con su documentación: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Link</a>)
+         (Si te interesa saber más de este lenguaje de programación aquí te dejo un enlace con su documentación: <a className="article-link" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Link</a>)
          </p>
 
          <p className='content-curso'>
@@ -116,7 +116,7 @@ const Opinion1 = () => {
          </ol>
 
         <p className='content-curso'>
-        Si te interesa dar tus primeros pasos después de leer mis razones, te dejo la documentación oficial en el siguiente enlace, la cual te explica a mayor profundidad esta tecnología y como debes de trabajar con ella, <a href="https://es.react.dev/">enlace</a>.
+        Si te interesa dar tus primeros pasos después de leer mis razones, te dejo la documentación oficial en el siguiente enlace, la cual te explica a mayor profundidad esta tecnología y como debes de trabajar con ella, <a className="article-link" href="https://es.react.dev/">enlace</a>.
         </p>
 
         <h3 className='title1'>¿Qué es Node.js?</h3>
@@ -142,7 +142,7 @@ const Opinion1 = () => {
         </ol>
 
         <p className='content-curso'>
-        Lamentablemente no eh usado tanto este entorno como me gustaría, pero sinceramente te lo recomiendo mucho, de igual manera te dejare su documentación oficial por si te interesa aprender esta tecnología, <a href="https://nodejs.org/es/about">enlace</a>.
+        Lamentablemente no eh usado tanto este entorno como me gustaría, pero sinceramente te lo recomiendo mucho, de igual manera te dejare su documentación oficial por si te interesa aprender esta tecnología, <a className="article-link" href="https://nodejs.org/es/about">enlace</a>.
         </p>
 
         <h3 className='title1'>Conclusión.</h3>
