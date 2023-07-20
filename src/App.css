@@ -944,6 +944,11 @@
   color: white;
 }
 
+.article-link{
+  text-decoration: none;
+  color: var(--aqua-3);
+}
+
 /*media query 576 */
 
 @media(max-width: 576px){
