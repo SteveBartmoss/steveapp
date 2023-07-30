@@ -961,6 +961,29 @@
   justify-content: flex-end;
 }
 
+.div-sing{
+  display: flex;
+  flex-direction: row;
+}
+
+.img-sing{
+  width: 250px;
+  height: 250px;
+}
+
+.content-sing{
+  padding-left: 10px;
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.autor{
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: var(--aqua-1);
+}
+
 /* estilos steve labs */
 .labs-title{
   font-size: 100px;
