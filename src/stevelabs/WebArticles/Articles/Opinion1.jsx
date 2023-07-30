@@ -1,4 +1,5 @@
 import React from 'react'
+import CreatorSing from '../../../component/sing'
 
 const Opinion1 = () => {
   return (
@@ -7,6 +8,8 @@ const Opinion1 = () => {
 
          <h1 className="main-title">Herramientas que debes de aprender, si quieres desarrollar aplicaciones web en los próximos años</h1>
          <hr className="line"/>
+
+         <CreatorSing />
 
          <p className="content-curso">Ciertamente el desarrollo web siempre ha sido popular entre los programadores, desde que el internet comenzó a ser una herramienta mas usada a nivel global, a un punto donde en muchos países se considera por las personas comunes como una necesidad, como si se tratara de agua potable o energía eléctrica.</p>
 
