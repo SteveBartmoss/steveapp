@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const WebHome = () => {
   return (
     <>
-    <DivBaner name="back-dumix" />
+    <DivBaner name="baner-web-developer" />
 
     <div className="center">
         <h1 className="title1">Contenido principal</h1>
