@@ -4,7 +4,9 @@ import LabsAbout from "./components/labsAbout";
 function HomeLabs() {
     return (
         <>
-            <h1 className="title1">Steve Labs</h1>
+            <div>
+                <h1 className="labs-title">Steve Labs</h1>
+            </div>
 
             <div className="center">
                 <h1 className="title1">Comienza a aprender</h1>
