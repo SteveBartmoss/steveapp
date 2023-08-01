@@ -912,7 +912,6 @@
 .gif-footer{
   display: grid;
   grid-template-columns: 2fr 2fr;
-  height: 300px;
   margin: 0px;
   background-color: #244e4f;
 }
