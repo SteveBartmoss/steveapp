@@ -17,6 +17,7 @@ import HomeLabs from "../stevelabs/homeLabs";
 import WebAbout from "../stevelabs/WebArticles/pages/WebAbout";
 import WebHome from "../stevelabs/WebArticles/WebHome";
 import WebRoutes from "../stevelabs/WebArticles/routes/WebRoutes";
+import ArticlesHome from "../Articles/articlesHome";
 
 function Router(){
     return(
@@ -38,6 +39,8 @@ function Router(){
                     <Route path="steve" element={<Steve/>}/>
 
                     <Route path="article" element={<Articulo/>}/>
+
+                    <Route path="articulos" element={<ArticlesHome />} />
 
                     <Route path="review" element={<Greview/>}/>
 
