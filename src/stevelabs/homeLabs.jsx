@@ -47,17 +47,6 @@ function HomeLabs() {
                     </div>
                 </div>
 
-                <div className="div-topic">
-                    <h1 className="title1">Rows and Colums</h1>
-                    <p className="Content"> Una seccion mas tranquila con opiones sobre temas, 
-                    reflexiones o simplemente alguna idea sobre un tema, es contenido para
-                    poder entretener a los usuarios
-                    </p>
-                    <div className="center">
-                        <a className="dumix-btn" href="#">Ver articulos</a>
-                    </div>
-                </div>
-
 
             </div>
 
