@@ -983,6 +983,14 @@
   color: var(--aqua-1);
 }
 
+/* estilos de artculos*/
+
+.main-title{
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: white;
+}
+
 /* estilos steve labs */
 .labs-title{
   font-size: 100px;
