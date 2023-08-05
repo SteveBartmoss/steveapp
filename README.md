@@ -8,56 +8,56 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
-### `13/01/2023`
+### `28/06/2023`
 
-La pagina fue creada y desplegada en netlify y puede ser consultada, cuenta con las siguentes secciones:
-home, about, news, almanac, steve
+Se completo una nueva funcion en la cual se puede hacer preguntas como si de una bola magica se tratara, se mejoraron algunos estilos del curso de linux para que se vea mejor en pantalla de resolucion mayor a las 14 pulgadas, en las proximas semana se generara los builds de produccion para que se pueda desplegar la nueva aplicacion.
+
+### `10/06/2023`
+
+Se completo la funcionalidad de la aplicacion gifapp a un 90% lo cual es un porcentaje suficiente para poder cerrar la etapa de desarrollo y empezar dar estilos a la aplicacion para que tenga una mejor presentacion, se estara trabajando en este ultimo apartado. Se completo el tema de directorios en el apartado dumix y tambien se agregaron algunos elementos de estilo al curso como el cambio del fondo, nuevas divisiones entre temas y tambien un tamano de fuente diferente para los titulos, se estara trabajando en el proximo tema que es archivos.
+
+### `31/05/2023`
+
+Ya se completo la descripcion de la estrucutra de directorios del sistema linux, se tiene un progreso del 30% para la aplicacion gifapp de la section have fun, faltan estilos para la aplicacion de gifapp pero se trabajara en eso una vez que se tenga terminada la funcionalidad de la pagina.
+
+### `17/05/2023`
+
+Ya se completaron algunos temas del curso de linux pero aun pueden estaer sujetos a cambios, hace falta invertir mas tiempo en el css pero se trabajara posteriormente, las paginas de have fun aun sigen en espero pero se pondra su implementacion los mas pronto posible. El build de produccion aun no se genera pero cuando se tenga terminado el curso de linux se generara el build de producccion.
+
+### `08/05/2023`
+
+Ya se definieron algunas nuevas aplicaciones para el apartado have fun, estara en desarrollo el modulo de gifapp como primer proyecto.
+
+### `03/05/2023`
+
+Un nuevo modulo de la pagina se implementara con el nombre de have fun que tiene como objetivo practicar el uso de las apis por parte del desarrollador y que dara un poco de entretenimiento para los usuarios.
+
+### `17/04/2023`
+
+Dumix ha llegado, se trata de una serie de paginas que compartiran con los usuarios conocimientos sobre comandos basicos y que puede ser de ayuda para usuarios inexperstos o que solo quieren corroborar el funcionamiento de algun comando y a pesar de que el nombre de la seccion puede resultar ofensivo la intension no es esa.
+
+### `16/04/2023`
+
+Se cierra la version dos de la pagina en la cual se cuenta con un nuevo diseno de la pagina home, steve, un nuevo apartado como los articulos de row and colums y se implementan reseñas de juegos que no requieren un analsis tan complejo, el seguimiento de este archivo no se habia tomado en cuenta pero se trata de llevar una mejor constancia.
+
+### `4/03/2023`
+
+Se implemente un nuevo diseno para el apartado de esteve, se tiene un portada y proximamente de pondra una malla para almacenar difentes elementos, aun no se decide los fondos ni los colores definitivos. La pagina home ya tiene un diseño definitivo y se estara trabajando en el css para que result mas llamtivo o mejor para el usuario.
+
+### `1/03/2023`
+
+Se cierra la version uno de la pagina y se deja la version en la rama v1 para poder desplegar esa version en 
+caso de tener problemas o si se requiere hacer una consulta, la verison uno es la que esta actualmente desplegada en el hosting, la version dos esta en desarrollo y sera desplegada tan pronto como se termine.
 
 ### `6/02/2023`
 
 Se implemento un carrusel para la informacion de steve, aun esta en desarrollo y falta definir los estilos,
 la funcionalidad ya esta completa y se creo un hook para menejar el cambio de las tajetas y que al llegar al final de carrusel que se reinicie y si esta al principio y retrocede valla al final.
 
-### `1/03/2023`
+### `13/01/2023`
 
-Se cierra la version uno de la pagina y se deja la version en la rama v1 para poder desplegar esa version en 
-caso de tener problemas o si se requiere hacer una consulta, la verison uno es la que esta actualmente desplegada en el hosting, la version dos esta en desarrollo y sera desplegada tan pronto como se termine
-
-### `4/03/2023`
-
-Se implemente un nuevo diseno para el apartado de esteve, se tiene un portada y proximamente de pondra una malla para almacenar difentes elementos, aun no se decide los fondos ni los colores definitivos. La pagina home ya tiene un diseño definitivo y se estara trabajando en el css para que result mas llamtivo o mejor para el usuario
-
-### `16/04/2023`
-
-Se cierra la version dos de la pagina en la cual se cuenta con un nuevo diseno de la pagina home, steve, un nuevo apartado como los articulos de row and colums y se implementan reseñas de juegos que no requieren un analsis tan complejo, el seguimiento de este archivo no se habia tomado en cuenta pero se trata de llevar una mejor constancia
-
-### `17/04/2023`
-
-Dumix ha llegado, se trata de una serie de paginas que compartiran con los usuarios conocimientos sobre comandos basicos y que puede ser de ayuda para usuarios inexperstos o que solo quieren corroborar el funcionamiento de algun comando y a pesar de que el nombre de la seccion puede resultar ofensivo la intension no es esa
-
-### `03/05/2023`
-
-Un nuevo modulo de la pagina se implementara con el nombre de have fun que tiene como objetivo practicar el uso de las apis por parte del desarrollador y que dara un poco de entretenimiento para los usuarios
-
-### `08/05/2023`
-
-Ya se definieron algunas nuevas aplicaciones para el apartado have fun, estara en desarrollo el modulo de gifapp como primer proyecto
-
-### `17/05/2023`
-
-Ya se completaron algunos temas del curso de linux pero aun pueden estaer sujetos a cambios, hace falta invertir mas tiempo en el css pero se trabajara posteriormente, las paginas de have fun aun sigen en espero pero se pondra su implementacion los mas pronto posible. El build de produccion aun no se genera pero cuando se tenga terminado el curso de linux se generara el build de producccion
-
-### `31/05/2023`
-
-Ya se completo la descripcion de la estrucutra de directorios del sistema linux, se tiene un progreso del 30% para la aplicacion gifapp de la section have fun, faltan estilos para la aplicacion de gifapp pero se trabajara en eso una vez que se tenga terminada la funcionalidad de la pagina.
-
-### `10/06/2023`
-
-Se completo la funcionalidad de la aplicacion gifapp a un 90% lo cual es un porcentaje suficiente para poder cerrar la etapa de desarrollo y empezar dar estilos a la aplicacion para que tenga una mejor presentacion, se estara trabajando en este ultimo apartado. Se completo el tema de directorios en el apartado dumix y tambien se agregaron algunos elementos de estilo al curso como el cambio del fondo, nuevas divisiones entre temas y tambien un tamano de fuente diferente para los titulos, se estara trabajando en el proximo tema que es archivos.
-
-### `28/06/2023`
-
-Se completo una nueva funcion en la cual se puede hacer preguntas como si de una bola magica se tratara, se mejoraron algunos estilos del curso de linux para que se vea mejor en pantalla de resolucion mayor a las 14 pulgadas, en las proximas semana se generara los builds de produccion para que se pueda desplegar la nueva aplicacion.
+La pagina fue creada y desplegada en netlify y puede ser consultada, cuenta con las siguentes secciones:
+home, about, news, almanac, steve.
 
 ## Libre uso
 
