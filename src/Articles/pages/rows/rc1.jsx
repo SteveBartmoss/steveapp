@@ -4,13 +4,22 @@ function Rc1() {
     return (
         <>
             <div className="div-about">
-                <h1 className="title1">La gama alta no es la meta</h1>
+                <div className="center">
+                    <h1 className="main-title">La gama alta no es la meta</h1>
+                </div>
+                
                 <hr className="line"/>
 
                 <p className="content-curso">
                     Actualmente la mayoria de usuarios de pc tiene la idea de que se debe llegar a 
                     la gama alta del pc gaming y tener toda la configuracion de una computadora tope 
-                    de gama, pero esto realmente se trata de una mejora o simplemente podria ser una 
+                    de gama llegano a formar de ciert manera una elite conformada solo por aquellos 
+                    que tienen el dinero suficiente para comprar los componentes de mayor rendimiento
+                    despues de todo se busca tener la mejor calidad el jugar y poder llegar a los 
+                    rangos mal altos de las clasificatorias.</p>
+                
+                <p>
+                    pero esto realmente se trata de una mejora o simplemente podria ser una 
                     estrategia de marketing bueno algunas cosas parecen indicar que solo se trata de 
                     marketing para tener la mejores las configuraciones de hardware, lo primero que 
                     es importante mencionar es que no se trata de una crítica y si eres un usuario de 
