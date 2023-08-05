@@ -19,6 +19,7 @@ import WebHome from "../stevelabs/WebArticles/WebHome";
 import WebRoutes from "../stevelabs/WebArticles/routes/WebRoutes";
 import ArticlesHome from "../Articles/articlesHome";
 import ArticlesRouter from "../Articles/routes/routerArticles";
+import Progreso from "../pages/progreso";
 
 function Router(){
     return(
@@ -60,6 +61,8 @@ function Router(){
                     <Route path="webdeveloper" element={<WebHome />} />
 
                     <Route path="webdeveloper/*" element={<WebRoutes />} />
+
+                    <Route path="progreso" element={<Progreso />} />
 
                 </Routes>
 
