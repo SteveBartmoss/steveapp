@@ -18,6 +18,7 @@ import WebAbout from "../stevelabs/WebArticles/pages/WebAbout";
 import WebHome from "../stevelabs/WebArticles/WebHome";
 import WebRoutes from "../stevelabs/WebArticles/routes/WebRoutes";
 import ArticlesHome from "../Articles/articlesHome";
+import ArticlesRouter from "../Articles/routes/routerArticles";
 
 function Router(){
     return(
@@ -41,6 +42,8 @@ function Router(){
                     <Route path="article" element={<Articulo/>}/>
 
                     <Route path="articulos" element={<ArticlesHome />} />
+
+                    <Route path="articulos/*" element={<ArticlesRouter />} />
 
                     <Route path="review" element={<Greview/>}/>
 
