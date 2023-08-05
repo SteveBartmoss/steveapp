@@ -15,7 +15,7 @@ function ArticlesHome(){
                     poder entretener a los usuarios
                     </p>
                     <div className="center">
-                        <a className="dumix-btn" href="#">Ver articulos</a>
+                        <a className="dumix-btn" href="articulos/rows">Ver articulos</a>
                     </div>
             </div>
 
