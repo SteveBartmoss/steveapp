@@ -12,8 +12,10 @@ function Pie() {
 
                 <p className="Content">La version actual seria 2.8.0 pero 
                     se planea que siga evolucionando hasta volverse una 
-                    plataforma mas completa.
+                    plataforma mas completa si quieres ver las novedades
                 </p>
+
+                <a className="contacto" href="progreso">Aqui</a>
 
                 <p className="Content">Tambien puedes pasar a mi canal de Youtube
                     quiza encuentras contenido que te agrade y me agregas a tus canales
