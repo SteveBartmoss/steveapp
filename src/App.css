@@ -76,6 +76,7 @@
   --aqua-4: #68ddbd;
   --aqua-5: #a4fff7;
 
+  --morado-1:  #411f4f;
 }
 
 .center{
@@ -989,6 +990,13 @@
   font-size: 50px;
   font-family: 'Roboto';
   color: white;
+}
+
+.back-articles{
+  margin: 10px;
+  background-color: var(--morado-1);
+  padding: 10px;
+  border-radius: 10px;
 }
 
 /* estilos steve labs */
