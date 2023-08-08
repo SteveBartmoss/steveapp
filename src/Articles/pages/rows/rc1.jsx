@@ -1,4 +1,5 @@
 import React from "react";
+import CreatorSing from "../../../component/sing";
 
 function Rc1() {
     return (
@@ -9,6 +10,8 @@ function Rc1() {
                 </div>
 
                 <hr className="line" />
+
+                <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
                 <div className="back-articles">
                     <p className="content-curso">
@@ -67,8 +70,11 @@ function Rc1() {
                         también es necesario tener un monitor que pueda dar una tasa de refrescamiento
                         alta ya que de lo contrario no permitirá ver los fps como deberías asi que también
                         se debe invertir en un buen monitor para poder sacarle provecho al máximo y es posible
-                        que no todas las resoluciones puedan ir a fps altos y de manera estable. Otro factor
-                        importante es que el juego debe estar bastante optimizado para poder tener un rendimiento
+                        que no todas las resoluciones puedan ir a fps altos y de manera estable. 
+                    </p>
+
+                    <p className="content-curso">
+                        Otro factor importante es que el juego debe estar bastante optimizado para poder tener un rendimiento
                         bueno ya que existen casos en los que no siquiera el tope de gama puede con el juego y
                         aunque esto pueda parecer una exageración ya existen casos como lo fue crisis 3 que no
                         estaba bien optimizado y no se aprovechaba por que la optimización del juego no es
@@ -87,23 +93,36 @@ function Rc1() {
                         que fueron tan bien optimizados se puedan correr en diferentes tipos de hardware
                         (asi es doom te estoy hablando a ti) asi que el tope de gama no siempre te dara la mayor
                         tase de fps pero si exprimirá tu dinero, en muchas ocaciones el gasto extra ni siquiera
-                        tiene sentido ya que muchas veces ni siquiera mejora tanto ek rendimiento ya que por ejemplo
+                        tiene sentido ya que ni siquiera mejora tanto el rendimiento ya que por ejemplo
                         muchos modelos de aorus o rog no incorporan mas que leds llamativos y un pequeno overclock
-                        que en la mayoria de los casos no se notara tanto al momento de juagr pero tu bolsillo notara
+                        que en la mayoria de los casos no se notara tanto al momento de jugar pero tu bolsillo notara
                         el cambio, otro ejemplo de esto son las velocidades de la memoria ram ya que desde hace un tiempo
                         la mayoría busca tener memorias de 3400 de frecuencia porque de esta manera tendrían
                         el mejor rendimiento de su equipo pero esto no daba una mejora tan significante
                         pero el precio de la memoria también subía bastante y la mejora solo podía ser
                         significante cuando tenias una gpu integrada pero la verdad es que teniendo una
                         grafica integrada poco se puede hacer para que tengas el rendimiento de una gpu
-                        dedica, en todo caso era mejor ahorrar un poco en las memorias y comprar una grafica
-                        dedicada la cual si nos da un aumento considerable en la mayoría de juegos. La
+                        dedica. 
+                    </p>
+
+                    <p className="content-curso">
+                        En todo caso era mejor ahorrar un poco en las memorias y comprar una grafica
+                        dedicada la cual si nos da un aumento considerable en la mayoría de juegos la
                         lista de ejemplos continua con cosas como las refrigeraciones liquidas para
                         procesadores que no estarán bajo cargar intensas de trabajo las 24 horas ni a un
-                        overclockt tan potente hasta invertir dinero un almacenamiento solido de un
+                        overclockt tan potente, en otros casos se invierte dinero un almacenamiento solido de un
                         terabyte para poder almacenar los juegos en el a pesar de que la mejora del
-                        desempeño de los juegos es bastante baja, considero que la verdadera razón
-                        para que las marcas usen la estrategia del pc gaming para conseguir mas dinero es
+                        desempeño de los juegos es bastante baja. 
+                    </p>
+                </div>
+
+                <h1 className="title1">Compra inteligentemente</h1>
+                <hr className="line" />
+
+
+                <div className="back-articles">
+                    <p className="content-curso">
+                        considero que la verdadera razón para que las marcas usen la estrategia del pc gaming para conseguir mas dinero es
                         simplemente que las personas están dispuestas a pagar los precias mas elevados para
                         poder tener el topo de gama personalmente creo que no hay nada de malo en no tener
                         el tope de gama ya que se puede jugar bastante bien con algo de hardware de entrada
@@ -114,7 +133,6 @@ function Rc1() {
                         o incluso en decoraciones para tu cuarto. Bueno esto fue filas y columnas hasta la próxima.
                     </p>
                 </div>
-                
             </div>
         </>
     );
