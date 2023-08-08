@@ -20,6 +20,19 @@ function Rows() {
                     </div>
                 </div>
 
+                <div className="div-topic">
+                    <h1 className="title1">Juegos que reunen polvo</h1>
+                    <p className="Content">
+                        La mayoria de personas tienen en sus librerias juegos que ni 
+                        siquiera han pronado una sola vez lo que indica que las personas 
+                        compran juegos solo porque estan en oferta pero no llegan a probar
+                        lo cual es algo desconcertante
+                    </p>
+                    <div className="center">
+                        <a className="dumix-btn" href="rows/rc2">Ver articulo</a>
+                    </div>
+                </div>
+
             </div>
         </>
     );
