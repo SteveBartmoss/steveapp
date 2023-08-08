@@ -1,13 +1,13 @@
 import React from "react";
 
-const CreatorSing=()=>{
+const CreatorSing=({autor,date,img,grade})=>{
     return(
         <>
             <div className="div-sing">
-                <img className="img-sing" src="/Assets/Enrique.jpg" />
+                <img className="img-sing" src={img} />
                 <div className="content-sing">
-                    <p>Por <span className="autor">Enrique Dev</span> Ing en Sistemas</p>
-                    <p>08/06/23</p>
+                    <p>Por <span className="autor">{autor}</span> {grade}</p>
+                    <p>{date}</p>
                 </div>
             </div>
         </>
