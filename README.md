@@ -8,6 +8,10 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `07/08/2023`
+
+Se tiene implementada la sesccion de articulops rows and colums por lo que se puede acceder al primer articul o de esta seccion, se estan preparando los cambios para la nueva version de la pagina que contara con un nuevo diseno que se espera que este lista a finales de diciembre. Un nuevo colaborador esta trabajando en una seccion de articulos del desarrolo web y su primer articulo ya esta en produccion, have fun tiene dos aplicaciones que consumen apis y se planea implementar una tercera para esta version o en la proxima version de la pagina. 
+
 ### `28/06/2023`
 
 Se completo una nueva funcion en la cual se puede hacer preguntas como si de una bola magica se tratara, se mejoraron algunos estilos del curso de linux para que se vea mejor en pantalla de resolucion mayor a las 14 pulgadas, en las proximas semana se generara los builds de produccion para que se pueda desplegar la nueva aplicacion.
