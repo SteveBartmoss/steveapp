@@ -39,7 +39,7 @@ function YesOrNot(){
                 }
             </div>
 
-            <FooterHave />
+            <FooterHave power={"Yes Or Not"} linkPower={"https://yesno.wtf/#"} />
             
         </div>
     );
