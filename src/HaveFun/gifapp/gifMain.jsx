@@ -36,7 +36,7 @@ function GifApp(){
                 })}
             </div>
 
-            <FooterHave />
+            <FooterHave power={"Giphy"} linkPower={"https://giphy.com/"} />
             
         </div>
     );
