@@ -750,8 +750,10 @@
 
 .line {
   height: 2px;
-  background-color: #005b99;
-  border-color: #005b99;
+  /*background-color: #005b99;*/
+  /*border-color: #005b99;*/
+  background-color: var(--aqua-2);
+  border-color: var(--aqua-2);
   border-radius: 15%;
 }
 
@@ -1021,6 +1023,7 @@
   text-align: justify;
   box-shadow: 0px 1px 10px rgba(3, 187,133, 0.2);
   transition: all 400ms ease;
+  border-radius: 5px;
 }
 
 .div-min-article:hover{
