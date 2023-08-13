@@ -15,7 +15,9 @@ function HomeLabs() {
             <div className="div-flex-articles">
 
                 <div className="div-min-article">
-                    <h1 className="title1">Primeros pasos en programacion</h1>
+                    <div className="center">
+                        <h1 className="title1">Primeros pasos en programacion</h1>
+                    </div>
                     <p className="Content">En este curso se abordan temas basicos de programacion
                         ya que esta orientado a personas que comienzan a programar por lo cual no
                         se esperan muchos conocimientos</p>
@@ -26,7 +28,9 @@ function HomeLabs() {
                 </div>
 
                 <div className="div-min-article">
-                    <h1 className="title1">Web developer</h1>
+                    <div className="center">
+                        <h1 className="title1">Web developer</h1>
+                    </div>
                     <p className="Content">En este apartado puede consultar los articulos que fueron
                         creados por un colaborador, los temas tratados seran sobre desarrollo de paginas
                         web y que permitiran tener informacion sobre este tipo de temas
@@ -37,7 +41,9 @@ function HomeLabs() {
                 </div>
 
                 <div className="div-min-article">
-                    <h1 className="title1">Coder Life</h1>
+                    <div className="center">
+                        <h1 className="title1">Coder Life</h1>
+                    </div>
                     <p className="Content">Aqui podras leer articulos sobre temas de la vida 
                     de desarolladores, juegos o simplemente reflexiones sobre temas de informatica
                     </p>
