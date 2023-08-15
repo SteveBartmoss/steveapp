@@ -3,7 +3,7 @@ import Card from "./Card";
 
 function Review(){
     return (
-        <section className="back-review">
+        <section>
         <div className="grid-reviews">
             <section className="back-article">
                 <div className="div-columna">
