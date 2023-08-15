@@ -8,9 +8,13 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `14/08/2023`
+
+Se implemento un nuevo estilo a las tajertas para las secciones de los articulos, steve labs y proximamente se implementara en las secciones de have fun, dumix y la pagina princiapal. Los colores de la pagina estan cambiando para tomar la tonalidad de grises con algunos distintivos azules, verdes o algun otro color para que la pagina sea mas limpia y no tenga un efecto tan confuso, aun no se trabaja en las versiones de movil pero se trabajara en ellas una vez que se cierre la verison 3 de la pagina.
+
 ### `07/08/2023`
 
-Se tiene implementada la sesccion de articulops rows and colums por lo que se puede acceder al primer articul o de esta seccion, se estan preparando los cambios para la nueva version de la pagina que contara con un nuevo diseno que se espera que este lista a finales de diciembre. Un nuevo colaborador esta trabajando en una seccion de articulos del desarrolo web y su primer articulo ya esta en produccion, have fun tiene dos aplicaciones que consumen apis y se planea implementar una tercera para esta version o en la proxima version de la pagina. 
+Se tiene implementada la sesccion de articulos rows and colums por lo que se puede acceder al primer articul o de esta seccion, se estan preparando los cambios para la nueva version de la pagina que contara con un nuevo diseno que se espera que este lista a finales de diciembre. Un nuevo colaborador esta trabajando en una seccion de articulos del desarrolo web y su primer articulo ya esta en produccion, have fun tiene dos aplicaciones que consumen apis y se planea implementar una tercera para esta version o en la proxima version de la pagina. 
 
 ### `28/06/2023`
 
