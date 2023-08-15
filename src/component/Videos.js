@@ -6,7 +6,7 @@ import '../App.css';
 function Videos(){
     return(
         
-        <section className="back-videos">
+        <section>
         <div className="grid-videos">
             <div className="Videos">
                 <Card imgUrl={"/Assets/system32.jpg"} title="Borrar Sytem32" 
