@@ -5,6 +5,8 @@ import Review from "../component/Review";
 import Pie from "../component/Pie";
 import Branding from "../component/Branding";
 import DivBaner from "../component/DivBaner";
+import MenuItems from "../component/MenuItem";
+
 
 
 
@@ -15,6 +17,7 @@ function Home(){
         <div className="Contenedor">
             <h3 className="title1">Videos con mas visitas</h3>   
         </div>
+        <MenuItems />
         <Videos/>
         <Branding name={"Discord"} 
         title={"Un servidor de discord con temas de videojuegos e informatica"}
