@@ -59,9 +59,9 @@ function MenuItems() {
                         <div className="center">
                             <h1 className="title1">The real man dont click</h1>
                         </div>
-                        <p className="Content">El camimo para convertirse en un linuxero completo no es 
-                        facil pero vale la pena con tal de poder usar una distro personalizada, podre 
-                        continuar con camino para ser un linuxero barbon o fracasare
+                        <p className="Content">El camimo para convertirse en un linuxero completo no es
+                            facil pero vale la pena con tal de poder usar una distro personalizada, podre
+                            continuar con camino para ser un linuxero barbon o fracasare
                         </p>
                         <div>
                             <a className="dumix-btn">Saber mas</a>
@@ -89,6 +89,86 @@ function MenuItems() {
                 title={"Un servidor de discord con temas de videojuegos e informatica"}
                 url={"https://discord.gg/QTdVBq5Q9r"}
             />
+
+            <div className="div-menu-item">
+                <div className="div-article">
+                    <h1 className="title1">A plague tale inocence</h1>
+                    <p className="content-columna">La mayoria de personas se siente atraida por la idea de vivir en una epoca ambientada en
+                        la tematica futurista y distopica de una sociedad cyberpunk ya que para ser honestos a quien
+                        no le gusta la idea de que tengamos autos voladores, implamentes tecnologicos y a una red de
+                        tecnologia que nos permite estar conectados con la mayoria. Pero esto no esta lejos de nuestra
+                        actualidad y de hecho la gran mayoria de personas esta viviendo en una epoca de tecnologia al
+                        nivel de una historia cyberpunk aunque no lo paresca hay una gran muestra de esto en muchos lados
+                        como podemos ver a continuacion.
+                    </p>
+                    <div className="center">
+                        <a className="dumix-btn">Seguir leyendo</a>
+                    </div>
+
+                </div>
+
+                <div className="div-flex-item">
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">Reviews mas recientes</h1>
+                        </div>
+                        <p className="Content">En esta seccion se encuentras las reviews mas recientes
+                            del canal puedes revisar la lista y quiza alguno te agrade y decidas probar el juego
+                            o tambien puede que salve tu bolsillo
+                        </p>
+                        <div className="center">
+                            <a className="dumix-btn">Seguir leyendo</a>
+                        </div>
+                    </div>
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">Gifapp</h1>
+                        </div>
+                        <p className="Content">En esta aplicacion puede ralajarte un poco de un largo
+                            dia buscando algun gif divertido para pasar el rato, gracias a la implementacion
+                            de la api gyphy que nos da divertidos resultados
+                        </p>
+                        <div className="center">
+                            <a className="dumix-btn">Ir a la app</a>
+                        </div>
+                    </div>
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">Fundamentos de programacion</h1>
+                        </div>
+                        <p className="Content">En esta curso se abordan temas iniciales de programacion
+                            que permitiran tener una base de donde partir para poder avanzar en temas mas
+                            complicados sobre programacion
+                        </p>
+                        <div className="center">
+                            <a className="dumix-btn">Ir al curos</a>
+                        </div>
+                    </div>
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">Web Masters</h1>
+                        </div>
+                        <p className="Content">En esta seccion encontraras articulos relacionados al
+                            desarrollo web, temas de programacion web y algunos cursos sobre el desarrollo
+                            de apliaciones web que te serviran
+                        </p>
+                        <div className="center">
+                            <a className="dumix-btn">Ir a la seccion</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <Branding name={"Canal"}
+                title={"Un canal dedicado a los temas de informatica, videojuegos y techrunners"}
+                url={"https://www.youtube.com/channel/UCsaZsVCeb3BkqBrROgc1uhw"}
+            />
+
         </>
     );
 }
