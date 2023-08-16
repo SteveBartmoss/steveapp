@@ -1,4 +1,5 @@
 import React from "react";
+import Branding from "../component/Branding";
 
 function MenuItems() {
     return (
@@ -53,6 +54,19 @@ function MenuItems() {
                             <a className="dumix-btn">Saber mas</a>
                         </div>
                     </div>
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">The real man dont click</h1>
+                        </div>
+                        <p className="Content">El camimo para convertirse en un linuxero completo no es 
+                        facil pero vale la pena con tal de poder usar una distro personalizada, podre 
+                        continuar con camino para ser un linuxero barbon o fracasare
+                        </p>
+                        <div>
+                            <a className="dumix-btn">Saber mas</a>
+                        </div>
+                    </div>
                 </div>
                 <div className="div-article">
                     <h1 className="title1">El cyber punk esta delante de nosotros</h1>
@@ -67,9 +81,14 @@ function MenuItems() {
                     <div className="center">
                         <a className="dumix-btn">Seguir leyendo</a>
                     </div>
-                    
+
                 </div>
+
             </div>
+            <Branding name={"Discord"}
+                title={"Un servidor de discord con temas de videojuegos e informatica"}
+                url={"https://discord.gg/QTdVBq5Q9r"}
+            />
         </>
     );
 }
