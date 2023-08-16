@@ -220,6 +220,7 @@
 
 .div-menu-item{
   display: flex;
+  margin-bottom: 10px;
 }
 
 .div-flex-item{
