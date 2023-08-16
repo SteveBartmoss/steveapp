@@ -216,6 +216,26 @@
   margin-bottom: 10px;
 }
 
+/* estilos del menu item */
+
+.div-menu-item{
+  display: flex;
+}
+
+.div-flex-item{
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.div-article{
+  width: 500px;
+  height: 700px;
+  background-color: var(--gris-7);
+  text-align: justify;
+  padding: 10px;
+}
+
 /* estilos del contenedor de reviews */
 
 .back-review{
@@ -1019,7 +1039,7 @@
 .div-min-article{
   width: 400px;
   height: 290px;
-  margin: auto;
+  margin: 10px;
   background-color: var(--gris-7);
   padding-left: 10px;
   padding-right: 10px;
