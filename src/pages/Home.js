@@ -15,9 +15,10 @@ function Home(){
         <>
         <DivBaner name="Baner" />
         <div className="Contenedor">
-            <h3 className="title1">Videos con mas visitas</h3>   
+            <h3 className="title1">Temas populares del canal</h3>
+            <MenuItems />   
         </div>
-        <MenuItems />
+        
         <Videos/>
         <Branding name={"Discord"} 
         title={"Un servidor de discord con temas de videojuegos e informatica"}
