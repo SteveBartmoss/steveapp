@@ -67,6 +67,20 @@ function MenuItems() {
                             <a className="dumix-btn">Saber mas</a>
                         </div>
                     </div>
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">Reviews mas recientes</h1>
+                        </div>
+                        <p className="Content">En esta seccion se encuentras las reviews mas recientes
+                            del canal puedes revisar la lista y quiza alguno te agrade y decidas probar el juego
+                            o tambien puede que salve tu bolsillo
+                        </p>
+                        <div className="center">
+                            <a className="dumix-btn">Seguir leyendo</a>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="div-article">
                     <h1 className="title1">El cyber punk esta delante de nosotros</h1>
@@ -111,14 +125,14 @@ function MenuItems() {
 
                     <div className="div-min-article">
                         <div className="center">
-                            <h1 className="title1">Reviews mas recientes</h1>
+                            <h1 className="title1">Primeros pasos en Linux</h1>
                         </div>
-                        <p className="Content">En esta seccion se encuentras las reviews mas recientes
-                            del canal puedes revisar la lista y quiza alguno te agrade y decidas probar el juego
-                            o tambien puede que salve tu bolsillo
+                        <p className="Content">En este curso se veran los primeros pasos para usar 
+                        un sistema linux y empezar a relacionarse con la terminal de linux y los 
+                        comandos mas comunes de este sistema 
                         </p>
                         <div className="center">
-                            <a className="dumix-btn">Seguir leyendo</a>
+                            <a className="dumix-btn">Ir al curso</a>
                         </div>
                     </div>
 
@@ -160,6 +174,33 @@ function MenuItems() {
                             <a className="dumix-btn">Ir a la seccion</a>
                         </div>
                     </div>
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">Mejores Apps de terminal</h1>
+                        </div>
+                        <p className="Content">En esta seccion encontraras aplicaciones que pueden
+                        falicitar o hacer mas llamativo trabajar con la terminal de linux ya que una 
+                        buena parte del tiempo veremos esta pantalla
+                        </p>
+                        <div className="center">
+                            <a className="dumix-btn">Ir al articulo</a>
+                        </div>
+                    </div>
+
+                    <div className="div-min-article">
+                        <div className="center">
+                            <h1 className="title1">Oraculo App</h1>
+                        </div>
+                        <p className="Content">Esta aplicacion puede responder algunas de tus 
+                        dudas y proporcinarte algo de concimiento, siempre y cuando se pueda 
+                        responder si, no o tal vez XD
+                        </p>
+                        <div className="center">
+                            <a className="dumix-btn">Ir a a la app</a>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
