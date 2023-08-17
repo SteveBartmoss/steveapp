@@ -14,6 +14,18 @@ function Steve(){
 
         <>
         <Portada image={"/Assets/steveA.png"} />
+        <div className="Contenedor">
+            <div>
+                <h1 className="title1">Programador</h1>
+                <p className="Content">Los codigos no siempre son como queremos 
+                pero somos programadores, aceptamos lo que nos ofrecen y a veces 
+                eso es suficiente</p>
+                <p className="Content">steve, techrunner</p>
+            </div>
+            <div className="div-menu-item">
+
+            </div>
+        </div>
         <div className="grid-steve">
             <div className="main-contetn">
                 <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"}/>
