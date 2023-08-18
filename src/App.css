@@ -83,6 +83,7 @@
   --rosa-2: #f034bf;
   --rosa-3: #c82495;
   
+  --verde-1: #325559;
 }
 
 .center{
@@ -1062,6 +1063,20 @@
   flex-direction: row;
   gap: 10px;
   margin-bottom: 10px;
+}
+
+.item-lateral{
+  width: 400px;
+  background-color:var(--gris-9);
+}
+
+.item-mid{
+  width: 600px;
+  background-color: var(--gris-7);
+}
+
+.item-tab{
+  background-color: var(--aqua-1);
 }
 
 /* estilos steve labs */
