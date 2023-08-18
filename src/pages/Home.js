@@ -18,21 +18,9 @@ function Home(){
             <h3 className="title1">Temas populares del canal</h3>
             <MenuItems />   
         </div>
-        
-        <Videos/>
-        <Branding name={"Discord"} 
-        title={"Un servidor de discord con temas de videojuegos e informatica"}
-        url={"https://discord.gg/QTdVBq5Q9r"}
-        />
-        
         <div className="Contenedor">
             <h3 className="title1">Reviews mas recientes</h3>
         </div>
-        <Review/>
-        <Branding name={"Canal"}
-        title={"Un canal dedicado a los temas de informatica, videojuegos y techrunners"}
-        url={"https://www.youtube.com/channel/UCsaZsVCeb3BkqBrROgc1uhw"}
-        />
         <Pie/>
         </>
     );
