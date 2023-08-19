@@ -95,6 +95,8 @@ function Steve() {
 
                 <Grid />
 
+                <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"} />
+
                 <div className="item-mid">
                     <h1 className="title1">Mi perfil de spotify</h1>
                     <p className="Content">Si quieres saber que tipo de musica escuho o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
