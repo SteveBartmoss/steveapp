@@ -158,22 +158,7 @@ function Steve() {
                         url="https://steamcommunity.com/id/tonyhallan/"
                     />
 
-
-                    <Stiker imge={"/Assets/steveA.png"} title="PC Check Actual"
-                        paragrap="El pc de edicion y para jugar de steve no resulta tan potente como el de otros creadores top, pero tiene 
-                lo necesario para que se pueda jugar decentemente y tambien para crear los videos necesarios. A continuacion
-                se describen los componentes que lleva: 
-                GPU: Radeon 
-                CPU: Ryzen
-                MotherBoard:
-                RAM: 2x8gigas,
-                HDD: 1x1tb, 1x2tb"
-                    />
-
                 </div>
-
-                <Lateral />
-
             </div>
             <div className="Contenedor">
 
