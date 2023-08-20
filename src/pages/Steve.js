@@ -152,11 +152,6 @@ function Steve() {
                         url="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4"
                     />
 
-                    <Data imge={"/Assets/arcade.png"} title="Mi perifl de steam"
-                        paragrap="Si quires agregarme en steam para jugar o para ver mi biblioteca de juegos o las resenas de titulos que he jugado
-                puedes seguirme con el enlace a mi perfil que aparece a continuacion"
-                        url="https://steamcommunity.com/id/tonyhallan/"
-                    />
 
                 </div>
             </div>
