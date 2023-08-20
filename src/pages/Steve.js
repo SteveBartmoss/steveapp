@@ -76,6 +76,9 @@ function Steve() {
                     </div>
                     <div className="item-lateral">
                         <h1 className="title1">Estado: hackeando a la nasa</h1>
+                        <h1 className="title1">Horas de programacion:</h1>
+                        <h1 className="title1">Meta de subs: </h1>
+                        
                     </div>
                 </div>
 
