@@ -143,10 +143,6 @@ function Steve() {
                         </p>
                     </div>
 
-
-                    <Grid />
-
-
                 </div>
             </div>
             <div className="Contenedor">
