@@ -146,12 +146,6 @@ function Steve() {
 
                     <Grid />
 
-                    <Data imge={"/Assets/music.png"} title="Mi perfil de spotify"
-                        paragrap="Si quieres saber que tipo de musica escuho o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
-                para que puedas seguirme, quizas algunas de mis playlist te agraden"
-                        url="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4"
-                    />
-
 
                 </div>
             </div>
