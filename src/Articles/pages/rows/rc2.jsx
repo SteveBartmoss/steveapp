@@ -36,16 +36,24 @@ function Rc2() {
                 <h1 className="title1">El peor miedo de los jugadores</h1>
                 <hr className="line" />
 
+                <div className="backp-articles">
+                    <p className="content-curso">
+                        Cuando escuche sobre la gente que compraba juegos en steam pero que nunca los jugaba 
+                        pense que era una broma ya que quien gastaria su dinero para tener un juego digital que 
+                        ni siquiera se puede almacenar de manera tangible, tambien pense que era gente que solo 
+                        los habían probado por unos cuantos minutos para saber si su computadora puede correrlos. 
+                        En general no podía creerlo y pensaba que solo se trataba de gente que quería ver arder 
+                        el mundo o que se dedicaba a hacer benchsmarks de juegos para un canal de youtube pero 
+                        actualmente he caído en una situación similar y he descubierto que la mayoría de personas
+                        adultas que es parte de la comunidad del gaming tiene un tiempo tan reducido que un catalogo 
+                        de juegos tan amplio les resulta una tarea imposible ya que no disponen ni la mitad del 
+                        tiempo necesario para poder completar todos los juegos de la librería de steam.
+                    </p>
+                </div>
+
                 <div>
                     <p>
-                        Cuando
-                        escuche sobre la gente que compraba juegos en steam pero que nunca los jugaba o que solo los habían
-                        probado por unos cuantos minutos no podía creerlo y pensaba que solo se trataba de gente quería
-                        ver arder el mundo o que comprobaba si su equipo era suficiente para poder correr el juego
-                        pero actualmente he caído en una situación similar y he descubierto que la mayoría de personas
-                        adultas que es parte de la comunidad del gaming tiene un tiempo tan reducido que un catalogo de
-                        juegos tan amplio les resulta una tarea imposible ya que no disponen ni la mitad del tiempo necesario
-                        para poder completar todos los juegos de la librería de steam, no hace falta hacer un estudio para
+                         no hace falta hacer un estudio para
                         comprobar esto ya que podemos descubrir que este fenemo ocurre y que se mantiene con la ayuda de los
                         logros de steam ya que gracias a las estadísticas de los mismo podemos ver que un porcentaje de los
                         jugadores nunca obtiene los logros mas simples o que indican que completaron el prologo o el primer
