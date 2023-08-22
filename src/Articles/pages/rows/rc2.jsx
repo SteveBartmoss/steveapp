@@ -36,7 +36,7 @@ function Rc2() {
                 <h1 className="title1">El peor miedo de los jugadores</h1>
                 <hr className="line" />
 
-                <div className="backp-articles">
+                <div className="back-articles">
                     <p className="content-curso">
                         Cuando escuche sobre la gente que compraba juegos en steam pero que nunca los jugaba 
                         pense que era una broma ya que quien gastaria su dinero para tener un juego digital que 
@@ -48,6 +48,16 @@ function Rc2() {
                         adultas que es parte de la comunidad del gaming tiene un tiempo tan reducido que un catalogo 
                         de juegos tan amplio les resulta una tarea imposible ya que no disponen ni la mitad del 
                         tiempo necesario para poder completar todos los juegos de la librería de steam.
+                    </p>
+
+                    <p className="content-curso">
+                        Me resultaba bastante triste reconocer que me mayor sueno no podia ser realidad debido 
+                        a que la escula o el trabajo consumian tanto mi tiempo que habia dejado bastantes juegos 
+                        sin completar pero con el tiempo empece a tener juegos que habia adquirido a muy buen precio 
+                        durante las rebajas de steam, pero la realidad es que no podia probarlos todos debido a los que 
+                        ya tenia empezados asi que poco a poco caia en el fenomeno de gente que tenias librerias completas
+                        que no habia terminado y peor aun que no habia provado nunca ya que solo aprovechaban las ofertas 
+                        de steam ya que la verdad llegan a ser muy buenas ofertas.
                     </p>
                 </div>
 
