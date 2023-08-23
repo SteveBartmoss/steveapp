@@ -38,25 +38,25 @@ function Rc2() {
 
                 <div className="back-articles">
                     <p className="content-curso">
-                        Cuando escuche sobre la gente que compraba juegos en steam pero que nunca los jugaba 
-                        pense que era una broma ya que quien gastaria su dinero para tener un juego digital que 
-                        ni siquiera se puede almacenar de manera tangible, tambien pense que era gente que solo 
-                        los habían probado por unos cuantos minutos para saber si su computadora puede correrlos. 
-                        En general no podía creerlo y pensaba que solo se trataba de gente que quería ver arder 
-                        el mundo o que se dedicaba a hacer benchsmarks de juegos para un canal de youtube pero 
+                        Cuando escuche sobre la gente que compraba juegos en steam pero que nunca los jugaba
+                        pense que era una broma ya que quien gastaria su dinero para tener un juego digital que
+                        ni siquiera se puede almacenar de manera tangible, tambien pense que era gente que solo
+                        los habían probado por unos cuantos minutos para saber si su computadora puede correrlos.
+                        En general no podía creerlo y pensaba que solo se trataba de gente que quería ver arder
+                        el mundo o que se dedicaba a hacer benchsmarks de juegos para un canal de youtube pero
                         actualmente he caído en una situación similar y he descubierto que la mayoría de personas
-                        adultas que es parte de la comunidad del gaming tiene un tiempo tan reducido que un catalogo 
-                        de juegos tan amplio les resulta una tarea imposible ya que no disponen ni la mitad del 
+                        adultas que es parte de la comunidad del gaming tiene un tiempo tan reducido que un catalogo
+                        de juegos tan amplio les resulta una tarea imposible ya que no disponen ni la mitad del
                         tiempo necesario para poder completar todos los juegos de la librería de steam.
                     </p>
 
                     <p className="content-curso">
-                        Me resultaba bastante triste reconocer que me mayor sueno no podia ser realidad debido 
-                        a que la escula o el trabajo consumian tanto mi tiempo que habia dejado bastantes juegos 
-                        sin completar pero con el tiempo empece a tener juegos que habia adquirido a muy buen precio 
-                        durante las rebajas de steam, pero la realidad es que no podia probarlos todos debido a los que 
+                        Me resultaba bastante triste reconocer que me mayor sueno no podia ser realidad debido
+                        a que la escula o el trabajo consumian tanto mi tiempo que habia dejado bastantes juegos
+                        sin completar pero con el tiempo empece a tener juegos que habia adquirido a muy buen precio
+                        durante las rebajas de steam, pero la realidad es que no podia probarlos todos debido a los que
                         ya tenia empezados asi que poco a poco caia en el fenomeno de gente que tenias librerias completas
-                        que no habia terminado y peor aun que no habia provado nunca ya que solo aprovechaban las ofertas 
+                        que no habia terminado y peor aun que no habia provado nunca ya que solo aprovechaban las ofertas
                         de steam ya que la verdad llegan a ser muy buenas ofertas.
                     </p>
                 </div>
@@ -64,15 +64,20 @@ function Rc2() {
                 <h1 className="title1">Steam tiene la prueba de este fenomeno</h1>
                 <hr className="line" />
 
-                <div>
-                    <p>
-                         no hace falta hacer un estudio para
+                <div className="back-articles">
+                    <p className="content-curso">
+                        no hace falta hacer un estudio para
                         comprobar esto ya que podemos descubrir que este fenemo ocurre y que se mantiene con la ayuda de los
                         logros de steam ya que gracias a las estadísticas de los mismo podemos ver que un porcentaje de los
                         jugadores nunca obtiene los logros mas simples o que indican que completaron el prologo o el primer
                         nivel del juego y es por experiencia propia que puedo decir que en ocasiones compro un titulo que
                         estaba en muy buena oferta pero que no soy capas de probarlo en mucho tiempo porque tengo otros juegos
-                        o porque mis amigos están conectados en algún battle royale o similar. Aunque esto pueda parecer algo
+                        o porque mis amigos están conectados en algún battle royale o similar.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Aunque esto pueda parecer algo
                         que no tiene importancia y además de que resulta una evidencia de la cultura del consumismo que cada
                         vez está más presente en la sociedad actual es un punto importante que se tomara en cuenta en las
                         industrias de los videojuegos y que también es un factor importante para entender porque algunos juegos
