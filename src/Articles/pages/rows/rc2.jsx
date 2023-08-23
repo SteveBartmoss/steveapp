@@ -61,6 +61,9 @@ function Rc2() {
                     </p>
                 </div>
 
+                <h1 className="title1">Steam tiene la prueba de este fenomeno</h1>
+                <hr className="line" />
+
                 <div>
                     <p>
                          no hace falta hacer un estudio para
