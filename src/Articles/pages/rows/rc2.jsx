@@ -76,15 +76,18 @@ function Rc2() {
                     </p>
 
                     <p className="content-curso">
-                        Aunque esto pueda parecer algo que no tiene importancia y además de que resulta una evidencia de la cultura del consumismo que cada
-                        vez está más presente en la sociedad actual es un punto importante que se tomara en cuenta en las
-                        industrias de los videojuegos y que también es un factor importante para entender porque algunos juegos
-                        multijugador son tan populares ya que en este tipo de juegos no hace falta invertir grande cantidades
-                        de horas y basta con encontrar una partida y rápidamente enfrentarse a otros jugadores y si se termina
-                        es cuestión de minutos para poder iniciar otro partida, títulos como elden ring, grand def rancho o
-                        cualquier otro triple a respetable resultan una experiencia buena pero algo desesperante para los
-                        usuarios que buscan pasar un rato agradable en algún titulo que no requiera mucho tiempo de farmeo o
-                        que tenga misiones tan largas que requieran de por lo menos una hora de duración.
+                        Aunque esto pueda parecer algo que no tiene importancia pues a nadie le afecta que las personas no 
+                        puedan terminar sus juegos y solo resulta una evidencia de la cultura del consumismo que cada
+                        vez está más presente en la sociedad actual lo cual es cierto pero al mismo tiempo es algo importante 
+                        que afecta a los jugadores ya que se toma en cuenta en las industrias de los videojuegos, lo anterior 
+                        también es un factor importante para entender porque algunos juegos multijugador son tan populares ya 
+                        que en este tipo de juegos no hace falta invertir grande cantidades de horas para entender mecanicas
+                        complejas o memorizando patrones de ataque de jefes y basta con encontrar una partida paras rápidamente 
+                        enfrentarse a otros jugadores y al finalizar la partida solo es cuestión de minutos para poder iniciar 
+                        una nueva y volver a combatir con otros jugadores. Títulos como elden ring, grand def rancho o
+                        cualquier otro triple a respetable resultan una experiencia buena y que se disfrutan bastante bien pero 
+                        algo desesperante para los usuarios que buscan pasar un rato agradable en algún titulo que no requiera 
+                        mucho tiempo de farmeo o que tenga misiones tan largas que requieran de por lo menos una hora de duración.
                     </p>
                 </div>
                 <div>
