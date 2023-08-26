@@ -22,7 +22,12 @@ function Steve() {
                         eso es suficiente</p>
                     <p className="Content">steve, techrunner</p>
                 </div>
-
+                <div>
+                    <h1>React</h1>
+                    <h1>JavaScript</h1>
+                    <h1>Linux</h1>
+                    <h1>WebDeveloper</h1>
+                </div>
                 <div className="div-menu-item">
 
                     <div className="div-flex-item">
