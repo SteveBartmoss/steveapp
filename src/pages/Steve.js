@@ -22,11 +22,11 @@ function Steve() {
                         eso es suficiente</p>
                     <p className="Content">steve, techrunner</p>
                 </div>
-                <div>
-                    <h1>React</h1>
-                    <h1>JavaScript</h1>
-                    <h1>Linux</h1>
-                    <h1>WebDeveloper</h1>
+                <div className="div-tags">
+                    <h1 className="tag">React</h1>
+                    <h1 className="tag">JavaScript</h1>
+                    <h1 className="tag">Linux</h1>
+                    <h1 className="tag">WebDeveloper</h1>
                 </div>
                 <div className="div-menu-item">
 
