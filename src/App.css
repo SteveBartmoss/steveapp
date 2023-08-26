@@ -515,6 +515,21 @@
   font-family: 'Roboto';
 }
 
+.div-tags{
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+}
+
+.tag{
+  background-color: #005227;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /*  estilos de about */
 
 .contenedor-about{
