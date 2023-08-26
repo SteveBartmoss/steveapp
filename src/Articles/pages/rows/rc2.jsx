@@ -90,10 +90,16 @@ function Rc2() {
                         mucho tiempo de farmeo o que tenga misiones tan largas que requieran de por lo menos una hora de duración.
                     </p>
                 </div>
-                <div>
-                    <p>
-                        En este sentido la
-                        industria tiene un problema claro a la hora de desinar los títulos ya que por un lado esta el sector
+
+                <h1 className="title1">Mas horas de juego = mejor juego</h1>
+                <hr className="line"/>
+
+                <div className="back-articles">
+                    <p className="content">
+                        En este sentido la industria tiene un problema ya que se ha empezado creer que las horas de duracion 
+                        son importantes para que un juego sea bueno y no hay nada mas alejado de la realidad ya que si bien 
+                        anteriormente un juego con muchas horas de duracion era bien recibido pues tenia bastante tiempo, 
+                        actualmente ya no puedo claro a la hora de desinar los títulos ya que por un lado esta el sector
                         de jugadores que disfrutan los juegos que requieren muchas horas de inversión y que tienen el tiempo
                         necesario para poder invertirlo en estos tipos de juegos ya que puede que no tengan  un presupuesto
                         tan alto para poder comprar diferentes títulos  e invertir su dinero en algo que terminaran en apenas
@@ -103,7 +109,12 @@ function Rc2() {
                         como fornite o warzone se vuelvan populares rápidamente gracias a la rapidez con la que terminas las
                         partidas y puedes iniciar una nueva lo cual permite invertir menos tiempo y quizas solo un poco de
                         dinero para los pases de batalla o en algún juego indie que se completa rápidamente y que permite jugar
-                        rápidamente. Debido a esto la industria tiene que empezar a considerar que no todo el mundo esta dispuesto
+                        rápidamente.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Debido a esto la industria tiene que empezar a considerar que no todo el mundo esta dispuesto
                         a completar títulos de mas de 80 horas de duración y empezar a concentrarse en experiencias mas agiles o
                         que permitan disfrutar a las personas que no disponen de tanto tiempo, esto representa un cambio en el
                         futuro de la industria de los video juegos bueno esto fue filass y columnas hasta próxima
