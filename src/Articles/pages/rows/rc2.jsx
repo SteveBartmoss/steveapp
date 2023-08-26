@@ -95,7 +95,7 @@ function Rc2() {
                 <hr className="line"/>
 
                 <div className="back-articles">
-                    <p className="content">
+                    <p className="content-curso">
                         En este sentido la industria tiene un problema ya que se ha empezado creer que las horas de duracion 
                         son importantes para que un juego sea bueno y no hay nada mas alejado de la realidad ya que si bien 
                         anteriormente un juego con muchas horas de duracion era bien recibido pues tenia bastante tiempo, 
