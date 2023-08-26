@@ -74,11 +74,9 @@ function Rc2() {
                         estaba en muy buena oferta pero que no soy capas de probarlo en mucho tiempo porque tengo otros juegos
                         o porque mis amigos están conectados en algún battle royale o similar.
                     </p>
-                </div>
-                <div>
-                    <p>
-                        Aunque esto pueda parecer algo
-                        que no tiene importancia y además de que resulta una evidencia de la cultura del consumismo que cada
+
+                    <p className="content-curso">
+                        Aunque esto pueda parecer algo que no tiene importancia y además de que resulta una evidencia de la cultura del consumismo que cada
                         vez está más presente en la sociedad actual es un punto importante que se tomara en cuenta en las
                         industrias de los videojuegos y que también es un factor importante para entender porque algunos juegos
                         multijugador son tan populares ya que en este tipo de juegos no hace falta invertir grande cantidades
@@ -86,7 +84,12 @@ function Rc2() {
                         es cuestión de minutos para poder iniciar otro partida, títulos como elden ring, grand def rancho o
                         cualquier otro triple a respetable resultan una experiencia buena pero algo desesperante para los
                         usuarios que buscan pasar un rato agradable en algún titulo que no requiera mucho tiempo de farmeo o
-                        que tenga misiones tan largas que requieran de por lo menos una hora de duración. En este sentido la
+                        que tenga misiones tan largas que requieran de por lo menos una hora de duración.
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        En este sentido la
                         industria tiene un problema claro a la hora de desinar los títulos ya que por un lado esta el sector
                         de jugadores que disfrutan los juegos que requieren muchas horas de inversión y que tienen el tiempo
                         necesario para poder invertirlo en estos tipos de juegos ya que puede que no tengan  un presupuesto
