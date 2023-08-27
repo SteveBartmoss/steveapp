@@ -98,9 +98,27 @@ function Steve() {
                         <h1 className="title1">Estado: hackeando a la nasa</h1>
                         <h1 className="title1">Horas de programacion:</h1>
                         <h1 className="title1">Meta de subs: </h1>
-                        <div>
+                        <div className="div-progres">
                             <h1 className="title1">Lenguajes de programacion que uso</h1>
                             <p className="Content">Y su porcentaje de uso</p>
+
+                            <p className="Content">JavaScript 90%</p>
+                            <div className="percent-bar">
+                                <div className="percent-progres nine"></div>
+                            </div>
+                            <p className="Content">Python 10%</p>
+                            <div className="percent-bar">
+                                <div className="percent-progres ten"></div>
+                            </div>
+                            <p className="Content">C 10%</p>
+                            <div className="percent-bar">
+                                <div className="percent-progres ten"></div>
+                            </div>
+                            <p className="Content">Java 80%</p>
+                            <div className="percent-bar">
+                                <div className="percent-progres eigth"></div>
+                            </div>
+
                         </div>
                         
                     </div>
