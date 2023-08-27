@@ -98,6 +98,10 @@ function Steve() {
                         <h1 className="title1">Estado: hackeando a la nasa</h1>
                         <h1 className="title1">Horas de programacion:</h1>
                         <h1 className="title1">Meta de subs: </h1>
+                        <div>
+                            <h1 className="title1">Lenguajes de programacion que uso</h1>
+                            <p className="Content">Y su porcentaje de uso</p>
+                        </div>
                         
                     </div>
                 </div>
