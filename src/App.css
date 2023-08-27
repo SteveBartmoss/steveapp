@@ -530,6 +530,12 @@
   border-radius: 5px;
 }
 
+.div-bio{
+  width: 900px;
+  background-color: var(--gris-7);
+  margin: auto;
+}
+
 /*  estilos de about */
 
 .contenedor-about{
