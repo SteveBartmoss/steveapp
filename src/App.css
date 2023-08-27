@@ -225,6 +225,7 @@
 }
 
 .div-flex-item{
+  width: 900px;
   margin: auto;
   display: flex;
   flex-flow: row wrap;
