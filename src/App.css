@@ -566,6 +566,9 @@
   width: 900px;
   background-color: var(--gris-7);
   margin: auto;
+  padding: 5px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
 }
 
 /*  estilos de about */
@@ -1120,7 +1123,7 @@
 
 .item-lateral{
   width: 400px;
-  background-color:var(--gris-9);
+  background-color:var(--gris-7);
 }
 
 .item-mid{
