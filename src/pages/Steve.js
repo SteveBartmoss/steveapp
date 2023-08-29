@@ -31,7 +31,7 @@ function Steve() {
 
                 <div className="div-bio">
                     <h1 className="title1">Acerca de steve</h1>
-                    <p className="Content">Actualmente estudiante de ingenieria en sistemas con cero porciento de probabilidades
+                    <p className="content-curso">Actualmente estudiante de ingenieria en sistemas con cero porciento de probabilidades
                         de triunfar pero con el cien porciento de fe, uno de mis gustos es la cultura geek por lo cual me
                         me gustan las peliculas de super heroes, la ciencia ficcion, los videojuegos y los temas de programacion
                         aunque en esto ultimo no soy tan bueno. Inicie mi canal de youtube para ayudarme a repasar temas de la
