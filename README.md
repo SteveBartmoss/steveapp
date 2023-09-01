@@ -8,6 +8,10 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `31/08/2023`
+
+Se continua implementando un nuevo estilo en la seccion de steve (se agrego una seccion con el porcentaje de  uso de algunos lenguaes de programacion) por el momento se esta viviendo un invienro en la pagina pero se espera seguir desarollando la nueva version pronto
+
 ### `14/08/2023`
 
 Se implemento un nuevo estilo a las tajertas para las secciones de los articulos, steve labs y proximamente se implementara en las secciones de have fun, dumix y la pagina princiapal. Los colores de la pagina estan cambiando para tomar la tonalidad de grises con algunos distintivos azules, verdes o algun otro color para que la pagina sea mas limpia y no tenga un efecto tan confuso, aun no se trabaja en las versiones de movil pero se trabajara en ellas una vez que se cierre la verison 3 de la pagina.
