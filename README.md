@@ -10,7 +10,7 @@ Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
 ### `31/08/2023`
 
-Se continua implementando un nuevo estilo en la seccion de steve (se agrego una seccion con el porcentaje de  uso de algunos lenguaes de programacion) por el momento se esta viviendo un invienro en la pagina pero se espera seguir desarollando la nueva version pronto
+Se continua implementando un nuevo estilo en la seccion de steve (se agrego una seccion con el porcentaje de  uso de algunos lenguaes de programacion) por el momento se esta viviendo un invierno en la pagina pero se espera seguir desarollando la nueva version pronto, el invierno ha llegado y no se puede ver el final
 
 ### `14/08/2023`
 
