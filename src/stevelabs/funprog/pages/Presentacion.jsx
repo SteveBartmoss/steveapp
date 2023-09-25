@@ -10,6 +10,7 @@ function Presentacion(){
                 temas simples y tambien se explicaran cosas sencillas como la configuracion 
                 del ambiente para poder inciar con la programacion.
             </p>
+            <h1>Ambiente de desarrollo</h1>
         </div>
         </>
     );
