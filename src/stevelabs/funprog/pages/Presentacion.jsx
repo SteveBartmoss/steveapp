@@ -22,6 +22,24 @@ function Presentacion(){
                 en la configuracion del ambiente de desarrollo.
             </p>
             <h1>Ambiente de desarrollo</h1>
+            <p>Para preparar el ambiente de desarrollo para el curso sera
+                necesario contar con los siguientes requisitos
+            </p>
+
+            <ul>
+                <li>Lenguaje C</li>
+                <li>Un compilador de lenguaje C</li>
+                <li>Un editor de codigo o texto</li>
+                <li>Terminal o cli del sistema</li>
+            </ul>
+
+            <p>
+                Si se desea se puede usar un IDE como codeblocks, Clion, eclipse, 
+                Codelite o visual studio aunque mas adelante se mencionarana algunas
+                ventajas que tiene solo usar un editor de texto en lugar de usar un
+                ide
+            </p>
+            
         </div>
         </>
     );
