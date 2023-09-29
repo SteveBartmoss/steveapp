@@ -39,6 +39,17 @@ function Presentacion(){
                 ventajas que tiene solo usar un editor de texto en lugar de usar un
                 ide
             </p>
+
+            <h1>Porque es mejor usar un Editor de Codigo</h1>
+
+            <p>
+                Viendo el tema desde el ambito de productividad no es lo mas recomendable
+                ya que al no usar un ide tenemos que invertir tiempo en pasos extras como 
+                tener que pasar a la terminal a compilar, perdemos efectividad como puede 
+                ser compilar paso a paso un programa, ya que muchas veces los editores de 
+                codigo no tienen estos complementos y tenemos que agregarlos por nuestra 
+                cuenta
+            </p>
             
         </div>
         </>
