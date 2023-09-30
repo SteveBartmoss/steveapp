@@ -48,7 +48,15 @@ function Presentacion(){
                 tener que pasar a la terminal a compilar, perdemos efectividad como puede 
                 ser compilar paso a paso un programa, ya que muchas veces los editores de 
                 codigo no tienen estos complementos y tenemos que agregarlos por nuestra 
-                cuenta
+                cuenta.
+            </p>
+
+            <p>
+                A pesar de lo anterior el tener que compilar por nuestra cuenta nos deja ver
+                mas del proceso que conlleva compilar un programa teniendo que usar los comandos 
+                necesario para generar los ejecutables de los programas y tener iteracciones con 
+                la terminal ya que pocos estan acostumbrados a esto a pesar de que la terminal puede
+                ser un herramienta muy importante
             </p>
             
         </div>
