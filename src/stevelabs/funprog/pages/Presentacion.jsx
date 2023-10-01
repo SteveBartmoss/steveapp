@@ -56,6 +56,7 @@ function Prog1Presentacion() {
                     <h1 className="title-subject">Porque es mejor usar un Editor de Codigo</h1>
                 </div>
 
+                <hr className="line" />
 
                 <p className="content-curso">
                     Viendo el tema desde el ambito de productividad no es lo mas recomendable
@@ -70,8 +71,64 @@ function Prog1Presentacion() {
                     A pesar de lo anterior el tener que compilar por nuestra cuenta nos deja ver
                     mas del proceso que conlleva compilar un programa teniendo que usar los comandos
                     necesario para generar los ejecutables de los programas y tener iteracciones con
-                    la terminal ya que pocos estan acostumbrados a esto a pesar de que la terminal puede
-                    ser un herramienta muy importante
+                    la terminal ya que pocos estan acostumbrados a esto a pesar de que la terminal
+                    puede ser un herramienta muy importante que aporta conocimientos.
+                </p>
+
+                <div className="center">
+                    <h1 className="title-subject">Preparacion del entorno de desarrollo para el curso</h1>
+                </div>
+
+                <hr className="line" />
+
+                <p className="content-curso">
+                    A continacion se dara una recomendacion de programas para tener un entorno
+                    en cual se puedan desarrollar los programas que se veran a lo largo del curso,
+                    aunque esta configuracion es opcional y puedes usar programas diferentes con los
+                    que te sientas mas comodo.
+                </p>
+
+                <h1 className="title1">Editor de codigo</h1>
+                
+                <p className="content-curso">
+                    Con esta aplicacion podemos escribir el codigo del curso y puede ser el 
+                    tipico block de notas si no queremos complicarnos pero si usamos alguno 
+                    de los que se recomiendan aqui o uno diferenre nos dara opciones adicionales 
+                    como resaltado de sintaxis, manejo de documentos entre otras funciones. 
+
+                    A continuacion se muesta una lista de editores de codigo que se pueden usar:
+                </p>
+
+                <ul>
+                    <li>
+                        <a>Vs code</a>
+                    </li>
+                    <li>
+                        <a>Atom</a>
+                    </li>
+                    <li>
+                        <a>NotePad++</a>
+                    </li>
+                    <li>
+                        <a>Sublime text</a>
+                    </li>
+                    <li>
+                        <a>Vim</a>
+                    </li>
+                </ul>
+
+                <p className="content-curso">
+                    Los editores que se mencionana anteriormente estan disponibles para la mayoria 
+                    de sistemas operativos (Windows, linux, Macos) con la exception de vim que suele 
+                    estar disponible en linux o macos pero los demas son complatibles con la mayoria 
+                    y son de uso gatuito sin contatr Sublime Text que requiere un unico pago por su 
+                    licencia.
+                </p>
+
+                <p className="content-curso">
+                    El editor que suelo usar y que de cierta manera es de mis favoritos se trata de 
+                    visual estudio code ya que tiene muchas extensiones pero aun asi su version vanilla
+                    es bastante util
                 </p>
 
             </div>
