@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 function Prog1Navbar(){
     return (
@@ -11,8 +11,11 @@ function Prog1Navbar(){
                             <NavLink className={({isActive})=> `tema ${isActive ? 'select' : ''}`} to="presentacion">Presentacion</NavLink>
                         </li>
                     </div>
+                    <Outlet />
                 </div>
             </div>
         </>
     );
 }
+
+export default Prog1Navbar;
