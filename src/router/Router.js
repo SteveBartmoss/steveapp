@@ -20,6 +20,7 @@ import WebRoutes from "../stevelabs/WebArticles/routes/WebRoutes";
 import ArticlesHome from "../Articles/articlesHome";
 import ArticlesRouter from "../Articles/routes/routerArticles";
 import Progreso from "../pages/progreso";
+import LabsRoutes from "../stevelabs/routes/labsRoutes";
 
 function Router(){
     return(
@@ -57,6 +58,8 @@ function Router(){
                     <Route path="havefun/*" element={<HaveFunRouter />} />
 
                     <Route path="stevelabs" element={<HomeLabs/>} />
+
+                    <Route path="stevelabs/*" element={<LabsRoutes />} />
 
                     <Route path="webdeveloper" element={<WebHome />} />
 
