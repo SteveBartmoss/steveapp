@@ -22,7 +22,7 @@ function HomeLabs() {
                         ya que esta orientado a personas que comienzan a programar por lo cual no
                         se esperan muchos conocimientos</p>
                     <div className="center">
-                        <a className="dumix-btn" href="#">Ir al curso</a>
+                        <a className="dumix-btn" href="stevelabs/program1">Ir al curso</a>
                     </div>
 
                 </div>
