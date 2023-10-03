@@ -131,6 +131,14 @@ function Prog1Presentacion() {
                     es bastante util
                 </p>
 
+                <h1 className="title1">Lenguaje de programacion</h1>
+
+                <p className="content-curso">
+                    Se usara lenguaje C ya que este lenguaje permite tener una base ya que tiene la 
+                    mayoria de convenciones que es bueno tenerlas en cuenta a la hora de empezar a 
+                    programar, con esto se puede tener una mejor idea de los principios de programacion
+                    y la logica de la programacion con la que se trabaja al inciar a trabajar
+                </p>
             </div>
         </>
     );
