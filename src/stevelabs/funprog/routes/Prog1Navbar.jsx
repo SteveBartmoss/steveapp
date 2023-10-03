@@ -12,23 +12,23 @@ function Prog1Navbar() {
                         </li>
 
                         <li>
-                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Salida Estandar</NavLink>
+                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="salida">Salida Estandar</NavLink>
                         </li>
 
                         <li>
-                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Entrada Estandar</NavLink>
+                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="entrada">Entrada Estandar</NavLink>
                         </li>
 
                         <li>
-                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Operadores</NavLink>
+                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="operadores">Operadores</NavLink>
                         </li>
 
                         <li>
-                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Condicionales</NavLink>
+                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="condicionales">Condicionales</NavLink>
                         </li>
 
                         <li>
-                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Bucles</NavLink>
+                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="bucles">Bucles</NavLink>
                         </li>
 
                     </div>
