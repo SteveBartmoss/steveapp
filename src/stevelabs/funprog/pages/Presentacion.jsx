@@ -139,6 +139,18 @@ function Prog1Presentacion() {
                     programar, con esto se puede tener una mejor idea de los principios de programacion
                     y la logica de la programacion con la que se trabaja al inciar a trabajar
                 </p>
+
+                <p className="content-curso">
+                    En la mayoria de los sistemas operativos este lenguaje ya viene instalado por lo que 
+                    no es necesario tener que instalar el lenguaje asi que este punto no siempre es necesario
+                    intalar el lenguaje desde cero
+                </p>
+
+                <h1 className="title1">Compilador</h1>
+
+                <p className="content-curso">
+                    El compilador sera 
+                </p>
             </div>
         </>
     );
