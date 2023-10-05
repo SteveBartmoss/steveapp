@@ -149,8 +149,14 @@ function Prog1Presentacion() {
                 <h1 className="title1">Compilador</h1>
 
                 <p className="content-curso">
-                    El compilador sera 
+                    El compilador sera el encargado de crear el ejecutable o binario de nuestro programam 
+                    para poder ejecutarlo y ver su funcionamiento, este no viene instalado por defecto en 
+                    los sistemas operativos por lo que tenemos que instalarlo por nuestra cuenta y la recomendacion 
+                    es que se use gcc en los sistemas de linux o mingw para windows ya que con esto se podra comipilar 
+                    el codigo.
                 </p>
+
+                <h1 className="title1">Entorno de desarrollo integrado (ide)</h1>
             </div>
         </>
     );
