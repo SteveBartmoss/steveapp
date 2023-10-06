@@ -131,6 +131,21 @@ function Prog1Presentacion() {
                     es bastante util
                 </p>
 
+                <h1 className="title1">Instalar el editor de codigo (windows)</h1>
+
+                <p className="content-curso">
+                    En el caso de un sistema windows basta con seguir el link de alguno de los editores
+                    que se dejaron en la lista anterior, descargar y ejecutar el instalador ya que no se 
+                    requiere de una configuracion extra.
+                </p>
+
+                <h1 className="title1">Instalar el editor de codigo (linux)</h1>
+
+                <p className="content-curso">
+                    En un sistema linux la instalacion puede ser un poco mas tardada pero no deneria ser tan 
+                    dificil ya que si usas 
+                </p>
+
                 <h1 className="title1">Lenguaje de programacion</h1>
 
                 <p className="content-curso">
@@ -157,6 +172,20 @@ function Prog1Presentacion() {
                 </p>
 
                 <h1 className="title1">Entorno de desarrollo integrado (ide)</h1>
+
+                <p className="content-curso">
+                    Un IDE es una herramienta muy util a la hora de programar ya que contiene bastantes herrmientas 
+                    instaladas y listas para poder usarlas pues se trata de un programa que contiene un compilador, 
+                    editor de codigo, un depurador y muchas otras extensiones que permiten desarrollar el codigo mas 
+                    rapidamente ya que solo se tiene que instalar y empezar a programar.
+                </p>
+
+                <p className="content-curso">
+                    Para el curso se puede utilizar pero debido a que el IDE hace por si solo muchas cosas se puede 
+                    llegar a dejar de lado muchos conocimientos a la hora de que se inicia a programar como el proceso 
+                    de compilacion, por esta razon es una buena idea instalar las herramientas por separado para tener un 
+                    mejor conocimiento de todo el proceso que lleva programar.
+                </p>
             </div>
         </>
     );
