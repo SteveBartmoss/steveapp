@@ -12,6 +12,8 @@ function LabsRoutes(){
 
                     <Route path="presentacion" element={<Prog1Presentacion />} />
 
+                    <Route path="algoritmo" element={<h1>Algoritmo</h1>} />
+
                     <Route path="salida" element={<h1>Salida</h1>} />
 
                     <Route path="entrada" element={<h1>Entrada</h1>} />
