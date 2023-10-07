@@ -143,7 +143,12 @@ function Prog1Presentacion() {
 
                 <p className="content-curso">
                     En un sistema linux la instalacion puede ser un poco mas tardada pero no deneria ser tan 
-                    dificil ya que si usas 
+                    dificil ya que si usas ubuntu, fedora o alguna otra distribucion mas amigable basta con 
+                    que busques en la tienda de software la aplicacion de vs code para instalar el editor de 
+                    codigo. En caso de no poder usar la tienda basta con que se descarges el paquete .deb para 
+                    distribuciones de debian o el archivo rmp para otras distribuciones, tambien estan disponible 
+                    el archivo, tar y snap de vs code. Una vez que se tiene descargado el paquete correspondiente 
+                    se debe usar algun gestor de paquetes para instalar el programa.
                 </p>
 
                 <h1 className="title1">Lenguaje de programacion</h1>
@@ -170,6 +175,10 @@ function Prog1Presentacion() {
                     es que se use gcc en los sistemas de linux o mingw para windows ya que con esto se podra comipilar 
                     el codigo.
                 </p>
+
+                <h1 className="title1">Instalar el compilador (windows)</h1>
+
+                <h1 className="title1">Instalar el compilador (linux)</h1>
 
                 <h1 className="title1">Entorno de desarrollo integrado (ide)</h1>
 
