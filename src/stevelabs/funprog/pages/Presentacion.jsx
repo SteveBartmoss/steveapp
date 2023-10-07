@@ -178,7 +178,19 @@ function Prog1Presentacion() {
 
                 <h1 className="title1">Instalar el compilador (windows)</h1>
 
+                <p className="content-curso">
+                    En el caso de windows su instalacion es sencilla ya que solo se debe descargar el instaldor 
+                    ejecutarlo y despues se debe agregar mingw a la variable de ruta de windows para poder 
+                    ejecutar los comandos desde la terminal dewindows.
+                </p>
+
                 <h1 className="title1">Instalar el compilador (linux)</h1>
+
+                <p className="content-curso">
+                    En sistemas linux es un poco mas sencillo ya que el compilador gcc esta disponible en la 
+                    mayoria de gestores de paquetes asi que basta con usar el correspodiente y hacer la instalacion 
+                    como se muestra a continiacion:
+                </p>
 
                 <h1 className="title1">Entorno de desarrollo integrado (ide)</h1>
 
