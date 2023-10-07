@@ -29,6 +29,20 @@ function HomeLabs() {
 
                 <div className="div-min-article">
                     <div className="center">
+                        <h1 className="title1">Primeros pasos en Base de datos</h1>
+                    </div>
+                    <p className="Content">En este curso se abordan temas basicos sobre bases de
+                        datos, esta orientado a personas que empiezan por lo 
+                        cual no se esperan muchos conocimientos
+                    </p>
+                    <div className="center">
+                        <a className="dumix-btn" href="stevelabs/program1">Ir al curso</a>
+                    </div>
+
+                </div>
+
+                <div className="div-min-article">
+                    <div className="center">
                         <h1 className="title1">Web developer</h1>
                     </div>
                     <p className="Content">En este apartado puede consultar los articulos que fueron
