@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 function Prog1Navbar() {
+
+    const [menu,setMenu]=useState('open');
+
     return (
         <>
             <div className="div-prime">
                 <div className="grid-dumix">
                     <div className="linux-menu">
+                        <button>Menu</button>
                         <li>
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Presentacion</NavLink>
                         </li>
