@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import LabsFooter from "../../components/labsFooter";
 
 function Prog1Navbar() {
 
@@ -37,6 +38,7 @@ function Prog1Navbar() {
                     </div>
                     <Outlet />
                 </div>
+                <LabsFooter/>
             </div>
         </>
     );
