@@ -762,6 +762,10 @@
   background-color: #1b1b1b;
 }
 
+.hidenItems{
+  display: none;
+}
+
 .tema{
   font-size: 20px;
   color: #ffff;
