@@ -15,7 +15,7 @@ function Prog1Navbar() {
             <div className="div-prime">
                 <div className="grid-dumix">
                     <div className={isOpen ? 'open' : 'close'}>
-                        <button className="dumix-btn" type="button" onClick={() => closeMenu()}>≡</button>
+                        <button className="dumix-btn" type="button" onClick={() => closeMenu()}>☰</button>
 
                         <di className={isOpen ? '' : 'hidenItems'}>
 
