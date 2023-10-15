@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 function Prog1Navbar() {
-    
+
     const [isOpen,setIsOpen]=useState(true);
 
     const closeMenu=()=>{
@@ -15,7 +15,7 @@ function Prog1Navbar() {
             <div className="div-prime">
                 <div className="grid-dumix">
                     <div className={isOpen ? 'open': 'close'}>
-                        <button type="button" onClick={()=>closeMenu()}>Menu</button>
+                        <button type="button" onClick={()=>closeMenu()}>≡</button>
                         <li>
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Presentacion</NavLink>
                         </li>
