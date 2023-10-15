@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 function Linux1NavBar() {
+    
+    const [isOpen,setIsOpen] = useState(true);
+
+    const closeMenu = () => {
+        setIsOpen(!isOpen);
+        console.log(isOpen);
+    }
+
     return (
         <>
             <div className="div-prime">
                 <div className="grid-dumix">
 
-                    <div className="linux-menu">
+                    <div className={isOpen ? 'open' : 'close'}>
+
+                    <button className="dumix-btn" type="button" onClick={() => closeMenu()}>☰</button>
 
                         <li>
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Presentacion</NavLink>
