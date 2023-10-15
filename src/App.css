@@ -755,9 +755,8 @@
   height: 700px;
   display: flex;
   flex-direction: column;
-  padding-right: 10px;
+  overflow-x: hidden;
   overflow: hidden;
-  overflow-y: scroll;
   /*background-color: #24283B;*/
   /*background-color: #343434;*/
   background-color: var(--indigo-6);
