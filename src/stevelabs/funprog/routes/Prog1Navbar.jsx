@@ -5,12 +5,16 @@ function Prog1Navbar() {
 
     const [menu,setMenu]=useState('open');
 
+    const closeMenu=()=>{
+        setMenu('close');
+    }
+
     return (
         <>
             <div className="div-prime">
                 <div className="grid-dumix">
-                    <div className="linux-menu">
-                        <button>Menu</button>
+                    <div className={menu}>
+                        <button type="button" onClick={()=>closeMenu()}>Menu</button>
                         <li>
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Presentacion</NavLink>
                         </li>
