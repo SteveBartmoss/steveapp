@@ -738,6 +738,18 @@
   background-color: #1b1b1b;
 }
 
+.open{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+  /*background-color: #24283B;*/
+  /*background-color: #343434;*/
+  background-color: #1b1b1b;
+}
+
 .tema{
   font-size: 20px;
   color: #ffff;
