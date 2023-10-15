@@ -17,7 +17,7 @@ function Prog1Navbar() {
                     <div className={isOpen ? 'open' : 'close'}>
                         <button className="dumix-btn" type="button" onClick={() => closeMenu()}>☰</button>
 
-                        <di className={isOpen ? '' : 'hidenItems'}>
+                        <div className={isOpen ? '' : 'hidenItems'}>
 
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="presentacion">Presentacion</NavLink>
 
@@ -33,7 +33,7 @@ function Prog1Navbar() {
 
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="bucles">Bucles</NavLink>
 
-                        </di>
+                        </div>
                     </div>
                     <Outlet />
                 </div>
