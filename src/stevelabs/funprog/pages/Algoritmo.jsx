@@ -5,11 +5,27 @@ function Prog1Algoritmo() {
         <>
             <div className="div-curso">
                 <div>
-                    <h1>Algoritmo</h1>
+                    <h1 className="title-subject">Algoritmo</h1>
                 </div>
+
+                <p>
+                    Es un conjunto de reglas o instrucciones definidas, no ambiguas, ordenadas y 
+                    finitas que permiten resolver un problema.
+                </p>
+
+                <p>
+                    la anterior definición puede ser abrumadora pero es solo por la definición 
+                    formal de la misma ya que en realidad las personas usan un algoritmo todo el 
+                    tiempo. Seguir un manual, las instrucciones para una dirección o un proceso de 
+                    instalación de un programa es también seguir un algoritmo, en la programación 
+                    un tema principal son los algoritmos ya que un programa es un conjunto de instrucciones 
+                    ordenadas y que son finitas que permiten resolver un problema, con lo anterior podemos 
+                    ver a los programas como un conjunto de algoritmos.
+                </p>
+
                 <p>
 
-                    Es un conjunto de reglas o instrucciones definidas, no ambiguas, ordenadas y finitas que permiten resolver un problema, la anterior definición puede ser abrumadora pero es solo por la definición formal de la misma ya que en realidad las personas usan un algoritmo todo el tiempo. Seguir un manual, las instrucciones para una dirección o un proceso de instalación de un programa es también seguir un algoritmo, en la programación un tema principal son los algoritmos ya que un programa es un conjunto de instrucciones ordenadas y que son finitas que permiten resolver un problema, con lo anterior podemos ver a los programas como un conjunto de algoritmos.
+
 
                     Representaciones de un algoritmo
 
