@@ -9,28 +9,35 @@ function Prog1Algoritmo() {
                 </div>
 
                 <p>
-                    Es un conjunto de reglas o instrucciones definidas, no ambiguas, ordenadas y 
+                    Es un conjunto de reglas o instrucciones definidas, no ambiguas, ordenadas y
                     finitas que permiten resolver un problema.
                 </p>
 
                 <p>
-                    la anterior definición puede ser abrumadora pero es solo por la definición 
-                    formal de la misma ya que en realidad las personas usan un algoritmo todo el 
-                    tiempo. Seguir un manual, las instrucciones para una dirección o un proceso de 
-                    instalación de un programa es también seguir un algoritmo, en la programación 
-                    un tema principal son los algoritmos ya que un programa es un conjunto de instrucciones 
-                    ordenadas y que son finitas que permiten resolver un problema, con lo anterior podemos 
+                    la anterior definición puede ser abrumadora pero es solo por la definición
+                    formal de la misma ya que en realidad las personas usan un algoritmo todo el
+                    tiempo. Seguir un manual, las instrucciones para una dirección o un proceso de
+                    instalación de un programa es también seguir un algoritmo, en la programación
+                    un tema principal son los algoritmos ya que un programa es un conjunto de instrucciones
+                    ordenadas y que son finitas que permiten resolver un problema, con lo anterior podemos
                     ver a los programas como un conjunto de algoritmos.
                 </p>
 
+                <div>
+                    <h1 className="title-subject">Representaciones de un algoritmo</h1>
+                </div>
+
                 <p>
+                    Un algoritmo puede tener diferentes representacións ya que por ejemplo un manual de 
+                    instrucciones puede componerse solamente de imágenes, solamente de texto o combinar 
+                    ambas pero aún con eso el resultado debe ser el mismo resolver el problema planteado 
+                    siguiendo los pasos descritos. En la programación hay diferentes maneras de representar 
+                    un programa y una de las más populares es el diagrama de flujo y el pseudo código que si 
+                    bien nunca me agradaron pueden ser de gran utilidad a la hora de enfrentar problemas de 
+                    gran complejidad.
+                </p>
 
-
-
-                    Representaciones de un algoritmo
-
-                    Un algoritmo puede tener diferentes representacións ya que por ejemplo un manual de instrucciones puede componerse solamente de imágenes, solamente de texto o combinar ambas pero aún con eso el resultado debe ser el mismo resolver el problema planteado siguiendo los pasos descritos. En la programación hay diferentes maneras de representar un programa y una de las más populares es el diagrama de flujo y el pseudo código que si bien nunca me agradaron pueden ser de gran utilidad a la hora de enfrentar problemas de gran complejidad.
-
+                <p>
                     Importancia de un diagrama de flujo
 
                     Aunque pueda parecer una pérdida de tiempo (por mucho tiempo yo también lo considere así) hacer un diagrama de flujo antes de crear el programa te puede dar una visión clara de como resolver el problema, muchas veces los programadores que inician no definen bien los pasos para resolver el problema antes de crear el programa y el resultado es que no tienen idea de cómo iniciar el programa o crean codigo que no es necesario para resolver el problema. Una de las bases para poder programar sin tantos problemas es que definir cuál es la entrada de nuestro programa y cuál debe ser la salida, en el medio de pueden definir pasos claves como una condición, un bucle o llamadas a otra programa.
