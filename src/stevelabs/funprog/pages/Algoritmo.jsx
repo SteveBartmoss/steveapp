@@ -61,27 +61,25 @@ function Prog1Algoritmo() {
                 </div>
 
                 <p>
-                    Problema: crear un algoritmo que incremente una número hasta el que su valor sea 10 
-                    Solución: tomamos como base el número 0 y preguntamos la base es igual a 10, si no es igual 10 
-                    entonces a la base le sumamos uno, si  base es igual a 10 entonces hemos terminado. El ejemplo 
-                    anterior es muy simple pero permite ver cómo se codificaria un programa que incremente una 
-                    variable hasta 10 o incluso hasta el número que queramos ya que se puede sustituir el número 10 
-                    por cualquier otros, podemos identificar que en el ejemplo la base es la entrada de nuestro programa 
-                    que en este caso empieza como 0, y que nuestra salida es la base con el valor 10, los pasos Intermedios 
-                    serían preguntar si la base es igual a 10 y sumar uno a la base si no es a 10. En ejemplo anterior usamos 
-                    la palabra base para referirnos al número que queremos que llegue a 10 pero en programación a esto 
-                    le llamamos variable, preguntar si la base es igual a 10 sería el equivalente a un operador lógico 
-                    pero en secciones posteriores se abordan con más detalle estos temas. En esta sección es importante 
+                    Problema: crear un algoritmo que incremente una número hasta el que su valor sea 10
+                    Solución: tomamos como base el número 0 y preguntamos la base es igual a 10, si no es igual 10
+                    entonces a la base le sumamos uno, si  base es igual a 10 entonces hemos terminado. El ejemplo
+                    anterior es muy simple pero permite ver cómo se codificaria un programa que incremente una
+                    variable hasta 10 o incluso hasta el número que queramos ya que se puede sustituir el número 10
+                    por cualquier otros, podemos identificar que en el ejemplo la base es la entrada de nuestro programa
+                    que en este caso empieza como 0, y que nuestra salida es la base con el valor 10, los pasos Intermedios
+                    serían preguntar si la base es igual a 10 y sumar uno a la base si no es a 10. En ejemplo anterior usamos
+                    la palabra base para referirnos al número que queremos que llegue a 10 pero en programación a esto
+                    le llamamos variable, preguntar si la base es igual a 10 sería el equivalente a un operador lógico
+                    pero en secciones posteriores se abordan con más detalle estos temas. En esta sección es importante
                     conocer y entender el concepto de algoritmo ya que es algo fundamental para la programación.
                 </p>
 
+                <div>
+                    <h1 className="title-subject">Ejercicios propuestos</h1>
+                </div>
+
                 <p>
-
-
-
-
-                    Ejercicios propuestos
-
                     Crear el algoritmo para saber si un número es par.
 
                     Crear un algoritmo obtener el cuadro de un número.
