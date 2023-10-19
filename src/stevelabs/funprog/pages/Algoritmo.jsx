@@ -28,22 +28,35 @@ function Prog1Algoritmo() {
                 </div>
 
                 <p>
-                    Un algoritmo puede tener diferentes representacións ya que por ejemplo un manual de 
-                    instrucciones puede componerse solamente de imágenes, solamente de texto o combinar 
-                    ambas pero aún con eso el resultado debe ser el mismo resolver el problema planteado 
-                    siguiendo los pasos descritos. En la programación hay diferentes maneras de representar 
-                    un programa y una de las más populares es el diagrama de flujo y el pseudo código que si 
-                    bien nunca me agradaron pueden ser de gran utilidad a la hora de enfrentar problemas de 
+                    Un algoritmo puede tener diferentes representacións ya que por ejemplo un manual de
+                    instrucciones puede componerse solamente de imágenes, solamente de texto o combinar
+                    ambas pero aún con eso el resultado debe ser el mismo resolver el problema planteado
+                    siguiendo los pasos descritos. En la programación hay diferentes maneras de representar
+                    un programa y una de las más populares es el diagrama de flujo y el pseudo código que si
+                    bien nunca me agradaron pueden ser de gran utilidad a la hora de enfrentar problemas de
                     gran complejidad.
                 </p>
 
+                <div>
+                    <h1 className="title-subject">Importancia de un diagrama de flujo</h1>
+                </div>
+
                 <p>
-                    Importancia de un diagrama de flujo
+                    Aunque pueda parecer una pérdida de tiempo (por mucho tiempo yo también lo considere así) 
+                    hacer un diagrama de flujo antes de crear el programa te puede dar una visión clara de como 
+                    resolver el problema, muchas veces los programadores que inician no definen bien los pasos para 
+                    resolver el problema antes de crear el programa y el resultado es que no tienen idea de cómo 
+                    iniciar el programa o crean codigo que no es necesario para resolver el problema. Una de las 
+                    bases para poder programar sin tantos problemas es que definir cuál es la entrada de nuestro 
+                    programa y cuál debe ser la salida, en el medio de pueden definir pasos claves como una condición, 
+                    un bucle o llamadas a otra programa.Tener claro la entrada, los pasos y la salida permite al 
+                    programador tener una vista previa de lo que tiene que codificar y de esta manera no se inicia 
+                    desde cero, si no que se puede buscar como hacer un paso en específico o diseñar una función en 
+                    específico para resolver un paso, esto aunque no lo parezca puede simplificar mucho los problemas 
+                    que lleva la creación de un programa.
+                </p>
 
-                    Aunque pueda parecer una pérdida de tiempo (por mucho tiempo yo también lo considere así) hacer un diagrama de flujo antes de crear el programa te puede dar una visión clara de como resolver el problema, muchas veces los programadores que inician no definen bien los pasos para resolver el problema antes de crear el programa y el resultado es que no tienen idea de cómo iniciar el programa o crean codigo que no es necesario para resolver el problema. Una de las bases para poder programar sin tantos problemas es que definir cuál es la entrada de nuestro programa y cuál debe ser la salida, en el medio de pueden definir pasos claves como una condición, un bucle o llamadas a otra programa.
-
-                    Tener claro la entrada, los pasos y la salida permite al programador tener una vista previa de lo que tiene que codificar y de esta manera no se inicia desde cero, si no que se puede buscar como hacer un paso en específico o diseñar una función en específico para resolver un paso, esto aunque no lo parezca puede simplificar mucho los problemas que lleva la creación de un programa.
-
+                <p>
                     Ejemplo de un algoritmo
 
                     Problema: crear un algoritmo que incremente una número hasta el que su valor sea 10
