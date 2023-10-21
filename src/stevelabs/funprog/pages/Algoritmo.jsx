@@ -60,7 +60,7 @@ function Prog1Algoritmo() {
                     <h1 className="title-subject">Ejemplo de un algoritmo</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Problema: crear un algoritmo que incremente una número hasta el que su valor sea 10
                     Solución: tomamos como base el número 0 y preguntamos la base es igual a 10, si no es igual 10
                     entonces a la base le sumamos uno, si  base es igual a 10 entonces hemos terminado. El ejemplo
