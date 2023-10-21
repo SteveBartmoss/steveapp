@@ -8,12 +8,12 @@ function Prog1Algoritmo() {
                     <h1 className="title-subject">Algoritmo</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Es un conjunto de reglas o instrucciones definidas, no ambiguas, ordenadas y
                     finitas que permiten resolver un problema.
                 </p>
 
-                <p>
+                <p className="content-curso">
                     la anterior definición puede ser abrumadora pero es solo por la definición
                     formal de la misma ya que en realidad las personas usan un algoritmo todo el
                     tiempo. Seguir un manual, las instrucciones para una dirección o un proceso de
