@@ -41,7 +41,7 @@ function Prog1Algoritmo() {
                     <h1 className="title-subject">Importancia de un diagrama de flujo</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Aunque pueda parecer una pérdida de tiempo (por mucho tiempo yo también lo considere así)
                     hacer un diagrama de flujo antes de crear el programa te puede dar una visión clara de como
                     resolver el problema, muchas veces los programadores que inician no definen bien los pasos para
