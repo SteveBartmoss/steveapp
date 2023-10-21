@@ -27,7 +27,7 @@ function Prog1Algoritmo() {
                     <h1 className="title-subject">Representaciones de un algoritmo</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Un algoritmo puede tener diferentes representacións ya que por ejemplo un manual de
                     instrucciones puede componerse solamente de imágenes, solamente de texto o combinar
                     ambas pero aún con eso el resultado debe ser el mismo resolver el problema planteado
