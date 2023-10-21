@@ -79,7 +79,7 @@ function Prog1Algoritmo() {
                     <h1 className="title-subject">Ejercicios propuestos</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Crear el algoritmo para saber si un número es par.
 
                     Crear un algoritmo obtener el cuadro de un número.
