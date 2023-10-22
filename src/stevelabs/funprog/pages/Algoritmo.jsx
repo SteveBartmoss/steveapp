@@ -4,7 +4,8 @@ function Prog1Algoritmo() {
     return (
         <>
             <div className="div-curso">
-                <div>
+
+                <div className="center">
                     <h1 className="title-subject">Algoritmo</h1>
                 </div>
 
