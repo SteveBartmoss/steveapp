@@ -8,6 +8,8 @@ function Prog1Algoritmo() {
                     <h1 className="title-subject">Algoritmo</h1>
                 </div>
 
+                <hr className="line" />
+
                 <p className="content-curso">
                     Es un conjunto de reglas o instrucciones definidas, no ambiguas, ordenadas y
                     finitas que permiten resolver un problema.
