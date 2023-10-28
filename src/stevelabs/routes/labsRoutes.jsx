@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Prog1Navbar from "../funprog/routes/Prog1Navbar";
 import Prog1Presentacion from "../funprog/pages/Presentacion";
 import Prog1Algoritmo from "../funprog/pages/Algoritmo";
+import Prog1Compile from "../funprog/pages/Compile";
 
 function LabsRoutes(){
     return(
@@ -14,6 +15,8 @@ function LabsRoutes(){
                     <Route path="presentacion" element={<Prog1Presentacion />} />
 
                     <Route path="algoritmo" element={<Prog1Algoritmo />} />
+
+                    <Route path="compile" element={<Prog1Compile />} />
 
                     <Route path="salida" element={<h1>Salida</h1>} />
 
