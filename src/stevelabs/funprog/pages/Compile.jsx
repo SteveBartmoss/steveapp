@@ -4,8 +4,13 @@ function Prog1Compile() {
     return (
         <>
             <div className="div-curso">
+
+                <div>
+                    <h1> Proceso de compilación</h1>
+                </div>
+                
                 <p>
-                    Proceso de compilación
+                   
 
                     La compilación es el procedimiento mediante el cual un programa llamado compilador recibe como entrada el código fuente de otro programa, para convertir lo en un archivo binario que el procesador puede leer y ejecutar.
 

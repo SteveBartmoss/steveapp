@@ -4,8 +4,12 @@ function Prog1Input() {
     return (
         <>
             <div className="div-curso">
+
+                <div>
+                    <h1>Salida estándar (standar input)</h1>
+                </div>
+                
                 <p>
-                    Salida estándar (standar input)
 
                     La salida estándar de un programa simple suele ser la pantalla de la computadora y por tradición el primer programa que suelen desarrollar es el ejércicio conocido como hola mundo, este es bastante simple pues solo consiste en mostrar por pantalla el mensaje hola mundo o cualquier otro mensaje que se elija. Anterior mente en la programación era bastante común que solo se interactuara con el usuario mediante la impresion en pantalla y de hecho las primeras computadoras se utilizaban medíante comandos que los usuarios ingresaban, en este curso los programas que crearemos serán este tipo ya que es forma más simple de interactuar con el usuario.
 

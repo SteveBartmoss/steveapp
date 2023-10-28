@@ -4,6 +4,11 @@ function Prog1Estructura() {
     return (
         <>
             <div className="div-curso">
+
+                <div>
+                    <h1>Estructura de un programa en c</h1>
+                </div>
+
                 <p>
                     Estructura de un programa en c
 
