@@ -3,7 +3,7 @@ import React from "react";
 function Prog1Input() {
     return (
         <>
-            <div>
+            <div className="div-curso">
                 <p>
                     Salida estándar (standar input)
 
