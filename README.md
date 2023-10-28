@@ -8,6 +8,10 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `28/10/2023`
+
+Se implemento una mejora en los menus de los cursos ya que ahora se trata de un menu desplegable lo cual hace que el curso sea mas facil de visualizar, se sigue agregando contenido al curso de programacion pero aun esta en 1% de avance, los estilos de las otras secciones de ls paginas esta en progreso todavia, el invierno es mas largo que nunca pero en algun momento debe terminar
+
 ### `31/08/2023`
 
 Se continua implementando un nuevo estilo en la seccion de steve (se agrego una seccion con el porcentaje de  uso de algunos lenguaes de programacion) por el momento se esta viviendo un invierno en la pagina pero se espera seguir desarollando la nueva version pronto, el invierno ha llegado y no se puede ver el final
