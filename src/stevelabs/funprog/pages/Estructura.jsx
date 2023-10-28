@@ -3,7 +3,7 @@ import React from "react";
 function Prog1Estructura() {
     return (
         <>
-            <div>
+            <div className="div-curso">
                 <p>
                     Estructura de un programa en c
 
