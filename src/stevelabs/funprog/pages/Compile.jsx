@@ -3,7 +3,7 @@ import React from "react";
 function Prog1Compile() {
     return (
         <>
-            <div>
+            <div className="div-curso">
                 <p>
                     Proceso de compilación
 
