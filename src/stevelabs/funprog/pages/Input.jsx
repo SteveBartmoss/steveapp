@@ -12,7 +12,7 @@ function Prog1Input() {
                 <p>
                     La salida estándar de un programa simple suele ser la pantalla de la computadora y por tradición el primer programa que suelen desarrollar es el ejércicio conocido como hola mundo, este es bastante simple pues solo consiste en mostrar por pantalla el mensaje hola mundo o cualquier otro mensaje que se elija. Anterior mente en la programación era bastante común que solo se interactuara con el usuario mediante la impresion en pantalla y de hecho las primeras computadoras se utilizaban medíante comandos que los usuarios ingresaban, en este curso los programas que crearemos serán este tipo ya que es forma más simple de interactuar con el usuario.
                 </p>
-                
+
                 <div>
                     <h1>La instruccion printf en C</h1>
                 </div>
@@ -23,9 +23,13 @@ function Prog1Input() {
                     Una vez que lo copiamos debemos crear un archivo con terminación .c en el editor de código que usemos, si se trata de vscode podemos usar el menú archivo nuevo Archivo y darle el nombre, en un IDE como code blocks, clion o cualquier otro debe existir un menú archivo y en el seleccionamos crear y le damos un nombre con la terminación punto c.
 
                     Si eres de la vieja escuela o simplemente te gusta el camino difícil y usar block de notas, vim, nano o algun otro editor de texto para los hardcore, basta con que crees un archivo punto c y luego lo edites con el block de notas, vim o nano. El comando para crear un archivo en Linux es touch nombre.c en Windows basta con abrir block de notas copiar el código, guardar como, seleccionas el tipo de archivo como todo y pones el nombre del archivo y .c con eso ya tendrás el código.
+                </p>
+                
+                <div>
+                    <h1>Cómo compilar y ejecutar el código</h1>
+                </div>
 
-                    Cómo compilar y ejecutar el código
-
+                <p>
                     El proceso de compilar es una llamada a otro programa llamado compilador este programa se encarga de pasar el lenguaje de programación a lenguaje máquina, esto se tiene que hacer porque la computadora no sabe otro lenguaje que no sea unos y ceros pero las personas no escribimos nuestro código en unos y ceros.
 
                     Cómo compilar desde terminal con gcc
