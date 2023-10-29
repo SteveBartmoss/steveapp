@@ -30,8 +30,8 @@ function Prog1Compile() {
                     de los últimos grados.
                 </p>
 
-                <div>
-                    <h1>No compila :(</h1>
+                <div className="center">
+                    <h1 className="title-subject">No compila :(</h1>
                 </div>
 
                 <p>
@@ -48,8 +48,8 @@ function Prog1Compile() {
                     tipo de error es diferente la una de la otra.
                 </p>
 
-                <div>
-                    <h1>El compilador es tu amigo</h1>
+                <div className="center">
+                    <h1 className="title-subject">El compilador es tu amigo</h1>
                 </div>
 
                 <p>
@@ -59,8 +59,8 @@ function Prog1Compile() {
                     casos el complidor nos indicara que hay un error en el código
                 </p>
 
-                <div>
-                    <h1>Olvide un punto y coma :(</h1>
+                <div className="center">
+                    <h1 className="title-subject">Olvide un punto y coma :(</h1>
                 </div>
 
                 <p>
