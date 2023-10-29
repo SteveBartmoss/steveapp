@@ -5,6 +5,7 @@ import Prog1Presentacion from "../funprog/pages/Presentacion";
 import Prog1Algoritmo from "../funprog/pages/Algoritmo";
 import Prog1Compile from "../funprog/pages/Compile";
 import Prog1Estructura from "../funprog/pages/Estructura";
+import Prog1Input from "../funprog/pages/Input";
 
 function LabsRoutes(){
     return(
@@ -21,7 +22,7 @@ function LabsRoutes(){
 
                     <Route path="estructura" element={<Prog1Estructura />} />
 
-                    <Route path="salida" element={<h1>Salida</h1>} />
+                    <Route path="salida" element={<Prog1Input />} />
 
                     <Route path="entrada" element={<h1>Entrada</h1>} />
 
