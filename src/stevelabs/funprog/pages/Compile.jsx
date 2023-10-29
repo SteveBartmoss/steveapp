@@ -5,8 +5,8 @@ function Prog1Compile() {
         <>
             <div className="div-curso">
 
-                <div>
-                    <h1> Proceso de compilación</h1>
+                <div  className="center">
+                    <h1 className="title-subject"> Proceso de compilación</h1>
                 </div>
                 
                 <p>
