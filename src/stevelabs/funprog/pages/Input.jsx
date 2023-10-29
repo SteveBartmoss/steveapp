@@ -6,7 +6,7 @@ function Prog1Input() {
             <div className="div-curso">
 
                 <div>
-                    <h1>Salida estándar (standar input)</h1>
+                    <h1 className="title-subject">Salida estándar (standar input)</h1>
                 </div>
 
                 <p>
@@ -23,7 +23,7 @@ function Prog1Input() {
                 </p>
 
                 <div>
-                    <h1>La instruccion printf en C</h1>
+                    <h1 className="title-subject">La instruccion printf en C</h1>
                 </div>
 
                 <p>
@@ -50,7 +50,7 @@ function Prog1Input() {
                 </p>
 
                 <div>
-                    <h1>Cómo compilar y ejecutar el código</h1>
+                    <h1 className="title-subject">Cómo compilar y ejecutar el código</h1>
                 </div>
 
                 <p>
@@ -61,7 +61,7 @@ function Prog1Input() {
                 </p>
 
                 <div>
-                    <h1>Cómo compilar desde terminal con gcc</h1>
+                    <h1 className="title-subject">Cómo compilar desde terminal con gcc</h1>
                 </div>
 
                 <p>
