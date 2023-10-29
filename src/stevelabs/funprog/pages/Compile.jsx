@@ -20,9 +20,11 @@ function Prog1Compile() {
 
                 </p>
 
-                <p>
+                <div>
+                    <h1>No compila :(</h1>
+                </div>
 
-                    No compila :(
+                <p>
 
                     Está es una frase típica de programadores y hace referencia a qué el complidor no pudo traducir nuestros código a su equivalente en unos y ceros, aunque esto es un error se debe hacer una distinción ya que si un programa no compila es porque su código está más escrito y efectivamente es un error pero suele ser un error en la escritura del mismo que también le llaman error lexico. Cuando nuestro programa se termina de compilar y al ejecutarlo no hace lo que esperamos que haga como poner ejemplo no imprime el mensaje correcto o el resultado de una operación es incorrecto entonces estamos frente a un error lógico o un error ala hora de decirle a la computadora lo que tiene que hacer, por esta razón es importante distinguir los dos tipos de errores ya que los dos provienen de diferente parte y de igual manera la forma de resolver cada tipo de error es diferente la una de la otra.
 
