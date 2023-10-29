@@ -28,9 +28,11 @@ function Prog1Compile() {
                     Está es una frase típica de programadores y hace referencia a qué el complidor no pudo traducir nuestros código a su equivalente en unos y ceros, aunque esto es un error se debe hacer una distinción ya que si un programa no compila es porque su código está más escrito y efectivamente es un error pero suele ser un error en la escritura del mismo que también le llaman error lexico. Cuando nuestro programa se termina de compilar y al ejecutarlo no hace lo que esperamos que haga como poner ejemplo no imprime el mensaje correcto o el resultado de una operación es incorrecto entonces estamos frente a un error lógico o un error ala hora de decirle a la computadora lo que tiene que hacer, por esta razón es importante distinguir los dos tipos de errores ya que los dos provienen de diferente parte y de igual manera la forma de resolver cada tipo de error es diferente la una de la otra.
                 </p>
 
-                <p>
-                    El compilador es tu amigo
+                <div>
+                    <h1>El compilador es tu amigo</h1>
+                </div>
 
+                <p>
                     Cuando tenemos un problema al compilar quiere decir que escribimos mal una parte de nuestro código, puede ser porque olvidamos un letra en alguna palabra reservada, porque no escribimos la palabra reservada correcta o porque simplemente olvidamos el típico punto y coma ; en estos casos el complidor nos indicara que hay un error en el código
 
                     Olvide un punto y coma :(
