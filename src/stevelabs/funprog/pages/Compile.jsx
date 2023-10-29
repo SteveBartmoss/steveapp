@@ -36,9 +36,11 @@ function Prog1Compile() {
                     Cuando tenemos un problema al compilar quiere decir que escribimos mal una parte de nuestro código, puede ser porque olvidamos un letra en alguna palabra reservada, porque no escribimos la palabra reservada correcta o porque simplemente olvidamos el típico punto y coma ; en estos casos el complidor nos indicara que hay un error en el código
                 </p>
 
-                <p>
-                    Olvide un punto y coma :(
+                <div>
+                    <h1>Olvide un punto y coma :(</h1>
+                </div>
 
+                <p>
                     Es el mayor de los problemas a la hora de inciar a programar ya que en en varios lenguajes de programación este símbolo es necesario para que el programa funcione bien, la razón es simple un punto y cómo indica al compilador el final de una línea de código y así sabe que debe leer la línea que sigue. Así como las personas sabemos que el renglón termino y debemos bajar a leer el siguiente el programa sabe que al ver un punto y cómo debe leer la siguiente línea de nuestro código, puede que te estés preguntando porque el compilador no puede usar el salto de línea para saber cuándo un renglón termina y esto es porque los humanos lo usamos al escribir y esto limitaría la forma en que se puede escribir el código pues tendríamos que usar el salto de línea solamente cuando queremos finalizar una línea de código y no cuando ya se abarcó el espacio legible en la pantalla.
 
                     Por lo anterior se decidío usar el punto y cómo carácter final de una línea de código y así permitir a las personas dar saltos de línea siempre que quieran, logrando que el código quede de una forma más legible y que no se tenga que desplazar la barra horizontal t
