@@ -9,7 +9,7 @@ function Prog1Input() {
                     <h1 className="title-subject">Salida estándar (standar input)</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     La salida estándar de un programa simple suele ser la pantalla de
                     la computadora y por tradición el primer programa que suelen desarrollar
                     es el ejércicio conocido como hola mundo, este es bastante simple pues
@@ -26,7 +26,7 @@ function Prog1Input() {
                     <h1 className="title-subject">La instruccion printf en C</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     En la mayoría de lenguajes existe una función que imprime valores en una
                     terminal o consola, en el lenguaje c printf es la encargada de lograr
                     esto y para usarla solo se debe llamar a las librerías correctas y mandarla
@@ -35,7 +35,7 @@ function Prog1Input() {
                     a continuación:
                 </p>
 
-                <p>
+                <p className="content-curso">
                     Una vez que lo copiamos debemos crear un archivo con terminación .c en el 
                     editor de código que usemos, si se trata de vscode podemos usar el menú 
                     archivo nuevo Archivo y darle el nombre, en un IDE como code blocks, clion 
@@ -53,7 +53,7 @@ function Prog1Input() {
                     <h1 className="title-subject">Cómo compilar y ejecutar el código</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     El proceso de compilar es una llamada a otro programa llamado compilador 
                     este programa se encarga de pasar el lenguaje de programación a lenguaje máquina, 
                     esto se tiene que hacer porque la computadora no sabe otro lenguaje que 
@@ -64,7 +64,7 @@ function Prog1Input() {
                     <h1 className="title-subject">Cómo compilar desde terminal con gcc</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     En ambientes Linux o Mac OS se puede utilizar el programa gcc el cual 
                     es un compilador de c y c++, normalmente su uso es mediante la línea 
                     de comando y también tiene su versión para Windows que se llama wingw 
