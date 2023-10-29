@@ -5,13 +5,11 @@ function Prog1Compile() {
         <>
             <div className="div-curso">
 
-                <div  className="center">
+                <div className="center">
                     <h1 className="title-subject"> Proceso de compilación</h1>
                 </div>
-                
-                <p>
-                   
 
+                <p>
                     La compilación es el procedimiento mediante el cual un programa llamado compilador recibe como entrada el código fuente de otro programa, para convertir lo en un archivo binario que el procesador puede leer y ejecutar.
 
                     Lo anterior es necesario por una simple razón los humanos leemos y escribimos en un idioma diferente ya que nosostros usamos letras para escribir, así como reglas semánticas pero las computadoras solo saben leer unos y ceros, esto es un problema ya que escribir en unos y ceros puede ser muy complejo para los humanos ya que se tendría que analizar grandes bloques de unos y ceros para poder entender una palabra.
@@ -19,6 +17,10 @@ function Prog1Compile() {
                     Por esta razón las personas pensaron una mejor manera de dar instrucciones a una computadora y está es mediante un lenguaje de programación que sea más fácil de leer para las personas y con esto surgieron los lenguajes de programación, aunque suene ilógico los primeros programas que se crearon estaban escritos por unos y ceros así que los programadores de esa época debian leer muy bien sus códigos para no cometer errores.
 
                     De manera simple se puede pensar que el proceso de compilar un programa es transformar cada una de nuestras líneas de código a unos y ceros, el procesó verdadero es mucho más complejo que lo que se menciona pero para este curso basta con saber un ejemplo simple ya que la tarea de crear un compilador esta bastante arriba en la escala de aprendizaje ya que esto suele ser un proyecto de una clase de universidad de los últimos grados.
+
+                </p>
+
+                <p>
 
                     No compila :(
 
