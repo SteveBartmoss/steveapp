@@ -8,14 +8,17 @@ function Prog1Input() {
                 <div>
                     <h1>Salida estándar (standar input)</h1>
                 </div>
-                
+
+                <p>
+                    La salida estándar de un programa simple suele ser la pantalla de la computadora y por tradición el primer programa que suelen desarrollar es el ejércicio conocido como hola mundo, este es bastante simple pues solo consiste en mostrar por pantalla el mensaje hola mundo o cualquier otro mensaje que se elija. Anterior mente en la programación era bastante común que solo se interactuara con el usuario mediante la impresion en pantalla y de hecho las primeras computadoras se utilizaban medíante comandos que los usuarios ingresaban, en este curso los programas que crearemos serán este tipo ya que es forma más simple de interactuar con el usuario.
+                </p>
+
                 <p>
 
-                    La salida estándar de un programa simple suele ser la pantalla de la computadora y por tradición el primer programa que suelen desarrollar es el ejércicio conocido como hola mundo, este es bastante simple pues solo consiste en mostrar por pantalla el mensaje hola mundo o cualquier otro mensaje que se elija. Anterior mente en la programación era bastante común que solo se interactuara con el usuario mediante la impresion en pantalla y de hecho las primeras computadoras se utilizaban medíante comandos que los usuarios ingresaban, en este curso los programas que crearemos serán este tipo ya que es forma más simple de interactuar con el usuario.
 
                     La instruccion printf en C
 
-                    En la mayoría de lenguajes existe una función que imprime valores en una terminal o consola, en el lenguaje c printf es la encargada de lograr esto y para usarla solo se debe llamar a las librerías correctas y mandarla a llamar en nuestro Main. Todo lo anterior pude parecer complejo y también desconocido pero por el momento basta con copiar el código que se muestra a continuación: 
+                    En la mayoría de lenguajes existe una función que imprime valores en una terminal o consola, en el lenguaje c printf es la encargada de lograr esto y para usarla solo se debe llamar a las librerías correctas y mandarla a llamar en nuestro Main. Todo lo anterior pude parecer complejo y también desconocido pero por el momento basta con copiar el código que se muestra a continuación:
 
                     Una vez que lo copiamos debemos crear un archivo con terminación .c en el editor de código que usemos, si se trata de vscode podemos usar el menú archivo nuevo Archivo y darle el nombre, en un IDE como code blocks, clion o cualquier otro debe existir un menú archivo y en el seleccionamos crear y le damos un nombre con la terminación punto c.
 
