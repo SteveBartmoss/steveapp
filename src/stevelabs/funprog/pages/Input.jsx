@@ -33,13 +33,15 @@ function Prog1Input() {
                     El proceso de compilar es una llamada a otro programa llamado compilador este programa se encarga de pasar el lenguaje de programación a lenguaje máquina, esto se tiene que hacer porque la computadora no sabe otro lenguaje que no sea unos y ceros pero las personas no escribimos nuestro código en unos y ceros.
                 </p>
 
-                <p>
-                    Cómo compilar desde terminal con gcc
+                <div>
+                    <h1>Cómo compilar desde terminal con gcc</h1>
+                </div>
 
+                <p>
                     En ambientes Linux o Mac OS se puede utilizar el programa gcc el cual es un compilador de c y c++, normalmente su uso es mediante la línea de comando y también tiene su versión para Windows que se llama wingw el cual también se suele usar mediante la línea de comandos.
 
                     Para usar la línea de comandos basta con abrir una nueva terminal con el comando cntrl T en Ubuntu o buscar la aplicación terminal, en Windows se puede buscar la aplicación powershell o cmd en la barra de busque de windows, una vez dentro debemos verificar en que directorio estamos lo cual puede ser mediante un comando o visualmente ya que el prompcdel terminal indica en qué ruta nos encontramos
-                    
+
                 </p>
             </div>
         </>
