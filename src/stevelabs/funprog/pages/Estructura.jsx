@@ -16,8 +16,8 @@ function Prog1Estructura() {
                     programas se componen de lo mismo.
                 </p>
 
-                <div>
-                    <h1>Archivos de cabecera</h1>
+                <div className="center">
+                    <h1 className="title-subject">Archivos de cabecera</h1>
                 </div>
 
                 <p>
