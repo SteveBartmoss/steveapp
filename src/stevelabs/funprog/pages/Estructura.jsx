@@ -5,8 +5,8 @@ function Prog1Estructura() {
         <>
             <div className="div-curso">
 
-                <div>
-                    <h1>Estructura de un programa en c</h1>
+                <div className="center">
+                    <h1 className="title-subject">Estructura de un programa en c</h1>
                 </div>
 
                 <p>
