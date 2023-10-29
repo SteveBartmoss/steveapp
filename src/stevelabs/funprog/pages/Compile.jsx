@@ -9,7 +9,7 @@ function Prog1Compile() {
                     <h1 className="title-subject"> Proceso de compilación</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     La compilación es el procedimiento mediante el cual un programa llamado compilador 
                     recibe como entrada el código fuente de otro programa, para convertir lo en un archivo 
                     binario que el procesador puede leer y ejecutar. Lo anterior es necesario por una simple 
@@ -34,7 +34,7 @@ function Prog1Compile() {
                     <h1 className="title-subject">No compila :(</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Está es una frase típica de programadores y hace referencia a qué el complidor no 
                     pudo traducir nuestros código a su equivalente en unos y ceros, aunque esto es un 
                     error se debe hacer una distinción ya que si un programa no compila es porque su 
@@ -52,7 +52,7 @@ function Prog1Compile() {
                     <h1 className="title-subject">El compilador es tu amigo</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Cuando tenemos un problema al compilar quiere decir que escribimos mal una parte de nuestro 
                     código, puede ser porque olvidamos un letra en alguna palabra reservada, porque no escribimos 
                     la palabra reservada correcta o porque simplemente olvidamos el típico punto y coma ; en estos 
@@ -63,7 +63,7 @@ function Prog1Compile() {
                     <h1 className="title-subject">Olvide un punto y coma :(</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     Es el mayor de los problemas a la hora de inciar a programar ya que en en varios lenguajes de 
                     programación este símbolo es necesario para que el programa funcione bien, la razón es simple 
                     un punto y cómo indica al compilador el final de una línea de código y así sabe que debe leer 
