@@ -10,10 +10,10 @@ function Prog1Estructura() {
                 </div>
 
                 <p>
-                    Estructura de un programa en c
-
                     La estructura básica de un programa en c está compuesta por los archivos de cabecera, la función main y el cuerpo de la función main, estos son los elementos básicos del programa que vimos anteriormente (hola mundo) y en su mayoría mucho programas se componen de lo mismo.
+                </p>
 
+                <p>
                     Archivos de cabecera
 
                     Los archivos de cabecera también llamados librerías son archivos que contienen código de lenguaje c pero que está presente en programa que creamos, más bien lo incluimos en el código al declararlo con la siguiente sintaxis:
