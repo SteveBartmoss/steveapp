@@ -5,7 +5,7 @@ function Prog1Input() {
         <>
             <div className="div-curso">
 
-                <div>
+                <div className="center">
                     <h1 className="title-subject">Salida estándar (standar input)</h1>
                 </div>
 
@@ -22,7 +22,7 @@ function Prog1Input() {
                     el usuario.
                 </p>
 
-                <div>
+                <div className="center"> 
                     <h1 className="title-subject">La instruccion printf en C</h1>
                 </div>
 
@@ -49,7 +49,7 @@ function Prog1Input() {
                     pones el nombre del archivo y .c con eso ya tendrás el código.
                 </p>
 
-                <div>
+                <div className="center">
                     <h1 className="title-subject">Cómo compilar y ejecutar el código</h1>
                 </div>
 
@@ -60,7 +60,7 @@ function Prog1Input() {
                     no sea unos y ceros pero las personas no escribimos nuestro código en unos y ceros.
                 </p>
 
-                <div>
+                <div className="center">
                     <h1 className="title-subject">Cómo compilar desde terminal con gcc</h1>
                 </div>
 
