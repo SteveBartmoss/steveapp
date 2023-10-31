@@ -56,7 +56,17 @@ function Prog1Compile() {
                     Cuando tenemos un problema al compilar quiere decir que escribimos mal una parte de nuestro 
                     código, puede ser porque olvidamos un letra en alguna palabra reservada, porque no escribimos 
                     la palabra reservada correcta o porque simplemente olvidamos el típico punto y coma ; en estos 
-                    casos el complidor nos indicara que hay un error en el código
+                    casos el complidor nos indicara que hay un error en el código y por lo general te menciona la 
+                    línea en que se encontró el error. Además también te dará una idea de que lo que está mal ya que 
+                    suele mostrar mensajes como se esperaba ) y se recibio , o se esperaba ; y se recibio : . 
+                    Mientras mejor hecho este el compilador más información y más errores será capaz de reconocer 
+                    ya que también puede indicar errores de tipos de datos, que una variable no exista entre muchos 
+                    otros errores de sintaxis, otra de las características de un buen compilador es que pueda tolerar 
+                    los errores y esto quiere decir que no se detenga en el primer error que se encuentre si no que lo 
+                    detecte continúe su proceso y busque la mayor cantidad de errores que pueda, en este sentido el 
+                    compilador es un buen amigo del programador ya que ayuda en la tarea de resolver errores pero no 
+                    es perfecto y algunos tipos de errores no será capaz de detectar.
+
                 </p>
 
                 <div className="center">
@@ -75,7 +85,8 @@ function Prog1Compile() {
                     cuando queremos finalizar una línea de código y no cuando ya se abarcó el espacio legible en la pantalla.
                     Por lo anterior se decidío usar el punto y cómo carácter final de una línea de código y así permitir 
                     a las personas dar saltos de línea siempre que quieran, logrando que el código quede de una forma más 
-                    legible y que no se tenga que desplazar la barra horizontal t
+                    legible y que no se tenga que desplazar la barra horizontal todo el tiempo para poder leer una línea 
+                    bastante larga.
                 </p>
             </div>
         </>
