@@ -4,6 +4,7 @@ import DivBaner from "../component/DivBaner";
 function FunHome() {
     return (
         <>
+        {document.title="Havefun"}
             <DivBaner name="baner-have-fun" />
 
             <div className="div-havefun">
