@@ -13,6 +13,7 @@ import MenuItems from "../component/MenuItem";
 function Home(){
     return(
         <>
+        {document.title="stevechambitas"}
         <DivBaner name="Baner" />
         <div className="Contenedor">
             <h3 className="title1">Temas populares del canal</h3>
