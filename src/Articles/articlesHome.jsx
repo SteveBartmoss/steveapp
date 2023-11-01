@@ -4,6 +4,7 @@ import Pie from "../component/Pie";
 function ArticlesHome() {
     return (
         <>
+        {document.title="stevechambitas"}
             <div className="center">
                 <h1 className="title1">Los mejores articulos</h1>
             </div>
