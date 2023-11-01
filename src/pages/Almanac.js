@@ -7,6 +7,7 @@ import Pie from "../component/Pie";
 function Almanac(){
     return(
         <>
+        {document.title="stevechambitas"}
         <div className="contenedor-logros">
             <h1 className="title1">Logros desbloqueados</h1>
             <div className="div-logros">

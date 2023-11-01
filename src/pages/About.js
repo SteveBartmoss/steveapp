@@ -9,6 +9,7 @@ import Pie from "../component/Pie";
 function About() {
     return (
         <>
+        {document.title="stevechambitas"}
             <div className="contenedor-about">
 
                 <Stiker imge={"/Assets/perfil2.jpg"} title="Acerca de steve chambitas"
