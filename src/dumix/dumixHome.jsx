@@ -5,6 +5,7 @@ import DivBaner from "../component/DivBaner";
 function DumixHome() {
     return (
         <>
+            {document.title="Dumix"}
             <DivBaner name="back-dumix" />
 
             <div className="center">
