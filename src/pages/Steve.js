@@ -13,6 +13,7 @@ function Steve() {
     return (
 
         <>
+        {document.title="stevechambitas"}
             <Portada image={"/Assets/steveA.png"} />
             <div className="Contenedor">
                 <div>
