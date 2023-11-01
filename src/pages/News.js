@@ -8,6 +8,7 @@ import Pie from "../component/Pie";
 function News() {
     return (
         <>
+        {document.title="stevechambitas"}
             <div className="Contenedor">
                 <h1 className="title1">Secciones mas reciente</h1>
 
