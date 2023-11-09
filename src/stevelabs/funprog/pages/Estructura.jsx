@@ -24,6 +24,9 @@ function Prog1Estructura() {
                     Los archivos de cabecera también llamados librerías son archivos que 
                     contienen código de lenguaje c pero que está presente en programa que creamos, 
                     más bien lo incluimos en el código al declararlo con la siguiente sintaxis:
+                </p>
+
+                <p>
                     De esta manera el compilador sabe que en esa parte debe colocar código que no 
                     está presente en nuestro archivo que contiene la función main, si no que debe 
                     buscar lo en un archivo con el nombre declarado en la directiva include. 
