@@ -40,6 +40,10 @@ function Prog1Estructura() {
                     archivos de cabecera pueden parecer confusos por ahora más adelante tendrán más 
                     sentido y también permitirán hacer menos trabajo a la hora de programar.
                 </p>
+
+                <div>
+                    <h1>La Funcion Main</h1>
+                </div>
             </div>
         </>
     );
