@@ -41,7 +41,7 @@ function Prog1Estructura() {
                     sentido y también permitirán hacer menos trabajo a la hora de programar.
                 </p>
 
-                <div>
+                <div className="center">
                     <h1>La Funcion Main</h1>
                 </div>
             </div>
