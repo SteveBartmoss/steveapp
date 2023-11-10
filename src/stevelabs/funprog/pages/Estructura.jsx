@@ -42,7 +42,7 @@ function Prog1Estructura() {
                 </p>
 
                 <div className="center">
-                    <h1>La Funcion Main</h1>
+                    <h1 className="title-subject">La Funcion Main</h1>
                 </div>
             </div>
         </>
