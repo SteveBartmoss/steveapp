@@ -44,6 +44,12 @@ function Prog1Estructura() {
                 <div className="center">
                     <h1 className="title-subject">La Funcion Main</h1>
                 </div>
+
+                <p>
+                    La funcion main es el punto de partida de un programa en lenguaje C y otros lenguajes 
+                    incorporan este tipo de funciones, todos los programas usan la funcion main y desde esta 
+                    se llaman a otras funciones que se crean o que ya existen en la version del lenguaje
+                </p>
             </div>
         </>
     );
