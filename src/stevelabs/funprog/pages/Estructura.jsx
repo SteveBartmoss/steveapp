@@ -48,8 +48,15 @@ function Prog1Estructura() {
                 <p>
                     La funcion main es el punto de partida de un programa en lenguaje C y otros lenguajes 
                     incorporan este tipo de funciones, todos los programas usan la funcion main y desde esta 
-                    se llaman a otras funciones que se crean o que ya existen en la version del lenguaje
+                    se llaman a otras funciones que se crean o que ya existen en la version del lenguaje.
                 </p>
+
+                <p>
+                    La funcion main es la primera en tener el contro de ejecucion del programa
+                </p>
+
+
+
             </div>
         </>
     );
