@@ -52,7 +52,15 @@ function Prog1Estructura() {
                 </p>
 
                 <p className="content-curso">
-                    La funcion main es la primera en tener el contro de ejecucion del programa
+                    La funcion main es la primera en tener el contro de ejecucion del programa y tambien es
+                    la encargada de pasar el control a otras funciones que crea el programador o que solo las
+                    llama, se puede decir que la funcion main es necesaria por la forma en que se contruyo el 
+                    lenguaje de programacion y es que el compilador necesita un indicador de que ha terminado 
+                    de procesar la entrada del codgigo. Puede que en este momento no se entiende el porque se 
+                    necesita que los programas tengan una raiz pero si se estudian temas mucho mas complejos como 
+                    lo es la construccion de un compilador hara mas sentido la forma en que esta construido el 
+                    lenguaje pero por ahora basta con pensar que la funcion main es lo primero que debemos crear 
+                    en un programa de lenguaje C.
                 </p>
 
 
