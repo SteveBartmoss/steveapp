@@ -26,7 +26,7 @@ function Prog1Estructura() {
                     más bien lo incluimos en el código al declararlo con la siguiente sintaxis:
                 </p>
 
-                <p>
+                <p className="content-curso">
                     De esta manera el compilador sabe que en esa parte debe colocar código que no 
                     está presente en nuestro archivo que contiene la función main, si no que debe 
                     buscar lo en un archivo con el nombre declarado en la directiva include. 
@@ -45,13 +45,13 @@ function Prog1Estructura() {
                     <h1 className="title-subject">La Funcion Main</h1>
                 </div>
 
-                <p>
+                <p className="content-curso">
                     La funcion main es el punto de partida de un programa en lenguaje C y otros lenguajes 
                     incorporan este tipo de funciones, todos los programas usan la funcion main y desde esta 
                     se llaman a otras funciones que se crean o que ya existen en la version del lenguaje.
                 </p>
 
-                <p>
+                <p className="content-curso">
                     La funcion main es la primera en tener el contro de ejecucion del programa
                 </p>
 
