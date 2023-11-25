@@ -35,7 +35,7 @@ function ArticlesHome() {
                         detalles extras para los que les agrada leer.
                     </p>
                     <div className="center">
-                        <a className="dumix-btn" href="#">Ver articulos</a>
+                        <a className="dumix-btn" href="articulos/reviews">Ver articulos</a>
                     </div>
                 </div>
 
