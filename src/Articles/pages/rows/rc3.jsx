@@ -1,4 +1,5 @@
 import React from "react";
+import CreatorSing from "../../../component/sing";
 
 function Rc3(){
     return(
@@ -7,7 +8,11 @@ function Rc3(){
                 <div>
                     <h1>juegos de Acceso anticipado</h1>
                 </div>
+
                 <hr />
+                
+                <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
+
                 <p>
                     Nunca tuve la oportunidad de participar en un acceso anticipado porque antes de tener 
                     mi computadora solo podía jugar a títulos que estaban completos y recientemente obtuve 
