@@ -29,6 +29,15 @@ function Rc3() {
                     </p>
                 </div>
 
+                <h1>Los juegos en fase beta no siempre son buenos</h1>
+                <hr />
+
+                <div>
+                    <p>
+                        
+                    </p>
+                </div>
+
                 <p>
                     , ya
                     antes había comprado juegos que aún estaban en desarrollo siendo valheim uno de ellos
