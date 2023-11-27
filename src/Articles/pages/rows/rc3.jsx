@@ -20,11 +20,11 @@ function Rc3() {
                         al publico si no que tambien es posible apollar juegos que aun estan en desarrollo,
                         mediante la nueva forma de lanzar juegos de acceso anticipado en la cual el desarrollador
                         recibe un poco de apollo para continuar su juegos y los jugadores pueden probar un juego
-                        al que se iran agregando nuevas cosas. Nunca tuve la oportunidad de participar en un 
-                        acceso anticipado porque antes de tener mi computadora solo podía jugar a títulos que 
-                        estaban completos y tambien porque en esa epoca no era comun los accesos anticipados 
-                        en las consolas, recientemente obtuve otro título de acceso anticipado ya que me llamo 
-                        la atencion el genero y pensaba que seria muy buen juego aunque debo decir que la 
+                        al que se iran agregando nuevas cosas. Nunca tuve la oportunidad de participar en un
+                        acceso anticipado porque antes de tener mi computadora solo podía jugar a títulos que
+                        estaban completos y tambien porque en esa epoca no era comun los accesos anticipados
+                        en las consolas, recientemente obtuve otro título de acceso anticipado ya que me llamo
+                        la atencion el genero y pensaba que seria muy buen juego aunque debo decir que la
                         experiencia no fue tan buena como pensaba.
                     </p>
                 </div>
@@ -34,19 +34,24 @@ function Rc3() {
 
                 <div>
                     <p>
-                        
+                        Ya antes había comprado juegos que aún estaban en desarrollo y de alguna manera
+                        me sentia un poco mas confiado en estos casos ya que uno de mis juegos favoritos 
+                        valheim se encuentra en fase de desarrollo pero la experiencia que me dejo fue 
+                        bastante cercana a la que se tiene con juegos completos confiando en esto me anime 
+                        a comprar otro titulo en desarrollo pero en este caso me dejó un poco desanimado 
+                        pues el juego se sentía bastante incompleto lo que me molesto ya que me sentia estafado
+                        pues habia comprado un juego que bastaba una hora o dos para probar todo lo que tenia 
+                        pero luego de un rato y antes de pensar en pedir el rembolso de steam recordé que 
+                        aún se estaba trabajando en el juego lo cual me tranquilizo pensando en que 
+                        posteriormente se tendría un proceso de mejora, agregar mas contenido y pulir detalles 
+                        del mismo y además estaba apoyando a un desarrollador indie que dispone de 
+                        pocos recursos despues de todo quien sabe tal vez el juego se llegue a 
+                        convertir en uno de mis favoritos solo que aún falta tiempo para completarlo.
                     </p>
                 </div>
 
                 <p>
-                    , ya
-                    antes había comprado juegos que aún estaban en desarrollo siendo valheim uno de ellos
-                    pero el título que probé en este caso me dejó un poco desanimado pues se sentía
-                    bastante incompleto lo que me molestó un poco al inicio pero recordé que aún se estaba
-                    trabajando en el juego lo cual me tranquilizo pensando en que posteriormente se
-                    tendría un proceso y que además estaba apoyando a un desarrollador indie que dispone
-                    de pocos recursos y quien sabe tal vez el juego se llegue a convertir en uno de mis
-                    favoritos solo que aún falta tiempo para completarlo. Luego de un rato me surgió la
+                    Luego de un rato me surgió la
                     duda de que pasaría si el juego nunca continúa su desarrollo ya que si bien el título
                     pone en la tienda de steam que es un juego sin terminar no te da una cláusula para
                     poder regresar este tipo de juegos ya que al comprar un acceso anticipado lo haces
