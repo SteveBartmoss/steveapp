@@ -33,6 +33,16 @@ function Rows() {
                     </div>
                 </div>
 
+                <div className="div-topic">
+                    <h1>Juegos de acceso anticipado</h1>
+                    <p className="Content">
+                        Los juegos de acceso anticipado
+                    </p>
+                    <div className="center">
+                        <a className="dumix-btn" href="rows/rc3">Ver articulo</a>
+                    </div>
+                </div>
+
             </div>
         </>
     );
