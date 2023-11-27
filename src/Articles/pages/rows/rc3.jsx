@@ -50,6 +50,15 @@ function Rc3() {
                     </p>
                 </div>
 
+                <h1>Todo muy bien pero Completaran el juego verdad?</h1>
+
+                <hr />
+                <div>
+                    <p>
+
+                    </p>
+                </div>
+                
                 <p>
                     Luego de un rato me surgió la
                     duda de que pasaría si el juego nunca continúa su desarrollo ya que si bien el título
