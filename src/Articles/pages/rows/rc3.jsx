@@ -35,17 +35,17 @@ function Rc3() {
                 <div>
                     <p>
                         Ya antes había comprado juegos que aún estaban en desarrollo y de alguna manera
-                        me sentia un poco mas confiado en estos casos ya que uno de mis juegos favoritos 
-                        valheim se encuentra en fase de desarrollo pero la experiencia que me dejo fue 
-                        bastante cercana a la que se tiene con juegos completos confiando en esto me anime 
-                        a comprar otro titulo en desarrollo pero en este caso me dejó un poco desanimado 
+                        me sentia un poco mas confiado en estos casos ya que uno de mis juegos favoritos
+                        valheim se encuentra en fase de desarrollo pero la experiencia que me dejo fue
+                        bastante cercana a la que se tiene con juegos completos confiando en esto me anime
+                        a comprar otro titulo en desarrollo pero en este caso me dejó un poco desanimado
                         pues el juego se sentía bastante incompleto lo que me molesto ya que me sentia estafado
-                        pues habia comprado un juego que bastaba una hora o dos para probar todo lo que tenia 
-                        pero luego de un rato y antes de pensar en pedir el rembolso de steam recordé que 
-                        aún se estaba trabajando en el juego lo cual me tranquilizo pensando en que 
-                        posteriormente se tendría un proceso de mejora, agregar mas contenido y pulir detalles 
-                        del mismo y además estaba apoyando a un desarrollador indie que dispone de 
-                        pocos recursos despues de todo quien sabe tal vez el juego se llegue a 
+                        pues habia comprado un juego que bastaba una hora o dos para probar todo lo que tenia
+                        pero luego de un rato y antes de pensar en pedir el rembolso de steam recordé que
+                        aún se estaba trabajando en el juego lo cual me tranquilizo pensando en que
+                        posteriormente se tendría un proceso de mejora, agregar mas contenido y pulir detalles
+                        del mismo y además estaba apoyando a un desarrollador indie que dispone de
+                        pocos recursos despues de todo quien sabe tal vez el juego se llegue a
                         convertir en uno de mis favoritos solo que aún falta tiempo para completarlo.
                     </p>
                 </div>
@@ -53,23 +53,24 @@ function Rc3() {
                 <h1>Todo muy bien pero Completaran el juego verdad?</h1>
 
                 <hr />
+                
                 <div>
                     <p>
-
+                        Luego de un rato me surgió la
+                        duda de que pasaría si el juego nunca continúa su desarrollo ya que si bien el título
+                        pone en la tienda de steam que es un juego sin terminar no te da una cláusula para
+                        poder regresar este tipo de juegos ya que al comprar un acceso anticipado lo haces
+                        bajo tu propio riesgo, esto parece un poco injusto ya que por una parte el
+                        desarrollador obtiene apoyo para completar su juego lo cual puede resultar una
+                        buena experiencia para ambos pero por otro lado los usuarios solo se mantienen con
+                        la promesa de que el juego se terminara en algún momento basado en la confianza que
+                        se tiene pero no existe nada que obligué a terminar el juego que no sea la
+                        responsabilidad moral del apoyo que se recibió por los jugadores.
                     </p>
                 </div>
-                
+
                 <p>
-                    Luego de un rato me surgió la
-                    duda de que pasaría si el juego nunca continúa su desarrollo ya que si bien el título
-                    pone en la tienda de steam que es un juego sin terminar no te da una cláusula para
-                    poder regresar este tipo de juegos ya que al comprar un acceso anticipado lo haces
-                    bajo tu propio riesgo, esto parece un poco injusto ya que por una parte el
-                    desarrollador obtiene apoyo para completar su juego lo cual puede resultar una
-                    buena experiencia para ambos pero por otro lado los usuarios solo se mantienen con
-                    la promesa de que el juego se terminara en algún momento basado en la confianza que
-                    se tiene pero no existe nada que obligué a terminar el juego que no sea la
-                    responsabilidad moral del apoyo que se recibió por los jugadores. Desde este punto
+                    Desde este punto
                     de vista los accesos anticipados representan un riesgo para los jugadores pero
                     también una posible pérdida pues uno de los juegos que apoyes puede convertirse
                     en una de las joyas indie pero hace falta tener fe en que no recibirás una basura
