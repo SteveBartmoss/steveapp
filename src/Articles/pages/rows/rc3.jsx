@@ -90,16 +90,21 @@ function Rc3() {
                         y se les puede ofrecer a las personas un reembolso,
                     </p>
                 </div>
-                <p>
-                    esto calma un poco las inquietudes
-                    de las personas que depositan la confianza en un título que puede resultar bueno pero
-                    aún con eso nada te asegura que el juego no estará en desarrollo por los próximos 15
-                    años, habrá que confiar tener fe en los desarrolladores para que terminen sus juegos
-                    ya que seria una pena que un titulo como papers please, stardew valley o valheim
-                    nunca vean la luz por falta de apoyo pero también debemos cuidar nuestro dinero y
-                    no regalar recursos a quien no se lo merece bueno esto fue filas y columnas hasta
-                    la próxima
-                </p>
+
+                <h1>No todo esta perdido aun</h1>
+                <hr />
+                <div>
+                    <p>
+                        esto calma un poco las inquietudes
+                        de las personas que depositan la confianza en un título que puede resultar bueno pero
+                        aún con eso nada te asegura que el juego no estará en desarrollo por los próximos 15
+                        años, habrá que confiar tener fe en los desarrolladores para que terminen sus juegos
+                        ya que seria una pena que un titulo como papers please, stardew valley o valheim
+                        nunca vean la luz por falta de apoyo pero también debemos cuidar nuestro dinero y
+                        no regalar recursos a quien no se lo merece bueno esto fue filas y columnas hasta
+                        la próxima
+                    </p>
+                </div>
             </div>
         </>
     );
