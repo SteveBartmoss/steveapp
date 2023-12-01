@@ -50,12 +50,12 @@ function Rc3() {
                     </p>
                 </div>
 
-                <h1>Todo muy bien pero Completaran el juego verdad?</h1>
+                <h1 className="title1">Todo muy bien pero Completaran el juego verdad?</h1>
 
-                <hr />
+                <hr className="line"/>
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         Luego de un rato me surgió la
                         duda de que pasaría si el juego nunca continúa su desarrollo ya que si bien el título
                         pone en la tienda de steam que es un juego sin terminar no te da una cláusula para
@@ -69,11 +69,11 @@ function Rc3() {
                     </p>
                 </div>
 
-                <h1>Mi cartera corre peligro ?</h1>
-                <hr />
+                <h1 className="title1">Mi cartera corre peligro ?</h1>
+                <hr className="line"/>
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         Desde este punto
                         de vista los accesos anticipados representan un riesgo para los jugadores pero
                         también una posible pérdida pues uno de los juegos que apoyes puede convertirse
