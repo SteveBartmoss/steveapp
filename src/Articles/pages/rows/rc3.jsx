@@ -4,9 +4,9 @@ import CreatorSing from "../../../component/sing";
 function Rc3() {
     return (
         <>
-            <div>
-                <div>
-                    <h1>juegos de Acceso anticipado</h1>
+            <div className="div-about">
+                <div className="center">
+                    <h1 className="main-title">Juegos de Acceso Anticipado</h1>
                 </div>
 
                 <hr />
