@@ -13,8 +13,8 @@ function Rc3() {
 
                 <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         La forma en que los jugadores interactuan con el mercado de los juegos ha cambiado
                         bastante ya que ahora no solo hay modelos de juegos como servicio y que son gratis
                         al publico si no que tambien es posible apollar juegos que aun estan en desarrollo,
