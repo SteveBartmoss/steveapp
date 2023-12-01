@@ -158,12 +158,7 @@ function Steve() {
                 </div>
 
             </div>
-            <div className="grid-steve">
-                <div className="main-contetn">
-                    <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"} />
-
-                </div>
-            </div>
+            
             <div className="Contenedor">
 
             </div>
