@@ -29,11 +29,11 @@ function Rc3() {
                     </p>
                 </div>
 
-                <h1>Los juegos en fase beta no siempre son buenos</h1>
-                <hr />
+                <h1 className="title1">Los juegos en fase beta no siempre son buenos</h1>
+                <hr className="line"/>
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         Ya antes había comprado juegos que aún estaban en desarrollo y de alguna manera
                         me sentia un poco mas confiado en estos casos ya que uno de mis juegos favoritos
                         valheim se encuentra en fase de desarrollo pero la experiencia que me dejo fue
