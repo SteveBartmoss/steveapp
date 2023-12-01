@@ -91,10 +91,11 @@ function Rc3() {
                     </p>
                 </div>
 
-                <h1>No todo esta perdido aun</h1>
-                <hr />
-                <div>
-                    <p>
+                <h1 className="title1">No todo esta perdido todavia</h1>
+                <hr className="line"/>
+
+                <div className="back-articles">
+                    <p className="content-curso">
                         esto calma un poco las inquietudes
                         de las personas que depositan la confianza en un título que puede resultar bueno pero
                         aún con eso nada te asegura que el juego no estará en desarrollo por los próximos 15
