@@ -9,7 +9,7 @@ function Rc3() {
                     <h1 className="main-title">Juegos de Acceso Anticipado</h1>
                 </div>
 
-                <hr />
+                <hr className="line"/>
 
                 <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
