@@ -21,6 +21,16 @@ function Rc4() {
                         a los personajes que bailan o chocar nuestro personaje con elementos del escenario.
                     </p>
                 </div>
+
+                <h1>Un cocepto simple pero bien implementado</h1>
+                <hr/>
+
+                <div>
+                    <p>
+                        
+                    </p>
+                </div>
+
                 <div>
                     <p>
 
