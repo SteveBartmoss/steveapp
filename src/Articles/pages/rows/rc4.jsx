@@ -23,17 +23,10 @@ function Rc4() {
                 </div>
 
                 <h1>Un cocepto simple pero bien implementado</h1>
-                <hr/>
+                <hr />
 
                 <div>
                     <p>
-                        
-                    </p>
-                </div>
-
-                <div>
-                    <p>
-
                         Una mecánica muy simple pero que me permitió pasar unos cuantos minutos de diversión
                         y fue ahí cuando recordé otro título que también me había llamado la atención por
                         su manera de implementar el gameplay y era del mismo desarrollador, el juego trataba
@@ -53,7 +46,17 @@ function Rc4() {
                         para hacer la tarea más fácil pero aún así me costó un poco retirar la espada y en
                         el modo en línea me rendí pues los jugadores habían llevado el peso y la longitud de
                         la espada al máximo y lamentablemente ya no tenía tanto tiempo pero me pareció una
-                        idea buena para hacer que las personas probaran el jugador. El ejemplo anterior
+                        idea buena para hacer que las personas probaran el jugador.
+                    </p>
+                </div>
+
+                <h1>Menos mundos enorme y mejores mecanicas</h1>
+                <hr />
+                
+                <div>
+                    <p>
+
+                        El ejemplo anterior
                         muestra como una idea buena y una forma correcta de implementar mecánicas diferentes
                         pude hacer que tú juego sea interesante para las personas y me hizo pensar que ojalá
                         las desarrolladoras triple a pusieran más tiempo en hacer sus juegos más interesantes
