@@ -44,6 +44,17 @@ function Rows() {
                     </div>
                 </div>
 
+                <div>
+                    <h1>Los indie una nueva esperanza</h1>
+                    <p>
+                        En este mundo de juegos triple A los desarrolladores
+                        independientes nos traen un sople de aire fresco
+                        con nuevas mecanicas o mejores historias
+                    </p>
+                    <div>
+                        <a >Ver articulo</a>
+                    </div>
+                </div>
                 <div className="div-topic">
                     <h1 className="title1">16 gigas de ram no son como antes</h1>
                     <p className="Content">
