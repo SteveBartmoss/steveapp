@@ -44,6 +44,38 @@ function Steve() {
                     </p>
                 </div>
 
+                <div className="div-bio">
+
+                    <h1 className="title1">Lista de tecnologias que planeo aprender</h1>
+                    <p className="content-curso">
+                        Uno nunca esta dia y menos en una area en la que dia 
+                        a dia se crean nuevas tecnologias y cambian asi que 
+                        es bueno renovarse con las mismas
+                    </p>
+
+                    <h1 className="title1">Lenguajes que pienso aprender</h1>
+                    <p className="content-curso">
+                        Rust
+                        Python
+                    </p>
+
+                    <h1 className="title1">Tecnologias que pienso aprender</h1>
+                    <p className="content-curso">
+                        Docker
+                        Next Js
+                        Express Js
+                        Clusters
+                    </p>
+
+                    <h1 className="title1">Proyectos que tengo planeados</h1>
+                    <p className="content-curso">
+                        Crear un tablero
+                        Terminar los cursos de las paginas
+                        Crear un editr ligero
+                    </p>
+
+                </div>
+
                 <div className="div-menu-item">
 
                     <div className="div-flex-item">
@@ -131,7 +163,9 @@ function Steve() {
 
                 <div className="item-mid">
                     <h1 className="title1">Mi perfil de spotify</h1>
-                    <p className="Content">Si quieres saber que tipo de musica escuho o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
+                    <p className="Content">
+                        Si quieres saber que tipo de musica escuho 
+                        o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
                         para que puedas seguirme, quizas algunas de mis playlist te agraden
                     </p>
                     <a className="dumix-btn">Ir al enlace</a>
@@ -139,16 +173,22 @@ function Steve() {
 
                 <div className="item-mid">
                     <h1 className="title1">Mi perfil de steam</h1>
-                    <p className="Content">Si quires agregarme en steam para jugar o para ver mi biblioteca de juegos o las resenas de titulos que he jugado
-                        puedes seguirme con el enlace a mi perfil que aparece a continuacion
+                    <p className="Content">
+                        Si quires agregarme en steam para jugar o para ver mi 
+                        biblioteca de juegos o las resenas de titulos que he jugado
+                        puedes seguirme con el enlace a mi perfil que aparece a 
+                        continuacion
                     </p>
                     <a className="dumix-btn">Ir al enlace</a>
                 </div>
 
                 <div className="item-mid">
                     <h1 className="title1">Pc Check Actual</h1>
-                    <p className="Content">El pc de edicion y para jugar de steve no resulta tan potente como el de otros creadores top, pero tiene
-                        lo necesario para que se pueda jugar decentemente y tambien para crear los videos necesarios. A continuacion
+                    <p className="Content">
+                        El pc de edicion y para jugar de steve no resulta 
+                        tan potente como el de otros creadores top, pero tiene
+                        lo necesario para que se pueda jugar decentemente y 
+                        tambien para crear los videos necesarios. A continuacion
                         se describen los componentes que lleva:
                         GPU: Radeon
                         CPU: Ryzen
