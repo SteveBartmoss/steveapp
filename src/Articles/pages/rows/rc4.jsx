@@ -1,4 +1,5 @@
 import React from "react";
+import CreatorSing from "../../../component/sing";
 
 function Rc4() {
     return (
@@ -7,7 +8,10 @@ function Rc4() {
                 <div>
                     <h1>Los indie una nueva esperanza</h1>
                 </div>
+
                 <hr />
+
+                <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
                 <div>
                     <p>
@@ -50,7 +54,7 @@ function Rc4() {
                     </p>
                 </div>
 
-                <h1>Menos mundos enorme y mejores mecanicas</h1>
+                <h1>Menos mundos enormes y mejores mecanicas</h1>
                 <hr />
                 
                 <div>
