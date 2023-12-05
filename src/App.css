@@ -716,6 +716,7 @@
   margin: auto;
   background-color: var(--gris-7);
   padding: 0 10px;
+  border-radius: 5px;
 }
 
 .div-topic h1{
