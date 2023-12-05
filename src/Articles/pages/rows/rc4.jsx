@@ -4,17 +4,17 @@ import CreatorSing from "../../../component/sing";
 function Rc4() {
     return (
         <>
-            <div>
-                <div>
-                    <h1>Los indie una nueva esperanza</h1>
+            <div className="div-about">
+                <div className="center">
+                    <h1 className="main-title">Los indie una nueva esperanza</h1>
                 </div>
 
-                <hr />
+                <hr className="line"/>
 
                 <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         Cuando era menor siempre pensaba que mi trabajo favorito sería probar Videojuegos
                         o poder crear videojuegos pero en ese entonces los únicos que desarrollaban juegos
                         eran empresas grandes y estudios independientes no eran tan populares o no tenían
@@ -26,11 +26,11 @@ function Rc4() {
                     </p>
                 </div>
 
-                <h1>Un cocepto simple pero bien implementado</h1>
-                <hr />
+                <h1 className="title1">Un cocepto simple pero bien implementado</h1>
+                <hr className="line"/>
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         Una mecánica muy simple pero que me permitió pasar unos cuantos minutos de diversión
                         y fue ahí cuando recordé otro título que también me había llamado la atención por
                         su manera de implementar el gameplay y era del mismo desarrollador, el juego trataba
@@ -54,11 +54,12 @@ function Rc4() {
                     </p>
                 </div>
 
-                <h1>Menos mundos enormes y mejores mecanicas</h1>
-                <hr />
+                <h1 className="title1">Menos mundos enormes y mejores mecanicas</h1>
+
+                <hr className="line"/>
                 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
 
                         El ejemplo anterior
                         muestra como una idea buena y una forma correcta de implementar mecánicas diferentes
