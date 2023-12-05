@@ -3,6 +3,7 @@ import React from "react";
 function Rows() {
     return (
         <>
+            {document.title="Rows And Columns"}
             <div className="div-about">
                 <div className="center">
                     <h1 className="title1">Rows and Colums</h1>
