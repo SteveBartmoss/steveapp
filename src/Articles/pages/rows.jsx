@@ -44,15 +44,15 @@ function Rows() {
                     </div>
                 </div>
 
-                <div>
-                    <h1>Los indie una nueva esperanza</h1>
-                    <p>
+                <div className="div-topic">
+                    <h1 className="title1">Los indie una nueva esperanza</h1>
+                    <p className="Content">
                         En este mundo de juegos triple A los desarrolladores
                         independientes nos traen un sople de aire fresco
                         con nuevas mecanicas o mejores historias
                     </p>
-                    <div>
-                        <a >Ver articulo</a>
+                    <div className="center">
+                        <a className="dumix-btn" href="rows/rc4">Ver articulo</a>
                     </div>
                 </div>
                 <div className="div-topic">
