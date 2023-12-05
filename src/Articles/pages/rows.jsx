@@ -35,7 +35,7 @@ function Rows() {
                 </div>
 
                 <div className="div-topic">
-                    <h1>Juegos de acceso anticipado</h1>
+                    <h1 className="title1">Juegos de acceso anticipado</h1>
                     <p className="Content">
                         Los juegos de acceso anticipado
                     </p>
@@ -44,16 +44,16 @@ function Rows() {
                     </div>
                 </div>
 
-                <div>
-                    <h1>16 gigas de ram no son como antes</h1>
-                    <p>
+                <div className="div-topic">
+                    <h1 className="title1">16 gigas de ram no son como antes</h1>
+                    <p className="Content">
                         Hace algun tiempo 16 gigas de ram era una gloria para
                         la mayoria de personas pero ahora ya no es la misma 
                         historia, ya que la poca optimizacion esta pasando 
                         factura
                     </p>
-                    <div>
-                        <a>Ver articulo</a>
+                    <div className="center">
+                        <a className="dumix-btn" >Ver articulo</a>
                     </div>
                 </div>
 
