@@ -53,7 +53,7 @@ function Rows() {
                         factura
                     </p>
                     <div className="center">
-                        <a className="dumix-btn" >Ver articulo</a>
+                        <a className="dumix-btn" href="rows/rc5">Ver articulo</a>
                     </div>
                 </div>
 
