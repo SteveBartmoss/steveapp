@@ -44,6 +44,19 @@ function Rows() {
                     </div>
                 </div>
 
+                <div>
+                    <h1>16 gigas de ram no son como antes</h1>
+                    <p>
+                        Hace algun tiempo 16 gigas de ram era una gloria para
+                        la mayoria de personas pero ahora ya no es la misma 
+                        historia, ya que la poca optimizacion esta pasando 
+                        factura
+                    </p>
+                    <div>
+                        <a>Ver articulo</a>
+                    </div>
+                </div>
+
             </div>
         </>
     );
