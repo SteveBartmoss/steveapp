@@ -16,14 +16,24 @@ function Rc4() {
                 <div className="back-articles">
                     <p className="content-curso">
                         Cuando era menor siempre pensaba que mi trabajo favorito sería probar Videojuegos
-                        o poder crear videojuegos pero en ese entonces los únicos que desarrollaban juegos
-                        eran empresas grandes y estudios independientes no eran tan populares o no tenían
-                        tanto éxito como actualmente se tiene, hace poco probé pineapple on a pizza un juego
-                        de un desarrollador llamado Alva majo o al menos así se presenta en Youtube y al probar
-                        el juego tuve una experiencia buena aunque fue bastante simple ya que en el juego
-                        no se requiere interactuar de una forma elaborada si no que basta con acercar se
-                        a los personajes que bailan o chocar nuestro personaje con elementos del escenario.
+                        o poder crear videojuegos y ambos casos se podian considerar como trabajos que todos 
+                        desearina pero habia un detalle y es que en ese entonces los únicos que desarrollaban 
+                        juegos eran empresas grandes como bungie, activision, blizzard o muchos otros estudios 
+                        que estaban bien establecidos y los estudios independientes no eran tan populares o 
+                        no tenían tanto éxito como actualmente se tiene. 
                     </p>
+
+                    <p className="content-curso">
+                        Hoy en dia es comun ver grandes titulos 
+                        que fueron desarrollados por estudios independientes como stray, papers please, the forest 
+                        entre muchos otros que hace demuestran una buena calidad y no solo se hacen populadores 
+                        por ser indies, hace poco probé pineapple on a pizza un juego de un desarrollador llamado 
+                        Alva majo o al menos así se presenta en Youtube y al probar el juego tuve una buena experiencia 
+                        aunque fue algo simple ya que en el juego solo se basa en recorrer la isla y no requiere 
+                        interactuar de forma compleja si no que basta con acercar se a los personajes que bailan 
+                        o chocar nuestro personaje con elementos del escenario.
+                    </p>
+                    
                 </div>
 
                 <h1 className="title1">Un cocepto simple pero bien implementado</h1>
