@@ -5,13 +5,21 @@ function ChangeLog() {
         <>
             <div className="contenedor-logros">
                 <h1 className="title1">Change Log de la pagina</h1>
+
+                <h1>Ultima actualizacion</h1>
+
+                <h1>25/11/2023</h1>
+                <hr />
+
                 <p>
-                    Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
+                    Se agrego el primer articulo de las reviews el cual es sobre death stranding, 
+                    se agrego otro articulo de rows and colums que esta en proceso. Se seguira 
+                    implemetando contendio para el curso de programacion y el de linux para obtener 
+                    un mejor avance para finales del 2023, el invierno fue duro y aun no llega el 
+                    amanecer pero de momento nos vemos optimistas.
+                </p>
 
-                    ### `25/11/2023`
-
-                    Se agrego el primer articulo de las reviews el cual es sobre death stranding, se agrego otro articulo de rows and colums que esta en proceso. Se seguira implemetando contendio para el curso de programacion y el de linux para obtener un mejor avance para finales del 2023, el invierno fue duro y aun no llega el amanecer pero de momento nos vemos optimistas.
-
+                <p>
                     ### `28/10/2023`
 
                     Se implemento una mejora en los menus de los cursos ya que ahora se trata de un menu desplegable lo cual hace que el curso sea mas facil de visualizar, se sigue agregando contenido al curso de programacion pero aun esta en 1% de avance, los estilos de las otras secciones de las paginas esta en progreso todavia, el invierno es mas largo que nunca pero en algun momento debe terminar?
