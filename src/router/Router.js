@@ -21,6 +21,8 @@ import ArticlesHome from "../Articles/articlesHome";
 import ArticlesRouter from "../Articles/routes/routerArticles";
 import Progreso from "../pages/progreso";
 import LabsRoutes from "../stevelabs/routes/labsRoutes";
+import ChangeLog from "../pages/changeLog";
+import RoadMap from "../pages/roadMap";
 
 function Router(){
     return(
@@ -66,6 +68,10 @@ function Router(){
                     <Route path="webdeveloper/*" element={<WebRoutes />} />
 
                     <Route path="progreso" element={<Progreso />} />
+
+                    <Route path="changelog" element={<ChangeLog />} />
+
+                    <Route path="roadmap" element={<RoadMap />} />
 
                 </Routes>
 
