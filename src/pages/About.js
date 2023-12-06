@@ -3,6 +3,7 @@ import "../App.css";
 import Stiker from "../component/Stiker";
 import ban from "../img/baner canal.png";
 import Pie from "../component/Pie";
+import ChangeLog from "./changeLog";
 
 
 
@@ -21,6 +22,8 @@ function About() {
                 en la pagina de news, con una descripcion de la seccion, el tiempo que falta para agregarse al canal y el porcentaje que tiene de avance
                 espero que pronto el canal se vuelva mas atractivo para las personas"
                 />
+
+                <ChangeLog />
 
                 <div className="contenedor-logros">
                     <h1 className="title1">Secciones del canal</h1>
