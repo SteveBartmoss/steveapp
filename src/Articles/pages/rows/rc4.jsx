@@ -33,7 +33,7 @@ function Rc4() {
                         interactuar de forma compleja si no que basta con acercar se a los personajes que bailan 
                         o chocar nuestro personaje con elementos del escenario.
                     </p>
-                    
+
                 </div>
 
                 <h1 className="title1">Un cocepto simple pero bien implementado</h1>
@@ -41,11 +41,12 @@ function Rc4() {
 
                 <div className="back-articles">
                     <p className="content-curso">
-                        Una mecánica muy simple pero que me permitió pasar unos cuantos minutos de diversión
-                        y fue ahí cuando recordé otro título que también me había llamado la atención por
-                        su manera de implementar el gameplay y era del mismo desarrollador, el juego trataba
-                        de sacar una espada de una piedra así como contaba la leyenda del rey Arturo con esto
-                        la mecánica estaba planteada pero hacía falta algo que la volviera interesante algo
+                        Una mecánica muy simple considerando que recorrer la isla no tomaba mas 
+                        de unos cuantos minutos pero apesar de esto me permitió pasar un momento 
+                        de diversión y entonces recordé otro título que también me había llamado la atención por
+                        su manera de implementar el gameplay y curiosamente era del mismo desarrollador, 
+                        el juego trataba de sacar una espada de una piedra así como contaba la leyenda 
+                        del rey Arturo con esto la mecánica estaba planteada pero hacía falta algo que la volviera interesante algo
                         que animará a los jugadores a probar lo. Bueno detrás de la simple idea de solo sacar
                         una espada había un modo de multijugador que tendría a los usuarios frustrados por
                         mucho tiempo y es que el juego mostraba una simple espada pero la longitud y el peso
