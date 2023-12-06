@@ -3,8 +3,8 @@ import React from "react";
 function ChangeLog() {
     return (
         <>
-            <div>
-                <h1>Change Log de la pagina</h1>
+            <div className="contenedor-logros">
+                <h1 className="title1">Change Log de la pagina</h1>
                 <p>
                     Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
