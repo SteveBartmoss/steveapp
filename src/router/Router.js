@@ -67,8 +67,6 @@ function Router(){
 
                     <Route path="webdeveloper/*" element={<WebRoutes />} />
 
-                    <Route path="progreso" element={<Progreso />} />
-
                     <Route path="changelog" element={<ChangeLog />} />
 
                     <Route path="roadmap" element={<RoadMap />} />
