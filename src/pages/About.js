@@ -10,7 +10,7 @@ import ChangeLog from "./changeLog";
 function About() {
     return (
         <>
-        {document.title="stevechambitas"}
+            {document.title = "stevechambitas"}
             <div className="contenedor-about">
 
                 <Stiker imge={"/Assets/perfil2.jpg"} title="Acerca de steve chambitas"
@@ -23,7 +23,13 @@ function About() {
                 espero que pronto el canal se vuelva mas atractivo para las personas"
                 />
 
-                <ChangeLog />
+                <div className="contenedor-logros">
+                    
+                    <a className="dumix-btn" href="changelog">Change log</a>
+
+                    <a className="dumix-btn" href="roadmap">Road Map</a>
+
+                </div>
 
                 <div className="contenedor-logros">
                     <h1 className="title1">Secciones del canal</h1>
