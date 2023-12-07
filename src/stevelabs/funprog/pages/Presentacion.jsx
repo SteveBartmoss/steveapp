@@ -84,7 +84,7 @@ function Prog1Presentacion() {
                 <div className="div-read">
 
                     <div className="div-title">
-                        <h1 className="title-subject">Preparacion del ambiente para el curso</h1>
+                        <h1 className="title-subject">Preparar el ambiente para el curso</h1>
                         <hr className="line" />
                     </div>
 
