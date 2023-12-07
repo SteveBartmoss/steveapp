@@ -79,10 +79,10 @@ function Rc4() {
                     </p>
 
                     <p className="content-curso">
-                        Al revisar un video del crador descubri que el habia programado el juego para que 
-                        la longitud y el peso de la espada bajaba con el tiempo siempre y cuando no se hicieran 
-                        mas intentos pero esto no sucedio pues la gente no dejaba de intentar sacar la espada 
-                        y debido a esto el creador tuvo que modificar el comporatamiento de la espada para que 
+                        Al revisar un video del crador descubri que el habia programado el juego para que
+                        la longitud y el peso de la espada bajaba con el tiempo siempre y cuando no se hicieran
+                        mas intentos pero esto no sucedio pues la gente no dejaba de intentar sacar la espada
+                        y debido a esto el creador tuvo que modificar el comporatamiento de la espada para que
                         se reiniciaran los atributos cuando un usuario sacara la espada en los valores maximos,
                         esta claro que el creador no esperaba que tuviera tanto exito el juego pero me alegro saber
                         que una idea tan simple tuviera tanto exito ya que esto demostro que no siempre en necesario
@@ -96,20 +96,36 @@ function Rc4() {
 
                 <div className="back-articles">
                     <p className="content-curso">
-
-                        El ejemplo anterior
-                        muestra como una idea buena y una forma correcta de implementar mecánicas diferentes
-                        pude hacer que tú juego sea interesante para las personas y me hizo pensar que ojalá
+                        El ejemplo anterior muestra como una idea buena y una forma correcta de implementar
+                        mecánicas diferentes puede hacer que tú juego sea interesante para las personas logrando
+                        un exito a pesar de que no tener tantos aspectos destacables como pueden ser mejores graficos,
+                        mapas enormes o miles de horas de duracion ya que muchas la falta de buenas mecanicas puede hacer
+                        que los jugadores terminen por cansarse rapidamente lo que me hizo pensar que ojalá
                         las desarrolladoras triple a pusieran más tiempo en hacer sus juegos más interesantes
                         y menos tiempo en sus misiones de relleno, sus gráficas ultra realistas o en mecánicas
-                        de farmeo tan excesivo que hace que los juegos dejen de ser tan divertidos por esta
-                        razón los juegos indie se han convertido en algo especial para los usuarios ya que
-                        se tratan de juegos con mayor libertad creativa donde pueden arriesgar se a implementar
-                        una forma de jugar poco convencional pero que con buenas ideas puede volverse un gran
+                        de farmeo tan excesivo que hace que los juegos dejen de ser tan divertidos.
+
+                    </p>
+
+                    <p className="content-curso">
+                        Por esta razón los juegos indie se han convertido en algo especial para los usuarios ya que
+                        se tratan de juegos con mayor libertad creativa donde pueden arriesgarse a implementar
+                        una forma de juego poco convencional pero que con buenas ideas puede volverse un gran
                         éxito y actualmente se necesita más ideas innovadoras y menos refritos de battle Royale
                         o mundos abiertos que no tienen para ofrecer que no sean horas invertidas en ir del
                         punto a al punto b, historias simples que muchas veces están en segundo plano o que
-                        directamente no está presente en el juego. Los triple a se cada vez son más difíciles
+                        directamente no está presente en el juego.
+                    </p>
+
+                </div>
+
+                <h1>Los triple A corren peligro</h1>
+
+                <hr />
+
+                <div>
+                    <p>
+                        Los triple a se cada vez son más difíciles
                         de hacer y duran mucho en desarrollarse pero lo más decepcionante es ver que todo ese
                         esfuerzo fue no surtió efecto por tratar de seguir las corrientes que están de moda y
                         no arriesgarse a entregar un producto diferente asi que ojala más desarrolladoras
@@ -118,6 +134,8 @@ function Rc4() {
                         comunidad bueno esto fue filas y columnas hasta la próxima
                     </p>
                 </div>
+
+
             </div>
         </>
     );
