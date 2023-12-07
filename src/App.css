@@ -801,6 +801,10 @@
   margin: auto;
 }
 
+.div-title{
+  display: inline-block;
+}
+
 .div-curso{
   width: 1400px;
   height: 1000px;
