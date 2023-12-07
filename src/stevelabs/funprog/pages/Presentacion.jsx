@@ -32,13 +32,13 @@ function Prog1Presentacion() {
                     </p>
                 </div>
 
-                <div className="center">
-                    <h1 className="title-subject">Ambiente de desarrollo</h1>
-                </div>
-
-                <hr className="line" />
-
                 <div className="div-read">
+
+                    <div className="div-title">
+                        <h1 className="title-subject">Ambiente de desarrollo</h1>
+                        <hr className="line" />
+                    </div>
+
                     <p className="content-curso">Para preparar el ambiente de desarrollo para el curso sera
                         necesario contar con los siguientes requisitos:
                     </p>
@@ -56,13 +56,13 @@ function Prog1Presentacion() {
                     </p>
                 </div>
 
-                <div className="center">
-                    <h1 className="title-subject">Porque es mejor usar un Editor de Codigo</h1>
-                </div>
-
-                <hr className="line" />
-
                 <div className="div-read">
+
+                    <div className="div-title">
+                        <h1 className="title-subject">Porque es mejor un Editor de Codigo</h1>
+                        <hr className="line" />
+                    </div>
+
                     <p className="content-curso">
                         Viendo el tema desde el ambito de productividad no es lo mas recomendable
                         ya que al no usar un ide tenemos que invertir tiempo en pasos extras como
@@ -81,13 +81,12 @@ function Prog1Presentacion() {
                     </p>
                 </div>
 
-                <div className="center">
-                    <h1 className="title-subject">Preparacion del entorno de desarrollo para el curso</h1>
-                </div>
-
-                <hr className="line" />
-
                 <div className="div-read">
+
+                    <div className="div-title">
+                        <h1 className="title-subject">Preparacion del ambiente para el curso</h1>
+                        <hr className="line" />
+                    </div>
 
                     <p className="content-curso">
                         A continacion se dara una recomendacion de programas para tener un entorno
