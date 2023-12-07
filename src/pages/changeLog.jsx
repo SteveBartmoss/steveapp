@@ -6,9 +6,9 @@ function ChangeLog() {
             <div className="contenedor-logros">
                 <h1 className="title1">Change Log de la pagina</h1>
 
-                <h1>Ultima actualizacion</h1>
+                <h1 className="title1">Ultima actualizacion</h1>
 
-                <h1>05/12/2023</h1>
+                <h1 className="title1">05/12/2023</h1>
                 <hr />
 
                 <p className="content-curso">
