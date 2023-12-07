@@ -38,7 +38,7 @@ function ChangeLog() {
                 <h1 className="title1">28/10/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se implemento una mejora en los menus de los cursos ya que ahora se trata de un
                         menu desplegable lo cual hace que el curso sea mas facil de visualizar, se sigue
@@ -52,7 +52,7 @@ function ChangeLog() {
                 <h1 className="title1">31/08/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se continua implementando un nuevo estilo en la seccion de steve (se agrego
                         una seccion con el porcentaje de  uso de algunos lenguaes de programacion) por el
@@ -64,7 +64,7 @@ function ChangeLog() {
                 <h1 className="title1">14/08/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se implemento un nuevo estilo a las tajertas para las secciones de los articulos,
                         steve labs y proximamente se implementara en las secciones de have fun, dumix y la
@@ -78,7 +78,7 @@ function ChangeLog() {
                 <h1 className="title1">07/08/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se tiene implementada la sesccion de articulos rows and colums por lo que se puede acceder
                         al primer articul o de esta seccion, se estan preparando los cambios para la nueva version
@@ -93,7 +93,7 @@ function ChangeLog() {
                 <h1 className="title1">28/06/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se completo una nueva funcion en la cual se puede hacer preguntas como si de una bola magica
                         se tratara, se mejoraron algunos estilos del curso de linux para que se vea mejor en pantalla
@@ -105,7 +105,7 @@ function ChangeLog() {
                 <h1 className="title1">10/06/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se completo la funcionalidad de la aplicacion gifapp a un 90% lo cual es un porcentaje suficiente
                         para poder cerrar la etapa de desarrollo y empezar dar estilos a la aplicacion para que tenga una
@@ -119,7 +119,7 @@ function ChangeLog() {
                 <h1 className="title1">31/05/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Ya se completo la descripcion de la estrucutra de directorios del sistema linux, se tiene un progreso
                         del 30% para la aplicacion gifapp de la section have fun, faltan estilos para la aplicacion de gifapp
@@ -130,7 +130,7 @@ function ChangeLog() {
                 <h1 className="title1">17/05/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Ya se completaron algunos temas del curso de linux pero aun pueden estaer sujetos a cambios, hace falta
                         invertir mas tiempo en el css pero se trabajara posteriormente, las paginas de have fun aun sigen en espero
@@ -142,7 +142,7 @@ function ChangeLog() {
                 <h1 className="title1">08/05/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Ya se definieron algunas nuevas aplicaciones para el apartado have fun, estara en desarrollo el modulo de
                         gifapp como primer proyecto.
@@ -152,7 +152,7 @@ function ChangeLog() {
                 <h1 className="title1">03/05/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Un nuevo modulo de la pagina se implementara con el nombre de have fun que tiene como objetivo practicar el
                         uso de las apis por parte del desarrollador y que dara un poco de entretenimiento para los usuarios.
@@ -162,7 +162,7 @@ function ChangeLog() {
                 <h1 className="title1">17/04/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Dumix ha llegado, se trata de una serie de paginas que compartiran con los usuarios conocimientos sobre
                         comandos basicos y que puede ser de ayuda para usuarios inexperstos o que solo quieren corroborar el
@@ -174,7 +174,7 @@ function ChangeLog() {
                 <h1 className="title1">16/04/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se cierra la version dos de la pagina en la cual se cuenta con un nuevo diseno de la pagina home, steve,
                         un nuevo apartado como los articulos de row and colums y se implementan reseñas de juegos que no requieren un
@@ -186,7 +186,7 @@ function ChangeLog() {
                 <h1 className="title1">4/03/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se implemente un nuevo diseno para el apartado de esteve, se tiene un portada y proximamente de pondra una malla
                         para almacenar difentes elementos, aun no se decide los fondos ni los colores definitivos. La pagina home ya tiene
@@ -197,7 +197,7 @@ function ChangeLog() {
                 <h1 className="title1">1/03/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se cierra la version uno de la pagina y se deja la version en la rama v1 para poder desplegar esa version en
                         caso de tener problemas o si se requiere hacer una consulta, la verison uno es la que esta actualmente desplegada en
@@ -208,7 +208,7 @@ function ChangeLog() {
                 <h1 className="title1">6/02/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         Se implemento un carrusel para la informacion de steve, aun esta en desarrollo y falta definir
                         los estilos, la funcionalidad ya esta completa y se creo un hook para menejar el cambio de las
@@ -220,7 +220,7 @@ function ChangeLog() {
                 <h1 className="title1">13/01/2023</h1>
                 <hr />
 
-                <div>
+                <div className="back-articles">
                     <p className="content-curso">
                         La pagina fue creada y desplegada en netlify y puede ser consultada, cuenta con las siguentes
                         secciones:home, about, news, almanac, steve.
