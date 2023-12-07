@@ -8,6 +8,16 @@ function ChangeLog() {
 
                 <h1>Ultima actualizacion</h1>
 
+                <h1>05/12/2023</h1>
+                <hr />
+
+                <p className="content-curso">
+                    Se agregaron dos nuevos articulos a rows and columns, se esta mejorando el estilo 
+                    de la pagina y se esta planeando una mejora para el perfil de steve, se implemento 
+                    una pagina con los cambios y una que mostrara las actualizaciones que se planean 
+                    para la pagina, el invierno es mas frio que nunca pero todo sigue segun lo planeado.
+                </p>
+
                 <h1 className="title1">25/11/2023</h1>
                 <hr />
 
