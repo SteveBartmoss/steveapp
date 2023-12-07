@@ -796,6 +796,11 @@
   margin-right: 10px;
 }
 
+.div-read{
+  width: 70%;
+  margin: auto;
+}
+
 .div-curso{
   width: 1400px;
   height: 1000px;
