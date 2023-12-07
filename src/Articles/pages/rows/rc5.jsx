@@ -5,16 +5,17 @@ function Rc5() {
     return (
         <>
             <div className="div-about">
-                <div>
-                    <h1>Los 16 gigas de ram no son lo que eran</h1>
+
+                <div className="center">
+                    <h1 className="main-title">Los 16 gigas de ram no son lo que eran</h1>
                 </div>
 
-                <hr />
+                <hr className="line"/>
 
                 <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         Cuando era mas joven y no sabia mucho sobre computadoras siempre me decian que
                         tenia que aumentar la ram de mi computadora para que fuera mas rápida, por mucho
                         tiempo no entendia la relación que tenia ese componente con la rapidez de una
@@ -29,12 +30,12 @@ function Rc5() {
                     </p>
                 </div>
 
-                <h1>Ya no tienes poder sobre tu memoria ram</h1>
+                <h1 className="title1">Ya no tienes poder sobre tu memoria ram</h1>
 
-                <hr />
+                <hr className="line"/>
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         No hace mucho me puse a revisar los recursos de mi computadora
                         mientras jugaba y me dio un gran susto ver que el total de uso de ram era de 15
                         gigas y apenas quedaba libre unos cuantos megas de memoria, mi sorpresa no fue porque
@@ -48,12 +49,12 @@ function Rc5() {
                     </p>
                 </div>
 
-                <h1>Un mejor manejo de los recursos es necasrio</h1>
+                <h1 className="title1">Un mejor manejo de los recursos es necasrio</h1>
 
-                <hr />
+                <hr className="line"/>
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         y luego de
                         observar el uso de la memoria con el administrador de tareas me di cuenta que la mayoría
                         del tiempo el sistema usa cinco gigas sin tener abierto si no solamente al iniciar
@@ -72,12 +73,12 @@ function Rc5() {
                     </p>
                 </div>
 
-                <h1>De nuevo gnu salva el dia</h1>
+                <h1 className="title1">De nuevo gnu salva el dia</h1>
 
-                <hr />
+                <hr className="line"/>
 
-                <div>
-                    <p>
+                <div className="back-articles">
+                    <p className="content-curso">
                         ver que tenía a mi disposición muchos mas recursos me hizo
                         pensar que empresas como Microsoft deberían tomar en cuenta a sus usuarios y darles la
                         posibilidad de tener un Windows lite, o al menos optimizar mejor su sistema operativo
@@ -89,12 +90,12 @@ function Rc5() {
                     </p>
                 </div>
 
-                <h1>Las desarrolladoras no ayudan</h1>
+                <h1 className="title1">Las desarrolladoras no ayudan</h1>
 
-                <hr />
-                
-                <div>
-                    <p>
+                <hr className="line"/>
+
+                <div className="back-articles">
+                    <p className="content-curso">
                         por otro lado las desarrolladoras de juegos
                         tampoco ponen de su parte ya que muchos juegos recientes o de la generación pasada
                         piden como minimo ocho gigas de ram que si lo sumamos a la cantidad de ram que usa
