@@ -84,11 +84,16 @@ function Prog1Algoritmo() {
 
                 <p className="content-curso">
                     Crear el algoritmo para saber si un número es par.
+                </p>
 
+                <p className="content-curso">
                     Crear un algoritmo obtener el cuadro de un número.
+                </p>
 
+                <p className="content-curso">
                     Crear el algoritmo para obtener el área de un cuadro.
                 </p>
+
             </div>
         </>
     );
