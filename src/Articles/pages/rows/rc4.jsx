@@ -119,19 +119,23 @@ function Rc4() {
 
                 </div>
 
-                <h1>Los triple A corren peligro</h1>
+                <h1 className="title1">Los triple A corren peligro</h1>
 
-                <hr />
+                <hr className="line"/>
 
-                <div>
-                    <p>
-                        Los triple a se cada vez son más difíciles
-                        de hacer y duran mucho en desarrollarse pero lo más decepcionante es ver que todo ese
-                        esfuerzo fue no surtió efecto por tratar de seguir las corrientes que están de moda y
-                        no arriesgarse a entregar un producto diferente asi que ojala más desarrolladoras
-                        grandes lanzaran juegos como death stranding que se animó a dar un juego con una
-                        mecánica poco convencional y llamativa pero que termino agradando a una parte de la
-                        comunidad bueno esto fue filas y columnas hasta la próxima
+                <div className="back-articles">
+                    <p className="content-curso">
+                        Los triple a se cada vez son más difíciles de hacer pues la mayoria se procupa por 
+                        tene un juego que dure muchas horas, que los graficos sean tan realistas que puedas sentir
+                        las balas o que tanga millones de colleccionables ademas de muchas misiones secundarias repetitivas, 
+                        el principal problema de esto es que los juegos duran mucho en desarrollarse por todo lo que 
+                        se tiene que implementar para despues ver una realidad más decepcionante y ver que todo ese 
+                        esfuerzo no recibe la misma aceptacion que juegos con mejores mecanicas y que pueden resultat 
+                        mucho mas entretenido y todo esto por tratar de seguir las corrientes que están de moda y no 
+                        arriesgarse a entregar un producto diferente asi que ojala más desarrolladoras grandes lanzaran 
+                        juegos como death stranding que se animó a dar un juego con una mecánica poco convencional y 
+                        llamativa pero que termino agradando a una parte de la comunidad bueno esto fue filas y columnas 
+                        hasta la próxima.
                     </p>
                 </div>
 
