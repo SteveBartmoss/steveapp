@@ -4,13 +4,14 @@ function Prog1Presentacion() {
     return (
         <>
             <div className="div-curso">
-                <div className="center">
-                    <h1 className="title-subject">Acerca del curso</h1>
-                </div>
-
-                <hr className="line" />
 
                 <div className="div-read">
+
+                    <div className="div-title">
+                        <h1 className="title-subject">Acerca del curso</h1>
+                        <hr className="line" />
+                    </div>
+
                     <p className="content-curso">
                         El curso esta pensado para que personas que no han programado
                         nunca y que quieren empezar a programar, por esta razon se abordan
@@ -213,7 +214,7 @@ function Prog1Presentacion() {
                         de compilacion, por esta razon es una buena idea instalar las herramientas por separado para tener un
                         mejor conocimiento de todo el proceso que lleva programar.
                     </p>
-                    
+
                 </div>
 
             </div>
