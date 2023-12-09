@@ -37,7 +37,9 @@ function Rows() {
                 <div className="div-topic">
                     <h1 className="title1">Juegos de acceso anticipado</h1>
                     <p className="Content">
-                        Los juegos de acceso anticipado
+                        Los juegos de acceso anticipado pueden ser una gran 
+                        oportunidad pero tambien pueden representar un riesgo 
+                        para tu cartera
                     </p>
                     <div className="center">
                         <a className="dumix-btn" href="rows/rc3">Ver articulo</a>
@@ -55,6 +57,7 @@ function Rows() {
                         <a className="dumix-btn" href="rows/rc4">Ver articulo</a>
                     </div>
                 </div>
+                
                 <div className="div-topic">
                     <h1 className="title1">16 gigas de ram no son como antes</h1>
                     <p className="Content">
