@@ -1,4 +1,5 @@
 import React from "react";
+import { TitleDiv } from "../../../component/Contenedores/Cajas";
 
 function Prog1Presentacion() {
     return (
@@ -7,10 +8,10 @@ function Prog1Presentacion() {
 
                 <div className="div-read">
 
-                    <div className="div-title">
+                    <TitleDiv>
                         <h1 className="title-subject">Acerca del curso</h1>
                         <hr className="line" />
-                    </div>
+                    </TitleDiv>
 
                     <p className="content-curso">
                         El curso esta pensado para que personas que no han programado
