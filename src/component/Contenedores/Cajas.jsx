@@ -11,7 +11,7 @@ export function Paper({children}){
 
 export function TitleDiv({children}){
     return(
-        <div className="paper">
+        <div className="div-title">
             {children}
         </div>
     );
