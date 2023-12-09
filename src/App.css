@@ -105,8 +105,28 @@
 
 /* estilos de los contenedores */
 
+.paper{
+  display: flex;
+  flex-direction: column;
+}
+
+.Baner{
+  width: 100%;
+  height: 500px;
+  background: url("./img/baner\ canal.png") no-repeat center center/cover;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 .section-1{
   background-color: var(--gris-6);
+}
+
+.section-2{
+  background-color: var(--gris-7);
 }
 
 .flex-div{
@@ -123,8 +143,6 @@
   grid-template-rows: 2fr 2fr;
   
 }
-
-
 
 .card-div{
   width: 400px;
@@ -210,17 +228,6 @@
 }
 
 /* estilo del baner */
-.Baner{
-  width: 100%;
-  height: 500px;
-  background: url("./img/baner\ canal.png") no-repeat center center/cover;
-  padding-bottom: 50px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
 
 /* estilos de la rows and colums */
 
