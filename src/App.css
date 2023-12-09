@@ -69,6 +69,8 @@
   --gris-8: #393d42;
   --gris-9: #6a6e73;
   --gris-10: #9fa3a9;
+  --gris-11: #65727c;
+  --gris-12: #3e4144;
 
   --aqua-1: #005227;
   --aqua-2: #038554;
@@ -148,7 +150,7 @@
   width: 400px;
   height: 290px;
   margin: 10px;
-  background-color: var(--gris-7);
+  background-color: var(--gris-11);
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
