@@ -281,9 +281,6 @@ function Home() {
                 <h3 className="title1">Temas populares del canal</h3>
                 <MenuItems />
             </div>
-            <div className="Contenedor">
-                <h3 className="title1">Reviews mas recientes</h3>
-            </div>
             <Pie />
         </>
     );
