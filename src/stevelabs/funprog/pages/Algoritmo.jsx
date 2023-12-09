@@ -6,11 +6,11 @@ function Prog1Algoritmo() {
             <div className="div-curso">
 
                 <div className="div-read">
-                    <div className="center">
-                        <h1 className="title-subject">Algoritmo</h1>
-                    </div>
 
-                    <hr className="line" />
+                    <div className="div-title">
+                        <h1 className="title-subject">Algoritmo</h1>
+                        <hr className="line" />
+                    </div>
 
                     <p className="content-curso">
                         Es un conjunto de reglas o instrucciones definidas, no ambiguas, ordenadas y
@@ -27,7 +27,7 @@ function Prog1Algoritmo() {
                         ver a los programas como un conjunto de algoritmos.
                     </p>
 
-                    <div>
+                    <div className="div-title">
                         <h1 className="title-subject">Representaciones de un algoritmo</h1>
                     </div>
 
@@ -41,7 +41,7 @@ function Prog1Algoritmo() {
                         gran complejidad.
                     </p>
 
-                    <div>
+                    <div className="div-title">
                         <h1 className="title-subject">Importancia de un diagrama de flujo</h1>
                     </div>
 
@@ -65,7 +65,7 @@ function Prog1Algoritmo() {
                         que lleva la creación de un programa.
                     </p>
 
-                    <div>
+                    <div className="div-title">
                         <h1 className="title-subject">Ejemplo de un algoritmo</h1>
                     </div>
 
@@ -92,7 +92,7 @@ function Prog1Algoritmo() {
                         la programación.
                     </p>
 
-                    <div>
+                    <div className="div-title">
                         <h1 className="title-subject">Ejercicios propuestos</h1>
                     </div>
 
@@ -107,7 +107,7 @@ function Prog1Algoritmo() {
                     <p className="content-curso">
                         Crear el algoritmo para obtener el área de un cuadro.
                     </p>
-                    
+
                 </div>
 
             </div>
