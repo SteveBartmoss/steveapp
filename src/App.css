@@ -92,6 +92,7 @@
   font-size: 50px;
   font-family: 'Roboto Mono';
   color: white;
+  padding: 10px 10px;
 }
 
 /* estilos de los parrafos */
@@ -101,6 +102,49 @@
   font-family: 'Roboto Mono';
   color: white;
 }
+
+/* estilos de los contenedores */
+
+.section-1{
+  background-color: var(--gris-6);
+}
+
+.flex-div{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.square-div{
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
+  
+}
+
+
+
+.card-div{
+  width: 400px;
+  height: 290px;
+  margin: 10px;
+  background-color: var(--gris-7);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  text-align: justify;
+  box-shadow: 0px 1px 10px rgba(3, 187,133, 0.2);
+  transition: all 400ms ease;
+  border-radius: 5px;
+}
+
+.card-div:hover{
+  box-shadow: 5px 5px 20px rgba(3, 187,133, 0.4);
+  transform: translateY(-3%);
+}
+
 .center{
   text-align: center;
 }
