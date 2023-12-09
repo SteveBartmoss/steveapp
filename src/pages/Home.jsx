@@ -244,6 +244,16 @@ function Home() {
                     </SquareDiv>
                 </Section2>
 
+                <Section1>
+                    <FlexDiv>
+                        <h1 className="title-1">Unete al servidor de discor</h1>
+                        <p className="p-main">
+                            Entra en el canal para conocer mas sobre temas de 
+                            programacion, informatica o sobre juegos.
+                        </p>
+                    </FlexDiv>
+                </Section1>
+
             </div>
             <div className="Contenedor">
                 <h3 className="title1">Temas populares del canal</h3>
