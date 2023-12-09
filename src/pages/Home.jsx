@@ -248,12 +248,34 @@ function Home() {
                     <FlexDiv>
                         <h1 className="title-1">Unete al servidor de discor</h1>
                         <p className="p-main">
-                            Entra en el canal para conocer mas sobre temas de 
+                            Entra en el canal para conocer mas sobre temas de
                             programacion, informatica o sobre juegos.
                         </p>
                     </FlexDiv>
                 </Section1>
 
+                <Section2>
+                    <FlexDiv>
+                        <h1 className="title-1">Dumix</h1>
+                        <p className="p-main">
+                            Una seccion dedicada a tratar temas de linux
+                            para que las personas puedan estar relacionadas
+                            con este sistema operativo que tiene mucho para
+                            ofrecer
+                        </p>
+                    </FlexDiv>
+                </Section2>
+
+                <Section1>
+                    <FlexDiv>
+                        <h1 className="title-1">Have Fun</h1>
+                        <p className="p-main">
+                            Diviertete un poco con estas aplicaciones que 
+                            te haran pasar un buen rato o simplemente prueba 
+                            estas implementaciones de diferentes apis
+                        </p>
+                    </FlexDiv>
+                </Section1>
             </div>
             <div className="Contenedor">
                 <h3 className="title1">Temas populares del canal</h3>
