@@ -86,6 +86,21 @@
   --verde-1: #325559;
 }
 
+/* estilos del titulos */
+
+.title-1{
+  font-size: 50px;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
+/* estilos de los parrafos */
+
+.p-main{
+  font-size: 30px;
+  font-family: 'Roboto Mono';
+  color: white;
+}
 .center{
   text-align: center;
 }
