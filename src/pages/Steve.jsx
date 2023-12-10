@@ -134,31 +134,6 @@ function Steve() {
                     </Paper>
                 </Expositor>
 
-                <div className="div-prog">
-
-                </div>
-
-                <div>
-
-                </div>
-
-                <div>
-
-                </div>
-
-
-                <div>
-
-                </div>
-
-
-
-
-
-
-
-
-
                 <div>
                     <h1 className="title1">Programador</h1>
                     <p className="Content">Los codigos no siempre son como queremos
@@ -209,34 +184,8 @@ function Steve() {
 
                     <div className="div-flex-item">
 
-                        <div className="div-min-article">
-
-                            <div className="div-prog">
-
-                            </div>
-                        </div>
-
-                        <div className="div-min-article">
-
-                        </div>
-
-                        <div className="div-min-article">
-
-                        </div>
-
-                        <div className="div-min-article">
-
-                        </div>
-
-                        <div className="div-min-article">
-
-                        </div>
-
-                        <div className="div-min-article">
-
-                        </div>
-
                     </div>
+
                     <div className="item-lateral">
                         <h1 className="title1">Estado: hackeando a la nasa</h1>
                         <h1 className="title1">Horas de programacion:</h1>
@@ -271,23 +220,8 @@ function Steve() {
 
                 <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"} />
 
-                <div className="item-mid">
-
-                </div>
-
-                <div className="item-mid">
-
-                </div>
-
-                <div className="item-mid">
-
-                </div>
-
             </div>
 
-            <div className="Contenedor">
-
-            </div>
             <Pie />
         </>
 
