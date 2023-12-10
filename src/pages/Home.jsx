@@ -270,9 +270,32 @@ function Home() {
                     <FlexDiv>
                         <h1 className="title-1">Have Fun</h1>
                         <p className="p-main">
-                            Diviertete un poco con estas aplicaciones que 
-                            te haran pasar un buen rato o simplemente prueba 
+                            Diviertete un poco con estas aplicaciones que
+                            te haran pasar un buen rato o simplemente prueba
                             estas implementaciones de diferentes apis
+                        </p>
+                    </FlexDiv>
+                </Section1>
+
+                <Section2>
+                    <FlexDiv>
+                        <h1 className="title-1">Steve labs</h1>
+                        <p className="p-main">
+                            Visita la seccion de cursos para aprender mas
+                            sobre temas relacionados a la programacion y
+                            la informatica
+                        </p>
+                    </FlexDiv>
+                </Section2>
+
+                <Section1>
+                    <FlexDiv>
+                        <h1 className="title-1">Web Masters</h1>
+                        <p className="p-main">
+                            En esta seccion encontraras articulos relacionados al
+                            desarrollo web, temas de programacion web y algunos 
+                            cursos sobre el desarrollo de apliaciones web que 
+                            te serviran
                         </p>
                     </FlexDiv>
                 </Section1>
