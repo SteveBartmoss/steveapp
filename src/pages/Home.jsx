@@ -40,31 +40,30 @@ function Home() {
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Borrar System32</h1>
+                            <h1 className="title1">Los fantasmas de pacman</h1>
                             <p className="content-curso">
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                                El popular juego guarda algunos secretos sobre el
+                                comportamiento de sus enemigos, una forma de programacion
+                                interesante
                             </p>
                             <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Borrar System32</h1>
+                            <h1 className="title1">Procesador multi nucleo</h1>
                             <p className="content-curso">
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                                Los procesadores tienen diferentes propiedades y una
+                                de ellas es el numero de nucleos que pose, aprende mas
+                                en el video
                             </p>
                             <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Borrar System32</h1>
+                            <h1 className="title1">Librerias de programacion</h1>
                             <p className="content-curso">
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                                Las librerias de programacion son un tema recurrente dentro 
+                                de la programacion, visita el video para saber mas sobre ellas
                             </p>
                             <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" className="dumix-btn">Ir al video</a>
                         </CardDiv>
@@ -289,8 +288,8 @@ function Home() {
                         <h1 className="title-1">Web Masters</h1>
                         <p className="p-main">
                             En esta seccion encontraras articulos relacionados al
-                            desarrollo web, temas de programacion web y algunos 
-                            cursos sobre el desarrollo de apliaciones web que 
+                            desarrollo web, temas de programacion web y algunos
+                            cursos sobre el desarrollo de apliaciones web que
                             te serviran
                         </p>
                     </FlexDiv>
