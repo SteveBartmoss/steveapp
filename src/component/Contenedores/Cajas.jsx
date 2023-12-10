@@ -24,3 +24,19 @@ export function ReadDiv({children}){
         </div>
     );
 }
+
+export function Expositor({children}){
+    return(
+        <div className="div-exp">
+            {children}
+        </div>
+    );
+}
+
+export function TitleExp({children}){
+    return(
+        <div className="title-exp">
+            {children}
+        </div>
+    );
+}
