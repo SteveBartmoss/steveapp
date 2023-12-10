@@ -86,6 +86,7 @@
   --rosa-3: #c82495;
   
   --verde-1: #325559;
+  --verde-2: #244e4f;
 }
 
 /* estilos del titulos */
@@ -170,6 +171,17 @@
 .div-read{
   width: 70%;
   margin: auto;
+}
+
+.div-exp{
+  width: 60%;
+  margin: auto;
+}
+
+.title-exp{
+  background-color: var(--verde-2) ;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .center{
