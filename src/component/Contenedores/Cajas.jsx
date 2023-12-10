@@ -40,3 +40,11 @@ export function TitleExp({children}){
         </div>
     );
 }
+
+export function BackExp({children}){
+    return(
+        <div className="back-exp">
+            {children}
+        </div>
+    );
+}
