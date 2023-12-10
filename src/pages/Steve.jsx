@@ -88,7 +88,7 @@ function Steve() {
                                 o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
                                 para que puedas seguirme, quizas algunas de mis playlist te agraden
                             </p>
-                            <a className="dumix-btn">Ir al enlace</a>
+                            <a href="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4" className="dumix-btn">Ir al enlace</a>
                         </BackExp>
                     </Paper>
                 </Expositor>
@@ -106,7 +106,7 @@ function Steve() {
                                 puedes seguirme con el enlace a mi perfil que aparece a
                                 continuacion
                             </p>
-                            <a className="dumix-btn">Ir al enlace</a>
+                            <a href="https://steamcommunity.com/id/tonyhallan/" className="dumix-btn">Ir al enlace</a>
                         </BackExp>
                     </Paper>
                 </Expositor>
