@@ -48,3 +48,11 @@ export function BackExp({children}){
         </div>
     );
 }
+
+export function GridPerfil({children}){
+    return(
+        <div className="grid-perfil">
+            {children}
+        </div>
+    );
+}
