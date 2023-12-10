@@ -165,6 +165,11 @@
   transform: translateY(-3%);
 }
 
+.div-read{
+  width: 70%;
+  margin: auto;
+}
+
 .center{
   text-align: center;
 }
@@ -862,11 +867,6 @@
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-.div-read{
-  width: 70%;
-  margin: auto;
 }
 
 .div-title{

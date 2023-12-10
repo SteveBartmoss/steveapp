@@ -16,3 +16,11 @@ export function TitleDiv({children}){
         </div>
     );
 }
+
+export function ReadDiv({children}){
+    return(
+        <div className="div-read">
+            {children}
+        </div>
+    );
+}
