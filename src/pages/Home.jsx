@@ -1,11 +1,7 @@
 import React from "react";
-import Videos from "../component/Videos";
 import "../App.css";
-import Review from "../component/Review";
 import Pie from "../component/Pie";
-import Branding from "../component/Branding";
 import DivBaner from "../component/DivBaner";
-import MenuItems from "../component/MenuItem";
 import Section1 from "../component/Contenedores/Section1";
 import FlexDiv from "../component/Contenedores/FlexDiv";
 import SquareDiv from "../component/Contenedores/SquareDiv";
