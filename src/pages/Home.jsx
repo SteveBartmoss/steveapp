@@ -30,43 +30,43 @@ function Home() {
                     <SquareDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
+                            <h1 className="title1">Borrar System32</h1>
+                            <p className="content-curso">
                                 La popular broma de borrar System32 para que tu pc
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
+                            <h1 className="title1">Borrar System32</h1>
+                            <p className="content-curso">
                                 La popular broma de borrar System32 para que tu pc
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
+                            <h1 className="title1">Borrar System32</h1>
+                            <p className="content-curso">
                                 La popular broma de borrar System32 para que tu pc
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
+                            <h1 className="title1">Borrar System32</h1>
+                            <p className="content-curso">
                                 La popular broma de borrar System32 para que tu pc
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
