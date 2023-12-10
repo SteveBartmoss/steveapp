@@ -7,15 +7,43 @@ import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
 import Pie from "../component/Pie";
+import { Expositor, Paper, TitleExp } from "../component/Contenedores/Cajas";
 
 
 function Steve() {
     return (
 
         <>
-        {document.title="stevechambitas"}
+            {document.title = "stevechambitas"}
             <Portada image={"/Assets/steveA.png"} />
+
             <div className="Contenedor">
+
+                <Paper>
+                    <Expositor>
+                        <TitleExp>
+                            <h1 className="title1">Acerca de steve</h1>
+                        </TitleExp>
+                        <p className="content-curso">
+                            Estudiante de ingenieria en sistemas con cero
+                            porciento de probabilidadesde triunfar pero con el cien
+                            porciento de fe, uno de mis gustos es la cultura geek por
+                            lo cual me gustan las peliculas de super heroes, la ciencia
+                            ficcion, los videojuegos y los temas de programacion
+                            aunque en esto ultimo no soy tan bueno. Inicie mi canal
+                            de youtube para ayudarme a repasar temas de la carrera y de
+                            paso podia compartir temas que me gustaban con otras personas
+                            teniendo la esperanza de que otras personas se interesen por
+                            los temas de programacion, una de mis metas es poder fundar
+                            una academia en linea para que las personas puedan acceder al
+                            conocimiento de manera facil y rapida esto aun queda muy lejos
+                            y tenemos todo en contra pero hare lo que se pueda. Por esta
+                            razon inicia mi camino en youtube para empezar a compartir
+                            informacion con otras personas pero poco a poco espero poder
+                            mudarme a mi propia plataforma.
+                        </p>
+                    </Expositor>
+                </Paper>
                 <div>
                     <h1 className="title1">Programador</h1>
                     <p className="Content">Los codigos no siempre son como queremos
@@ -31,25 +59,15 @@ function Steve() {
                 </div>
 
                 <div className="div-bio">
-                    <h1 className="title1">Acerca de steve</h1>
-                    <p className="content-curso">Actualmente estudiante de ingenieria en sistemas con cero porciento de probabilidades
-                        de triunfar pero con el cien porciento de fe, uno de mis gustos es la cultura geek por lo cual me
-                        me gustan las peliculas de super heroes, la ciencia ficcion, los videojuegos y los temas de programacion
-                        aunque en esto ultimo no soy tan bueno. Inicie mi canal de youtube para ayudarme a repasar temas de la
-                        carrera y de paso podia compartir temas que me gustaban con otras personas teniendo la esperanza de que
-                        otras personas se interesen por los temas de programacion, una de mis metas es poder fundar una academia en
-                        linea para que las personas puedan acceder al conocimiento de manera facil y rapida esto aun queda muy lejos
-                        y tenemos todo en contra pero hare lo que se pueda. Por esta razon inicia mi camino en youtube para empezar a
-                        compartir informacion con otras personas pero poco a poco espero poder mudarme a mi propia plataforma.
-                    </p>
+
                 </div>
 
                 <div className="div-bio">
 
                     <h1 className="title1">Lista de tecnologias que planeo aprender</h1>
                     <p className="content-curso">
-                        Uno nunca esta dia y menos en una area en la que dia 
-                        a dia se crean nuevas tecnologias y cambian asi que 
+                        Uno nunca esta dia y menos en una area en la que dia
+                        a dia se crean nuevas tecnologias y cambian asi que
                         es bueno renovarse con las mismas
                     </p>
 
@@ -153,7 +171,7 @@ function Steve() {
                             </div>
 
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -164,7 +182,7 @@ function Steve() {
                 <div className="item-mid">
                     <h1 className="title1">Mi perfil de spotify</h1>
                     <p className="Content">
-                        Si quieres saber que tipo de musica escuho 
+                        Si quieres saber que tipo de musica escuho
                         o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
                         para que puedas seguirme, quizas algunas de mis playlist te agraden
                     </p>
@@ -174,9 +192,9 @@ function Steve() {
                 <div className="item-mid">
                     <h1 className="title1">Mi perfil de steam</h1>
                     <p className="Content">
-                        Si quires agregarme en steam para jugar o para ver mi 
+                        Si quires agregarme en steam para jugar o para ver mi
                         biblioteca de juegos o las resenas de titulos que he jugado
-                        puedes seguirme con el enlace a mi perfil que aparece a 
+                        puedes seguirme con el enlace a mi perfil que aparece a
                         continuacion
                     </p>
                     <a className="dumix-btn">Ir al enlace</a>
@@ -185,9 +203,9 @@ function Steve() {
                 <div className="item-mid">
                     <h1 className="title1">Pc Check Actual</h1>
                     <p className="Content">
-                        El pc de edicion y para jugar de steve no resulta 
+                        El pc de edicion y para jugar de steve no resulta
                         tan potente como el de otros creadores top, pero tiene
-                        lo necesario para que se pueda jugar decentemente y 
+                        lo necesario para que se pueda jugar decentemente y
                         tambien para crear los videos necesarios. A continuacion
                         se describen los componentes que lleva:
                         GPU: Radeon
@@ -198,7 +216,7 @@ function Steve() {
                 </div>
 
             </div>
-            
+
             <div className="Contenedor">
 
             </div>
