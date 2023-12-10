@@ -300,10 +300,6 @@ function Home() {
                     </FlexDiv>
                 </Section1>
             </div>
-            <div className="Contenedor">
-                <h3 className="title1">Temas populares del canal</h3>
-                <MenuItems />
-            </div>
             <Pie />
         </>
     );
