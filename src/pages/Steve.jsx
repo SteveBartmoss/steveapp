@@ -37,6 +37,128 @@ function Steve() {
                     </Paper>
                 </Expositor>
 
+                <Expositor>
+                    <Paper>
+                        <TitleExp>
+                            <h1 className="title1">Lenguajes usados</h1>
+                        </TitleExp>
+                        <BackExp>
+                            <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
+                            <img className="img-prog" src={"/Assets/c.png"} alt="imgLateral" />
+                            <img className="img-prog" src={"/Assets/c++.png"} alt="imgLateral" />
+                            <img className="img-prog" src={"/Assets/py.png"} alt="imgLateral" />
+                            <img className="img-prog" src={"/Assets/js.png"} alt="imgLateral" />
+                        </BackExp>
+                    </Paper>
+                </Expositor>
+
+                <Expositor>
+                    <Paper>
+                        <TitleExp>
+                            <h1 className="title1">Bases de datos usadas</h1>
+                        </TitleExp>
+                        <BackExp>
+                            <img className="img-prog" src={"/Assets/mysql.png"} alt="imgLateral" />
+                            <img className="img-prog" src={"/Assets/sql.png"} alt="imgLateral" />
+                            <img className="img-prog" src={"/Assets/mongo.png"} alt="imgLateral" />
+                        </BackExp>
+                    </Paper>
+                </Expositor>
+
+                <Expositor>
+                    <h1 className="title1">Manejador de versiones usado</h1>
+                    <p>Github un clasico</p>
+                    <h1 className="title1">Editor de codigo Favorito</h1>
+                    <img className="img-prog" src={"/Assets/vscode.png"} alt="imgLateral" />
+                    <h1 className="title1">Distribucion que usa actual mente</h1>
+                    <img className="img-prog" src={"/Assets/ubuntu.png"} alt="imgLateral" />
+                    <h1 className="title1">Lenguaje de programacion Favorito</h1>
+                    <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
+                </Expositor>
+
+                <Expositor>
+                    <Paper>
+                        <TitleExp>
+                            <h1 className="title1">Mi perfil de spotify</h1>
+                        </TitleExp>
+                        <BackExp>
+
+                            <p className="Content">
+                                Si quieres saber que tipo de musica escuho
+                                o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
+                                para que puedas seguirme, quizas algunas de mis playlist te agraden
+                            </p>
+                            <a className="dumix-btn">Ir al enlace</a>
+                        </BackExp>
+                    </Paper>
+                </Expositor>
+
+                <Expositor>
+                    <Paper>
+                        <TitleExp>
+                            <h1 className="title1">Mi perfil de steam</h1>
+                        </TitleExp>
+                        <BackExp>
+
+                            <p className="Content">
+                                Si quires agregarme en steam para jugar o para ver mi
+                                biblioteca de juegos o las resenas de titulos que he jugado
+                                puedes seguirme con el enlace a mi perfil que aparece a
+                                continuacion
+                            </p>
+                            <a className="dumix-btn">Ir al enlace</a>
+                        </BackExp>
+                    </Paper>
+                </Expositor>
+
+                <Expositor>
+                    <Paper>
+                        <TitleExp>
+                            <h1 className="title1">Pc Check Actual</h1>
+                        </TitleExp>
+                        <BackExp>
+
+                            <p className="Content">
+                                El pc de edicion y para jugar de steve no resulta
+                                tan potente como el de otros creadores top, pero tiene
+                                lo necesario para que se pueda jugar decentemente y
+                                tambien para crear los videos necesarios. A continuacion
+                                se describen los componentes que lleva:
+                                GPU: Radeon
+                                CPU: Ryzen
+                                MotherBoard:
+                                RAM: 2x8gigas,
+                                HDD: 1x1tb, 1x2tb
+                            </p>
+                        </BackExp>
+                    </Paper>
+                </Expositor>
+
+                <div className="div-prog">
+
+                </div>
+
+                <div>
+
+                </div>
+
+                <div>
+
+                </div>
+
+
+                <div>
+
+                </div>
+
+
+
+
+
+
+
+
+
                 <div>
                     <h1 className="title1">Programador</h1>
                     <p className="Content">Los codigos no siempre son como queremos
@@ -49,10 +171,6 @@ function Steve() {
                     <h1 className="tag">JavaScript</h1>
                     <h1 className="tag">Linux</h1>
                     <h1 className="tag">WebDeveloper</h1>
-                </div>
-
-                <div className="div-bio">
-
                 </div>
 
                 <div className="div-bio">
@@ -92,49 +210,30 @@ function Steve() {
                     <div className="div-flex-item">
 
                         <div className="div-min-article">
-                            <h1 className="title1">Lenguajes de programcion usados</h1>
+
                             <div className="div-prog">
-                                <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
-                                <img className="img-prog" src={"/Assets/c.png"} alt="imgLateral" />
-                                <img className="img-prog" src={"/Assets/c++.png"} alt="imgLateral" />
-                                <img className="img-prog" src={"/Assets/py.png"} alt="imgLateral" />
-                                <img className="img-prog" src={"/Assets/js.png"} alt="imgLateral" />
+
                             </div>
                         </div>
 
                         <div className="div-min-article">
-                            <h1 className="title1">Conocimientos en bases de datos</h1>
-                            <div className="div-prog">
-                                <img className="img-prog" src={"/Assets/mysql.png"} alt="imgLateral" />
-                                <img className="img-prog" src={"/Assets/sql.png"} alt="imgLateral" />
-                                <img className="img-prog" src={"/Assets/mongo.png"} alt="imgLateral" />
-                            </div>
+
                         </div>
 
                         <div className="div-min-article">
-                            <h1 className="title1">Lenguaje de programacion Favorito</h1>
-                            <div>
-                                <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
-                            </div>
+
                         </div>
 
                         <div className="div-min-article">
-                            <h1 className="title1">Editor de codigo Favorito</h1>
-                            <div>
-                                <img className="img-prog" src={"/Assets/vscode.png"} alt="imgLateral" />
-                            </div>
+
                         </div>
 
                         <div className="div-min-article">
-                            <h1 className="title1">Distribucion que usa actual mente</h1>
-                            <div>
-                                <img className="img-prog" src={"/Assets/ubuntu.png"} alt="imgLateral" />
-                            </div>
+
                         </div>
 
                         <div className="div-min-article">
-                            <h1 className="title1">Manejador de versiones usado</h1>
-                            <p>Github un clasico</p>
+
                         </div>
 
                     </div>
@@ -173,39 +272,15 @@ function Steve() {
                 <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"} />
 
                 <div className="item-mid">
-                    <h1 className="title1">Mi perfil de spotify</h1>
-                    <p className="Content">
-                        Si quieres saber que tipo de musica escuho
-                        o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
-                        para que puedas seguirme, quizas algunas de mis playlist te agraden
-                    </p>
-                    <a className="dumix-btn">Ir al enlace</a>
+
                 </div>
 
                 <div className="item-mid">
-                    <h1 className="title1">Mi perfil de steam</h1>
-                    <p className="Content">
-                        Si quires agregarme en steam para jugar o para ver mi
-                        biblioteca de juegos o las resenas de titulos que he jugado
-                        puedes seguirme con el enlace a mi perfil que aparece a
-                        continuacion
-                    </p>
-                    <a className="dumix-btn">Ir al enlace</a>
+
                 </div>
 
                 <div className="item-mid">
-                    <h1 className="title1">Pc Check Actual</h1>
-                    <p className="Content">
-                        El pc de edicion y para jugar de steve no resulta
-                        tan potente como el de otros creadores top, pero tiene
-                        lo necesario para que se pueda jugar decentemente y
-                        tambien para crear los videos necesarios. A continuacion
-                        se describen los componentes que lleva:
-                        GPU: Radeon
-                        CPU: Ryzen
-                        MotherBoard:
-                        RAM: 2x8gigas,
-                        HDD: 1x1tb, 1x2tb</p>
+
                 </div>
 
             </div>
