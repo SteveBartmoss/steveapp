@@ -202,35 +202,8 @@ function Steve() {
                         </div>
                     </Expositor>
                 </div>
-            </GridPerfil>
-            <div className="Contenedor">
-
-                <div>
-
-                </div>
-
-
-                <div className="div-bio">
-
-                    
-                </div>
-
-                <div className="div-menu-item">
-
-                    <div className="div-flex-item">
-
-                    </div>
-
-                    <div className="item-lateral">
-
-                    </div>
-                </div>
-
-                <Grid />
-
                 
-
-            </div>
+            </GridPerfil>
 
             <Pie />
         </>
