@@ -7,7 +7,7 @@ import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
 import Pie from "../component/Pie";
-import { BackExp, Expositor, Paper, TitleExp } from "../component/Contenedores/Cajas";
+import { BackExp, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
 
 
 function Steve() {
@@ -15,148 +15,135 @@ function Steve() {
 
         <>
             {document.title = "stevechambitas"}
+
             <Portada image={"/Assets/steveA.png"} />
 
-            <div className="Contenedor">
+            <div className="div-tags">
+                <h1 className="tag">React</h1>
+                <h1 className="tag">JavaScript</h1>
+                <h1 className="tag">Linux</h1>
+                <h1 className="tag">WebDeveloper</h1>
+            </div>
 
-                <Expositor>
-                    <Paper>
-                        <TitleExp>
-                            <h1 className="title1">Acerca de steve</h1>
-                        </TitleExp>
-                        <BackExp>
-                            <p className="content-curso">
-                                Estudiante de ingenieria en sistemas con cero
-                                porciento de probabilidadesde triunfar pero con el cien
-                                porciento de fe, uno de mis gustos es la cultura geek,
-                                me gustan las peliculas de super heroes, la ciencia
-                                ficcion, los videojuegos y los temas de programacion
-                                aunque en esto ultimo no soy tan bueno.
-                            </p>
-                        </BackExp>
-                    </Paper>
-                </Expositor>
+            <Expositor>
+                <Paper>
+                    <BackExp>
+                        <p className="content-curso">
+                            “Algunas personas me han dicho que no creen que un pingüino
+                            gordo encarne el espíritu de Linux, lo que me dice que nunca
+                            han visto a un pingüino cabreado corriendo hacia ellos a más
+                            de 100 millas por hora.”
+                        </p>
+                        <p className="content-curso">Linus Torvals</p>
+                    </BackExp>
+                </Paper>
+            </Expositor>
 
-                <Expositor>
-                    <Paper>
-                        <TitleExp>
-                            <h1 className="title1">Lenguajes usados</h1>
-                        </TitleExp>
-                        <BackExp>
-                            <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
-                            <img className="img-prog" src={"/Assets/c.png"} alt="imgLateral" />
-                            <img className="img-prog" src={"/Assets/c++.png"} alt="imgLateral" />
-                            <img className="img-prog" src={"/Assets/py.png"} alt="imgLateral" />
-                            <img className="img-prog" src={"/Assets/js.png"} alt="imgLateral" />
-                        </BackExp>
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-                        <TitleExp>
-                            <h1 className="title1">Bases de datos usadas</h1>
-                        </TitleExp>
-                        <BackExp>
-                            <img className="img-prog" src={"/Assets/mysql.png"} alt="imgLateral" />
-                            <img className="img-prog" src={"/Assets/sql.png"} alt="imgLateral" />
-                            <img className="img-prog" src={"/Assets/mongo.png"} alt="imgLateral" />
-                        </BackExp>
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <h1 className="title1">Manejador de versiones usado</h1>
-                    <p>Github un clasico</p>
-                    <h1 className="title1">Editor de codigo Favorito</h1>
-                    <img className="img-prog" src={"/Assets/vscode.png"} alt="imgLateral" />
-                    <h1 className="title1">Distribucion que usa actual mente</h1>
-                    <img className="img-prog" src={"/Assets/ubuntu.png"} alt="imgLateral" />
-                    <h1 className="title1">Lenguaje de programacion Favorito</h1>
-                    <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-                        <TitleExp>
-                            <h1 className="title1">Mi perfil de spotify</h1>
-                        </TitleExp>
-                        <BackExp>
-
-                            <p className="Content">
-                                Si quieres saber que tipo de musica escuho
-                                o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
-                                para que puedas seguirme, quizas algunas de mis playlist te agraden
-                            </p>
-                            <a href="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4" className="dumix-btn">Ir al enlace</a>
-                        </BackExp>
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-                        <TitleExp>
-                            <h1 className="title1">Mi perfil de steam</h1>
-                        </TitleExp>
-                        <BackExp>
-
-                            <p className="Content">
-                                Si quires agregarme en steam para jugar o para ver mi
-                                biblioteca de juegos o las resenas de titulos que he jugado
-                                puedes seguirme con el enlace a mi perfil que aparece a
-                                continuacion
-                            </p>
-                            <a href="https://steamcommunity.com/id/tonyhallan/" className="dumix-btn">Ir al enlace</a>
-                        </BackExp>
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-                        <TitleExp>
-                            <h1 className="title1">Pc Check Actual</h1>
-                        </TitleExp>
-                        <BackExp>
-
-                            <p className="Content">
-                                El pc de edicion y para jugar de steve no resulta
-                                tan potente como el de otros creadores top, pero tiene
-                                lo necesario para que se pueda jugar decentemente y
-                                tambien para crear los videos necesarios. A continuacion
-                                se describen los componentes que lleva:
-                                GPU: Radeon
-                                CPU: Ryzen
-                                MotherBoard:
-                                RAM: 2x8gigas,
-                                HDD: 1x1tb, 1x2tb
-                            </p>
-                        </BackExp>
-                    </Paper>
-                </Expositor>
-
+            <GridPerfil>
                 <div>
-                    <h1 className="title1">Programador</h1>
-                    <p className="Content">Los codigos no siempre son como queremos
-                        pero somos programadores, aceptamos lo que nos ofrecen y a veces
-                        eso es suficiente</p>
-                    <p className="Content">steve, techrunner</p>
-                </div>
-                <div className="div-tags">
-                    <h1 className="tag">React</h1>
-                    <h1 className="tag">JavaScript</h1>
-                    <h1 className="tag">Linux</h1>
-                    <h1 className="tag">WebDeveloper</h1>
-                </div>
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Acerca de steve</h1>
+                            </TitleExp>
+                            <BackExp>
+                                <p className="content-curso">
+                                    Estudiante de ingenieria en sistemas con cero
+                                    porciento de probabilidadesde triunfar pero con el cien
+                                    porciento de fe, uno de mis gustos es la cultura geek,
+                                    me gustan las peliculas de super heroes, la ciencia
+                                    ficcion, los videojuegos y los temas de programacion
+                                    aunque en esto ultimo no soy tan bueno.
+                                </p>
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
 
-                <div className="div-bio">
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Lenguajes usados</h1>
+                            </TitleExp>
+                            <BackExp>
+                                <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
+                                <img className="img-prog" src={"/Assets/c.png"} alt="imgLateral" />
+                                <img className="img-prog" src={"/Assets/c++.png"} alt="imgLateral" />
+                                <img className="img-prog" src={"/Assets/py.png"} alt="imgLateral" />
+                                <img className="img-prog" src={"/Assets/js.png"} alt="imgLateral" />
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
 
-                    <h1 className="title1">Lista de tecnologias que planeo aprender</h1>
-                    <p className="content-curso">
-                        Uno nunca esta dia y menos en una area en la que dia
-                        a dia se crean nuevas tecnologias y cambian asi que
-                        es bueno renovarse con las mismas
-                    </p>
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Bases de datos usadas</h1>
+                            </TitleExp>
+                            <BackExp>
+                                <img className="img-prog" src={"/Assets/mysql.png"} alt="imgLateral" />
+                                <img className="img-prog" src={"/Assets/sql.png"} alt="imgLateral" />
+                                <img className="img-prog" src={"/Assets/mongo.png"} alt="imgLateral" />
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
 
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Mi perfil de spotify</h1>
+                            </TitleExp>
+                            <BackExp>
+
+                                <p className="Content">
+                                    Si quieres saber que tipo de musica escuho
+                                    o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
+                                    para que puedas seguirme, quizas algunas de mis playlist te agraden
+                                </p>
+                                <a href="https://open.spotify.com/user/31oqe6wxs3fjglyrintoskfe342u?si=33e8b9d8974346b4" className="dumix-btn">Ir al enlace</a>
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
+
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Mi perfil de steam</h1>
+                            </TitleExp>
+                            <BackExp>
+
+                                <p className="Content">
+                                    Si quires agregarme en steam para jugar o para ver mi
+                                    biblioteca de juegos o las resenas de titulos que he jugado
+                                    puedes seguirme con el enlace a mi perfil que aparece a
+                                    continuacion
+                                </p>
+                                <a href="https://steamcommunity.com/id/tonyhallan/" className="dumix-btn">Ir al enlace</a>
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
+
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Pc Check Actual</h1>
+                            </TitleExp>
+                            <BackExp>
+
+                                <p className="Content">
+                                    El pc de edicion y para jugar de steve no resulta
+                                    tan potente como el de otros creadores top, pero tiene
+                                    lo necesario para que se pueda jugar decentemente y
+                                    tambien para crear los videos necesarios. A continuacion
+                                    se describen los componentes que lleva:
+                                    GPU: Radeon
+                                    CPU: Ryzen
+                                    MotherBoard:
+                                    RAM: 2x8gigas,
+                                    HDD: 1x1tb, 1x2tb
+                                </p>
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
                     <h1 className="title1">Lenguajes que pienso aprender</h1>
                     <p className="content-curso">
                         Rust
@@ -177,16 +164,17 @@ function Steve() {
                         Terminar los cursos de las paginas
                         Crear un editr ligero
                     </p>
-
                 </div>
-
-                <div className="div-menu-item">
-
-                    <div className="div-flex-item">
-
-                    </div>
-
-                    <div className="item-lateral">
+                <div>
+                    <Expositor>
+                        <h1 className="title1">Manejador de versiones usado</h1>
+                        <p>Github un clasico</p>
+                        <h1 className="title1">Editor de codigo Favorito</h1>
+                        <img className="img-prog" src={"/Assets/vscode.png"} alt="imgLateral" />
+                        <h1 className="title1">Distribucion que usa actual mente</h1>
+                        <img className="img-prog" src={"/Assets/ubuntu.png"} alt="imgLateral" />
+                        <h1 className="title1">Lenguaje de programacion Favorito</h1>
+                        <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
                         <h1 className="title1">Estado: hackeando a la nasa</h1>
                         <h1 className="title1">Horas de programacion:</h1>
                         <h1 className="title1">Meta de subs: </h1>
@@ -212,13 +200,35 @@ function Steve() {
                             </div>
 
                         </div>
+                    </Expositor>
+                </div>
+            </GridPerfil>
+            <div className="Contenedor">
+
+                <div>
+
+                </div>
+
+
+                <div className="div-bio">
+
+                    
+                </div>
+
+                <div className="div-menu-item">
+
+                    <div className="div-flex-item">
+
+                    </div>
+
+                    <div className="item-lateral">
 
                     </div>
                 </div>
 
                 <Grid />
 
-                <Actividad juego={"border lands"} trabajo={"pagina canal"} estudio={"react"} review={"papers please"} />
+                
 
             </div>
 
