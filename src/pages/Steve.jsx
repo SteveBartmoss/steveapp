@@ -144,26 +144,52 @@ function Steve() {
                             </BackExp>
                         </Paper>
                     </Expositor>
-                    <h1 className="title1">Lenguajes que pienso aprender</h1>
-                    <p className="content-curso">
-                        Rust
-                        Python
-                    </p>
 
-                    <h1 className="title1">Tecnologias que pienso aprender</h1>
-                    <p className="content-curso">
-                        Docker
-                        Next Js
-                        Express Js
-                        Clusters
-                    </p>
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Lenguajes por aprender</h1>
+                            </TitleExp>
+                            <BackExp>
+                                <p className="content-curso">
+                                    Rust
+                                    Python
+                                </p>
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
 
-                    <h1 className="title1">Proyectos que tengo planeados</h1>
-                    <p className="content-curso">
-                        Crear un tablero
-                        Terminar los cursos de las paginas
-                        Crear un editr ligero
-                    </p>
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Tecnologias que pienso aprender</h1>
+                            </TitleExp>
+                            <BackExp>
+                                <p className="content-curso">
+                                    Docker
+                                    Next Js
+                                    Express Js
+                                    Clusters
+                                </p>
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
+
+                    <Expositor>
+                        <Paper>
+                            <TitleExp>
+                                <h1 className="title1">Proyectos que tengo planeados</h1>
+                            </TitleExp>
+                            <BackExp>
+                                <p className="content-curso">
+                                    Crear un tablero
+                                    Terminar los cursos de las paginas
+                                    Crear un editr ligero
+                                </p>
+                            </BackExp>
+                        </Paper>
+                    </Expositor>
+
                 </div>
                 <div>
                     <Expositor>
@@ -202,7 +228,7 @@ function Steve() {
                         </div>
                     </Expositor>
                 </div>
-                
+
             </GridPerfil>
 
             <Pie />
