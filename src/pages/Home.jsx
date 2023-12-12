@@ -62,7 +62,7 @@ function Home() {
                         <CardDiv>
                             <h1 className="title1">Librerias de programacion</h1>
                             <p className="content-curso">
-                                Las librerias de programacion son un tema recurrente dentro 
+                                Las librerias de programacion son un tema recurrente dentro
                                 de la programacion, visita el video para saber mas sobre ellas
                             </p>
                             <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" className="dumix-btn">Ir al video</a>
@@ -85,43 +85,52 @@ function Home() {
                     <SquareDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Juegos de acceso anticipado</h1>
+                            <p className="Content">
+                                Los juegos de acceso anticipado pueden ser una gran
+                                oportunidad pero tambien pueden representar un riesgo
+                                para tu cartera
                             </p>
-                            <a>Ir al video</a>
+                            <div className="center">
+                                <a className="dumix-btn" href="rows/rc3">Ver articulo</a>
+                            </div>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Los indie una nueva esperanza</h1>
+                            <p className="Content">
+                                En este mundo de juegos triple A los desarrolladores
+                                independientes nos traen un sople de aire fresco
+                                con nuevas mecanicas o mejores historias
                             </p>
-                            <a>Ir al video</a>
+                            <div className="center">
+                                <a className="dumix-btn" href="rows/rc4">Ver articulo</a>
+                            </div>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">La gama Alta no es todo</h1>
+                            <p className="Content"> Actualmente la mayoria de usuarios de pc tiene
+                                la idea de que se debe llegar a la gama alta del pc gaming y tener
+                                toda la configuracion de una computadora tope de gama llegano a formar
+                                de cierta manera una elite conformada
                             </p>
-                            <a>Ir al video</a>
+                            <div className="center">
+                                <a className="dumix-btn" href="rows/rc1">Ver articulo</a>
+                            </div>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">16 gigas de ram no son como antes</h1>
+                            <p className="Content">
+                                Hace algun tiempo 16 gigas de ram era una gloria para
+                                la mayoria de personas pero ahora ya no es la misma
+                                historia, ya que la poca optimizacion esta pasando
+                                factura
                             </p>
-                            <a>Ir al video</a>
+                            <div className="center">
+                                <a className="dumix-btn" href="rows/rc5">Ver articulo</a>
+                            </div>
                         </CardDiv>
 
                     </SquareDiv>
