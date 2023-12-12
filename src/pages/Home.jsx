@@ -141,9 +141,9 @@ function Home() {
                     <FlexDiv>
                         <h1 className="title-1">Videos con pocas reproducciones</h1>
                         <p className="p-main">
-                            Algunos de los videos mas populares del canal,
-                            escoge uno y pasa un buen rato mientras obtienes
-                            algo de informacion.
+                            Algunos de los videos mas que no tienen tanto
+                            exito pero que podrian gustarte,
+                            escoge uno y pasa un buen rato.
                         </p>
                     </FlexDiv>
 
@@ -197,9 +197,9 @@ function Home() {
                     <FlexDiv>
                         <h1 className="title-1">Reviews mas Recientes</h1>
                         <p className="p-main">
-                            Algunos de los videos mas populares del canal,
-                            escoge uno y pasa un buen rato mientras obtienes
-                            algo de informacion.
+                            Opiniones personales sobre algunos juegos que no 
+                            tienen la intencion de ofender o menospreciar,
+                            si no solo informar y pasar un buen rato.
                         </p>
                     </FlexDiv>
 
