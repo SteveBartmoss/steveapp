@@ -146,7 +146,7 @@
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: 2fr 2fr;
-  
+  margin-bottom: 5%;
 }
 
 .card-div{
