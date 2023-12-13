@@ -197,7 +197,7 @@ function Home() {
                     <FlexDiv>
                         <h1 className="title-1">Reviews mas Recientes</h1>
                         <p className="p-main">
-                            Opiniones personales sobre algunos juegos que no 
+                            Opiniones personales sobre algunos juegos que no
                             tienen la intencion de ofender o menospreciar,
                             si no solo informar y pasar un buen rato.
                         </p>
@@ -256,6 +256,9 @@ function Home() {
                             programacion, informatica o sobre juegos.
                         </p>
                     </FlexDiv>
+                    <center>
+                        <img className="img-disc" src="/Assets/disc.png" />
+                    </center>
                 </Section1>
 
                 <Section2>
