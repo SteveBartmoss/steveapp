@@ -89,6 +89,13 @@
   --verde-2: #244e4f;
 }
 
+/* estilos de imagenes */
+
+.img-disc{
+  width: 25%;
+  height: 25%;
+}
+
 /* estilos del titulos */
 
 .title-1{
