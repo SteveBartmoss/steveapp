@@ -156,7 +156,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -166,7 +166,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -176,7 +176,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -186,7 +186,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
@@ -212,7 +212,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -222,7 +222,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -232,7 +232,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -242,7 +242,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a>Ir al video</a>
+                            <a href="#">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
