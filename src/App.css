@@ -46,7 +46,7 @@
 /* media querys mas comiunes 
 576px, 768px, 992px, 1200px */
 
-/* paleta de azul indigo*/
+/*#region paleta de colores*/
 :root{
   --indigo-1: #000035;
   --indigo-2: #062863;
@@ -88,6 +88,7 @@
   --verde-1: #325559;
   --verde-2: #244e4f;
 }
+/*#endregion*/
 
 /* estilos de imagenes */
 
@@ -113,7 +114,7 @@
   color: white;
 }
 
-/* estilos de los contenedores */
+/*#region estilos de los contenedores*/
 
 .paper{
   display: flex;
@@ -155,6 +156,7 @@
   grid-template-rows: 2fr 2fr;
   margin-bottom: 5%;
 }
+/*#endregion*/
 
 .card-div{
   width: 400px;
