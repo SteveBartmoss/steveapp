@@ -1,11 +1,12 @@
 import './App.css';
+import { Paper } from './component/Contenedores/Cajas';
 import Router from './router/Router';
 
 function App() {
   return (
-    <>
-      <Router/>
-    </>
+    <Paper>
+      <Router />
+    </Paper>
   );
 }
 
