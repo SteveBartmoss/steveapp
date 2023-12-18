@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import DivBaner from "../component/DivBaner";
 
 function FunHome() {
+
+    useEffect(()=>{
+        document.title="Havefun"
+    },[])
     return (
         <>
-        {document.title="Havefun"}
             <DivBaner name="baner-have-fun" />
 
             <div className="div-havefun">
