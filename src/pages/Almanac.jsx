@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logro from "../component/Logro";
 import Stiker from "../component/Stiker";
 import ban from "../img/baner canal.png";
 import Pie from "../component/Pie";
 
 function Almanac(){
+
+    useEffect(()=>{
+        document.title="stevechambitas"
+    },[]);
     return(
         <>
-        {document.title="stevechambitas"}
         <div className="contenedor-logros">
             <h1 className="title1">Logros desbloqueados</h1>
             <div className="div-logros">
