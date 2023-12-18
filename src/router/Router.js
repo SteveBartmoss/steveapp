@@ -24,56 +24,53 @@ import LabsRoutes from "../stevelabs/routes/labsRoutes";
 import ChangeLog from "../pages/changeLog";
 import RoadMap from "../pages/roadMap";
 
-function Router(){
-    return(
+function Router() {
+    return (
         <BrowserRouter>
-            <div>
-                <NavBar />
-                <Routes>
+            <NavBar />
+            <Routes>
 
-                    <Route path="/" element={<Home/>}/>
+                <Route path="/" element={<Home />} />
 
-                    <Route path="home" element={<Home/>}/>
-                        
-                    <Route path="about" element={<About/>}/>
+                <Route path="home" element={<Home />} />
 
-                    <Route path="news" element={<News/>}/>
+                <Route path="about" element={<About />} />
 
-                    <Route path="almanac" element={<Almanac/>}/>
+                <Route path="news" element={<News />} />
 
-                    <Route path="steve" element={<Steve/>}/>
+                <Route path="almanac" element={<Almanac />} />
 
-                    <Route path="article" element={<Articulo/>}/>
+                <Route path="steve" element={<Steve />} />
 
-                    <Route path="articulos" element={<ArticlesHome />} />
+                <Route path="article" element={<Articulo />} />
 
-                    <Route path="articulos/*" element={<ArticlesRouter />} />
+                <Route path="articulos" element={<ArticlesHome />} />
 
-                    <Route path="review" element={<Greview/>}/>
+                <Route path="articulos/*" element={<ArticlesRouter />} />
 
-                    <Route path="dumix" element={<DumixHome/>}/>
+                <Route path="review" element={<Greview />} />
 
-                    <Route path="dumix/*" element={<RoutesDumix/>}/>
+                <Route path="dumix" element={<DumixHome />} />
 
-                    <Route path="havefun" element={<FunHome/>}/>
+                <Route path="dumix/*" element={<RoutesDumix />} />
 
-                    <Route path="havefun/*" element={<HaveFunRouter />} />
+                <Route path="havefun" element={<FunHome />} />
 
-                    <Route path="stevelabs" element={<HomeLabs/>} />
+                <Route path="havefun/*" element={<HaveFunRouter />} />
 
-                    <Route path="stevelabs/*" element={<LabsRoutes />} />
+                <Route path="stevelabs" element={<HomeLabs />} />
 
-                    <Route path="webdeveloper" element={<WebHome />} />
+                <Route path="stevelabs/*" element={<LabsRoutes />} />
 
-                    <Route path="webdeveloper/*" element={<WebRoutes />} />
+                <Route path="webdeveloper" element={<WebHome />} />
 
-                    <Route path="changelog" element={<ChangeLog />} />
+                <Route path="webdeveloper/*" element={<WebRoutes />} />
 
-                    <Route path="roadmap" element={<RoadMap />} />
+                <Route path="changelog" element={<ChangeLog />} />
 
-                </Routes>
+                <Route path="roadmap" element={<RoadMap />} />
 
-            </div>
+            </Routes>
         </BrowserRouter>
     );
 }
