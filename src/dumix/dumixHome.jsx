@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import DumixAbout from "./pages/dumixAbout";
 import DivBaner from "../component/DivBaner";
 
 function DumixHome() {
+
+    useEffect(()=>{
+        document.title="Dumix"
+    },[]);
+    
     return (
         <>
-            {document.title="Dumix"}
             <DivBaner name="back-dumix" />
 
             <div className="center">
