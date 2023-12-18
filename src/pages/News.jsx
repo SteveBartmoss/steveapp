@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import Stiker from "../component/Stiker";
 import Pie from "../component/Pie";
@@ -6,9 +6,13 @@ import Pie from "../component/Pie";
 
 
 function News() {
+
+    useEffect(()=>{
+        document.title="stevechambitas"
+    },[]);
+    
     return (
         <>
-        {document.title="stevechambitas"}
             <div className="Contenedor">
                 <h1 className="title1">Secciones mas reciente</h1>
 
