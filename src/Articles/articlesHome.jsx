@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Pie from "../component/Pie";
 
 function ArticlesHome() {
+
+    useEffect(()=>{
+        document.title="Articles"
+    },[]);
+    
     return (
         <>
-        {document.title="Articles"}
             <div className="center">
                 <h1 className="title1">Los mejores articulos</h1>
             </div>
