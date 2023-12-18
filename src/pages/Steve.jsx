@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Stiker from "../component/Stiker";
 import Data from "../component/Data";
 import "../App.css";
@@ -11,11 +11,12 @@ import { BackExp, Expositor, GridPerfil, Paper, TitleExp } from "../component/Co
 
 
 function Steve() {
+    useEffect(()=>{
+        document.title = "stevechambitas"
+    },[]);
     return (
 
         <>
-            {document.title = "stevechambitas"}
-
             <Portada image={"/Assets/steveA.png"} />
 
             <div className="div-tags">
