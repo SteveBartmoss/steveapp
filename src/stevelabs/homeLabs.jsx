@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LabsAbout from "./components/labsAbout";
 
 function HomeLabs() {
+
+    useEffect(()=>{
+        document.title="Stevelabs"
+    },[]);
+    
     return (
         <>
-        {document.title="Stevelabs"}
             <div className="center">
                 <h1 className="labs-title">Steve Labs</h1>
             </div>
