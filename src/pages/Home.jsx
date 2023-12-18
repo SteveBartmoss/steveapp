@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import Pie from "../component/Pie";
 import DivBaner from "../component/DivBaner";
@@ -7,15 +7,17 @@ import FlexDiv from "../component/Contenedores/FlexDiv";
 import SquareDiv from "../component/Contenedores/SquareDiv";
 import CardDiv from "../component/Contenedores/CardDiv";
 import Section2 from "../component/Contenedores/Section2";
-
-
-
+import { Paper } from "../component/Contenedores/Cajas";
 
 function Home() {
+
+    useEffect(() => {
+        document.title = "stevechambitas"
+    }, []);
+
     return (
         <>
-            {document.title = "stevechambitas"}
-            <div className="paper">
+            <Paper>
                 <DivBaner name="Baner" />
                 <Section1>
                     <FlexDiv>
@@ -306,7 +308,7 @@ function Home() {
                         </p>
                     </FlexDiv>
                 </Section1>
-            </div>
+            </Paper>
             <Pie />
         </>
     );
