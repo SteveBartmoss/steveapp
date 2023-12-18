@@ -42,30 +42,28 @@ function Home() {
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Los fantasmas de pacman</h1>
+                            <h1 className="title1">Fantasmas de pacman</h1>
                             <p className="content-curso">
                                 El popular juego guarda algunos secretos sobre el
-                                comportamiento de sus enemigos, una forma de programacion
-                                interesante
+                                comportamiento de sus enemigos
                             </p>
                             <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Procesador multi nucleo</h1>
+                            <h1 className="title1">CPU multi nucleo</h1>
                             <p className="content-curso">
                                 Los procesadores tienen diferentes propiedades y una
-                                de ellas es el numero de nucleos que pose, aprende mas
-                                en el video
+                                de ellas es el numero de nucleos que tiene
                             </p>
                             <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" className="dumix-btn">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Librerias de programacion</h1>
+                            <h1 className="title1">Librerias</h1>
                             <p className="content-curso">
                                 Las librerias de programacion son un tema recurrente dentro
-                                de la programacion, visita el video para saber mas sobre ellas
+                                de la programacion
                             </p>
                             <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" className="dumix-btn">Ir al video</a>
                         </CardDiv>
@@ -87,9 +85,9 @@ function Home() {
                     <SquareDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Juegos de acceso anticipado</h1>
-                            <p className="Content">
-                                Los juegos de acceso anticipado pueden ser una gran
+                            <h1 className="title1">Juegos early access</h1>
+                            <p className="content-curso">
+                                Los early access pueden ser una gran
                                 oportunidad pero tambien pueden representar un riesgo
                                 para tu cartera
                             </p>
@@ -99,11 +97,10 @@ function Home() {
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">Los indie una nueva esperanza</h1>
-                            <p className="Content">
-                                En este mundo de juegos triple A los desarrolladores
-                                independientes nos traen un sople de aire fresco
-                                con nuevas mecanicas o mejores historias
+                            <h1 className="title1">Una nueva esperanza</h1>
+                            <p className="content-curso">
+                                En este mundo de juegos triple A los indie son 
+                                aire fresco con nuevas mecanicas o mejores historias
                             </p>
                             <div className="center">
                                 <a className="dumix-btn" href="rows/rc4">Ver articulo</a>
@@ -111,11 +108,9 @@ function Home() {
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">La gama Alta no es todo</h1>
-                            <p className="Content"> Actualmente la mayoria de usuarios de pc tiene
-                                la idea de que se debe llegar a la gama alta del pc gaming y tener
-                                toda la configuracion de una computadora tope de gama llegano a formar
-                                de cierta manera una elite conformada
+                            <h1 className="title1">La gama alta</h1>
+                            <p className="content-curso"> Actualmente la mayoria de usuarios de pc tiene
+                                la idea de que se debe llegar a la gama alta del pc gaming
                             </p>
                             <div className="center">
                                 <a className="dumix-btn" href="rows/rc1">Ver articulo</a>
@@ -123,12 +118,11 @@ function Home() {
                         </CardDiv>
 
                         <CardDiv>
-                            <h1 className="title1">16 gigas de ram no son como antes</h1>
-                            <p className="Content">
-                                Hace algun tiempo 16 gigas de ram era una gloria para
+                            <h1 className="title1">16 de ram </h1>
+                            <p className="content-curso">
+                                Antes 16 gigas de ram era una gloria para
                                 la mayoria de personas pero ahora ya no es la misma
-                                historia, ya que la poca optimizacion esta pasando
-                                factura
+                                historia
                             </p>
                             <div className="center">
                                 <a className="dumix-btn" href="rows/rc5">Ver articulo</a>
