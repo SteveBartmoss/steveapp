@@ -4,13 +4,17 @@ import Stiker from "../component/Stiker";
 import ban from "../img/baner canal.png";
 import Pie from "../component/Pie";
 import ChangeLog from "./changeLog";
+import { useEffect } from "react";
 
 
 
 function About() {
+
+    useEffect(()=>{
+        document.title = "stevechambitas";
+    },[]);
     return (
         <>
-            {document.title = "stevechambitas"}
             <div className="contenedor-about">
 
                 <Stiker imge={"/Assets/perfil2.jpg"} title="Acerca de steve chambitas"
