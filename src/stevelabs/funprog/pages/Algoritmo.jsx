@@ -1,12 +1,13 @@
 import React from "react";
+import { DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Prog1Algoritmo() {
     return (
         <>
-            <div className="div-curso">
+            <DivCurso>
 
-                <div className="div-read">
-
+                <DivRead>
+                    
                     <div className="div-title">
                         <h1 className="title-subject">Algoritmo</h1>
                         <hr className="line" />
@@ -108,9 +109,10 @@ function Prog1Algoritmo() {
                         Crear el algoritmo para obtener el área de un cuadro.
                     </p>
 
-                </div>
+                </DivRead>
 
-            </div>
+            </DivCurso>
+
         </>
     );
 }
