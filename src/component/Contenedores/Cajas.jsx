@@ -56,3 +56,19 @@ export function GridPerfil({children}){
         </div>
     );
 }
+
+export function DivCurso({children}){
+    return(
+        <div className="div-curso">
+            {children}
+        </div>
+    );
+}
+
+export function DivRead({children}){
+    return(
+        <div className="div-read">
+            {children}
+        </div>
+    );
+}
