@@ -1,12 +1,12 @@
 import React from "react";
-import { TitleDiv } from "../../../component/Contenedores/Cajas";
+import { DivCurso, DivRead, TitleDiv } from "../../../component/Contenedores/Cajas";
 
 function Prog1Presentacion() {
     return (
         <>
-            <div className="div-curso">
+            <DivCurso>
 
-                <div className="div-read">
+                <DivRead>
 
                     <TitleDiv>
                         <h1 className="title-subject">Acerca del curso</h1>
@@ -31,10 +31,9 @@ function Prog1Presentacion() {
                         windows como un sistema linux aunque las variaciones estaran principalmente
                         en la configuracion del ambiente de desarrollo.
                     </p>
-                </div>
+                </DivRead>
 
-                <div className="div-read">
-
+                <DivRead>
                     <div className="div-title">
                         <h1 className="title-subject">Ambiente de desarrollo</h1>
                         <hr className="line" />
@@ -55,10 +54,9 @@ function Prog1Presentacion() {
                         ventajas que tiene solo usar un editor de texto en lugar de usar un
                         ide
                     </p>
-                </div>
+                </DivRead>
 
-                <div className="div-read">
-
+                <DivRead>
                     <div className="div-title">
                         <h1 className="title-subject">Porque es mejor un Editor de Codigo</h1>
                         <hr className="line" />
@@ -80,10 +78,9 @@ function Prog1Presentacion() {
                         la terminal ya que pocos estan acostumbrados a esto a pesar de que la terminal
                         puede ser un herramienta muy importante que aporta conocimientos.
                     </p>
-                </div>
+                </DivRead>
 
-                <div className="div-read">
-
+                <DivRead>
                     <div className="div-title">
                         <h1 className="title-subject">Preparar el ambiente para el curso</h1>
                         <hr className="line" />
@@ -214,10 +211,9 @@ function Prog1Presentacion() {
                         de compilacion, por esta razon es una buena idea instalar las herramientas por separado para tener un
                         mejor conocimiento de todo el proceso que lleva programar.
                     </p>
-
-                </div>
-
-            </div>
+                </DivRead>
+                
+            </DivCurso>
         </>
     );
 }
