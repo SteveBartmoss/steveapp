@@ -137,7 +137,7 @@ function Home() {
                     <FlexDiv>
                         <h1 className="title-1">Videos con pocas reproducciones</h1>
                         <p className="p-main">
-                            Algunos de los videos mas que no tienen tanto
+                            Algunos de los videos que no tienen tanto
                             exito pero que podrian gustarte,
                             escoge uno y pasa un buen rato.
                         </p>
@@ -146,43 +146,40 @@ function Home() {
                     <SquareDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Mudos de Minecraft</h1>
+                            <p className="content-curso">
+                                La generacion de los mundos de Minecraft 
+                                puede que te soprenda al tratarse de un proceso 
+                                algo complejo
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=6gle9QkZpbI">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Que es el lag</h1>
+                            <p className="content-curso">
+                                Esa ira que se siente cuando tu personaje 
+                                deja de moverse y todos parecen flahs
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=HizfLah3KGE">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">phising</h1>
+                            <p className="content-curso">
+                                El test para saber que pan eres puede 
+                                no ser tan inofensivo como crees
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=KJD8Sq9O1ps">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">HDD lento</h1>
+                            <p className="content-curso">
+                                Los discos mecanicos tienen gran 
+                                capacidad pero son demasiado lentos
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Vdb4jy2NQPk">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
@@ -202,43 +199,39 @@ function Home() {
                     <SquareDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Papers Please</h1>
+                            <p className="content-curso">
+                                Un entrenido indie que implementa buenas 
+                                mecanicas y tiene una historia interesante
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=RLAiWG8Ysds&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=6">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Death Stranding</h1>
+                            <p className="content-curso">
+                                Al principio crei que era un uber simulator
+                                pero luego me lleve una gran sorpresa
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=TWe5LETi3SM&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=5">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Need for Speed</h1>
+                            <p className="content-curso">
+                                Esperaba que este fuera un digno sucesor de 
+                                la saga under ground pero no fue asi 
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=jmLM6DvAn84&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=4">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
-                            <h1>Borrar System32</h1>
-                            <p>
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
+                            <h1 className="title1">Sunset Overdrive</h1>
+                            <p className="content-curso">
+                                Un juego que no es tan valorado como 
+                                deberia ya que tiene algo que mostrar
                             </p>
-                            <a href="#">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Ip7WDHnbB5s&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=3">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
@@ -254,6 +247,9 @@ function Home() {
                     </FlexDiv>
                     <center>
                         <img className="img-disc" src="/Assets/disc.png" />
+                    </center>
+                    <center>
+                        <a className="dumix-btn" href="https://discord.gg/QTdVBq5Q9r" >Ir al servidor</a>
                     </center>
                 </Section1>
 
