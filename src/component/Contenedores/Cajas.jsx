@@ -72,3 +72,27 @@ export function DivRead({children}){
         </div>
     );
 }
+
+export function DivCli({children}){
+    return(
+        <div className="cli">
+            {children}
+        </div>
+    );
+}
+
+export function DivCliTittle({children}){
+    return(
+        <div className="title-cli">
+            {children}
+        </div>
+    );
+}
+
+export function DivCliBody({children}){
+    return(
+        <div className="body-cli">
+            {children}
+        </div>
+    );
+}
