@@ -156,6 +156,27 @@
   grid-template-rows: 2fr 2fr;
   margin-bottom: 5%;
 }
+
+.cli{
+  width: 800px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-cli{
+  background-color: #282c34;
+  width: 800px;
+  margin-left: 10px;
+}
+
+.body-cli{
+  width: 800px;
+  margin-left: 10px;
+  text-align: left;
+  background-color: black;
+}
+
 /*#endregion*/
 
 .card-div{
@@ -988,25 +1009,7 @@
 
 /*estilo de la terminal*/
 
-.cli{
-  width: 800px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-}
 
-.title-cli{
-  background-color: #282c34;
-  width: 800px;
-  margin-left: 10px;
-}
-
-.body-cli{
-  width: 800px;
-  margin-left: 10px;
-  text-align: left;
-  background-color: black;
-}
 
 /*estilos de codigo*/
 
