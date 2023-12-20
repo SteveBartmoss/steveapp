@@ -1,10 +1,10 @@
 import React from "react";
-import { DivCli, DivCliBody, DivCliTittle } from "../../../component/Contenedores/Cajas";
+import { DivCli, DivCliBody, DivCliTittle, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Archivos() {
    return (
-      <div className="div-curso">
-
+      <DivCurso>
+         <DivRead>
          <div className="center">
             <h1 className="title-subject">Archivos</h1>
          </div>
@@ -169,7 +169,8 @@ function Archivos() {
 
          <p className="content-curso">Cuando listamos archivos se ordenan de manera
             alfabetica ya que este es el modo predeterminado del comando ls</p>
-      </div>
+         </DivRead>
+      </DivCurso>
    );
 }
 
