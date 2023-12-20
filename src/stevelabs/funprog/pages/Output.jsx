@@ -100,7 +100,8 @@ function Prog1Output() {
 
                     <p>
                         Para poder compilar el programa debemos estar en la misma carpeta en la que se encuentra
-                        nuestro codigo fuente
+                        nuestro codigo fuente esto lo podemos comprobar mirando la el promp de la termianl que son 
+                        las letras que aparecen en las pantalla como se muestra en el ejemplo
                     </p>
                 </DivRead>
             </DivCurso>
