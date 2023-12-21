@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
+import { DivCli, DivCliBody, DivCliTittle, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Cli() {
     return (
@@ -52,16 +52,16 @@ function Cli() {
                     power shell difernecia antre ambas queda como tarea de los usarios de windows.
                 </p>
 
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="content-curso"> si logra ver una pantalla similar a la representacion que se muestra en la parte superior
                     entonces logro abrir con exito nuna nueva terminal
