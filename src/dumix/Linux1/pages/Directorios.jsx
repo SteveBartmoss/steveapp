@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
+import { DivCli, DivCliBody, DivCliTittle, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Directorio() {
     return (
@@ -26,19 +26,19 @@ function Directorio() {
                     ser muchas, a continuacion se muestra la salida estandar de la organizacion
                 </p>
 
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls</span></p>
                         <p className="Content"><span className="directorio">bin boot dev etc home lib media opt proc root sbin
                             srv sys tmp usr var</span></p>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="content-curso">Puede que estes pensado que la salida del comando anterior
                     no corresponde al tipica salida de ls pero esto es porque el comando
@@ -245,18 +245,18 @@ function Directorio() {
                 <p className="Content">El resultado de emitir el comando pwd al abrir una nueva terminal deberia
                     ser similar al siguiente ejemplo</p>
 
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ pwd</span></p>
                         <p className="Content">/home/steve</p>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="Content">En el ejemplo anterior el directorio home esta presente en el promp
                     del terminal ya que el simbolo <span className="key-word">~</span> hace referencia a la ruta
