@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
+import { DivCli, DivCliBody, DivCliTittle, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Sintaxis() {
     return (
@@ -25,18 +25,18 @@ function Sintaxis() {
                     hacerlo basta con situarse en la terminal y escribir ls y pulsar la tecla enter la terminal
                     deberia mostrar algo como esto </p>
 
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls</span></p>
                         <p className="Content"><span className="directorio">Descargas Documentos Escritorio Musica Publico</span></p>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="content-curso">El resultado puede varias ya que el comando muestra el contenido de un
                     directorio y en le ejemplo anterior se asume que el directorio desde el que se usa el comando
@@ -77,19 +77,18 @@ function Sintaxis() {
                     y en general se puede especificar diferentes elementos como argumento, en el ejemplo anterior se
                     le puede enviar como argumento el nombre de un directorio el comando mostrara los elementos de
                     ese directorio a continuacion se muestra un ejemplo</p>
-
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls Documentos</span></p>
                         <p className="Content">Notas.txt Tarea.txt Hola.txt Guion.txt DotFile.txt</p>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="content-curso">En el ejemplo anterior el comando mostro los elementos de la carpeta documentos
                     y aunque el comando se puede usar en archivos de texto resulta poco practico ya que solo muestra
@@ -105,13 +104,13 @@ function Sintaxis() {
                     llevaba una opcion pero el comando puede llevar opciones como se puede observar en el siguiente ejemplo
                 </p>
 
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls -l</span></p>
                         <p className="Content">Total 48</p>
                         <p className="Content">drwxr-xr-x 2 steve steve 4096 may 14 22:40 <span className="directorio">Descargas</span></p>
@@ -124,38 +123,38 @@ function Sintaxis() {
                         <p className="Content">drwx------ 6 steve steve 4096 abr 22 22:52 <span className="directorio">snap</span></p>
                         <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <pan className="directorio">Vídeos</pan></p>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="content-curso">En el ejemplo anterior al comando ls se le agrego la opcion de -l lo cual cambio
                     la salida del comando y muestra mas opciones ya que este es el formato de salida largo con lo cual se
                     obtiene mas informacion ademas del simple listado de los elementos de un directorio, otra opcion que se puede
                     usar es la siguiente.</p>
 
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls -r</span></p>
                         <p className="Content"><span className="directorio">Publico Musica Escritorio Documentos Descargas</span></p>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="content-curso">En este caso la opcion r hace que el orden del listado este invertido y como se puede
                     estar pensado las opciones se pueden usar combianadas o ejecutar al mismo tiempo para combinar los efectos de ambas
                     opciones como se puede ver a continuacion</p>
 
-                <div className="cli">
-                    <div className="title-cli">
+                <DivCli>
+                    <DivCliTittle>
                         <center>
                             <p className="Content">Terminal</p>
                         </center>
-                    </div>
-                    <div className="body-cli">
+                    </DivCliTittle>
+                    <DivCliBody>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$ ls -l -r</span></p>
                         <p className="Content">Total 48</p>
                         <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <pan className="directorio">Vídeos</pan></p>
@@ -168,8 +167,8 @@ function Sintaxis() {
                         <p className="Content">drwxr-xr-x 2 steve steve 4096 abr 22 21:47 <span className="directorio">Documentos</span></p>
                         <p className="Content">drwxr-xr-x 2 steve steve 4096 may 14 22:40 <span className="directorio">Descargas</span></p>
                         <p className="promp">steve@steve-HP-Notebook <span className="Content">:</span><span className="directorio">~</span><span className="Content">$</span></p>
-                    </div>
-                </div>
+                    </DivCliBody>
+                </DivCli>
 
                 <p className="content-curso">Se debe observar que las opciones por lo general siguen la sintaxis  que se muestra a continuacion</p>
 
