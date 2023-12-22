@@ -41,6 +41,8 @@
 #4F868C
 #4BF2F2
 #0D0D0D
+
+#024059
 */
 
 /* media querys mas comiunes 
@@ -71,6 +73,8 @@
   --gris-10: #9fa3a9;
   --gris-11: #65727c;
   --gris-12: #3e4144;
+  --gris-13: #38444d;
+  --gris-14: #15202B;
 
   --aqua-1: #005227;
   --aqua-2: #038554;
@@ -183,7 +187,7 @@
   width: 400px;
   height: 290px;
   margin: 10px;
-  background-color: #024059;
+  background-color: var(--gris-13) ;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -1152,7 +1156,8 @@
   display: grid;
   grid-template-columns: 2fr 2fr;
   margin: 0px;
-  background-color: #244e4f;
+  /*background-color: #244e4f;*/
+  background-color: var(--gris-14);
 }
 
 .div-answer{
