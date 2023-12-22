@@ -1020,19 +1020,20 @@
 .div-code{
   margin: auto;
   width: 500px;
-  background-color: lightgray;
+  background-color: var(--gris-7);
 }
 
 .div-code-long{
   margin: auto;
   width: 600px;
-  background-color: var(--gris-9);
+  background-color: var(--gris-7);
   text-align: center;
 }
 
 .code-simple{
   font-family: 'Iconsolata', monospace;
   font-size: 20px;
+  color: white;
 }
 
 /*estilos de have fun*/
