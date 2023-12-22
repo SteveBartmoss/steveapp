@@ -181,6 +181,19 @@
   background-color: black;
 }
 
+.div-code{
+  margin: auto;
+  width: 500px;
+  background-color: var(--gris-7);
+}
+
+.div-code-long{
+  margin: auto;
+  width: 600px;
+  background-color: var(--gris-7);
+  text-align: center;
+}
+
 /*#endregion*/
 
 .card-div{
@@ -1017,18 +1030,7 @@
 
 /*estilos de codigo*/
 
-.div-code{
-  margin: auto;
-  width: 500px;
-  background-color: var(--gris-7);
-}
 
-.div-code-long{
-  margin: auto;
-  width: 600px;
-  background-color: var(--gris-7);
-  text-align: center;
-}
 
 .code-simple{
   font-family: 'Iconsolata', monospace;
