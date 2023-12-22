@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCli, DivCliBody, DivCliTittle, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
+import { DivCli, DivCliBody, DivCliTittle, DivCode, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Cli() {
     return (
@@ -79,9 +79,9 @@ function Cli() {
                 <p className="content-curso">Por lo general la estructura de un propmp sige estos parametros </p>
 
                 <div className="center">
-                    <div className="div-code">
+                    <DivCode>
                         <p className="code-simple">[usuario] @ [host] : [directorio] $</p>
-                    </div>
+                    </DivCode>
                 </div>
 
                 <p className="content-curso">El usuario hace referencia a la sesion que se inicio, el host es el
