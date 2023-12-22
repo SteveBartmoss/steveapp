@@ -104,3 +104,11 @@ export function DivCode({children}){
         </div>
     );
 }
+
+export function DivCodeLong({children}){
+    return(
+        <div className="div-code-long">
+            {children}
+        </div>
+    );
+}
