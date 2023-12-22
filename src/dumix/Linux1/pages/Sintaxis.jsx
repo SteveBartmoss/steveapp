@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCli, DivCliBody, DivCliTittle, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
+import { DivCli, DivCliBody, DivCliTittle, DivCode, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Sintaxis() {
     return (
@@ -56,9 +56,9 @@ function Sintaxis() {
                 <p className="content-curso">Muchos comandos siguen el siguiente partron</p>
 
                 <div className="center">
-                    <div className="div-code">
+                    <DivCode>
                         <p className="code-simple">comando [opciones] [argumentos]</p>
-                    </div>
+                    </DivCode>
                 </div>
 
                 <p className="content-curso">Generalmente se escribe el comando y luego se colocan las opciones y a
@@ -173,9 +173,9 @@ function Sintaxis() {
                 <p className="content-curso">Se debe observar que las opciones por lo general siguen la sintaxis  que se muestra a continuacion</p>
 
                 <div className="center">
-                    <div className="div-code">
+                    <DivCode>
                         <p className="code-simple">comando -[opciones] [argumentos]</p>
-                    </div>
+                    </DivCode>
                 </div>
 
                 <p className="content-curso">Siempre debe ir el caracter - antes de la opcion que se usara ya que esto es el indicador del
