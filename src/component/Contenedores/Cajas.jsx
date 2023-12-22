@@ -96,3 +96,11 @@ export function DivCliBody({children}){
         </div>
     );
 }
+
+export function DivCode({children}){
+    return(
+        <div className="div-code">
+            {children}
+        </div>
+    );
+}
