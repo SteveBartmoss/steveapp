@@ -206,6 +206,15 @@
   text-align: justify;
 }
 
+.div-logro{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  text-align: justify;
+  /*background-color: #051e39;*/
+  background-color: var(--gris-7);
+  border-radius: 5px;
+}
+
 /*#endregion*/
 
 
