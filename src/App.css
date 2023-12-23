@@ -101,7 +101,7 @@
   height: 15%;
 }
 
-/* estilos del titulos */
+/*#region estilos del titulos */
 
 .title-1{
   font-size: 50px;
@@ -110,9 +110,22 @@
   padding: 10px 10px;
 }
 
+.title-exp{
+  background-color: var(--verde-2) ;
+  text-align: left;
+  padding-left: 10px;
+}
+/*#endregion*/
+
 /*#region estilos de los parrafos */
 
 .p-main{
+  font-size: 30px;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
+.title1{
   font-size: 30px;
   font-family: 'Roboto Mono';
   color: white;
@@ -277,15 +290,6 @@
 
 
 
-
-.title-exp{
-  background-color: var(--verde-2) ;
-  text-align: left;
-  padding-left: 10px;
-}
-
-
-
 .grid-perfil{
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -317,7 +321,7 @@
   margin-bottom: 10px;
 }
 
-/* estilos del menu */
+/*#region estilos del menu */
 
 .menu{
   font-size: 20px;
@@ -355,6 +359,8 @@
   background-color: var(--aqua-2);
 }
 
+/*#endregion*/
+
 /* estilo del baner */
 
 /* estilos de la rows and colums */
@@ -384,11 +390,7 @@
   background-color: rgba(128, 128, 128, 0.2);
 }
 
-.title1{
-  font-size: 30px;
-  font-family: 'Roboto Mono';
-  color: white;
-}
+
 
 /* estilos del contenedor videos visitas*/
 
