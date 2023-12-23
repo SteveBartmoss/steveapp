@@ -110,13 +110,15 @@
   padding: 10px 10px;
 }
 
-/* estilos de los parrafos */
+/*#region estilos de los parrafos */
 
 .p-main{
   font-size: 30px;
   font-family: 'Roboto Mono';
   color: white;
 }
+
+/*#endregion*/
 
 /*#region estilos de los contenedores*/
 
@@ -194,8 +196,38 @@
   text-align: center;
 }
 
+.div-info{
+  display: flex;
+  /*background-color: #051e39;*/
+  background-color: var(--gris-7);
+  margin-top: 10px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: justify;
+}
+
 /*#endregion*/
 
+
+/*#region botones*/
+.Btn{
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 20px;
+  background: #3b062c;
+  color: white;
+  font-size: 15px;
+  margin: 10px 0;
+  font-family: 'Roboto';
+}
+
+.Btn:hover{
+  background-color: rgb(251,58,190);
+}
+/*#endregion*/
 .card-div{
   width: 400px;
   height: 290px;
@@ -347,6 +379,7 @@
   width: 100%;
   background: url("./img/back1.jpg") no-repeat center center/cover;
 }
+
 .grid-videos{
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -520,23 +553,6 @@
   font-family: 'Roboto';
 }
 
-.Btn{
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  font-weight: bold;
-  padding: 10px 20px;
-  background: #3b062c;
-  color: white;
-  font-size: 15px;
-  margin: 10px 0;
-  font-family: 'Roboto';
-}
-
-.Btn:hover{
-  background-color: rgb(251,58,190);
-}
 
 /* estilos de los logros*/
 
