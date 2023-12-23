@@ -120,3 +120,11 @@ export function DivInfo({children}){
         </div>
     );
 }
+
+export function DivLogro({children}){
+    return(
+        <div className="div-logro">
+            {children}
+        </div>
+    );
+}
