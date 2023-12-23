@@ -125,6 +125,7 @@
 .paper{
   display: flex;
   flex-direction: column;
+  background-color: var(--gris-6);
 }
 
 .Baner{
