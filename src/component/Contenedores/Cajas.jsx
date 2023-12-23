@@ -112,3 +112,11 @@ export function DivCodeLong({children}){
         </div>
     );
 }
+
+export function DivInfo({children}){
+    return(
+        <div className="div-info">
+            {childen}
+        </div>
+    );
+}
