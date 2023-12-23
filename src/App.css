@@ -216,6 +216,22 @@
   border-radius: 5px;
 }
 
+.div-exp{
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.back-exp{
+  background-color: var(--gris-7);
+}
+
+.div-read{
+  width: 70%;
+  margin: auto;
+}
+
 /*#endregion*/
 
 
@@ -238,6 +254,7 @@
   background-color: rgb(251,58,190);
 }
 /*#endregion*/
+
 .card-div{
   width: 400px;
   height: 290px;
@@ -257,17 +274,9 @@
   transform: translateY(-3%);
 }
 
-.div-read{
-  width: 70%;
-  margin: auto;
-}
 
-.div-exp{
-  width: 40%;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
+
+
 
 .title-exp{
   background-color: var(--verde-2) ;
@@ -275,9 +284,7 @@
   padding-left: 10px;
 }
 
-.back-exp{
-  background-color: var(--gris-7);
-}
+
 
 .grid-perfil{
   display: grid;
