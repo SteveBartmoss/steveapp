@@ -38,7 +38,7 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" className="dumix-btn" target="_blank">Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" rel="noopener" className="dumix-btn" target="_blank">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -47,7 +47,7 @@ function Home() {
                                 El popular juego guarda algunos secretos sobre el
                                 comportamiento de sus enemigos
                             </p>
-                            <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" className="dumix-btn" target="_blank">Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" rel="noopener" className="dumix-btn" target="_blank">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -56,7 +56,7 @@ function Home() {
                                 Los procesadores tienen diferentes propiedades y una
                                 de ellas es el numero de nucleos que tiene
                             </p>
-                            <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" className="dumix-btn" target="_blank">Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" rel="noopener" className="dumix-btn" target="_blank">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -65,7 +65,7 @@ function Home() {
                                 Las librerias de programacion son un tema recurrente dentro
                                 de la programacion
                             </p>
-                            <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" className="dumix-btn" target="_blank">Ir al video</a>
+                            <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" rel="noopener" className="dumix-btn" target="_blank">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
@@ -152,7 +152,7 @@ function Home() {
                                 puede que te soprenda al tratarse de un proceso 
                                 algo complejo
                             </p>
-                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=6gle9QkZpbI" target="_blank">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=6gle9QkZpbI" rel="noopener" target="_blank">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -161,7 +161,7 @@ function Home() {
                                 Esa ira que se siente cuando tu personaje 
                                 deja de moverse y todos parecen flahs
                             </p>
-                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=HizfLah3KGE" target="_blank">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=HizfLah3KGE" rel="noopener" target="_blank">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -170,7 +170,7 @@ function Home() {
                                 El test para saber que pan eres puede 
                                 no ser tan inofensivo como crees
                             </p>
-                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=KJD8Sq9O1ps" target="_blank">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=KJD8Sq9O1ps" rel="noopener" target="_blank">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -179,7 +179,7 @@ function Home() {
                                 Los discos mecanicos tienen gran 
                                 capacidad pero son demasiado lentos
                             </p>
-                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Vdb4jy2NQPk" target="_blank">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Vdb4jy2NQPk" rel="noopener" target="_blank">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
@@ -222,7 +222,7 @@ function Home() {
                                 Esperaba que este fuera un digno sucesor de 
                                 la saga under ground pero no fue asi 
                             </p>
-                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=jmLM6DvAn84&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=4" target="_blank">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=jmLM6DvAn84&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=4" rel="noopener" target="_blank">Ir al video</a>
                         </CardDiv>
 
                         <CardDiv>
@@ -231,7 +231,7 @@ function Home() {
                                 Un juego que no es tan valorado como 
                                 deberia ya que tiene algo que mostrar
                             </p>
-                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Ip7WDHnbB5s&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=3" target="_blank">Ir al video</a>
+                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Ip7WDHnbB5s&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=3" rel="noopener" target="_blank">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
@@ -249,7 +249,7 @@ function Home() {
                         <img className="img-disc" src="/Assets/disc.png" alt="discimg" />
                     </center>
                     <center>
-                        <a className="dumix-btn" href="https://discord.gg/QTdVBq5Q9r" target="_blank" >Ir al servidor</a>
+                        <a className="dumix-btn" href="https://discord.gg/QTdVBq5Q9r" rel="noopener" target="_blank" >Ir al servidor</a>
                     </center>
                 </Section1>
 
