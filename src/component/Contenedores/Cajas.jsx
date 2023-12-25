@@ -128,3 +128,11 @@ export function DivLogro({children}){
         </div>
     );
 }
+
+export function DivCard({children}){
+    return(
+        <div className="div-card">
+            {children}
+        </div>
+    );
+}
