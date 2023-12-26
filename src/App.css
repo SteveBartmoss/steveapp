@@ -147,6 +147,14 @@
   margin-right: 10px;
 }
 
+.list-item{
+  color: white;
+  list-style-type: none;
+  font-size: 22px;
+  font-family: 'Roboto Mono';
+  margin-bottom: 22px;
+}
+
 /*#endregion*/
 
 /*#region estilos de los contenedores*/
