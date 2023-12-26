@@ -106,19 +106,19 @@ function Prog1Presentacion() {
                     </p>
 
                     <ul>
-                        <li>
+                        <li className="list-item">
                             <a>Vs code</a>
                         </li>
-                        <li>
+                        <li className="list-item">
                             <a>Atom</a>
                         </li>
-                        <li>
+                        <li className="list-item">
                             <a>NotePad++</a>
                         </li>
-                        <li>
+                        <li className="list-item">
                             <a>Sublime text</a>
                         </li>
-                        <li>
+                        <li className="list-item">
                             <a>Vim</a>
                         </li>
                     </ul>
