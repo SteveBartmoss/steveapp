@@ -5,7 +5,7 @@ import DivBaner from "../component/DivBaner";
 import FlexDiv from "../component/Contenedores/FlexDiv";
 import SquareDiv from "../component/Contenedores/SquareDiv";
 import CardDiv from "../component/Contenedores/CardDiv";
-import { DivSection1, DivSection2, Paper } from "../component/Contenedores/Cajas";
+import { DivCenter, DivSection1, DivSection2, Paper } from "../component/Contenedores/Cajas";
 
 function Home() {
 
@@ -88,9 +88,9 @@ function Home() {
                                 oportunidad pero tambien pueden representar un riesgo
                                 para tu cartera
                             </p>
-                            <div className="center">
+                            <DivCenter>
                                 <a className="dumix-btn" href="rows/rc3">Ver articulo</a>
-                            </div>
+                            </DivCenter>
                         </CardDiv>
 
                         <CardDiv>
@@ -99,9 +99,9 @@ function Home() {
                                 En este mundo de juegos triple A los indie son
                                 aire fresco con nuevas mecanicas o mejores historias
                             </p>
-                            <div className="center">
+                            <DivCenter>
                                 <a className="dumix-btn" href="rows/rc4">Ver articulo</a>
-                            </div>
+                            </DivCenter>
                         </CardDiv>
 
                         <CardDiv>
@@ -109,9 +109,9 @@ function Home() {
                             <p className="content-curso"> Actualmente la mayoria de usuarios de pc tiene
                                 la idea de que se debe llegar a la gama alta del pc gaming
                             </p>
-                            <div className="center">
+                            <DivCenter>
                                 <a className="dumix-btn" href="rows/rc1">Ver articulo</a>
-                            </div>
+                            </DivCenter>
                         </CardDiv>
 
                         <CardDiv>
@@ -121,9 +121,9 @@ function Home() {
                                 la mayoria de personas pero ahora ya no es la misma
                                 historia
                             </p>
-                            <div className="center">
+                            <DivCenter>
                                 <a className="dumix-btn" href="rows/rc5">Ver articulo</a>
-                            </div>
+                            </DivCenter>
                         </CardDiv>
 
                     </SquareDiv>
