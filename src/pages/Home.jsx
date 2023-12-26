@@ -7,7 +7,7 @@ import FlexDiv from "../component/Contenedores/FlexDiv";
 import SquareDiv from "../component/Contenedores/SquareDiv";
 import CardDiv from "../component/Contenedores/CardDiv";
 import Section2 from "../component/Contenedores/Section2";
-import { Paper } from "../component/Contenedores/Cajas";
+import { DivSection1, DivSection2, Paper } from "../component/Contenedores/Cajas";
 
 function Home() {
 
@@ -19,7 +19,7 @@ function Home() {
         <>
             <Paper>
                 <DivBaner name="Baner" />
-                <Section1>
+                <DivSection1>
                     <FlexDiv>
                         <h1 className="title-1">Videos con mas visitas</h1>
                         <p className="p-main">
@@ -69,10 +69,9 @@ function Home() {
                         </CardDiv>
 
                     </SquareDiv>
+                </DivSection1>
 
-                </Section1>
-
-                <Section2>
+                <DivSection2>
                     <FlexDiv>
                         <h1 className="title-1">Rows And Colums</h1>
                         <p className="p-main">
@@ -99,7 +98,7 @@ function Home() {
                         <CardDiv>
                             <h1 className="title1">Una nueva esperanza</h1>
                             <p className="content-curso">
-                                En este mundo de juegos triple A los indie son 
+                                En este mundo de juegos triple A los indie son
                                 aire fresco con nuevas mecanicas o mejores historias
                             </p>
                             <div className="center">
@@ -130,10 +129,9 @@ function Home() {
                         </CardDiv>
 
                     </SquareDiv>
+                </DivSection2>
 
-                </Section2>
-
-                <Section1>
+                <DivSection1>
                     <FlexDiv>
                         <h1 className="title-1">Videos con pocas reproducciones</h1>
                         <p className="p-main">
@@ -142,14 +140,13 @@ function Home() {
                             escoge uno y pasa un buen rato.
                         </p>
                     </FlexDiv>
-
                     <SquareDiv>
 
                         <CardDiv>
                             <h1 className="title1">Mudos de Minecraft</h1>
                             <p className="content-curso">
-                                La generacion de los mundos de Minecraft 
-                                puede que te soprenda al tratarse de un proceso 
+                                La generacion de los mundos de Minecraft
+                                puede que te soprenda al tratarse de un proceso
                                 algo complejo
                             </p>
                             <a className="dumix-btn" href="https://www.youtube.com/watch?v=6gle9QkZpbI" rel="noopener noreferrer" target="_blank">Ir al video</a>
@@ -158,7 +155,7 @@ function Home() {
                         <CardDiv>
                             <h1 className="title1">Que es el lag</h1>
                             <p className="content-curso">
-                                Esa ira que se siente cuando tu personaje 
+                                Esa ira que se siente cuando tu personaje
                                 deja de moverse y todos parecen flahs
                             </p>
                             <a className="dumix-btn" href="https://www.youtube.com/watch?v=HizfLah3KGE" rel="noopener noreferrer" target="_blank">Ir al video</a>
@@ -167,7 +164,7 @@ function Home() {
                         <CardDiv>
                             <h1 className="title1">phising</h1>
                             <p className="content-curso">
-                                El test para saber que pan eres puede 
+                                El test para saber que pan eres puede
                                 no ser tan inofensivo como crees
                             </p>
                             <a className="dumix-btn" href="https://www.youtube.com/watch?v=KJD8Sq9O1ps" rel="noopener noreferrer" target="_blank">Ir al video</a>
@@ -176,17 +173,16 @@ function Home() {
                         <CardDiv>
                             <h1 className="title1">HDD lento</h1>
                             <p className="content-curso">
-                                Los discos mecanicos tienen gran 
+                                Los discos mecanicos tienen gran
                                 capacidad pero son demasiado lentos
                             </p>
                             <a className="dumix-btn" href="https://www.youtube.com/watch?v=Vdb4jy2NQPk" rel="noopener noreferrer" target="_blank">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
+                </DivSection1>
 
-                </Section1>
-
-                <Section2>
+                <DivSection2>
                     <FlexDiv>
                         <h1 className="title-1">Reviews mas Recientes</h1>
                         <p className="p-main">
@@ -195,13 +191,12 @@ function Home() {
                             si no solo informar y pasar un buen rato.
                         </p>
                     </FlexDiv>
-
                     <SquareDiv>
 
                         <CardDiv>
                             <h1 className="title1">Papers Please</h1>
                             <p className="content-curso">
-                                Un entrenido indie que implementa buenas 
+                                Un entrenido indie que implementa buenas
                                 mecanicas y tiene una historia interesante
                             </p>
                             <a className="dumix-btn" href="https://www.youtube.com/watch?v=RLAiWG8Ysds&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=6" rel="noopener noreferrer" target="_blank">Ir al video</a>
@@ -219,8 +214,8 @@ function Home() {
                         <CardDiv>
                             <h1 className="title1">Need for Speed</h1>
                             <p className="content-curso">
-                                Esperaba que este fuera un digno sucesor de 
-                                la saga under ground pero no fue asi 
+                                Esperaba que este fuera un digno sucesor de
+                                la saga under ground pero no fue asi
                             </p>
                             <a className="dumix-btn" href="https://www.youtube.com/watch?v=jmLM6DvAn84&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=4" rel="noopener noreferrer" target="_blank">Ir al video</a>
                         </CardDiv>
@@ -228,16 +223,16 @@ function Home() {
                         <CardDiv>
                             <h1 className="title1">Sunset Overdrive</h1>
                             <p className="content-curso">
-                                Un juego que no es tan valorado como 
+                                Un juego que no es tan valorado como
                                 deberia ya que tiene algo que mostrar
                             </p>
                             <a className="dumix-btn" href="https://www.youtube.com/watch?v=Ip7WDHnbB5s&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=3" rel="noopener noreferrer" target="_blank">Ir al video</a>
                         </CardDiv>
 
                     </SquareDiv>
-                </Section2>
+                </DivSection2>
 
-                <Section1>
+                <DivSection1>
                     <FlexDiv>
                         <h1 className="title-1">Unete al servidor de discor</h1>
                         <p className="p-main">
@@ -245,15 +240,17 @@ function Home() {
                             programacion, informatica o sobre juegos.
                         </p>
                     </FlexDiv>
+
                     <center>
                         <img className="img-disc" src="/Assets/disc.png" alt="discimg" />
                     </center>
                     <center>
                         <a className="dumix-btn" href="https://discord.gg/QTdVBq5Q9r" rel="noopener noreferrer" target="_blank" >Ir al servidor</a>
                     </center>
-                </Section1>
 
-                <Section2>
+                </DivSection1>
+
+                <DivSection2>
                     <FlexDiv>
                         <h1 className="title-1">Dumix</h1>
                         <p className="p-main">
@@ -263,9 +260,9 @@ function Home() {
                             ofrecer
                         </p>
                     </FlexDiv>
-                </Section2>
+                </DivSection2>
 
-                <Section1>
+                <DivSection1>
                     <FlexDiv>
                         <h1 className="title-1">Have Fun</h1>
                         <p className="p-main">
@@ -274,9 +271,9 @@ function Home() {
                             estas implementaciones de diferentes apis
                         </p>
                     </FlexDiv>
-                </Section1>
+                </DivSection1>
 
-                <Section2>
+                <DivSection2>
                     <FlexDiv>
                         <h1 className="title-1">Steve labs</h1>
                         <p className="p-main">
@@ -285,9 +282,9 @@ function Home() {
                             la informatica
                         </p>
                     </FlexDiv>
-                </Section2>
+                </DivSection2>
 
-                <Section1>
+                <DivSection1>
                     <FlexDiv>
                         <h1 className="title-1">Web Masters</h1>
                         <p className="p-main">
@@ -297,7 +294,8 @@ function Home() {
                             te serviran
                         </p>
                     </FlexDiv>
-                </Section1>
+                </DivSection1>
+                
             </Paper>
             <Pie />
         </>

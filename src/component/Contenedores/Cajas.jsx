@@ -137,14 +137,6 @@ export function DivCard({children}){
     );
 }
 
-export function DivCard({children}){
-    return(
-        <div className="card-div">
-            {children}
-        </div>
-    );
-}
-
 export function DivFlex({children}){
     return(
         <div className="flex-div">
