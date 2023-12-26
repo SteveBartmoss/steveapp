@@ -115,6 +115,18 @@
   text-align: left;
   padding-left: 10px;
 }
+
+.title1{
+  font-size: 30px;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
+.title-subject{
+  font-size: 40px;
+  font-family: 'Roboto';
+  color: white;
+}
 /*#endregion*/
 
 /*#region estilos de los parrafos */
@@ -125,10 +137,14 @@
   color: white;
 }
 
-.title1{
-  font-size: 30px;
-  font-family: 'Roboto Mono';
+.content-curso{
   color: white;
+  font-size: 22px;
+  /*padding-left: 15px;*/
+  font-family: 'Roboto Mono';
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*#endregion*/
@@ -968,16 +984,6 @@
   background-color: #005b99;
 }
 
-.content-curso{
-  color: white;
-  font-size: 22px;
-  /*padding-left: 15px;*/
-  font-family: 'Roboto Mono';
-  text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .div-title{
   display: inline-block;
 }
@@ -1022,12 +1028,6 @@
 
 .key-word{
   color: #409cdc;
-}
-
-.title-subject{
-  font-size: 40px;
-  font-family: 'Roboto';
-  color: white;
 }
 
 .dumix-foot{
