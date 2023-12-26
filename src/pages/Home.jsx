@@ -2,11 +2,9 @@ import React, { useEffect } from "react";
 import "../App.css";
 import Pie from "../component/Pie";
 import DivBaner from "../component/DivBaner";
-import Section1 from "../component/Contenedores/Section1";
 import FlexDiv from "../component/Contenedores/FlexDiv";
 import SquareDiv from "../component/Contenedores/SquareDiv";
 import CardDiv from "../component/Contenedores/CardDiv";
-import Section2 from "../component/Contenedores/Section2";
 import { DivSection1, DivSection2, Paper } from "../component/Contenedores/Cajas";
 
 function Home() {
@@ -295,7 +293,7 @@ function Home() {
                         </p>
                     </FlexDiv>
                 </DivSection1>
-                
+
             </Paper>
             <Pie />
         </>
