@@ -136,3 +136,43 @@ export function DivCard({children}){
         </div>
     );
 }
+
+export function DivCard({children}){
+    return(
+        <div className="card-div">
+            {children}
+        </div>
+    );
+}
+
+export function DivFlex({children}){
+    return(
+        <div className="flex-div">
+            {children}
+        </div>
+    );
+}
+
+export function DivSection1({children}){
+    return(
+        <div className="section-1">
+            {children}
+        </div>
+    );
+}
+
+export function DivSection2({children}){
+    return(
+        <div className="section-2">
+            {children}
+        </div>
+    );
+}
+
+export function DivSquare ({children}){
+    return(
+        <div className="square-div">
+            {children}
+        </div>
+    );
+}
