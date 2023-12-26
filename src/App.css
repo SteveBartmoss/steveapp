@@ -245,6 +245,15 @@
   margin: auto;
 }
 
+.center{
+  text-align: center;
+}
+
+.div-center{
+  text-align: center;
+  margin: auto;
+}
+
 /*#endregion*/
 
 
@@ -290,10 +299,6 @@
 .grid-perfil{
   display: grid;
   grid-template-columns: 3fr 1fr;
-}
-
-.center{
-  text-align: center;
 }
 
 .App-header {
