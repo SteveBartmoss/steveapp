@@ -42,11 +42,12 @@ function Prog1Presentacion() {
                     <p className="content-curso">Para preparar el ambiente de desarrollo para el curso sera
                         necesario contar con los siguientes requisitos:
                     </p>
+
                     <ul>
-                        <li>Lenguaje C</li>
-                        <li>Un compilador de lenguaje C</li>
-                        <li>Un editor de codigo o texto</li>
-                        <li>Terminal o cli del sistema</li>
+                        <li className="list-item">Lenguaje C</li>
+                        <li className="list-item">Un compilador de lenguaje C</li>
+                        <li className="list-item">Un editor de codigo o texto</li>
+                        <li className="list-item">Terminal o cli del sistema</li>
                     </ul>
                     <p className="content-curso">
                         Si se desea se puede usar un IDE como codeblocks, Clion, eclipse,
