@@ -36,7 +36,9 @@ function Home() {
                                 sea mas rapida puede generar mas problemas de lo
                                 que crees
                             </p>
-                            <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            <DivCenter>
+                                <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            </DivCenter>
                         </CardDiv>
 
                         <CardDiv>
@@ -45,7 +47,9 @@ function Home() {
                                 El popular juego guarda algunos secretos sobre el
                                 comportamiento de sus enemigos
                             </p>
-                            <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            <DivCenter>
+                                <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            </DivCenter>
                         </CardDiv>
 
                         <CardDiv>
@@ -54,7 +58,9 @@ function Home() {
                                 Los procesadores tienen diferentes propiedades y una
                                 de ellas es el numero de nucleos que tiene
                             </p>
-                            <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            <DivCenter>
+                                <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            </DivCenter>
                         </CardDiv>
 
                         <CardDiv>
@@ -63,7 +69,9 @@ function Home() {
                                 Las librerias de programacion son un tema recurrente dentro
                                 de la programacion
                             </p>
-                            <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            <DivCenter>
+                                <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                            </DivCenter>
                         </CardDiv>
 
                     </SquareDiv>
