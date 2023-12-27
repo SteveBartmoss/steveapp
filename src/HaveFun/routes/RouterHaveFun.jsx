@@ -6,6 +6,7 @@ import MarvelApp from "../marvel/marvelMain";
 import YesOrNot from "../yesornot/YesOrNot";
 import RickosoNavbar from "../rickoso/routes/rickosoNavBar";
 import Characters from "../rickoso/pages/characters";
+import { PokeMain } from "../pokeapp/pokeMain";
 
 function HaveFunRouter(){
     return(
@@ -29,6 +30,10 @@ function HaveFunRouter(){
 
             <Routes>
                 <Route path="marvelapp" element={<MarvelApp />}/>
+            </Routes>
+
+            <Routes>
+                <Route path="pokeapp" element={<PokeMain />} />
             </Routes>
         </>
     );
