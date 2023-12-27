@@ -127,6 +127,13 @@
   font-family: 'Roboto';
   color: white;
 }
+
+.title-working{
+  font-size: 4rem;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
 /*#endregion*/
 
 /*#region estilos de los parrafos */
