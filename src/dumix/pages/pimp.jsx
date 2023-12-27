@@ -1,8 +1,9 @@
 import React from "react";
+import { Working } from "../../component/Working";
 
 function Pimp(){
     return(
-        <h1 className="title1">Pimp page</h1>
+        <Working />
     );
 }
 
