@@ -1,9 +1,10 @@
 import React from "react";
+import { Working } from "../../../component/Working";
 
 function Editores(){
     return(
         <div className="div-curso">
-            <h1 className="title1">Editores</h1>
+            <Working />
         </div>
     );
 }
