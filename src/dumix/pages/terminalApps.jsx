@@ -1,8 +1,9 @@
 import React from "react";
+import { Working } from "../../component/Working";
 
 function TerminalApp(){
     return(
-        <h1 className="title1">Aplicaciones para terminal</h1>
+        <Working />
     );
 }
 
