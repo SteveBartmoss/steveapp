@@ -1,9 +1,10 @@
 import React from "react";
+import { Working } from "../../../component/Working";
 
 function Usuarios(){
     return(
         <div className="div-curso">
-            <h1 className="title1">Usuarios</h1>
+            <Working />
         </div>
     );
 }
