@@ -176,3 +176,11 @@ export function DivCenter({children}){
         </div>
     );
 }
+
+export function DivWorkImg({children}){
+    return(
+        <div className="div-working-img">
+            {children}
+        </div>
+    );
+}
