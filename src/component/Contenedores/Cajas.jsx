@@ -184,3 +184,11 @@ export function DivWorkImg({children}){
         </div>
     );
 }
+
+export function DivArticle({children}){
+    return(
+        <div className="div-post">
+            {children}
+        </div>
+    );
+}
