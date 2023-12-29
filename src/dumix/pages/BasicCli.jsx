@@ -65,25 +65,37 @@ export function BasicCli() {
                             Importante los comando apt están disponibles por defecto para distribuciónes basadas en debian, como Ubuntu Linux mint o el propio debian. Para otras distribuciónes el manejador de paquete cambia como es en fedora con el comando dnf, red hat con yum o Arch con pacman, si estás en una distribución diferente a debian o derivados debes buscar su comando específico.
                         </p>
 
+                        <p>
+                            rm: este comando permite eliminar un archivo pero hay que usarlo con cautela ya que eliminara el archivo sin preguntar antes o esperar una confirmación, se puede pasar el parámetro -r para que la llamada sea recursiva lo cual permite borrar los archivos y las subcarpetas así que también es peligroso.
+                        </p>
+
+                        <p>
+                            mv: este comando permite mover una archivo o fichero hacía otra ruta la cual recibe como argumento, para utilizar debemos pasar el nombre del archivo o directorio a mover, seguido de la ruta en que se encuentra el archivo y luego la ruta hacia la que queremos mover el archivo. Este comando es similar a cortar y pegar así que no se mantendrá una copia del archivo o fichero en la ruta origen.
+                        </p>
+
+                        <p>
+                            cp: este comando también permite mover un archivo pero tiene la diferencia de que crea una copia del archivo en la ruta destino, se usa de manera similar al anterior ya que debemos pasar el nombre del archivo, la ruta de origen y luego la ruta destino.
+                        </p>
+
+                        <p>
+                            pwd: este comando te permite mostrar la ruta actual en la que te encuentras, esto es util para saber en qué nivel te encuentras y poder moverte hacia otro directorio con el comando cd.
+                        </p>
+
+                        <p>
+                            mkdir: este comando permite crear un directorio con el nombre que le pasemos como argumento, la carpeta será creada por defecto en el directorio actual de trabajo y si queremos que se se cree en otra ubicación debemos cambiar nos de directorio.
+                        </p>
+
+                        <p>
+                            man: este comando mostrará información sobre un comando que se pase como parametro, de esta manera podemos aprender sobre un comando que nos interese o que no conoscamos. También se puede usar el comando info o help ambos muestran ayuda sobre comandos pero uno mostrara menos o más información así que depende que tanta ayuda necesites uno será más útil que otro.
+                        </p>
+
+                        <p>
+                            Estos comandos te permitirán realizar acciones básicas en un sistema linux al menos cuando empiezas por primera vez con un sistema operativo de Linux.
+                        </p>
+
                     </DivRead>
                 </DivArticle>
 
-                <p>
-                    rm: este comando permite eliminar un archivo pero hay que usarlo con cautela ya que eliminara el archivo sin preguntar antes o esperar una confirmación, se puede pasar el parámetro -r para que la llamada sea recursiva lo cual permite borrar los archivos y las subcarpetas así que también es peligroso.
-
-                    mv: este comando permite mover una archivo o fichero hacía otra ruta la cual recibe como argumento, para utilizar debemos pasar el nombre del archivo o directorio a mover, seguido de la ruta en que se encuentra el archivo y luego la ruta hacia la que queremos mover el archivo. Este comando es similar a cortar y pegar así que no se mantendrá una copia del archivo o fichero en la ruta origen.
-
-                    cp: este comando también permite mover un archivo pero tiene la diferencia de que crea una copia del archivo en la ruta destino, se usa de manera similar al anterior ya que debemos pasar el nombre del archivo, la ruta de origen y luego la ruta destino.
-
-                    pwd: este comando te permite mostrar la ruta actual en la que te encuentras, esto es util para saber en qué nivel te encuentras y poder moverte hacia otro directorio con el comando cd.
-
-                    mkdir: este comando permite crear un directorio con el nombre que le pasemos como argumento, la carpeta será creada por defecto en el directorio actual de trabajo y si queremos que se se cree en otra ubicación debemos cambiar nos de directorio.
-
-                    man: este comando mostrará información sobre un comando que se pase como parametro, de esta manera podemos aprender sobre un comando que nos interese o que no conoscamos. También se puede usar el comando info o help ambos muestran ayuda sobre comandos pero uno mostrara menos o más información así que depende que tanta ayuda necesites uno será más útil que otro.
-
-                    Estos comandos te permitirán realizar acciones básicas en un sistema linux al menos cuando empiezas por primera vez con un sistema operativo de Linux.
-
-                </p>
             </Paper>
         </>
     );
