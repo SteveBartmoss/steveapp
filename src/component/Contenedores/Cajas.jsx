@@ -192,3 +192,11 @@ export function DivArticle({children}){
         </div>
     );
 }
+
+export function BackArticle({children}){
+    return(
+        <div className="div-back-article">
+            {children}
+        </div>
+    );
+}
