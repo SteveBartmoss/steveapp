@@ -200,3 +200,11 @@ export function BackArticle({children}){
         </div>
     );
 }
+
+export function BackImportant({children}){
+    return(
+        <div className="div-back-important">
+            {children}
+        </div>
+    );
+}
