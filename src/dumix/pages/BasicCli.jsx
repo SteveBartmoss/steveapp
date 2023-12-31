@@ -1,5 +1,5 @@
 import React from "react";
-import { BackArticle, DivArticle, DivCenter, DivCurso, DivFlex, DivRead, Paper } from "../../component/Contenedores/Cajas";
+import { BackArticle, BackImportant, DivArticle, DivCenter, DivCurso, DivFlex, DivRead, Paper } from "../../component/Contenedores/Cajas";
 
 export function BasicCli() {
     return (
@@ -92,13 +92,16 @@ export function BasicCli() {
                             </p>
                         </BackArticle>
 
-                        <BackArticle>
+                        <BackImportant>
                             <p className="content-curso">
-                                Importante los comando apt están disponibles por defecto para distribuciónes basadas en debian, como Ubuntu
+                                Importante los comandos apt están disponibles por defecto para distribuciónes basadas en debian, como Ubuntu
                                 Linux mint o el propio debian. Para otras distribuciónes el manejador de paquete cambia como es en fedora con
                                 el comando dnf, red hat con yum o Arch con pacman, si estás en una distribución diferente a debian o derivados
                                 debes buscar su comando específico.
                             </p>
+                        </BackImportant>
+
+                        <BackArticle>
 
                             <h1 className="title1">rm</h1>
                             <p className="content-curso">
