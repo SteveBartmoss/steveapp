@@ -1,13 +1,15 @@
 import React from "react";
 import CreatorSing from "../../../component/sing";
+import { DivCenter } from "../../../component/Contenedores/Cajas";
 
 function Rc2() {
     return (
         <>
             <div className="div-about">
-                <div className="center">
+
+                <DivCenter>
                     <h1 className="main-title">Juegos que reunen polvo</h1>
-                </div>
+                </DivCenter>
 
                 <hr className="line" />
 
@@ -76,29 +78,29 @@ function Rc2() {
                     </p>
 
                     <p className="content-curso">
-                        Aunque esto pueda parecer algo que no tiene importancia pues a nadie le afecta que las personas no 
+                        Aunque esto pueda parecer algo que no tiene importancia pues a nadie le afecta que las personas no
                         puedan terminar sus juegos y solo resulta una evidencia de la cultura del consumismo que cada
-                        vez está más presente en la sociedad actual lo cual es cierto pero al mismo tiempo es algo importante 
-                        que afecta a los jugadores ya que se toma en cuenta en las industrias de los videojuegos, lo anterior 
-                        también es un factor importante para entender porque algunos juegos multijugador son tan populares ya 
+                        vez está más presente en la sociedad actual lo cual es cierto pero al mismo tiempo es algo importante
+                        que afecta a los jugadores ya que se toma en cuenta en las industrias de los videojuegos, lo anterior
+                        también es un factor importante para entender porque algunos juegos multijugador son tan populares ya
                         que en este tipo de juegos no hace falta invertir grande cantidades de horas para entender mecanicas
-                        complejas o memorizando patrones de ataque de jefes y basta con encontrar una partida paras rápidamente 
-                        enfrentarse a otros jugadores y al finalizar la partida solo es cuestión de minutos para poder iniciar 
+                        complejas o memorizando patrones de ataque de jefes y basta con encontrar una partida paras rápidamente
+                        enfrentarse a otros jugadores y al finalizar la partida solo es cuestión de minutos para poder iniciar
                         una nueva y volver a combatir con otros jugadores. Títulos como elden ring, grand def rancho o
-                        cualquier otro triple a respetable resultan una experiencia buena y que se disfrutan bastante bien pero 
-                        algo desesperante para los usuarios que buscan pasar un rato agradable en algún titulo que no requiera 
+                        cualquier otro triple a respetable resultan una experiencia buena y que se disfrutan bastante bien pero
+                        algo desesperante para los usuarios que buscan pasar un rato agradable en algún titulo que no requiera
                         mucho tiempo de farmeo o que tenga misiones tan largas que requieran de por lo menos una hora de duración.
                     </p>
                 </div>
 
                 <h1 className="title1">Mas horas de juego = mejor juego</h1>
-                <hr className="line"/>
+                <hr className="line" />
 
                 <div className="back-articles">
                     <p className="content-curso">
-                        En este sentido la industria tiene un problema ya que se ha empezado creer que las horas de duracion 
-                        son importantes para que un juego sea bueno y no hay nada mas alejado de la realidad ya que si bien 
-                        anteriormente un juego con muchas horas de duracion era bien recibido pues tenia bastante tiempo, 
+                        En este sentido la industria tiene un problema ya que se ha empezado creer que las horas de duracion
+                        son importantes para que un juego sea bueno y no hay nada mas alejado de la realidad ya que si bien
+                        anteriormente un juego con muchas horas de duracion era bien recibido pues tenia bastante tiempo,
                         actualmente ya no puedo claro a la hora de desinar los títulos ya que por un lado esta el sector
                         de jugadores que disfrutan los juegos que requieren muchas horas de inversión y que tienen el tiempo
                         necesario para poder invertirlo en estos tipos de juegos ya que puede que no tengan  un presupuesto
