@@ -303,6 +303,13 @@
   border-radius: 10px;
 }
 
+.div-back-important{
+  margin: 10px;
+  background-color: var(--morado3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
 /*#endregion*/
 
 
