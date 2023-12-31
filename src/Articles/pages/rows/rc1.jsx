@@ -1,13 +1,15 @@
 import React from "react";
 import CreatorSing from "../../../component/sing";
+import { DivCenter } from "../../../component/Contenedores/Cajas";
 
 function Rc1() {
     return (
         <>
             <div className="div-about">
-                <div className="center">
+                
+                <DivCenter>
                     <h1 className="main-title">La gama alta no es la meta</h1>
-                </div>
+                </DivCenter>
 
                 <hr className="line" />
 
@@ -48,11 +50,11 @@ function Rc1() {
                         los modelos de Aprous o Rog que se enfocan en llamar la atencion de los jugadores y
                         creando la imagen de gaming competitivo pero esto no quiere precisamente que sea la
                         mejor configuración para jugar, pero la mayoria del tiempo solo se trata de marketing
-                        ya que realmente los modelos que no estan enfocados al pcgaming tienen un rendiminto 
-                        aceptable con la diferencia que no tinene elementos llamativos como puede ser leds 
-                        ventiladoes llamativos o un overclock tan ligero que no se nota. 
+                        ya que realmente los modelos que no estan enfocados al pcgaming tienen un rendiminto
+                        aceptable con la diferencia que no tinene elementos llamativos como puede ser leds
+                        ventiladoes llamativos o un overclock tan ligero que no se nota.
                     </p>
-                    
+
                 </div>
 
                 <h1 className="title1">Muchos recursos pero poco rendimiento</h1>
@@ -70,7 +72,7 @@ function Rc1() {
                         también es necesario tener un monitor que pueda dar una tasa de refrescamiento
                         alta ya que de lo contrario no permitirá ver los fps como deberías asi que también
                         se debe invertir en un buen monitor para poder sacarle provecho al máximo y es posible
-                        que no todas las resoluciones puedan ir a fps altos y de manera estable. 
+                        que no todas las resoluciones puedan ir a fps altos y de manera estable.
                     </p>
 
                     <p className="content-curso">
@@ -88,7 +90,7 @@ function Rc1() {
                 <hr className="line" />
 
                 <div className="back-articles">
-                <p className="content-curso">
+                    <p className="content-curso">
                         Lo anterior cobra mas sentido cuando nos ponemos a pensar que juegos tan antiguos pero
                         que fueron tan bien optimizados se puedan correr en diferentes tipos de hardware
                         (asi es doom te estoy hablando a ti) asi que el tope de gama no siempre te dara la mayor
@@ -102,7 +104,7 @@ function Rc1() {
                         pero el precio de la memoria también subía bastante y la mejora solo podía ser
                         significante cuando tenias una gpu integrada pero la verdad es que teniendo una
                         grafica integrada poco se puede hacer para que tengas el rendimiento de una gpu
-                        dedica. 
+                        dedica.
                     </p>
 
                     <p className="content-curso">
@@ -112,7 +114,7 @@ function Rc1() {
                         procesadores que no estarán bajo cargar intensas de trabajo las 24 horas ni a un
                         overclockt tan potente, en otros casos se invierte dinero un almacenamiento solido de un
                         terabyte para poder almacenar los juegos en el a pesar de que la mejora del
-                        desempeño de los juegos es bastante baja. 
+                        desempeño de los juegos es bastante baja.
                     </p>
                 </div>
 
