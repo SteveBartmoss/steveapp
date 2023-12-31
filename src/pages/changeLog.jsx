@@ -1,4 +1,5 @@
 import React from "react";
+import { BackArticle } from "../component/Contenedores/Cajas";
 
 function ChangeLog() {
     return (
@@ -7,6 +8,21 @@ function ChangeLog() {
                 <h1 className="main-title">Change Log de la pagina</h1>
 
                 <h1 className="title1">Ultima actualizacion</h1>
+
+                <h1 className="title1">30/12/2023</h1>
+                <hr />
+
+                <BackArticle>
+                    <p className="content-curso">
+                        Se desplego la version 3 de la pagina con unos estilos mucho mas oscuros y 
+                        limpios, se eleminaron las imagenes de la pagina de inicio, se implemento 
+                        una paleta de colores en tonos grises, se cambio el diseno de los contenedores 
+                        se agrego un componente para paginas en progreso, se mejoro el inicio de dumix.
+                        Se continuara trabajando en los estilos de la pagina para que resulte mejor para 
+                        los usuarios y se seguira trabajando en los cursos, el invierno nos ha dejado congelados 
+                        pero seguimos adelante para mejorar la pagina.
+                    </p>
+                </BackArticle>
 
                 <h1 className="title1">05/12/2023</h1>
                 <hr />
