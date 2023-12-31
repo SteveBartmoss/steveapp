@@ -1,13 +1,15 @@
 import React from "react";
 import CreatorSing from "../../../component/sing";
+import { DivCenter } from "../../../component/Contenedores/Cajas";
 
 function Rc4() {
     return (
         <>
             <div className="div-about">
-                <div className="center">
+
+                <DivCenter>
                     <h1 className="main-title">Los indie una nueva esperanza</h1>
-                </div>
+                </DivCenter>
 
                 <hr className="line" />
 
@@ -121,20 +123,20 @@ function Rc4() {
 
                 <h1 className="title1">Los triple A corren peligro</h1>
 
-                <hr className="line"/>
+                <hr className="line" />
 
                 <div className="back-articles">
                     <p className="content-curso">
-                        Los triple a se cada vez son más difíciles de hacer pues la mayoria se procupa por 
+                        Los triple a se cada vez son más difíciles de hacer pues la mayoria se procupa por
                         tene un juego que dure muchas horas, que los graficos sean tan realistas que puedas sentir
-                        las balas o que tanga millones de colleccionables ademas de muchas misiones secundarias repetitivas, 
-                        el principal problema de esto es que los juegos duran mucho en desarrollarse por todo lo que 
-                        se tiene que implementar para despues ver una realidad más decepcionante y ver que todo ese 
-                        esfuerzo no recibe la misma aceptacion que juegos con mejores mecanicas y que pueden resultat 
-                        mucho mas entretenido y todo esto por tratar de seguir las corrientes que están de moda y no 
-                        arriesgarse a entregar un producto diferente asi que ojala más desarrolladoras grandes lanzaran 
-                        juegos como death stranding que se animó a dar un juego con una mecánica poco convencional y 
-                        llamativa pero que termino agradando a una parte de la comunidad bueno esto fue filas y columnas 
+                        las balas o que tanga millones de colleccionables ademas de muchas misiones secundarias repetitivas,
+                        el principal problema de esto es que los juegos duran mucho en desarrollarse por todo lo que
+                        se tiene que implementar para despues ver una realidad más decepcionante y ver que todo ese
+                        esfuerzo no recibe la misma aceptacion que juegos con mejores mecanicas y que pueden resultat
+                        mucho mas entretenido y todo esto por tratar de seguir las corrientes que están de moda y no
+                        arriesgarse a entregar un producto diferente asi que ojala más desarrolladoras grandes lanzaran
+                        juegos como death stranding que se animó a dar un juego con una mecánica poco convencional y
+                        llamativa pero que termino agradando a una parte de la comunidad bueno esto fue filas y columnas
                         hasta la próxima.
                     </p>
                 </div>
