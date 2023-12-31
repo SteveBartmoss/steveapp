@@ -8,6 +8,23 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `30/12/2023`
+
+Se desplego la version 3 de la pagina con unos estilos mucho mas oscuros y 
+limpios, se eleminaron las imagenes de la pagina de inicio, se implemento 
+una paleta de colores en tonos grises, se cambio el diseno de los contenedores 
+se agrego un componente para paginas en progreso, se mejoro el inicio de dumix.
+Se continuara trabajando en los estilos de la pagina para que resulte mejor para 
+los usuarios y se seguira trabajando en los cursos, el invierno nos ha dejado congelados 
+pero seguimos adelante para mejorar la pagina.
+
+### `05/12/2023`
+
+Se agregaron dos nuevos articulos a rows and columns, se esta mejorando el estilo
+de la pagina y se esta planeando una mejora para el perfil de steve, se implemento
+una pagina con los cambios y una que mostrara las actualizaciones que se planean
+para la pagina, el invierno es mas frio que nunca pero todo sigue segun lo planeado.
+
 ### `25/11/2023`
 
 Se agrego el primer articulo de las reviews el cual es sobre death stranding, se agrego otro articulo de rows and colums que esta en proceso. Se seguira implemetando contendio para el curso de programacion y el de linux para obtener un mejor avance para finales del 2023, el invierno fue duro y aun no llega el amanecer pero de momento nos vemos optimistas.
