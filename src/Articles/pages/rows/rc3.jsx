@@ -1,15 +1,17 @@
 import React from "react";
 import CreatorSing from "../../../component/sing";
+import { DivCenter } from "../../../component/Contenedores/Cajas";
 
 function Rc3() {
     return (
         <>
             <div className="div-about">
-                <div className="center">
-                    <h1 className="main-title">Juegos de Acceso Anticipado</h1>
-                </div>
 
-                <hr className="line"/>
+                <DivCenter>
+                    <h1 className="main-title">Juegos de Acceso Anticipado</h1>
+                </DivCenter>
+
+                <hr className="line" />
 
                 <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
@@ -30,7 +32,7 @@ function Rc3() {
                 </div>
 
                 <h1 className="title1">Los juegos en fase beta no siempre son buenos</h1>
-                <hr className="line"/>
+                <hr className="line" />
 
                 <div className="back-articles">
                     <p className="content-curso">
@@ -52,7 +54,7 @@ function Rc3() {
 
                 <h1 className="title1">Todo muy bien pero Completaran el juego verdad?</h1>
 
-                <hr className="line"/>
+                <hr className="line" />
 
                 <div className="back-articles">
                     <p className="content-curso">
@@ -70,7 +72,7 @@ function Rc3() {
                 </div>
 
                 <h1 className="title1">Mi cartera corre peligro ?</h1>
-                <hr className="line"/>
+                <hr className="line" />
 
                 <div className="back-articles">
                     <p className="content-curso">
@@ -92,7 +94,7 @@ function Rc3() {
                 </div>
 
                 <h1 className="title1">No todo esta perdido todavia</h1>
-                <hr className="line"/>
+                <hr className="line" />
 
                 <div className="back-articles">
                     <p className="content-curso">
