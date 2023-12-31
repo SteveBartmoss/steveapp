@@ -1,14 +1,15 @@
 import React from "react";
 import CreatorSing from "../../../component/sing";
+import { DivCenter } from "../../../component/Contenedores/Cajas";
 
 function Rc5() {
     return (
         <>
             <div className="div-about">
 
-                <div className="center">
+                <DivCenter>
                     <h1 className="main-title">Los 16 gigas de ram no son lo que eran</h1>
-                </div>
+                </DivCenter>
 
                 <hr className="line" />
 
