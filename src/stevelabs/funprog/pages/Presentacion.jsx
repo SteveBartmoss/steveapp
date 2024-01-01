@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCurso, DivRead, TitleDiv } from "../../../component/Contenedores/Cajas";
+import { DivCenter, DivCode, DivCurso, DivRead, TitleDiv } from "../../../component/Contenedores/Cajas";
 
 function Prog1Presentacion() {
     return (
@@ -126,7 +126,7 @@ function Prog1Presentacion() {
                         Los editores que se mencionana anteriormente estan disponibles para la mayoria
                         de sistemas operativos (Windows, linux, Macos) con la exception de vim que suele
                         estar disponible en linux o macos pero los demas son complatibles con la mayoria
-                        y son de uso gatuito sin contatr Sublime Text que requiere un unico pago por su
+                        y son de uso gatuito sin contar Sublime Text que requiere un unico pago por su
                         licencia.
                     </p>
 
@@ -154,6 +154,20 @@ function Prog1Presentacion() {
                         distribuciones de debian o el archivo rmp para otras distribuciones, tambien estan disponible
                         el archivo, tar y snap de vs code. Una vez que se tiene descargado el paquete correspondiente
                         se debe usar algun gestor de paquetes para instalar el programa.
+                    </p>
+
+                    <p className="content-curso">
+                        En distribuciones basadas en debian se puede usar el comando dpkg intalls seguido del nombre 
+                        del paquete, tambien se puede usar apt install y el nombre del paquete con lo cual se instalara 
+                        el programa del paquete debian pero es importante que al ejecutat cualquiera de los comandos 
+                        anteriores debemos estar en el mismo direcotorio donde se encuentra el archivo .deb.
+                    </p>
+
+                    <p className="content-curso">
+                        Para distribuciones diferentes a debian se debe usar el gestor de paquetes de la 
+                        distribucion como dnf que pertenece a fedora, yum para red hat o pacman en distribuciones 
+                        de arch asi que solo se debe buscar el gestor de la distribucion y el archivo correspondiente 
+                        para la distribucion que se use.
                     </p>
 
                     <h1 className="title1">Lenguaje de programacion</h1>
@@ -196,6 +210,31 @@ function Prog1Presentacion() {
                         mayoria de gestores de paquetes asi que basta con usar el correspodiente y hacer la instalacion
                         como se muestra a continiacion:
                     </p>
+
+                    <p className="content-curso">Para distribuciones basadas en debian</p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">sudo apt install gcc</p>
+                        </DivCode>
+                    </DivCenter>
+
+                    <p className="content-curso">Para distribuciones basadas en red had</p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">sudo yum install gcc</p>
+                        </DivCode>
+                    </DivCenter>
+
+                    <p className="content-curso">Para la distribucion fedora</p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">sudo dnf install gcc</p>
+                        </DivCode>
+                    </DivCenter>
+
 
                     <h1 className="title1">Entorno de desarrollo integrado (ide)</h1>
 
