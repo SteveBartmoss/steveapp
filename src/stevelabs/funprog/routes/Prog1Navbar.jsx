@@ -4,7 +4,7 @@ import LabsFooter from "../../components/labsFooter";
 
 function Prog1Navbar() {
 
-    const [isOpen,setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(true);
 
     const closeMenu = () => {
         setIsOpen(!isOpen);
@@ -24,6 +24,8 @@ function Prog1Navbar() {
 
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="algoritmo">algoritmo</NavLink>
 
+                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="holamundo">HolaMundo</NavLink>
+
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="compile">Compilacion</NavLink>
 
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="estructura">Estructura</NavLink>
@@ -42,7 +44,7 @@ function Prog1Navbar() {
                     </div>
                     <Outlet />
                 </div>
-                <LabsFooter/>
+                <LabsFooter />
             </div>
         </>
     );
