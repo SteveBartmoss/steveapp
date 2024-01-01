@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCenter, DivCode, DivCurso, DivRead, TitleDiv } from "../../../component/Contenedores/Cajas";
+import { DivCenter, DivCode, DivCurso, DivRead, DivTitle } from "../../../component/Contenedores/Cajas";
 
 function Prog1Presentacion() {
     return (
@@ -8,10 +8,10 @@ function Prog1Presentacion() {
 
                 <DivRead>
 
-                    <TitleDiv>
+                    <DivTitle>
                         <h1 className="title-subject">Acerca del curso</h1>
                         <hr className="line" />
-                    </TitleDiv>
+                    </DivTitle>
 
                     <p className="content-curso">
                         El curso esta pensado para que personas que no han programado
@@ -157,16 +157,16 @@ function Prog1Presentacion() {
                     </p>
 
                     <p className="content-curso">
-                        En distribuciones basadas en debian se puede usar el comando dpkg intalls seguido del nombre 
-                        del paquete, tambien se puede usar apt install y el nombre del paquete con lo cual se instalara 
-                        el programa del paquete debian pero es importante que al ejecutat cualquiera de los comandos 
+                        En distribuciones basadas en debian se puede usar el comando dpkg intalls seguido del nombre
+                        del paquete, tambien se puede usar apt install y el nombre del paquete con lo cual se instalara
+                        el programa del paquete debian pero es importante que al ejecutat cualquiera de los comandos
                         anteriores debemos estar en el mismo direcotorio donde se encuentra el archivo .deb.
                     </p>
 
                     <p className="content-curso">
-                        Para distribuciones diferentes a debian se debe usar el gestor de paquetes de la 
-                        distribucion como dnf que pertenece a fedora, yum para red hat o pacman en distribuciones 
-                        de arch asi que solo se debe buscar el gestor de la distribucion y el archivo correspondiente 
+                        Para distribuciones diferentes a debian se debe usar el gestor de paquetes de la
+                        distribucion como dnf que pertenece a fedora, yum para red hat o pacman en distribuciones
+                        de arch asi que solo se debe buscar el gestor de la distribucion y el archivo correspondiente
                         para la distribucion que se use.
                     </p>
 
@@ -252,7 +252,7 @@ function Prog1Presentacion() {
                         mejor conocimiento de todo el proceso que lleva programar.
                     </p>
                 </DivRead>
-                
+
             </DivCurso>
         </>
     );
