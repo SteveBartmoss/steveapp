@@ -37,20 +37,6 @@ function Prog1Output() {
                         a continuación:
                     </p>
 
-                    <p className="content-curso">
-                        Una vez que lo copiamos debemos crear un archivo con terminación .c en el
-                        editor de código que usemos, si se trata de vscode podemos usar el menú
-                        archivo nuevo Archivo y darle el nombre, en un IDE como code blocks, clion
-                        o cualquier otro debe existir un menú archivo y en el seleccionamos crear y
-                        le damos un nombre con la terminación punto c. Si eres de la vieja escuela o
-                        simplemente te gusta el camino difícil y usar block de notas, vim, nano o algun
-                        otro editor de texto para los hardcore, basta con que crees un archivo punto c
-                        y luego lo edites con el block de notas, vim o nano. El comando para crear un
-                        archivo en Linux es touch nombre.c en Windows basta con abrir block de notas
-                        copiar el código, guardar como, seleccionas el tipo de archivo como todo y
-                        pones el nombre del archivo y .c con eso ya tendrás el código.
-                    </p>
-
                     <div className="center">
                         <h1 className="title-subject">Cómo compilar y ejecutar el código</h1>
                     </div>
