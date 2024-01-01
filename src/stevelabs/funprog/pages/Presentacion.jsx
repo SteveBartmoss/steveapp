@@ -107,19 +107,19 @@ function Prog1Presentacion() {
 
                     <ul>
                         <li className="list-item">
-                            <a>Vs code</a>
+                            <a href="https://code.visualstudio.com/" rel="noopener noreferrer" target="_blank">Vs code</a>
                         </li>
                         <li className="list-item">
-                            <a>Atom</a>
+                            <a href="https://atom-editor.cc/" rel="noopener noreferrer" target="_blank">Atom</a>
                         </li>
                         <li className="list-item">
-                            <a>NotePad++</a>
+                            <a href="https://notepad-plus-plus.org/" rel="noopener noreferrer" target="_blank">NotePad++</a>
                         </li>
                         <li className="list-item">
-                            <a>Sublime text</a>
+                            <a href="https://www.sublimetext.com/" rel="noopener noreferrer" target="_blank">Sublime text</a>
                         </li>
                         <li className="list-item">
-                            <a>Vim</a>
+                            <a href="https://www.vim.org/" rel="noopener noreferrer" target="_blank">Vim</a>
                         </li>
                     </ul>
                     <p className="content-curso">
