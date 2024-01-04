@@ -63,6 +63,23 @@ export function Prog1HolaMundo() {
                         </DivCode>
                     </DivCenter>
 
+                    <p className="content-curso">
+                        Una vez que tenemos el codigo en nuestro archivo basta con guardarlo 
+                        y podemos proceder a compilar el codigo.
+                    </p>
+
+                    <p className="content-curso">
+                        Para llevar a cabo el compilado de nuestro codigo tendremo que llamar a 
+                        un compilador pero si nos encontramos en usando un IDE basta con buscar 
+                        en la barra superior un boton que normalmente tiene el icono de una flecha 
+                        verde o que debe llamarse run&compile el cual nos dejara compilar nuestro 
+                        codigo.
+                    </p>
+
+                    <p>
+                        Si usamo un editor de codigo esto no sera tan simple
+                    </p>
+
                 </DivRead>
             </DivCurso>
         </>
