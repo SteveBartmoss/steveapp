@@ -2,6 +2,12 @@ import React from "react";
 import { DivCenter, DivCode, DivCurso, DivRead, DivTitle } from "../../../component/Contenedores/Cajas";
 
 export function Prog1HolaMundo() {
+
+    const code= `#include <stdio.h>;
+                int maint (){
+                    printf('"'Hola mundo '"');
+                    return 0;
+                }`
     return (
         <>
             <DivCurso>
@@ -41,10 +47,21 @@ export function Prog1HolaMundo() {
                         En caso de que usemos un IDE como code blocks, clion o cualquier otro debe existir 
                         un menú archivo y en el seleccionamos crear y le damos un nombre que queremos y luego 
                         de esto se debe abrir en la misma ventan que tenemos para abierta en el ide. 
-                        Si eres de la vieja escuela o simplemente te gusta el camino difícil y usar block de 
+                        Si eres de la vieja escuela o simplemente te gusta el camino difícil y usas block de 
                         notas, vim, nano o algun otro editor de texto para los hardcore, basta con que crees 
                         un archivo punto c y luego lo edites con el block de notas, vim o nano.
                     </p>
+
+                    <p className="content-curso">
+                        Ya que tenemos nuestro archivo creado debemos copiar las siguientes lines de codigo en 
+                        el archivo .c o el que tengamos abierto en nuestro editor de texto o IDE.
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">{code}</p>
+                        </DivCode>
+                    </DivCenter>
 
                 </DivRead>
             </DivCurso>
