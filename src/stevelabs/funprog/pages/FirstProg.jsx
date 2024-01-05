@@ -76,8 +76,24 @@ export function Prog1HolaMundo() {
                         codigo.
                     </p>
 
-                    <p>
-                        Si usamo un editor de codigo esto no sera tan simple
+                    <p className="content-curso">
+                        Si usamo un editor de codigo esto no sera tan simple ya que tenemos que usar el 
+                        compilador de forma separada mediante la terminal de nuestro sistema operativo, 
+                        si usamos una distribucion de linux podemo probar con el comando cntrl+t o si esto 
+                        funciona podemos buscar terminal, en windows se puede buscar como cmd o poweshell.
+                    </p>
+
+                    <p className="content-curso">
+                        Ya que tenemos nuestra terminal abierta debemos situarnos en la ruta donde tenemos el 
+                        archivo .c para lo cual tenemos dos opciones, podemos usar el comando cd seguido de la ruta 
+                        para navegar por los directorios hasta situarnos en el que esta el archivo con el codigo o tambien 
+                        podemos escribir el comando cd y luego arrastrar la carpeta hasta la terminal lo cual pondra la 
+                        ruta en la terminal y solo debemos dar enter.
+                    </p>
+
+                    <p className="content-curso">
+                        ahora que estamos en la misma ruta del codigo fuente podemos usar el comando del compilador para 
+                        generar el archivo binario de nuestro programa, para esto debemos usar el siguiente comando:
                     </p>
 
                 </DivRead>
