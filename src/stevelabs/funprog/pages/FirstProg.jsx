@@ -3,7 +3,7 @@ import { DivCenter, DivCode, DivCurso, DivRead, DivTitle } from "../../../compon
 
 export function Prog1HolaMundo() {
 
-    const code= `#include <stdio.h>;
+    const code = `#include <stdio.h>;
                 int maint (){
                     printf('"'Hola mundo '"');
                     return 0;
@@ -44,55 +44,62 @@ export function Prog1HolaMundo() {
                     </DivCenter>
 
                     <p className="content-curso">
-                        En caso de que usemos un IDE como code blocks, clion o cualquier otro debe existir 
-                        un menú archivo y en el seleccionamos crear y le damos un nombre que queremos y luego 
-                        de esto se debe abrir en la misma ventan que tenemos para abierta en el ide. 
-                        Si eres de la vieja escuela o simplemente te gusta el camino difícil y usas block de 
-                        notas, vim, nano o algun otro editor de texto para los hardcore, basta con que crees 
+                        En caso de que usemos un IDE como code blocks, clion o cualquier otro debe existir
+                        un menú archivo y en el seleccionamos crear y le damos un nombre que queremos y luego
+                        de esto se debe abrir en la misma ventan que tenemos para abierta en el ide.
+                        Si eres de la vieja escuela o simplemente te gusta el camino difícil y usas block de
+                        notas, vim, nano o algun otro editor de texto para los hardcore, basta con que crees
                         un archivo punto c y luego lo edites con el block de notas, vim o nano.
                     </p>
 
                     <p className="content-curso">
-                        Ya que tenemos nuestro archivo creado debemos copiar las siguientes lines de codigo en 
+                        Ya que tenemos nuestro archivo creado debemos copiar las siguientes lines de codigo en
                         el archivo .c o el que tengamos abierto en nuestro editor de texto o IDE.
                     </p>
 
                     <DivCenter>
                         <DivCode>
-                            <p className="code-simple">{code}</p>
+                            <code>
+                                <p className="code-simple">#include &lt;stdio.h&gt;</p>
+                                <p className="code-simple">int maint&#40; &#41;</p>
+                                <p className="code-simple">&#123;</p>
+                                <p className="code-simple">printfmaint&#40;"Hola mundo"&#41;;</p>
+                                <p className="code-simple">return 0;</p>
+                                <p className="code-simple">&#125;</p>
+                            </code>
                         </DivCode>
                     </DivCenter>
 
                     <p className="content-curso">
-                        Una vez que tenemos el codigo en nuestro archivo basta con guardarlo 
+                        Una vez que tenemos el codigo en nuestro archivo basta con guardarlo
                         y podemos proceder a compilar el codigo.
                     </p>
 
                     <p className="content-curso">
-                        Para llevar a cabo el compilado de nuestro codigo tendremo que llamar a 
-                        un compilador pero si nos encontramos en usando un IDE basta con buscar 
-                        en la barra superior un boton que normalmente tiene el icono de una flecha 
-                        verde o que debe llamarse run&compile el cual nos dejara compilar nuestro 
+                        Para llevar a cabo el compilado de nuestro codigo tendremo que llamar a
+                        un compilador pero si nos encontramos en usando un IDE basta con buscar
+                        en la barra superior un boton que normalmente tiene el icono de una flecha
+                        verde o que debe llamarse run&compile el cual nos dejara compilar nuestro
                         codigo.
                     </p>
 
                     <p className="content-curso">
-                        Si usamo un editor de codigo esto no sera tan simple ya que tenemos que usar el 
-                        compilador de forma separada mediante la terminal de nuestro sistema operativo, 
-                        si usamos una distribucion de linux podemo probar con el comando cntrl+t o si esto 
+                        Si usamo un editor de codigo esto no sera tan simple ya que tenemos que usar el
+                        compilador de forma separada mediante la terminal de nuestro sistema operativo,
+                        si usamos una distribucion de linux podemo probar con el comando cntrl+t o si esto
                         funciona podemos buscar terminal, en windows se puede buscar como cmd o poweshell.
                     </p>
 
                     <p className="content-curso">
-                        Ya que tenemos nuestra terminal abierta debemos situarnos en la ruta donde tenemos el 
-                        archivo .c para lo cual tenemos dos opciones, podemos usar el comando cd seguido de la ruta 
-                        para navegar por los directorios hasta situarnos en el que esta el archivo con el codigo o tambien 
-                        podemos escribir el comando cd y luego arrastrar la carpeta hasta la terminal lo cual pondra la 
+                        Ya que tenemos nuestra terminal abierta debemos situarnos en la ruta donde tenemos el
+                        archivo .c para lo cual tenemos dos opciones, podemos usar el comando cd seguido de la ruta
+                        para navegar por los directorios hasta situarnos en el que esta el archivo con el codigo o tambien
+                        podemos escribir el comando cd y luego arrastrar la carpeta hasta la terminal lo cual pondra la
                         ruta en la terminal y solo debemos dar enter.
                     </p>
 
                     <p className="content-curso">
-                        ahora que estamos en la misma ruta del codigo fuente podemos usar el comando del compilador para 
+                        ahora que estamos en la misma ruta del codigo fuente podemos usar el comando del compilador para
                         generar el archivo binario de nuestro programa, para esto debemos usar el siguiente comando:
                     </p>
 
