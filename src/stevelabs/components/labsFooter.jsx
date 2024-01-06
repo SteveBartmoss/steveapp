@@ -52,19 +52,15 @@ function LabsFooter() {
                 </Div70>
                 <Div70>
                     <DivRow>
-                        <div>
+                        <div className="div-footer-logo">
                             <img className="img-footer-logo" src="/Assets/logoCanal.png" />
                             <p>Pagina oficial de stevechambitas</p>
                         </div>
                         <DivRow>
-                            <img src="/Assets/yticon.png" />
-                            <img src="/Assets/discord.png" />
-                            <img src="/Assets/github.png" />
-                            <img src="/Assets/email.png" />
-                            <h1 className="title1">Contacto</h1>
-                            <p className="contacto">Enviame un <a className="contacto" href="mailto:stevechanvitas@gmail.com">Correo</a></p>
-                            <a className="contacto" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
-                            <a className="contacto" href="https://www.youtube.com/@stevechambitas2782">Youtube</a>
+                            <a href="https://www.youtube.com/@stevechambitas2782"><img className="img-icon" src="/Assets/yticon.png" /></a>
+                            <a href="https://discord.gg/QTdVBq5Q9r"><img className="img-icon" src="/Assets/discord.png" /></a>
+                            <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman"><img className="img-icon" src="/Assets/github.png" /></a>
+                            <a href="mailto:stevechanvitas@gmail.com"><img className="img-icon" src="/Assets/email.png" /></a>
                         </DivRow>
                     </DivRow>
                     <h1 className="title1">Power by <a className="contacto" href="https://giphy.com/">Giphy</a></h1>
