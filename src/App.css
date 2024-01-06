@@ -102,8 +102,7 @@
 }
 
 .img-footer-logo{
-  width: 15%;
-  height: 15%;
+  width: 50%;
 }
 
 /*#endregion */
@@ -367,6 +366,10 @@
 .div-nav-footer{
   width: 70%;
   margin: auto;
+}
+
+.div-footer-logo{
+  width: 50%;
 }
 /*#endregion*/
 
