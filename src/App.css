@@ -162,6 +162,13 @@
   margin-bottom: 22px;
 }
 
+.archor{
+  color: white;
+  list-style-type: none;
+  font-size: 1.375rem; /*22px*/
+  font-family: 'Roboto Mono';
+}
+
 /*#endregion*/
 
 /*#region estilos de los contenedores*/
