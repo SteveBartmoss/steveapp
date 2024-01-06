@@ -359,6 +359,8 @@
 }
 
 .div-back-footer{
+  display: flex;
+  flex-direction: column;
   background-color: var(--gris-14);
 }
 
