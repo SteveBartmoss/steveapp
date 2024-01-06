@@ -169,6 +169,12 @@
   font-family: 'Roboto Mono';
 }
 
+.lista{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 /*#endregion*/
 
 /*#region estilos de los contenedores*/
