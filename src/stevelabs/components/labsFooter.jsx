@@ -57,6 +57,10 @@ function LabsFooter() {
                             <p>Pagina oficial de stevechambitas</p>
                         </div>
                         <DivRow>
+                            <img src="/Assets/yticon.png" />
+                            <img src="/Assets/discord.png" />
+                            <img src="/Assets/github.png" />
+                            <img src="/Assets/email.png" />
                             <h1 className="title1">Contacto</h1>
                             <p className="contacto">Enviame un <a className="contacto" href="mailto:stevechanvitas@gmail.com">Correo</a></p>
                             <a className="contacto" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
