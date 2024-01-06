@@ -310,6 +310,13 @@
   border-radius: 10px;
 }
 
+.div-footer{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 0px;
+  background-color: var(--gris-14);
+}
+
 /*#endregion*/
 
 
