@@ -5,9 +5,21 @@ function LabsFooter(){
     return(
         <Paper>
             <div>
-                <a className="archor">Steve labs</a>
-                <a className="archor">Dumix</a>
-                <a className="archor">Articulos</a>
+                <ul className="lista">
+
+                    <li>
+                        <a className="archor">Steve labs</a>
+                    </li>
+
+                    <li>
+                        <a className="archor">Dumix</a>
+                    </li>
+
+                    <li>
+                        <a className="archor">Articulos</a>
+                    </li>
+
+                </ul>
             </div>
             <DivFooter>
                 <div className="footer-item">
