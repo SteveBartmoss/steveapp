@@ -1,9 +1,16 @@
 import React from "react";
+import { DivFooter, Paper } from "../../component/Contenedores/Cajas";
 
 function LabsFooter(){
     return(
-        <div className="gif-footer">
-            <div className="footer-item">
+        <Paper>
+            <div>
+                <a className="archor">Steve labs</a>
+                <a className="archor">Dumix</a>
+                <a className="archor">Articulos</a>
+            </div>
+            <DivFooter>
+                <div className="footer-item">
                 <h1 className="title1">Importante</h1>
                 <p className="Content">Esta seccion es creada con el fin de compartir informacion 
                 con otros usuarios o personas que quieren empezar en el mundo de linux pero 
@@ -17,7 +24,8 @@ function LabsFooter(){
                 <a className="contacto" href="https://www.youtube.com/@stevechambitas2782">Youtube</a>
                 <h1 className="title1">Power by <a className="contacto" href="https://giphy.com/">Giphy</a></h1>
             </div>
-        </div>
+            </DivFooter>
+        </Paper>
     );
 }
 
