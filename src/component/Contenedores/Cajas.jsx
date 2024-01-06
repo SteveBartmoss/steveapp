@@ -219,7 +219,15 @@ export function BackImportant({children}){
 
 export function DivFooter({children}){
     return(
-        <div className="div-footer">
+        <div className="div-back-footer">
+            {children}
+        </div>
+    );
+}
+
+export function Div70({children}){
+    return(
+        <div className="div-nav-footer">
             {children}
         </div>
     );
