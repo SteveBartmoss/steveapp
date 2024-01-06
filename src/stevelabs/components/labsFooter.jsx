@@ -28,11 +28,11 @@ function LabsFooter() {
                                 tienen con los sistemas de linux</p>
                         </div>
                         <div className="div-row">
-                            <div>
+                            <div className="div-colum">
                                 <p>Cursos</p>
                                 <a>About</a>
                             </div>
-                            <div>
+                            <div className="div-colum">
                                 <p>Developer</p>
                                 <a>How to</a>
                             </div>
@@ -42,7 +42,7 @@ function LabsFooter() {
                                 <a>Comandos</a>
                                 <a>Vingg</a>
                             </div>
-                            <div>
+                            <div className="div-colum">
                                 <p>Articulos</p>
                                 <a>Web Masters</a>
                             </div>
@@ -56,12 +56,14 @@ function LabsFooter() {
                             <img className="img-footer-logo" src="/Assets/logoCanal.png" />
                             <p>Pagina oficial de stevechambitas</p>
                         </div>
-                        <DivRow>
-                            <a href="https://www.youtube.com/@stevechambitas2782"><img className="img-icon" src="/Assets/yticon.png" /></a>
-                            <a href="https://discord.gg/QTdVBq5Q9r"><img className="img-icon" src="/Assets/discord.png" /></a>
-                            <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman"><img className="img-icon" src="/Assets/github.png" /></a>
-                            <a href="mailto:stevechanvitas@gmail.com"><img className="img-icon" src="/Assets/email.png" /></a>
-                        </DivRow>
+                        <div className="div-iconos">
+                            <DivRow>
+                                <a href="https://www.youtube.com/@stevechambitas2782"><img className="img-icon" src="/Assets/yticon.png" /></a>
+                                <a href="https://discord.gg/QTdVBq5Q9r"><img className="img-icon" src="/Assets/discord.png" /></a>
+                                <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman"><img className="img-icon" src="/Assets/github.png" /></a>
+                                <a href="mailto:stevechanvitas@gmail.com"><img className="img-icon" src="/Assets/email.png" /></a>
+                            </DivRow>
+                        </div>
                     </DivRow>
                     <h1 className="title1">Power by <a className="contacto" href="https://giphy.com/">Giphy</a></h1>
                 </Div70>
