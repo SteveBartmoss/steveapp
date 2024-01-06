@@ -94,12 +94,14 @@
 }
 /*#endregion*/
 
-/* estilos de imagenes */
+/*#region estilos de imagenes */
 
 .img-disc{
   width: 15%;
   height: 15%;
 }
+
+/*#endregion */
 
 /*#region estilos del titulos */
 
@@ -165,14 +167,18 @@
 .archor{
   color: white;
   list-style-type: none;
-  font-size: 1.375rem; /*22px*/
+  font-size: 2rem; /*32px*/
   font-family: 'Roboto Mono';
+  font-weight: bold;
 }
 
 .lista{
   padding: 0;
-  margin: 0;
+  margin: 1rem;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
 }
 
 /*#endregion*/
@@ -330,6 +336,14 @@
   background-color: var(--gris-14);
 }
 
+.div-back-footer{
+  background-color: var(--gris-14);
+}
+
+.div-nav-footer{
+  width: 70%;
+  margin: auto;
+}
 /*#endregion*/
 
 
