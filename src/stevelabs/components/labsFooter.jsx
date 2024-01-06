@@ -1,28 +1,24 @@
 import React from "react";
-import { DivFooter, Paper } from "../../component/Contenedores/Cajas";
+import { Div70, DivFooter, Paper } from "../../component/Contenedores/Cajas";
 
 function LabsFooter() {
     return (
         <>
             <DivFooter>
-                <div className="div-nav-footer">
+                <Div70>
                     <ul className="lista">
-
                         <li>
                             <a className="archor">SteveLabs</a>
                         </li>
-
                         <li>
                             <a className="archor">Dumix</a>
                         </li>
-
                         <li>
                             <a className="archor">Articulos</a>
                         </li>
-
                     </ul>
-                </div>
-                <div className="div-nav-footer">
+                </Div70>
+                <Div70>
                     <div className="div-row">
                         <div className="div-footer-alert">
                             <h1 className="title1">Importante</h1>
@@ -53,8 +49,8 @@ function LabsFooter() {
                         </div>
                     </div>
                     <hr />
-                </div>
-                 <div className="div-nav-footer">
+                </Div70>
+                <Div70>
                     <img className="img-footer-logo" src="/Assets/logoCanal.png" />
                     <p>Pagina oficial de stevechambitas</p>
                     <h1 className="title1">Contacto</h1>
@@ -62,7 +58,7 @@ function LabsFooter() {
                     <a className="contacto" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
                     <a className="contacto" href="https://www.youtube.com/@stevechambitas2782">Youtube</a>
                     <h1 className="title1">Power by <a className="contacto" href="https://giphy.com/">Giphy</a></h1>
-                </div>
+                </Div70>
             </DivFooter>
         </>
     );
