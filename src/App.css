@@ -329,6 +329,16 @@
   border-radius: 10px;
 }
 
+.div-row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.div-footer-alert{
+  width: 60%;
+}
+
 .div-footer{
   display: grid;
   grid-template-columns: 2fr 2fr;
