@@ -216,3 +216,11 @@ export function BackImportant({children}){
         </div>
     );
 }
+
+export function DivFooter({children}){
+    return(
+        <div className="div-footer">
+            {children}
+        </div>
+    );
+}
