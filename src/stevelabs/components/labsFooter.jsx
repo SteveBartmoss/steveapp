@@ -30,24 +30,29 @@ function LabsFooter() {
                             que pueden verse abrumados por la cantidad de comandos o diferencias que se
                             tienen con los sistemas de linux</p>
                     </div>
-                    <div>
+                    <div className="div-row">
                         <div>
-                            <a>Cursos</a>
+                            <p>Cursos</p>
+                            <a>About</a>
                         </div>
                         <div>
-                            <a>Developer</a>
+                            <p>Developer</p>
+                            <a>How to</a>
+                        </div>
+                        <div className="div-colum">
+                            <p>Dumix</p>
+                            <a>Linux basico</a>
+                            <a>Comandos</a>
+                            <a>Vingg</a>
                         </div>
                         <div>
-                            <a>Dumix</a>
-                        </div>
-                        <div>
-                            <a>Articulos</a>
+                            <p>Articulos</p>
+                            <a>Web Masters</a>
                         </div>
                     </div>
                 </div>
             </div>
             <DivFooter>
-
                 <div className="item-grid">
                     <h1 className="title1">Contacto</h1>
                     <p className="contacto">Enviame un <a className="contacto" href="mailto:stevechanvitas@gmail.com">Correo</a></p>
