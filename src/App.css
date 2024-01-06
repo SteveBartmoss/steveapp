@@ -333,6 +333,13 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  column-gap: 1rem;
+}
+
+.div-colum{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .div-footer-alert{
