@@ -121,6 +121,12 @@ export function Prog1HolaMundo() {
                         </DivCode>
                     </DivCenter>
 
+                    <p className="content-curso">
+                        Si podemos ver el mensaje en la terminal entonces todo ha salido bien, Felicidades creaste tu 
+                        primer progama. En la siguiente seccion veremos las pertes de este programa para entender que 
+                        es cada una.
+                    </p>
+
                 </DivRead>
             </DivCurso>
         </>
