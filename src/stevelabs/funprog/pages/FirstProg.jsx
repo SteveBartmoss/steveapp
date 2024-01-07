@@ -99,9 +99,27 @@ export function Prog1HolaMundo() {
                     </p>
 
                     <p className="content-curso">
-                        ahora que estamos en la misma ruta del codigo fuente podemos usar el comando del compilador para
+                        Ahora que estamos en la misma ruta del codigo fuente podemos usar el comando del compilador para
                         generar el archivo binario de nuestro programa, para esto debemos usar el siguiente comando:
                     </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">gcc -o hola.c</p>
+                        </DivCode>
+                    </DivCenter>
+
+                    <p className="content-curso">
+                        Una vez ejecutado el comando podemos ver que tenemos un prama con el nombre hola el cual es el 
+                        ejecutable o nuestro programa el cual podemos ejecutar escribiendo el nombre del mismo en la terminal 
+                        con lo cual deberiamos ver la siguiente salida en pantalla:
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">Hola mundo</p>
+                        </DivCode>
+                    </DivCenter>
 
                 </DivRead>
             </DivCurso>
