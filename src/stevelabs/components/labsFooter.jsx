@@ -65,7 +65,7 @@ function LabsFooter() {
                             </DivRow>
                         </div>
                     </DivRow>
-                    <h1 className="title1">Power by <a className="contacto" href="https://giphy.com/">Giphy</a></h1>
+                    <h1 className="title1">Power by <a className="contacto" href="https://react.dev/">React</a></h1>
                 </Div70>
             </DivFooter>
         </>
