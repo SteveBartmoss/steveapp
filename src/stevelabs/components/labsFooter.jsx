@@ -19,7 +19,7 @@ function LabsFooter() {
                     </ul>
                 </Div70>
                 <Div70>
-                    <div className="div-row">
+                    <DivRow>
                         <div className="div-footer-alert">
                             <h1 className="title1">Importante</h1>
                             <p className="Content">Esta seccion es creada con el fin de compartir informacion
@@ -27,7 +27,7 @@ function LabsFooter() {
                                 que pueden verse abrumados por la cantidad de comandos o diferencias que se
                                 tienen con los sistemas de linux</p>
                         </div>
-                        <div className="div-row">
+                        <DivRow>
                             <div className="div-colum">
                                 <p>Cursos</p>
                                 <a>About</a>
@@ -46,8 +46,8 @@ function LabsFooter() {
                                 <p>Articulos</p>
                                 <a>Web Masters</a>
                             </div>
-                        </div>
-                    </div>
+                        </DivRow>
+                    </DivRow>
                     <hr />
                 </Div70>
                 <Div70>
