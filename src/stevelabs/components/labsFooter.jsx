@@ -58,10 +58,10 @@ function LabsFooter() {
                         </div>
                         <div className="div-iconos">
                             <DivRow>
-                                <a href="https://www.youtube.com/@stevechambitas2782"><img className="img-icon" src="/Assets/yticon.png" /></a>
-                                <a href="https://discord.gg/QTdVBq5Q9r"><img className="img-icon" src="/Assets/discord.png" /></a>
-                                <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman"><img className="img-icon" src="/Assets/github.png" /></a>
-                                <a href="mailto:stevechanvitas@gmail.com"><img className="img-icon" src="/Assets/email.png" /></a>
+                                <a href="https://www.youtube.com/@stevechambitas2782"><img alt="youtube" className="img-icon" src="/Assets/yticon.png" /></a>
+                                <a href="https://discord.gg/QTdVBq5Q9r"><img alt="discord" className="img-icon" src="/Assets/discord.png" /></a>
+                                <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman"><img alt="github" className="img-icon" src="/Assets/github.png" /></a>
+                                <a href="mailto:stevechanvitas@gmail.com"><img className="img-icon" alt="email" src="/Assets/email.png" /></a>
                             </DivRow>
                         </div>
                     </DivRow>
