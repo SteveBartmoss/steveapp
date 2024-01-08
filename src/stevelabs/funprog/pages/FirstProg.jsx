@@ -132,6 +132,19 @@ export function Prog1HolaMundo() {
                         <hr className="line" />
                     </DivTitle>
 
+                    <p className="content-curso">
+                        La primera linea de codigo se trata de la importacion librerias que es la siguiente:
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <code>
+                                <p className="code-simple">#include &lt;stdio.h&gt;</p>
+                            </code>
+                        </DivCode>
+                    </DivCenter>
+
+
                 </DivRead>
             </DivCurso>
         </>
