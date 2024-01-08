@@ -1,5 +1,5 @@
 import React from "react";
-import { Div70, DivFooter, DivRow, Paper } from "../../component/Contenedores/Cajas";
+import { Div70, DivColum, DivFooter, DivRow, Paper } from "../../component/Contenedores/Cajas";
 
 function LabsFooter() {
     return (
@@ -28,24 +28,24 @@ function LabsFooter() {
                                 tienen con los sistemas de linux</p>
                         </div>
                         <DivRow>
-                            <div className="div-colum">
+                            <DivColum>
                                 <p>Cursos</p>
                                 <a>About</a>
-                            </div>
-                            <div className="div-colum">
+                            </DivColum>
+                            <DivColum>
                                 <p>Developer</p>
                                 <a>How to</a>
-                            </div>
-                            <div className="div-colum">
+                            </DivColum>
+                            <DivColum>
                                 <p>Dumix</p>
                                 <a>Linux basico</a>
                                 <a>Comandos</a>
                                 <a>Vingg</a>
-                            </div>
-                            <div className="div-colum">
+                            </DivColum>
+                            <DivColum>
                                 <p>Articulos</p>
                                 <a>Web Masters</a>
-                            </div>
+                            </DivColum>
                         </DivRow>
                     </DivRow>
                     <hr />
