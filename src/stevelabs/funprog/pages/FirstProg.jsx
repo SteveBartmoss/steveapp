@@ -127,6 +127,11 @@ export function Prog1HolaMundo() {
                         es cada una.
                     </p>
 
+                    <DivTitle>
+                        <h1 className="title-subject">Analizando las lineas de codigo</h1>
+                        <hr className="line" />
+                    </DivTitle>
+
                 </DivRead>
             </DivCurso>
         </>
