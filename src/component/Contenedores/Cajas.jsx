@@ -240,3 +240,11 @@ export function DivRow({children}){
         </div>
     );
 }
+
+export function DivColum({children}){
+    return(
+        <div className="div-colum">
+            {children}
+        </div>
+    );
+}
