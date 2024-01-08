@@ -162,7 +162,8 @@ export function Prog1HolaMundo() {
 
                     <p className="content-curso">
                         La linea de arriba se trata de la funcion main del programa que en palabras simple
-                        es el punto de inicion de cualquier programa escrito en c, 
+                        es el punto de inicion de cualquier programa escrito en c, en otra seccion se hablara mas del 
+                        tema asi que por ahora basta con saber que la funcion main es lo primero que debmos llamar.
                     </p>
 
                 </DivRead>
