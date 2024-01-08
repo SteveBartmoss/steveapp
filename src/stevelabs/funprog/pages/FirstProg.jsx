@@ -144,6 +144,13 @@ export function Prog1HolaMundo() {
                         </DivCode>
                     </DivCenter>
 
+                    <p>
+                        La palabra include se usa para que el compilador sepa que en esa linea debe ir 
+                        codigo que no esta escrito en nuestro progama que si no que se encuentra en otos archivos, 
+                        lo siguiente es el archivo desde el cual se extraera el codigo para colocarlo y que el programa 
+                        funcione bien. Las librerias se tomaran como tema mas adelante asi que por ahora basta con saber 
+                        que las libreria sirven para utilizar codigo que previamente escribimos.
+                    </p>
 
                 </DivRead>
             </DivCurso>
