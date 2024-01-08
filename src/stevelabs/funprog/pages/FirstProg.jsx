@@ -144,12 +144,25 @@ export function Prog1HolaMundo() {
                         </DivCode>
                     </DivCenter>
 
-                    <p>
+                    <p className="content-curso">
                         La palabra include se usa para que el compilador sepa que en esa linea debe ir 
                         codigo que no esta escrito en nuestro progama que si no que se encuentra en otos archivos, 
                         lo siguiente es el archivo desde el cual se extraera el codigo para colocarlo y que el programa 
                         funcione bien. Las librerias se tomaran como tema mas adelante asi que por ahora basta con saber 
                         que las libreria sirven para utilizar codigo que previamente escribimos.
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <code>
+                                <p className="code-simple">int maint&#40; &#41;</p>
+                            </code>
+                        </DivCode>
+                    </DivCenter>
+
+                    <p className="content-curso">
+                        La linea de arriba se trata de la funcion main del programa que en palabras simple
+                        es el punto de inicion de cualquier programa escrito en c, 
                     </p>
 
                 </DivRead>
