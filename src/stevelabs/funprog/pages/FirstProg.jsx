@@ -174,6 +174,15 @@ export function Prog1HolaMundo() {
                         </DivCode>
                     </DivCenter>
 
+                    <p className="content-curso">
+                        Esta linea de codigo llama a la funcion printf que permite al promgra imprimir algo en pantalla
+                        si se escribe algo en los parentesis, un funcion es una parte de codigo que se llama de manera remota 
+                        y va de la mano con las librerias pero las funciones se pueden implementar sin necesidade una libreria, 
+                        por ahora basta con saber que una funcion es una parte de codigo que es llamada remotamente. En este caso 
+                        la funcion printf permite mostrar en pantalla el mensaje que recibe como argumente, que es lo que esta entre 
+                        los parentesis y las comillas.
+                    </p>
+
                 </DivRead>
             </DivCurso>
         </>
