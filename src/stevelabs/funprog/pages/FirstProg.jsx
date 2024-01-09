@@ -166,6 +166,14 @@ export function Prog1HolaMundo() {
                         tema asi que por ahora basta con saber que la funcion main es lo primero que debmos llamar.
                     </p>
 
+                    <DivCenter>
+                        <DivCode>
+                            <code>
+                                <p className="code-simple">printfmaint&#40;"Hola mundo"&#41;;</p>
+                            </code>
+                        </DivCode>
+                    </DivCenter>
+
                 </DivRead>
             </DivCurso>
         </>
