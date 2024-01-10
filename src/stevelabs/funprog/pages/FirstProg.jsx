@@ -178,9 +178,26 @@ export function Prog1HolaMundo() {
                         Esta linea de codigo llama a la funcion printf que permite al promgra imprimir algo en pantalla
                         si se escribe algo en los parentesis, un funcion es una parte de codigo que se llama de manera remota 
                         y va de la mano con las librerias pero las funciones se pueden implementar sin necesidade una libreria, 
-                        por ahora basta con saber que una funcion es una parte de codigo que es llamada remotamente. En este caso 
-                        la funcion printf permite mostrar en pantalla el mensaje que recibe como argumente, que es lo que esta entre 
-                        los parentesis y las comillas.
+                        por ahora basta con saber que una funcion es una parte de codigo que es llamada remotamente.
+                    </p>
+
+                    <p className="content-curso">
+                        En este caso  la funcion printf permite mostrar en pantalla el mensaje que recibe como argumente, 
+                        que es lo que esta entre los parentesis y las comillas.
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <code>
+                                <p className="code-simple">return 0;</p>
+                            </code>
+                        </DivCode>
+                    </DivCenter>
+
+                    <p className="content-curso">
+                        Finalmente return 0 es una linea de codigo que indica que el programa finalizo conrrectamente, 
+                        se puede pensar que si el programa nunca alcanza la linea de return cero entonces el programa no 
+                        finalizo sin errores o algo ocaciono que no se llegara a return 0
                     </p>
 
                 </DivRead>
