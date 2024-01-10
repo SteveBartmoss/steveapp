@@ -29,22 +29,22 @@ function LabsFooter() {
                         </div>
                         <DivRow>
                             <DivColum>
-                                <p>Cursos</p>
-                                <a>About</a>
+                                <p className="Content">Cursos</p>
+                                <a className="link-tag">About</a>
                             </DivColum>
                             <DivColum>
-                                <p>Developer</p>
-                                <a>How to</a>
+                                <p className="Content">Developer</p>
+                                <a className="link-tag">How to</a>
                             </DivColum>
                             <DivColum>
-                                <p>Dumix</p>
-                                <a>Linux basico</a>
-                                <a>Comandos</a>
-                                <a>Vingg</a>
+                                <p className="Content">Dumix</p>
+                                <a className="link-tag">Linux basico</a>
+                                <a className="link-tag">Comandos</a>
+                                <a className="link-tag">Vingg</a>
                             </DivColum>
                             <DivColum>
-                                <p>Articulos</p>
-                                <a>Web Masters</a>
+                                <p className="Content">Articulos</p>
+                                <a className="link-tag">Web Masters</a>
                             </DivColum>
                         </DivRow>
                     </DivRow>
@@ -54,7 +54,6 @@ function LabsFooter() {
                     <DivRow>
                         <div className="div-footer-logo">
                             <img className="img-footer-logo" src="/Assets/logoCanal.png" />
-                            <p>Pagina oficial de stevechambitas</p>
                         </div>
                         <div className="div-iconos">
                             <DivRow>
