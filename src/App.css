@@ -172,6 +172,11 @@
   margin-bottom: 22px;
 }
 
+.link-tag{
+  text-decoration: none;
+  color: white;
+}
+
 .archor{
   color: white;
   list-style-type: none;
