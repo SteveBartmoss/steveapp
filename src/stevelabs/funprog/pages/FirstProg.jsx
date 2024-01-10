@@ -2,12 +2,7 @@ import React from "react";
 import { DivCenter, DivCode, DivCurso, DivRead, DivTitle } from "../../../component/Contenedores/Cajas";
 
 export function Prog1HolaMundo() {
-
-    const code = `#include <stdio.h>;
-                int maint (){
-                    printf('"'Hola mundo '"');
-                    return 0;
-                }`
+    
     return (
         <>
             <DivCurso>
