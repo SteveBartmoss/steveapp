@@ -1,5 +1,5 @@
 import React from "react";
-import { Div70, DivFooter, DivRow } from "./Contenedores/Cajas";
+import { Div70, DivColum, DivFooter, DivRow } from "./Contenedores/Cajas";
 
 function Pie() {
     return (
@@ -20,6 +20,9 @@ function Pie() {
                 </Div70>
                 <Div70>
                     <DivRow>
+                        <div>
+
+                        </div>
                         <DivRow>
                             <DivColum>
                                 <p className="Content">Cursos</p>
@@ -40,6 +43,22 @@ function Pie() {
                                 <a className="link-tag">Web Masters</a>
                             </DivColum>
                         </DivRow>
+                    </DivRow>
+                    <hr />
+                </Div70>
+                <Div70>
+                    <DivRow>
+                        <div className="div-footer-logo">
+                            <img className="img-footer-logo" src="/Assets/logoCanal.png" />
+                        </div>
+                        <div>
+                            <DivRow>
+                                <a href="https://www.youtube.com/@stevechambitas2782"><img alt="youtube" className="img-icon" src="/Assets/yticon.png" /></a>
+                                <a href="https://discord.gg/QTdVBq5Q9r"><img alt="discord" className="img-icon" src="/Assets/discord.png" /></a>
+                                <a href="https://github.com/MarcoAntonioGuadalupeRivasGuzman"><img alt="github" className="img-icon" src="/Assets/github.png" /></a>
+                                <a href="mailto:stevechanvitas@gmail.com"><img className="img-icon" alt="email" src="/Assets/email.png" /></a>
+                            </DivRow>
+                        </div>
                     </DivRow>
                 </Div70>
             </DivFooter>
