@@ -68,6 +68,7 @@ function Pie() {
                             </DivRow>
                         </div>
                     </DivRow>
+                    <h1 className="title1">Power by <a className="contacto" href="https://react.dev/">React</a></h1>
                 </Div70>
             </DivFooter>
             <div className="gif-footer">
@@ -81,13 +82,6 @@ function Pie() {
                     <a className="contacto" href="progreso">Aqui</a>
                     
                     <p className="contacto">Quieres aprender a programar? visita el enlace</p>
-                </div>
-                <div className="item-grid">
-                    <h1 className="title1">Contacto</h1>
-                    <p className="contacto">Enviame un <a className="contacto" href="mailto:stevechanvitas@gmail.com">Correo</a></p>
-                    <a className="contacto" href="https://github.com/MarcoAntonioGuadalupeRivasGuzman">Githud</a>
-                    <a className="contacto" href="https://www.youtube.com/@stevechambitas2782">Youtube</a>
-                    <p className="contacto">Preguntas frecuentes</p>
                 </div>
             </div>
         </>
