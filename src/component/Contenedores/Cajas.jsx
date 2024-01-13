@@ -256,3 +256,11 @@ export function DivColum({children}){
         </div>
     );
 }
+
+export function DivAuto({children}){
+    return(
+        <div className="div-iconos">
+            {children}
+        </div>
+    );
+}
