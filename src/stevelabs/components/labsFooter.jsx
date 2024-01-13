@@ -53,7 +53,7 @@ function LabsFooter() {
                 <Div70>
                     <DivRow>
                         <div className="div-footer-logo">
-                            <img className="img-footer-logo" src="/Assets/logoCanal.png" />
+                            <img className="img-footer-logo" alt="logosteve" src="/Assets/logoCanal.png" />
                         </div>
                         <div className="div-iconos">
                             <DivRow>
