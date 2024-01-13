@@ -233,6 +233,14 @@ export function Div70({children}){
     );
 }
 
+export function Div60({children}){
+    return(
+        <div className="div-footer-alert">
+            {children}
+        </div>
+    );
+} 
+
 export function DivRow({children}){
     return(
         <div className="div-row">
