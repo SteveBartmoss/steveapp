@@ -72,17 +72,6 @@ function Pie() {
                     <h1 className="title1">Power by <a className="contacto" href="https://react.dev/">React</a></h1>
                 </Div70>
             </DivFooter>
-            <div className="gif-footer">
-                <div className="footer-item">
-
-                    <p className="Content">La version actual seria 2.8.0
-                    </p>
-
-                    <a className="contacto" href="progreso">Aqui</a>
-
-                    <p className="contacto">Quieres aprender a programar? visita el enlace</p>
-                </div>
-            </div>
         </>
     );
 }
