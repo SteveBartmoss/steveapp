@@ -25,9 +25,10 @@ function Pie() {
                             <p className="Content">Esta pagina fue creada como primer
                                 portafolio pero no por eso es menos importante ya que
                                 recibira actualizaciones para hacerla mas interesante.
-                                La version actual seria 2.8.0
-                                Tambien puedes pasar a mi canal de Youtube
-                                quiza encuentras contenido que te agrade y me agregas a tus canales
+                                La version actual seria 2.8.0 y se planea que siga 
+                                evolucionando hasta volverse una plataforma mas completa.
+                                Tambien puedes pasar a mi canal de Youtube quiza encuentras 
+                                contenido que te agrade y me agregas a tus canales
                                 preferidos sigue aprendiendo.
                             </p>
                         </div>
@@ -74,13 +75,11 @@ function Pie() {
             <div className="gif-footer">
                 <div className="footer-item">
 
-                    <p className="Content">La version actual seria 2.8.0 pero
-                        se planea que siga evolucionando hasta volverse una
-                        plataforma mas completa si quieres ver las novedades
+                    <p className="Content">La version actual seria 2.8.0
                     </p>
 
                     <a className="contacto" href="progreso">Aqui</a>
-                    
+
                     <p className="contacto">Quieres aprender a programar? visita el enlace</p>
                 </div>
             </div>
