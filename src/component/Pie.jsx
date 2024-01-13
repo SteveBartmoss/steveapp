@@ -1,5 +1,5 @@
 import React from "react";
-import { Div70, DivColum, DivFooter, DivRow } from "./Contenedores/Cajas";
+import { Div60, Div70, DivColum, DivFooter, DivRow } from "./Contenedores/Cajas";
 
 function Pie() {
     return (
@@ -20,7 +20,7 @@ function Pie() {
                 </Div70>
                 <Div70>
                     <DivRow>
-                        <div className="div-footer-alert">
+                        <Div60>
                             <h1 className="title1">Hola a todos</h1>
                             <p className="Content">Esta pagina fue creada como primer
                                 portafolio pero no por eso es menos importante ya que
@@ -31,7 +31,7 @@ function Pie() {
                                 contenido que te agrade y me agregas a tus canales
                                 preferidos sigue aprendiendo.
                             </p>
-                        </div>
+                        </Div60>
                         <div className="div-iconos">
                             <DivRow>
                                 <DivColum>
