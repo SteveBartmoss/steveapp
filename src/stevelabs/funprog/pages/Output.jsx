@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
+import { DivCenter, DivCode, DivCurso, DivRead } from "../../../component/Contenedores/Cajas";
 
 function Prog1Output() {
     return (
@@ -36,6 +36,22 @@ function Prog1Output() {
                         desconocido pero por el momento basta con copiar el código que se muestra
                         a continuación:
                     </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <code>
+                                <p className="code-simple">#include &lt;stdio.h&gt;</p>
+                                <p className="code-simple">int maint&#40; &#41;</p>
+                                <p className="code-simple">&#123;</p>
+                                <p className="code-simple">printfmaint&#40;"Bievenido"&#41;;</p>
+                                <p className="code-simple">printfmaint&#40;"Selecciona una opcion"&#41;;</p>
+                                <p className="code-simple">printfmaint&#40;"1 sumar dos numeros"&#41;;</p>
+                                <p className="code-simple">printfmaint&#40;"2 dividir dos numeros"&#41;;</p>
+                                <p className="code-simple">return 0;</p>
+                                <p className="code-simple">&#125;</p>
+                            </code>
+                        </DivCode>
+                    </DivCenter>
 
                     <div className="center">
                         <h1 className="title-subject">Cómo compilar y ejecutar el código</h1>
@@ -86,7 +102,7 @@ function Prog1Output() {
 
                     <p>
                         Para poder compilar el programa debemos estar en la misma carpeta en la que se encuentra
-                        nuestro codigo fuente esto lo podemos comprobar mirando la el promp de la termianl que son 
+                        nuestro codigo fuente esto lo podemos comprobar mirando la el promp de la termianl que son
                         las letras que aparecen en las pantalla como se muestra en el ejemplo
                     </p>
                 </DivRead>
