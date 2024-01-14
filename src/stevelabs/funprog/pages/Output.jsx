@@ -43,13 +43,13 @@ function Prog1Output() {
                                 <p className="code-line">#include &lt;stdio.h&gt;</p>
                                 <p className="code-line">int maint&#40; &#41;</p>
                                 <p className="code-line">&#123;</p>
-                                <p className="code-line">printfmaint&#40;"Bievenido"&#41;;</p>
-                                <p className="code-line">printfmaint&#40;"Selecciona una opcion"&#41;;</p>
-                                <p className="code-line">printfmaint&#40;"1 sumar dos numeros"&#41;;</p>
-                                <p className="code-line">printfmaint&#40;"2 restar dos numeros"&#41;;</p>
-                                <p className="code-line">printfmaint&#40;"3 multiplicar dos numeros"&#41;;</p>
-                                <p className="code-line">printfmaint&#40;"4 dividir dos numeros"&#41;;</p>
-                                <p className="code-line">return 0;</p>
+                                <p className="code-line ident-1rem">printfmaint&#40;"Bievenido"&#41;;</p>
+                                <p className="code-line ident-1rem">printfmaint&#40;"Selecciona una opcion"&#41;;</p>
+                                <p className="code-line ident-1rem">printfmaint&#40;"1 sumar dos numeros"&#41;;</p>
+                                <p className="code-line ident-1rem">printfmaint&#40;"2 restar dos numeros"&#41;;</p>
+                                <p className="code-line ident-1rem">printfmaint&#40;"3 multiplicar dos numeros"&#41;;</p>
+                                <p className="code-line ident-1rem">printfmaint&#40;"4 dividir dos numeros"&#41;;</p>
+                                <p className="code-line ident-1rem">return 0;</p>
                                 <p className="code-line">&#125;</p>
                             </div>
                         </DivCode>
