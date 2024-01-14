@@ -53,6 +53,21 @@ function Prog1Output() {
                         </DivCode>
                     </DivCenter>
 
+                    <p className="content-curso">
+                        Si todo salio correcto en la pantalla podemos ver una especie menu que no indica 
+                        opciones que pedemos llebar acabo en el programa lo cual puede parecer anticuado 
+                        o incluso algo tonto pero esta es la forma mas simple en que un programa puede 
+                        interactuar con un programa.
+                    </p>
+
+                    <p className="content-curso">
+                        Mediante la instruccion printf podemos imprimir en pantalla lo que queremos 
+                        que el usuario interacctue, de esta menera podemos mostrar menus o formularios 
+                        para el que el usuario pueda interactuar con el programa, esta es una de las primeras 
+                        formas en que los usuarios interactuaban con las computadoras y actualmente est sigue 
+                        pasando cuando ejecutamos cualquier comando de la terminal.
+                    </p>
+
                     <div className="center">
                         <h1 className="title-subject">Cómo compilar y ejecutar el código</h1>
                     </div>
