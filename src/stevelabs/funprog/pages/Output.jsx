@@ -39,34 +39,36 @@ function Prog1Output() {
 
                     <DivCenter>
                         <DivCode>
-                            <code>
-                                <p className="code-simple">#include &lt;stdio.h&gt;</p>
-                                <p className="code-simple">int maint&#40; &#41;</p>
-                                <p className="code-simple">&#123;</p>
-                                <p className="code-simple">printfmaint&#40;"Bievenido"&#41;;</p>
-                                <p className="code-simple">printfmaint&#40;"Selecciona una opcion"&#41;;</p>
-                                <p className="code-simple">printfmaint&#40;"1 sumar dos numeros"&#41;;</p>
-                                <p className="code-simple">printfmaint&#40;"2 restar dos numeros"&#41;;</p>
-                                <p className="code-simple">printfmaint&#40;"3 multiplicar dos numeros"&#41;;</p>
-                                <p className="code-simple">printfmaint&#40;"4 dividir dos numeros"&#41;;</p>
-                                <p className="code-simple">return 0;</p>
-                                <p className="code-simple">&#125;</p>
-                            </code>
+                            <div className="div-lines-code">
+                                <code>
+                                    <p className="code-line">#include &lt;stdio.h&gt;</p>
+                                    <p className="code-line">int maint&#40; &#41;</p>
+                                    <p className="code-line">&#123;</p>
+                                    <p className="code-line">printfmaint&#40;"Bievenido"&#41;;</p>
+                                    <p className="code-line">printfmaint&#40;"Selecciona una opcion"&#41;;</p>
+                                    <p className="code-line">printfmaint&#40;"1 sumar dos numeros"&#41;;</p>
+                                    <p className="code-line">printfmaint&#40;"2 restar dos numeros"&#41;;</p>
+                                    <p className="code-line">printfmaint&#40;"3 multiplicar dos numeros"&#41;;</p>
+                                    <p className="code-line">printfmaint&#40;"4 dividir dos numeros"&#41;;</p>
+                                    <p className="code-line">return 0;</p>
+                                    <p className="code-line">&#125;</p>
+                                </code>
+                            </div>
                         </DivCode>
                     </DivCenter>
 
                     <p className="content-curso">
-                        Si todo salio correcto en la pantalla podemos ver una especie menu que no indica 
-                        opciones que pedemos llebar acabo en el programa lo cual puede parecer anticuado 
-                        o incluso algo tonto pero esta es la forma mas simple en que un programa puede 
+                        Si todo salio correcto en la pantalla podemos ver una especie menu que no indica
+                        opciones que pedemos llebar acabo en el programa lo cual puede parecer anticuado
+                        o incluso algo tonto pero esta es la forma mas simple en que un programa puede
                         interactuar con un programa.
                     </p>
 
                     <p className="content-curso">
-                        Mediante la instruccion printf podemos imprimir en pantalla lo que queremos 
-                        que el usuario interacctue, de esta menera podemos mostrar menus o formularios 
-                        para el que el usuario pueda interactuar con el programa, esta es una de las primeras 
-                        formas en que los usuarios interactuaban con las computadoras y actualmente est sigue 
+                        Mediante la instruccion printf podemos imprimir en pantalla lo que queremos
+                        que el usuario interacctue, de esta menera podemos mostrar menus o formularios
+                        para el que el usuario pueda interactuar con el programa, esta es una de las primeras
+                        formas en que los usuarios interactuaban con las computadoras y actualmente est sigue
                         pasando cuando ejecutamos cualquier comando de la terminal.
                     </p>
 
