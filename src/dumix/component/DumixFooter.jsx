@@ -21,16 +21,11 @@ export function DumixFooter() {
                 <Div70>
                     <DivRow>
                         <Div60>
-                            <h1 className="title1">Hola a todos</h1>
-                            <p className="Content">Esta pagina fue creada como primer
-                                portafolio pero no por eso es menos importante ya que
-                                recibira actualizaciones para hacerla mas interesante.
-                                La version actual seria 2.8.0 y se planea que siga
-                                evolucionando hasta volverse una plataforma mas completa.
-                                Tambien puedes pasar a mi canal de Youtube quiza encuentras
-                                contenido que te agrade y me agregas a tus canales
-                                preferidos sigue aprendiendo.
-                            </p>
+                            <h1 className="title1">Importante</h1>
+                            <p className="Content">Esta seccion es creada con el fin de compartir informacion
+                                con otros usuarios o personas que quieren empezar en el mundo de linux pero
+                                que pueden verse abrumados por la cantidad de comandos o diferencias que se
+                                tienen con los sistemas de linux</p>
                         </Div60>
                         <DivRow>
                             <DivColum>
