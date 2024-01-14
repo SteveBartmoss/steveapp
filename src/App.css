@@ -165,7 +165,7 @@
 }
 
 .code-line{
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-family: 'Source Code Pro' ;
   text-align: left;
   color: white;
@@ -272,6 +272,7 @@
   margin: auto;
   width: 500px;
   background-color: var(--gris-7);
+  border-radius: 1rem;
 }
 
 .div-code-long{
@@ -393,6 +394,10 @@
 
 .div-iconos{
   margin: auto;
+}
+
+.div-lines-code{
+  padding: 1rem;
 }
 
 /*#endregion*/
