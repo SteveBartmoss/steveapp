@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import DivBaner from "../component/DivBaner";
+import FooterHave from "./component/FooterHave";
 
 function FunHome() {
 
@@ -62,6 +63,8 @@ function FunHome() {
                 </div>
 
             </div>
+
+            <FooterHave />
 
             <div className="gif-footer">
                 <div className="footer-item">
