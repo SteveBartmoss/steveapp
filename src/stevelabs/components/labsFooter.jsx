@@ -1,5 +1,5 @@
 import React from "react";
-import { Div70, DivColum, DivFooter, DivRow, Paper } from "../../component/Contenedores/Cajas";
+import { Div60, Div70, DivColum, DivFooter, DivRow, Paper } from "../../component/Contenedores/Cajas";
 
 function LabsFooter() {
     return (
@@ -20,13 +20,13 @@ function LabsFooter() {
                 </Div70>
                 <Div70>
                     <DivRow>
-                        <div className="div-footer-alert">
+                        <Div60>
                             <h1 className="title1">Importante</h1>
                             <p className="Content">Esta seccion es creada con el fin de compartir informacion
                                 con otros usuarios o personas que quieren empezar en el mundo de linux pero
                                 que pueden verse abrumados por la cantidad de comandos o diferencias que se
                                 tienen con los sistemas de linux</p>
-                        </div>
+                        </Div60>
                         <DivRow>
                             <DivColum>
                                 <p className="Content">Cursos</p>
