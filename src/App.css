@@ -164,6 +164,13 @@
   margin-right: 10px;
 }
 
+.code-line{
+  font-size: 1rem;
+  font-family: 'Source Code Pro' ;
+  text-align: left;
+  color: white;
+}
+
 .list-item{
   color: white;
   list-style-type: none;
