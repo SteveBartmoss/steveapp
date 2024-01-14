@@ -16,6 +16,12 @@ function Pie() {
                         <li>
                             <a className="archor">Articulos</a>
                         </li>
+                        <li>
+                            <a className="archor">ChabgeLog</a>
+                        </li>
+                        <li>
+                            <a className="archor">Road Map</a>
+                        </li>
                     </ul>
                 </Div70>
                 <Div70>
