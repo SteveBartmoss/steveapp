@@ -32,7 +32,7 @@ function Pie() {
                                 preferidos sigue aprendiendo.
                             </p>
                         </Div60>
-                        <div className="div-iconos">
+                        <Div60>
                             <DivRow>
                                 <DivColum>
                                     <p className="Content">Cursos</p>
@@ -53,7 +53,7 @@ function Pie() {
                                     <a className="link-tag">Web Masters</a>
                                 </DivColum>
                             </DivRow>
-                        </div>
+                        </Div60>
                     </DivRow>
                     <hr />
                 </Div70>
