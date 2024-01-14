@@ -46,7 +46,9 @@ function Prog1Output() {
                                 <p className="code-simple">printfmaint&#40;"Bievenido"&#41;;</p>
                                 <p className="code-simple">printfmaint&#40;"Selecciona una opcion"&#41;;</p>
                                 <p className="code-simple">printfmaint&#40;"1 sumar dos numeros"&#41;;</p>
-                                <p className="code-simple">printfmaint&#40;"2 dividir dos numeros"&#41;;</p>
+                                <p className="code-simple">printfmaint&#40;"2 restar dos numeros"&#41;;</p>
+                                <p className="code-simple">printfmaint&#40;"3 multiplicar dos numeros"&#41;;</p>
+                                <p className="code-simple">printfmaint&#40;"4 dividir dos numeros"&#41;;</p>
                                 <p className="code-simple">return 0;</p>
                                 <p className="code-simple">&#125;</p>
                             </code>
