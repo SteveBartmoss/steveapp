@@ -27,26 +27,28 @@ function LabsFooter() {
                                 que pueden verse abrumados por la cantidad de comandos o diferencias que se
                                 tienen con los sistemas de linux</p>
                         </Div60>
-                        <DivRow>
-                            <DivColum>
-                                <p className="Content">Cursos</p>
-                                <a className="link-tag">About</a>
-                            </DivColum>
-                            <DivColum>
-                                <p className="Content">Developer</p>
-                                <a className="link-tag">How to</a>
-                            </DivColum>
-                            <DivColum>
-                                <p className="Content">Dumix</p>
-                                <a className="link-tag">Linux basico</a>
-                                <a className="link-tag">Comandos</a>
-                                <a className="link-tag">Vingg</a>
-                            </DivColum>
-                            <DivColum>
-                                <p className="Content">Articulos</p>
-                                <a className="link-tag">Web Masters</a>
-                            </DivColum>
-                        </DivRow>
+                        <Div60>
+                            <DivRow>
+                                <DivColum>
+                                    <p className="Content">Cursos</p>
+                                    <a className="link-tag">About</a>
+                                </DivColum>
+                                <DivColum>
+                                    <p className="Content">Developer</p>
+                                    <a className="link-tag">How to</a>
+                                </DivColum>
+                                <DivColum>
+                                    <p className="Content">Dumix</p>
+                                    <a className="link-tag">Linux basico</a>
+                                    <a className="link-tag">Comandos</a>
+                                    <a className="link-tag">Vingg</a>
+                                </DivColum>
+                                <DivColum>
+                                    <p className="Content">Articulos</p>
+                                    <a className="link-tag">Web Masters</a>
+                                </DivColum>
+                            </DivRow>
+                        </Div60>
                     </DivRow>
                     <hr />
                 </Div70>
