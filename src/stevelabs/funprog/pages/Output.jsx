@@ -71,17 +71,6 @@ function Prog1Output() {
                     </p>
 
                     <div className="center">
-                        <h1 className="title-subject">Cómo compilar y ejecutar el código</h1>
-                    </div>
-
-                    <p className="content-curso">
-                        El proceso de compilar es una llamada a otro programa llamado compilador
-                        este programa se encarga de pasar el lenguaje de programación a lenguaje máquina,
-                        esto se tiene que hacer porque la computadora no sabe otro lenguaje que
-                        no sea unos y ceros pero las personas no escribimos nuestro código en unos y ceros.
-                    </p>
-
-                    <div className="center">
                         <h1 className="title-subject">Cómo compilar desde terminal con gcc</h1>
                     </div>
 
