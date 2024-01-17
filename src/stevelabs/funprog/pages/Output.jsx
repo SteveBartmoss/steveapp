@@ -70,23 +70,6 @@ function Prog1Output() {
                         pasando cuando ejecutamos cualquier comando de la terminal.
                     </p>
 
-                    <div className="center">
-                        <h1 className="title-subject">Cómo compilar desde terminal con gcc</h1>
-                    </div>
-
-                    <p className="content-curso">
-                        En ambientes Linux o Mac OS se puede utilizar el programa gcc el cual
-                        es un compilador de c y c++, normalmente su uso es mediante la línea
-                        de comando y también tiene su versión para Windows que se llama wingw
-                        el cual también se suele usar mediante la línea de comandos.
-                        Para usar la línea de comandos basta con abrir una nueva terminal con
-                        el comando cntrl T en Ubuntu o buscar la aplicación terminal, en Windows
-                        se puede buscar la aplicación powershell o cmd en la barra de busque de windows,
-                        una vez dentro debemos verificar en que directorio estamos lo cual puede
-                        ser mediante un comando o visualmente ya que el promp del terminal indica
-                        en qué ruta nos encontramos el cual deberia verse algo asi:
-                    </p>
-
                     <p className="content-curso">
                         Para el caso de linux o MacOs steve@steve-HP-Notebook
                     </p>
