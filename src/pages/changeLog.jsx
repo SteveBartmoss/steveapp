@@ -9,6 +9,18 @@ function ChangeLog() {
 
                 <h1 className="title1">Ultima actualizacion</h1>
 
+                <h1 className="title1">16/01/2024</h1>
+                <hr />
+
+                <BackArticle>
+                    <p className="content-curso">
+                        Se esta trabajando en completar el curso de programacion, se ha mejoro 
+                        el estilo de los ejemplos d codigo para que sea mas parecido al editor, 
+                        se ha mejoarado el footer de la pagina y se espera implementar en todas 
+                        las paginas, se trabajara en la pagina del change log
+                    </p>
+                </BackArticle>
+
                 <h1 className="title1">30/12/2023</h1>
                 <hr />
 
