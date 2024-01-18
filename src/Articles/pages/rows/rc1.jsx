@@ -16,6 +16,11 @@ function Rc1() {
                 <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
                 <div className="back-articles">
+                    <p className="content-curso">Si lo prefieres pueder ver el contenido en youtube aqui:</p>
+                    <a className="dumix-btn">Ver video</a>    
+                </div>
+
+                <div className="back-articles">
                     <p className="content-curso">
                         Actualmente la mayoria de usuarios de pc tiene la idea de que se debe llegar a
                         la gama alta del pc gaming y tener toda la configuracion de una computadora tope
