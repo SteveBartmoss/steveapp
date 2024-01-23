@@ -78,22 +78,6 @@ function Prog1Output() {
                         Para windows c:\users\prail
                     </p>
 
-                    <p>
-                        Si bien esto no es un tutorial para linea de comandos se puede hacer un repaso de los
-                        siguientes comandos que no seran utiles: cd (chamge direcoty) nos permite movernos a otro
-                        directorio colo cando el nombre del directorio (carpeta) como podria ser cd home, que indica
-                        que entraremos a la carpea home, para salir un nivel o un directorio podemos usar cd .. que
-                        nos regresa una capeta arriba. Para ver la ruta actual en la que estamos podemos usar pwd
-                        que nos imprime la ruta en la que se encuentra el terminal actualmente, estos comandos
-                        suelen usarse en linux pero si estas en windows puedes usar powershell que tiene mas compativildad
-                        con los comandos de linux.
-                    </p>
-
-                    <p>
-                        Para poder compilar el programa debemos estar en la misma carpeta en la que se encuentra
-                        nuestro codigo fuente esto lo podemos comprobar mirando la el promp de la termianl que son
-                        las letras que aparecen en las pantalla como se muestra en el ejemplo
-                    </p>
                 </DivRead>
             </DivCurso>
         </>
