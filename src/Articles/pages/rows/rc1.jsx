@@ -1,6 +1,7 @@
 import React from "react";
 import CreatorSing from "../../../component/sing";
 import { DivCenter } from "../../../component/Contenedores/Cajas";
+import TagVideo from "../../../component/TagVideo";
 
 function Rc1() {
     return (
@@ -15,10 +16,7 @@ function Rc1() {
 
                 <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
 
-                <div className="back-articles">
-                    <p className="content-curso">Si lo prefieres pueder ver el contenido en youtube aqui:</p>
-                    <a className="dumix-btn">Ver video</a>    
-                </div>
+                <TagVideo url={"https://www.youtube.com/watch?v=BkC2I9MfEVE"} />
 
                 <div className="back-articles">
                     <p className="content-curso">
