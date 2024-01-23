@@ -32,6 +32,8 @@ function Prog1Navbar() {
 
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="salida">Salida Estandar</NavLink>
 
+                            <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="variable">Variables</NavLink>
+
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="entrada">Entrada Estandar</NavLink>
 
                             <NavLink className={({ isActive }) => `tema ${isActive ? 'select' : ''}`} to="operadores">Operadores</NavLink>
