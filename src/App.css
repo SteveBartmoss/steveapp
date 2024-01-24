@@ -412,6 +412,13 @@
   font-size: 1.2rem;
 }
 
+.div-ricos-page{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
 /*#endregion*/
 
 
