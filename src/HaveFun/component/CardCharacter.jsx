@@ -10,3 +10,5 @@ function CardCharacter({character}){
         </>
     );
 }
+
+export default CardCharacter;
