@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import { DivMenuRicoso } from "../../../component/Contenedores/Cajas";
 
 function RickosoNavBar() {
     return (
         <>
             <div>
-                <div className="div-menu-ricoso">
+                <DivMenuRicoso>
                     <li>
                         <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to={"personajes"}>Personajes</NavLink>
                     </li>
@@ -15,7 +16,7 @@ function RickosoNavBar() {
                     <li>
                         <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to={"episodios"}>Episodios</NavLink>
                     </li>
-                </div>
+                </DivMenuRicoso>
                 <Outlet />
             </div>
         </>
