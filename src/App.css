@@ -405,6 +405,10 @@
   line-height: .5rem;
 }
 
+.div-menu-ricoso{
+  background-color: var(--verde-1);
+}
+
 /*#endregion*/
 
 
