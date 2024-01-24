@@ -264,3 +264,11 @@ export function DivAuto({children}){
         </div>
     );
 }
+
+export function DivMenuRicoso({children}){
+    return(
+        <div className="div-menu-ricoso">
+            {children}
+        </div>
+    );
+}
