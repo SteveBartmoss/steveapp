@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export const NavBar = () => {
     return (
         <div className="menu">
-
+            
             <li>
                 <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to="home">Home</NavLink>
             </li>
