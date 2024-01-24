@@ -7,6 +7,8 @@ import YesOrNot from "../yesornot/YesOrNot";
 import RickosoNavbar from "../rickoso/routes/rickosoNavBar";
 import Characters from "../rickoso/pages/characters";
 import { PokeMain } from "../pokeapp/pokeMain";
+import Locations from "../rickoso/pages/locations";
+import Episodes from "../rickoso/pages/episodes";
 
 function HaveFunRouter(){
     return(
@@ -15,6 +17,13 @@ function HaveFunRouter(){
 
                 <Route path="rickosoapp" element={<RickosoNavbar/>}>
                     <Route index element={<Characters/>} />
+                    
+                    <Route path="personajes" element={<Characters />} />
+
+                    <Route path="locaciones" element={<Locations />} />
+
+                    <Route path="episodios" element={<Episodes />} />
+                    
                 </Route>
                 
                 
