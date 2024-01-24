@@ -7,13 +7,13 @@ function RickosoNavBar() {
             <div>
                 <div className="div-menu-ricoso">
                     <li>
-                        <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`}>Personajes</NavLink>
+                        <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to={"personajes"}>Personajes</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`}>Locaciones</NavLink>
+                        <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to={"locaciones"}>Locaciones</NavLink>
                     </li>
                     <li>
-                        <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`}>Episodios</NavLink>
+                        <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to={"episodios"}>Episodios</NavLink>
                     </li>
                 </div>
                 <Outlet />
