@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import CardCharacter from "../../component/CardCharacter";
 
 function Characters() {
 
@@ -25,7 +26,7 @@ function Characters() {
             <h1 className="title1">Characters Page</h1>
             {
                 personajes.map(perso=>
-                        <h1>{perso.name}</h1>
+                        <CardCharacter character={perso} />
                     )
             }
         </>
