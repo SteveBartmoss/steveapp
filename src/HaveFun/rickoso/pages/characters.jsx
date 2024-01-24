@@ -27,7 +27,7 @@ function Characters() {
             <div className="div-ricos-page">
                 {
                     personajes.map(perso =>
-                        <CardCharacter character={perso} />
+                        <CardCharacter key={perso.id} character={perso} />
                     )
                 }
             </div>
