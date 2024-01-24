@@ -14,10 +14,12 @@ function ChangeLog() {
 
                 <BackArticle>
                     <p className="content-curso">
-                        Se esta trabajando en completar el curso de programacion, se ha mejoro 
-                        el estilo de los ejemplos d codigo para que sea mas parecido al editor, 
-                        se ha mejoarado el footer de la pagina y se espera implementar en todas 
-                        las paginas, se trabajara en la pagina del change log
+                        Se esta trabajando en una nueva aplicacion para la pagina, la 
+                        cual mostrara informacion de una api de rick and morty, se hicieron 
+                        se hicieron las primeras pruebas de llamada y esta funcionando bien 
+                        lo proximo sera implementar el mostrar la respuesta de la api en la pagina 
+                        y posteriormente crear un componente para las tarjetas de cada personaje, 
+                        la primera pagina que estara implementandose sera la de personajes.
                     </p>
                 </BackArticle>
 
@@ -30,7 +32,7 @@ function ChangeLog() {
                         el estilo de los ejemplos d codigo para que sea mas parecido al editor, 
                         se ha mejoarado el footer de la pagina y se espera implementar en todas 
                         las paginas, se trabajara en la pagina de road map para que este mas 
-                        completa y sea llamativa para el usuario
+                        completa y sea llamativa para el usuario.
                     </p>
                 </BackArticle>
 
