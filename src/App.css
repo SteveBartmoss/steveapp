@@ -91,6 +91,8 @@
   
   --verde-1: #325559;
   --verde-2: #244e4f;
+
+  --rick-1: #2f9331;
 }
 /*#endregion*/
 
@@ -204,6 +206,21 @@
 
 .ident-1rem{
   text-indent: 1rem;
+}
+
+.tittle-app{
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
+.content-card{
+  text-align: left;
+  font-size: 2rem;
+  font-family: 'Roboto Mono';
+  color: white;
+  margin-left: 1rem;
 }
 
 /*#endregion*/
@@ -417,6 +434,13 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  gap: 1rem;
+}
+
+.div-character-card{
+  width: 30%;
+  background-color: var(--rick-1);
+  border-radius: 1rem;
 }
 
 /*#endregion*/
