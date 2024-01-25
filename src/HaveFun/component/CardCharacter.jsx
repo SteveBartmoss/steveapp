@@ -1,10 +1,13 @@
 import React from "react";
+import { DivCenter } from "../../component/Contenedores/Cajas";
 
-function CardCharacter({character}){
-    return(
+function CardCharacter({ character }) {
+    return (
         <>
             <div className="div-character-card">
-                <img className="img-character" src={character.image} />
+                <DivCenter>
+                    <img className="img-character" src={character.image} />
+                </DivCenter>
                 <h1 className="content-card">{character.name}</h1>
                 <h1 className="content-card">{character.status}</h1>
                 <h1 className="content-card">{character.species}</h1>
