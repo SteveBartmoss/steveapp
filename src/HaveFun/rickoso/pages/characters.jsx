@@ -23,7 +23,7 @@ function Characters() {
 
     return (
         <>
-            <h1 className="title1">Characters Page</h1>
+            <h1 className="tittle-app">Characters Page</h1>
             <div className="div-ricos-page">
                 {
                     personajes.map(perso =>
