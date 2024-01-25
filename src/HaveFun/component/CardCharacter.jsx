@@ -6,6 +6,8 @@ function CardCharacter({character}){
             <div>
                 <img src={character.image} />
                 <h1>{character.name}</h1>
+                <h1>{character.status}</h1>
+                <h1>{character.species}</h1>
             </div>
         </>
     );
