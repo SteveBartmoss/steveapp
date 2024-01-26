@@ -8,13 +8,13 @@ function FooterRicoso() {
                 <Div70>
                     <ul className="lista">
                         <li>
-                            <a className="archor">SteveLabs</a>
+                            <a href="/stevelabs" className="archor">SteveLabs</a>
                         </li>
                         <li>
-                            <a className="archor">Dumix</a>
+                            <a href="/dumix" className="archor">Dumix</a>
                         </li>
                         <li>
-                            <a className="archor">Articulos</a>
+                            <a href="/articulos" className="archor">Articulos</a>
                         </li>
                     </ul>
                 </Div70>
