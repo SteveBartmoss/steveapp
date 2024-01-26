@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { DivMenuRicoso } from "../../../component/Contenedores/Cajas";
+import FooterRicoso from "../../component/FooterRicoso";
 
 function RickosoNavBar() {
     return (
@@ -18,6 +19,8 @@ function RickosoNavBar() {
                     </li>
                 </DivMenuRicoso>
                 <Outlet />
+                
+                <FooterRicoso />
             </div>
         </>
     );
