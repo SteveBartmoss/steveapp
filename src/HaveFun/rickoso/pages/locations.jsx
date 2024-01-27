@@ -23,12 +23,14 @@ function Locations() {
 
     return (
         <>
-            <h1 className="title1">Locations Page</h1>
-            {
-                locaciones.map(locacion=>
-                    <CardLocation key={locacion.id} location={locacion}/>
-                )
-            }
+            <h1 className="tittle-app">Locations Page</h1>
+            <div className="div-ricos-page">
+                {
+                    locaciones.map(locacion =>
+                        <CardLocation key={locacion.id} location={locacion} />
+                    )
+                }
+            </div>
         </>
     );
 }
