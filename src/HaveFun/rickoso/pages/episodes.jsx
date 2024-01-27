@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import CardEpisode from "../../component/CardEpisode";
 
 function Episodes() {
 
@@ -20,7 +21,7 @@ function Episodes() {
             <h1 className="title1">Episodes page</h1>
             {
                 episodios.map(episodio=>
-                        <h1>{episodio.name}</h1>
+                        <CardEpisode key={episodio.id} episode={episodio} />
                     )
             }
         </>
