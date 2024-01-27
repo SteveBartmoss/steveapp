@@ -49,8 +49,8 @@ function FooterRicoso() {
                                 <a className="link-tag">Web Masters</a>
                             </DivColum>
                         </DivRow>
-                        <hr />
                     </DivRow>
+                    <hr />
                 </Div70>
                 <Div70>
                     <DivRow>
