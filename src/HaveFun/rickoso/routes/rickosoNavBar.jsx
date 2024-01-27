@@ -9,6 +9,9 @@ function RickosoNavBar() {
             <div>
                 <DivMenuRicoso>
                     <li>
+                        <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to={"home"}>Home</NavLink>
+                    </li>
+                    <li>
                         <NavLink className={({ isActive }) => `iten ${isActive ? 'active' : ''}`} to={"personajes"}>Personajes</NavLink>
                     </li>
                     <li>
@@ -19,7 +22,7 @@ function RickosoNavBar() {
                     </li>
                 </DivMenuRicoso>
                 <Outlet />
-                
+
                 <FooterRicoso />
             </div>
         </>
