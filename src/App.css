@@ -432,12 +432,13 @@
   font-size: 1.2rem;
 }
 
-.div-ricos-page{
+.div-ricoso-page{
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   gap: 1rem;
 }
 
