@@ -1,10 +1,24 @@
-import React from "react";
-import { DivColum, DivRow } from "../../../component/Contenedores/Cajas";
+import React, { useEffect } from "react";
+import { DivCenter, DivColum, DivRow } from "../../../component/Contenedores/Cajas";
 
 function RickosoApp() {
+
+    const getRandomCharacter=()=>{
+        let min = Math.ceil(0);
+        let max = Math.floor(827);
+        let character = Math.floor(Math.random()*(max - min)+min);
+
+        console.log(character);
+    }
+
+    useEffect(()=>{
+        getRandomCharacter();
+    },[]);
+
     return (
         <>
             <div className="div-ricoso-page">
+
                 <div className="div-main-card" >
                     <DivRow>
                         <div className="img-main-card">
@@ -21,6 +35,11 @@ function RickosoApp() {
                         </div>
                     </DivRow>
                 </div>
+
+                <DivCenter>
+                    <h1 className="tittle-app">Personaje aleatorio</h1>
+                </DivCenter>
+
             </div>
         </>
     );
