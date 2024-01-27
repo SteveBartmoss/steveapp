@@ -18,12 +18,14 @@ function Episodes() {
 
     return (
         <>
-            <h1 className="title1">Episodes page</h1>
-            {
-                episodios.map(episodio=>
+            <h1 className="tittle-app">Episodes page</h1>
+            <div className="div-ricos-page">
+                {
+                    episodios.map(episodio =>
                         <CardEpisode key={episodio.id} episode={episodio} />
                     )
-            }
+                }
+            </div>
         </>
     );
 }
