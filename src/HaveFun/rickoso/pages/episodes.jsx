@@ -19,7 +19,7 @@ function Episodes() {
     return (
         <>
             <h1 className="tittle-app">Episodes page</h1>
-            <div className="div-ricos-page">
+            <div className="div-ricoso-page">
                 {
                     episodios.map(episodio =>
                         <CardEpisode key={episodio.id} episode={episodio} />
