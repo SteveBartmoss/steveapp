@@ -11,6 +11,7 @@ import { Prog1Operadores } from "../funprog/pages/Operadores";
 import { Prog1Condicionales } from "../funprog/pages/Condicionales";
 import { Prog1Bucles } from "../funprog/pages/Bucles";
 import { Prog1HolaMundo } from "../funprog/pages/FirstProg";
+import Prog1Variable from "../funprog/pages/Variable";
 
 function LabsRoutes(){
     return(
@@ -30,6 +31,8 @@ function LabsRoutes(){
                     <Route path="estructura" element={<Prog1Estructura />} />
 
                     <Route path="salida" element={<Prog1Output />} />
+
+                    <Route path="variable" element={<Prog1Variable />} />
 
                     <Route path="entrada" element={<Prog1Input />} />
 
