@@ -16,7 +16,9 @@ function HaveFunRouter(){
             <Routes>
 
                 <Route path="rickosoapp" element={<RickosoNavbar/>}>
-                    <Route index element={<Characters/>} />
+                    <Route index element={<RickosoApp />} />
+
+                    <Route path="home" element={<RickosoApp />} />
                     
                     <Route path="personajes" element={<Characters />} />
 
