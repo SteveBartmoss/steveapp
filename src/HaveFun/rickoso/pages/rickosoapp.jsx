@@ -1,22 +1,27 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { DivCenter, DivColum, DivRow } from "../../../component/Contenedores/Cajas";
 import axios from "axios";
+import RandChar from "../../component/RandChar";
 
 function RickosoApp() {
 
-    const getRandomCharacter= async()=>{
+    const [randChar, setRandChar] = useState({});
+
+    const getRandomCharacter = async () => {
+
         let min = Math.ceil(0);
         let max = Math.floor(827);
-        let character = Math.floor(Math.random()*(max - min)+min);
+        let character = Math.floor(Math.random() * (max - min) + min);
 
         const response = await axios.get(`https://rickandmortyapi.com/api/character/${character}`);
 
-        console.log(response);
+        setRandChar(response.data);
+
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         getRandomCharacter();
-    },[]);
+    }, []);
 
     return (
         <>
@@ -40,7 +45,17 @@ function RickosoApp() {
                 </div>
 
                 <DivCenter>
-                    <h1 className="tittle-app">Personaje aleatorio</h1>
+
+                    <DivColum>
+
+                        <DivCenter>
+                            <h1 className="tittle-app">Personaje aleatorio</h1>
+                        </DivCenter>
+
+                        <RandChar character={randChar} />
+
+                    </DivColum>
+
                 </DivCenter>
 
             </div>
