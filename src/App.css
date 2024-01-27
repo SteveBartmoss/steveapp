@@ -96,6 +96,9 @@
   --rick-2: #477385;
   --rick-3: #8bcf21;
   --rick-4: #83d2e4;
+
+  --portal-1: #2B812C;
+  --portal-2: #94EB0C;
 }
 /*#endregion*/
 
@@ -464,7 +467,7 @@
 }
 
 .back-portal{
-  background: radial-gradient(var(--rick-3), var(--rick-1));
+  background: radial-gradient( var(--portal-1), var(--portal-2) 30%, var(--portal-1) 70%);
   width: 40rem;
   height: 50rem;
   border-radius: 50%;
