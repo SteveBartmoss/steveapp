@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import GifApp from "../gifapp/gifMain";
-import RickosoApp from "../rickoso/rickosoMain";
 import MarvelApp from "../marvel/marvelMain";
 import YesOrNot from "../yesornot/YesOrNot";
 import RickosoNavbar from "../rickoso/routes/rickosoNavBar";
@@ -9,6 +8,7 @@ import Characters from "../rickoso/pages/characters";
 import { PokeMain } from "../pokeapp/pokeMain";
 import Locations from "../rickoso/pages/locations";
 import Episodes from "../rickoso/pages/episodes";
+import RickosoApp from "../rickoso/pages/rickosoapp";
 
 function HaveFunRouter(){
     return(
