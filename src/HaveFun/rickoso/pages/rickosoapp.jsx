@@ -1,14 +1,17 @@
 import React, { useEffect } from "react";
 import { DivCenter, DivColum, DivRow } from "../../../component/Contenedores/Cajas";
+import axios from "axios";
 
 function RickosoApp() {
 
-    const getRandomCharacter=()=>{
+    const getRandomCharacter= async()=>{
         let min = Math.ceil(0);
         let max = Math.floor(827);
         let character = Math.floor(Math.random()*(max - min)+min);
 
-        console.log(character);
+        const response = await axios.get(`https://rickandmortyapi.com/api/character/${character}`);
+
+        console.log(response);
     }
 
     useEffect(()=>{
