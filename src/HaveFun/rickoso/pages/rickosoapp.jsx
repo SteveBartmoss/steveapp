@@ -52,7 +52,11 @@ function RickosoApp() {
                             <h1 className="tittle-app">Personaje aleatorio</h1>
                         </DivCenter>
 
-                        <RandChar character={randChar} />
+                        <div className="back-portal">
+                            
+                            <RandChar character={randChar} />
+
+                        </div>
 
                     </DivColum>
 
