@@ -437,6 +437,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  margin-bottom: 2rem;
   gap: 1rem;
 }
 
