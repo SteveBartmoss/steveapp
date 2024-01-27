@@ -24,7 +24,7 @@ function Locations() {
     return (
         <>
             <h1 className="tittle-app">Locations Page</h1>
-            <div className="div-ricos-page">
+            <div className="div-ricoso-page">
                 {
                     locaciones.map(locacion =>
                         <CardLocation key={locacion.id} location={locacion} />
