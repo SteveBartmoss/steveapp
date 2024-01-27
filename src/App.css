@@ -463,6 +463,19 @@
   width: 60%;
 }
 
+.back-portal{
+  background: radial-gradient(var(--rick-3), var(--rick-1));
+  width: 40rem;
+  height: 50rem;
+  border-radius: 50%;
+}
+
+.rand-card{
+  width: 50%;
+  margin: auto;
+  margin-top: 9rem;
+}
+
 /*#endregion*/
 
 
