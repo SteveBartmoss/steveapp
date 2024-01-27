@@ -66,7 +66,7 @@ function FooterRicoso() {
                             </DivRow>
                         </DivAuto>
                     </DivRow>
-                    <h1 className="title1">Power by <a className="contacto" href="https://react.dev/">React</a></h1>
+                    <h1 className="title1">Power by <a className="contacto" href="https://rickandmortyapi.com/" rel="noopener noreferrer" target="_blank">Ricd And Moty API</a></h1>
                 </Div70>
             </DivFooter>
         </>
