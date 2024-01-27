@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import CardLocation from "../../component/CardLocation";
 
 function Locations() {
 
@@ -25,7 +26,7 @@ function Locations() {
             <h1 className="title1">Locations Page</h1>
             {
                 locaciones.map(locacion=>
-                    <h1>{locacion.name}</h1>
+                    <CardLocation key={locacion.id} location={locacion}/>
                 )
             }
         </>
