@@ -24,7 +24,7 @@ function Characters() {
     return (
         <>
             <h1 className="tittle-app">Characters Page</h1>
-            <div className="div-ricos-page">
+            <div className="div-ricoso-page">
                 {
                     personajes.map(perso =>
                         <CardCharacter key={perso.id} character={perso} />
