@@ -485,6 +485,15 @@
   margin-top: 9rem;
 }
 
+.div-mosaico{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
 /*#endregion*/
 
 
