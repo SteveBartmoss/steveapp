@@ -121,6 +121,10 @@
   margin: auto;
 }
 
+.img-card-have{
+  width: 70%;
+}
+
 /*#endregion */
 
 /*#region estilos del titulos */
@@ -494,6 +498,11 @@
   gap: 1rem;
   align-items: center;
   justify-content: center;
+}
+
+.div-card-have{
+  width: 30rem;
+  background-color: var(--gris-7);
 }
 
 /*#endregion*/
