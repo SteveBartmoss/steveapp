@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import CardLocation from "../../component/CardLocation";
+import { DivArticle, DivMosaico } from "../../../component/Contenedores/Cajas";
 
 function Locations() {
 
@@ -24,13 +25,15 @@ function Locations() {
     return (
         <>
             <h1 className="tittle-app">Locations Page</h1>
-            <div className="div-ricoso-page">
-                {
-                    locaciones.map(locacion =>
-                        <CardLocation key={locacion.id} location={locacion} />
-                    )
-                }
-            </div>
+            <DivArticle>
+                <DivMosaico>
+                    {
+                        locaciones.map(locacion =>
+                            <CardLocation key={locacion.id} location={locacion} />
+                        )
+                    }
+                </DivMosaico>
+            </DivArticle>
         </>
     );
 }
