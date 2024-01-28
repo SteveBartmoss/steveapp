@@ -61,16 +61,6 @@ function ArticlesHome() {
                 </DivMosaico>
             </DivArticle>
 
-            <div className="div-flex-articles">
-
-
-
-
-
-
-
-            </div>
-
             <Pie />
 
         </>
