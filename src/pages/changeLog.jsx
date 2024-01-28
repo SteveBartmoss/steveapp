@@ -9,7 +9,22 @@ function ChangeLog() {
 
                 <h1 className="title1">Ultima actualizacion</h1>
 
-                <h1 className="title1">16/01/2024</h1>
+                <h1 className="title1">28/01/2024</h1>
+                <hr />
+
+                <BackArticle>
+                    <p className="content-curso">
+                        La nueva aplicacion de ricoso ya esta mas avanzada, ya se 
+                        tienen la pagina de locaciones, episodios y personajes, tambien 
+                        se tiene una pagina de inicio para la aplicacion que muestra 
+                        un personaje aleatorio y los persoanjes, se mejoraron algunos elementos
+                        como los contenedores algunas secciones, se agrego mas contenido al curso 
+                        de programacion y se cambio el diseno de as cards de los articulos y los 
+                        cursos.
+                    </p>
+                </BackArticle>
+
+                <h1 className="title1">23/01/2024</h1>
                 <hr />
 
                 <BackArticle>
