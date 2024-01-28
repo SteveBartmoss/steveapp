@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import CardEpisode from "../../component/CardEpisode";
+import { DivArticle, DivMosaico } from "../../../component/Contenedores/Cajas";
 
 function Episodes() {
 
@@ -19,13 +20,15 @@ function Episodes() {
     return (
         <>
             <h1 className="tittle-app">Episodes page</h1>
-            <div className="div-ricoso-page">
-                {
-                    episodios.map(episodio =>
-                        <CardEpisode key={episodio.id} episode={episodio} />
-                    )
-                }
-            </div>
+            <DivArticle>
+                <DivMosaico>
+                    {
+                        episodios.map(episodio =>
+                            <CardEpisode key={episodio.id} episode={episodio} />
+                        )
+                    }
+                </DivMosaico>
+            </DivArticle>
         </>
     );
 }
