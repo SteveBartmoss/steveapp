@@ -57,6 +57,7 @@ function FunHome() {
                     </div>
 
                     <div className="card-havefun">
+                        <img src="https://media3.giphy.com/media/cLEpcpPfFPPMY/giphy.gif?cid=53b384100t6tqi49drpxgb49ibcnw2g2jyk3fzvvykspayhj&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
                         <h1 className="h1-havefun">AssembleApp</h1>
                         <p className="p-card">Encuentra informacion sobre tus super heroes favoritos y diviertete
                             por unos momentos con esta aplicacions de super heroes</p>
@@ -66,6 +67,7 @@ function FunHome() {
                     </div>
 
                     <div className="card-havefun">
+                        <img src="https://media0.giphy.com/media/Jir3toQTWW9Ne/giphy.gif?cid=53b38410c806yt8fszf3kkpo1y5fww44coco4m6n9q24mmhk&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
                         <h1 className="h1-havefun">AtrapalosApp</h1>
                         <p className="p-card">Busca la informacion de tu pokemon favorito en esta aplicacion que
                             te brinda la informacion de la mayoria de los pokemon gracias a la pokeapi</p>
