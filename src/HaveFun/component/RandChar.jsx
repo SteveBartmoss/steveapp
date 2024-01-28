@@ -5,10 +5,10 @@ function RandChar({character}){
         <>
             <div className="rand-card">
                 <img src={character.image} />
-                <h1>{character.name}</h1>
-                <h1>{character.status}</h1>
-                <h1>{character.species}</h1>
-                <h1>{character.gender}</h1>
+                <p className="content-rand">Nombre: {character.name}</p>
+                <p className="content-rand">Estatus: {character.status} </p>
+                <p className="content-rand">Especie: {character.species}</p>
+                <p className="content-rand">Genero: {character.gender}</p>
             </div>
         </>
     );
