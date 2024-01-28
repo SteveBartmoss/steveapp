@@ -280,3 +280,11 @@ export function DivMosaico({children}){
         </div>
     );
 }
+
+export function DivCardHave({children}){
+    return(
+        <div className="div-card-have">
+            {children}
+        </div>
+    );
+}
