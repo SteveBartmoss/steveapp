@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import LabsAbout from "./components/labsAbout";
 import { DivArticle, DivMosaico } from "../component/Contenedores/Cajas";
+import LabsFooter from "./components/labsFooter";
 
 function HomeLabs() {
 
@@ -77,6 +78,8 @@ function HomeLabs() {
             </DivArticle>
 
             <LabsAbout />
+
+            <LabsFooter />
         </>
 
     );
