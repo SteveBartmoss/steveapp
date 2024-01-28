@@ -272,3 +272,11 @@ export function DivMenuRicoso({children}){
         </div>
     );
 }
+
+export function DivMosaico({children}){
+    return(
+        <div className="div-mosaico">
+            {children}
+        </div>
+    );
+}
