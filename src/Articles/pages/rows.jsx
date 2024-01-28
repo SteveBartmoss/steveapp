@@ -81,10 +81,7 @@ function Rows() {
 
 
             </DivArticle>
-
-            <div className="div-about">
-                
-            </div>
+            
         </>
     );
 }
