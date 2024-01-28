@@ -74,10 +74,6 @@ function FunHome() {
 
             </DivArticle>
 
-            <div className="div-havefun">
-
-            </div>
-
             <FooterHave />
         </>
     );
