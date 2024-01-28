@@ -14,7 +14,7 @@ function ArticlesHome() {
                 <h1 className="title1">Los mejores articulos</h1>
             </div>
 
-            <DivArticle>
+            <DivArticle>                
                 <DivMosaico>
                     <div className="div-min-article">
                         <div className="center">
