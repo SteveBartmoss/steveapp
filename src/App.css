@@ -1304,11 +1304,6 @@
   justify-content: flex-end;
 }
 
-.div-havefun{
-  width: 900px;
-  margin: auto;
-}
-
 .p-havefun{
   color: white;
   font-size: 30px;
@@ -1327,10 +1322,11 @@
 }
 
 .card-havefun{
-  width: 700px;
+  width: 60%;
   margin: 20px auto;
   background-color: var(--gris-7);
   padding: 5px;
+  border-radius: 1rem;
 }
 
 .p-card{
