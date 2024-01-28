@@ -76,10 +76,6 @@ function HomeLabs() {
                 </DivMosaico>
             </DivArticle>
 
-            <div className="div-flex-articles">
-
-            </div>
-
             <LabsAbout />
         </>
 
