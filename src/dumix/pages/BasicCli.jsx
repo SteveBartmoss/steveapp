@@ -1,5 +1,5 @@
 import React from "react";
-import { BackArticle, BackImportant, DivArticle, DivCenter, DivCurso, DivFlex, DivRead, Paper } from "../../component/Contenedores/Cajas";
+import { BackArticle, BackImportant, Div70, DivArticle, DivCenter, DivCurso, DivFlex, DivRead, Paper } from "../../component/Contenedores/Cajas";
 
 export function BasicCli() {
     return (
@@ -9,7 +9,8 @@ export function BasicCli() {
                     <h1 className="title-1">Comandos basicos de linux</h1>
                 </DivCenter>
 
-                <DivArticle>
+                <Div70>
+
                     <DivRead>
                         <p className="p-main">
                             La mejor forma de usar Linux es mediante comandos y a
@@ -161,7 +162,7 @@ export function BasicCli() {
                         </BackArticle>
 
                     </DivRead>
-                </DivArticle>
+                </Div70>
 
             </Paper>
         </>
