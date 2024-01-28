@@ -6,6 +6,7 @@ import RandChar from "../../component/RandChar";
 function RickosoApp() {
 
     const [randChar, setRandChar] = useState({});
+    const [mainChar, setMainChar]= useState([]);
 
     const getRandomCharacter = async () => {
 
@@ -19,8 +20,14 @@ function RickosoApp() {
 
     }
 
+    const listMainCharacters = async() =>{
+        const response = await axios.get('https://rickandmortyapi.com/api/character/[1,2,3,4,5]');
+        setMainChar(response.data);
+    }
+
     useEffect(() => {
         getRandomCharacter();
+        listMainCharacters();
     }, []);
 
     return (
@@ -53,7 +60,7 @@ function RickosoApp() {
                         </DivCenter>
 
                         <div className="back-portal">
-                            
+
                             <RandChar character={randChar} />
 
                         </div>
@@ -61,6 +68,12 @@ function RickosoApp() {
                     </DivColum>
 
                 </DivCenter>
+
+                <DivCenter>
+                    <h1 className="tittle-app">Personajes principales</h1>
+                </DivCenter>
+
+                
 
             </div>
         </>
