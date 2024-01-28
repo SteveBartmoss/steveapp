@@ -1523,13 +1523,6 @@
   transform: translateY(-3%);
 }
 
-.div-flex-articles{
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  margin-bottom: 10px;
-}
 
 .item-lateral{
   width: 400px;
