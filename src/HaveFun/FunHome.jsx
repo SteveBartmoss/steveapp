@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import DivBaner from "../component/DivBaner";
 import FooterHave from "./component/FooterHave";
-import { DivArticle, DivCenter, DivMosaico } from "../component/Contenedores/Cajas";
+import { DivArticle, DivCardHave, DivCenter, DivMosaico } from "../component/Contenedores/Cajas";
 
 function FunHome() {
 
@@ -20,6 +20,20 @@ function FunHome() {
                 </p>
 
                 <DivMosaico>
+
+                    <DivCardHave>
+                        <DivCenter>
+                            <img className="img-card-have" src="https://media2.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif?cid=53b38410k5i0xybbeivy1ma041z940wlsg0da8flau90pw09&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+                        </DivCenter>
+                        <h1 className="h1-havefun">gifApp</h1>
+                        <p className="p-card">
+                            Una aplicacion para buscar gifs que te gusten
+                            solo ingresa las palabras busca tus gifs favoritos
+                        </p>
+                        <div className="button-havefun">
+                            <a className="a-card" href="havefun/gifapp">visitar</a>
+                        </div>
+                    </DivCardHave>
 
                     <div className="card-havefun">
                         <img src="https://media2.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif?cid=53b38410k5i0xybbeivy1ma041z940wlsg0da8flau90pw09&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
