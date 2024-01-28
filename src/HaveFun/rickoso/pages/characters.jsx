@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import CardCharacter from "../../component/CardCharacter";
+import { DivArticle, DivMosaico } from "../../../component/Contenedores/Cajas";
 
 function Characters() {
 
@@ -24,13 +25,15 @@ function Characters() {
     return (
         <>
             <h1 className="tittle-app">Characters Page</h1>
-            <div className="div-ricoso-page">
-                {
-                    personajes.map(perso =>
-                        <CardCharacter key={perso.id} character={perso} />
-                    )
-                }
-            </div>
+            <DivArticle>
+                <DivMosaico>
+                    {
+                        personajes.map(perso =>
+                            <CardCharacter key={perso.id} character={perso} />
+                        )
+                    }
+                </DivMosaico>
+            </DivArticle>
         </>
     );
 }
