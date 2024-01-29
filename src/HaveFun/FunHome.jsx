@@ -22,9 +22,6 @@ function FunHome() {
                 <DivMosaico>
 
                     <DivCardHave>
-                        <DivCenter>
-                            <img className="img-card-have" src="https://media2.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif?cid=53b38410k5i0xybbeivy1ma041z940wlsg0da8flau90pw09&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
-                        </DivCenter>
                         <h1 className="h1-havefun">gifApp</h1>
                         <p className="p-card">
                             Una aplicacion para buscar gifs que te gusten
@@ -36,10 +33,6 @@ function FunHome() {
                     </DivCardHave>
 
                     <DivCardHave>
-                        <DivCenter>
-                            <img className="img-card-have" src="https://media3.giphy.com/media/l0ExsgrTuACbtPaqQ/giphy.gif?cid=53b38410ndcui17do9mm7yvqvihom3di66snfry5342g9gbq&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
-                        </DivCenter>
-
                         <h1 className="h1-havefun">OraculoApp</h1>
                         <p className="p-card">Una aplicacion a la cual puedes hacerle preguntas
                             para sabar mas sobre tu destino</p>
@@ -49,9 +42,6 @@ function FunHome() {
                     </DivCardHave>
 
                     <DivCardHave>
-                        <DivCenter>
-                            <img className="img-card-have" src="https://media0.giphy.com/media/jsYfLXpibzkdr5sjZ8/giphy.gif?cid=ecf05e47es8xl4cwolqrqacyj3u1cev1hz6tsox2w6ux4j9x&ep=v1_gifs_related&rid=giphy.gif&ct=g" />
-                        </DivCenter>
                         <h1 className="h1-havefun">rickosoApp</h1>
                         <p className="p-card">Relajate un rato y ponte rickoso mientras buscas informacion
                             sobre tus personajes favoritos de rick y morty</p>
@@ -61,9 +51,6 @@ function FunHome() {
                     </DivCardHave>
 
                     <DivCardHave>
-                        <DivCenter>
-                            <img className="img-card-have" src="https://media3.giphy.com/media/cLEpcpPfFPPMY/giphy.gif?cid=53b384100t6tqi49drpxgb49ibcnw2g2jyk3fzvvykspayhj&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
-                        </DivCenter>
                         <h1 className="h1-havefun">AssembleApp</h1>
                         <p className="p-card">Encuentra informacion sobre tus super heroes favoritos y diviertete
                             por unos momentos con esta aplicacions de super heroes</p>
@@ -73,9 +60,6 @@ function FunHome() {
                     </DivCardHave>
 
                     <DivCardHave>
-                        <DivCenter>
-                            <img className="img-card-have" src="https://media0.giphy.com/media/Jir3toQTWW9Ne/giphy.gif?cid=53b38410c806yt8fszf3kkpo1y5fww44coco4m6n9q24mmhk&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
-                        </DivCenter>
                         <h1 className="h1-havefun">AtrapalosApp</h1>
                         <p className="p-card">Busca la informacion de tu pokemon favorito en esta aplicacion que
                             te brinda la informacion de la mayoria de los pokemon gracias a la pokeapi</p>
