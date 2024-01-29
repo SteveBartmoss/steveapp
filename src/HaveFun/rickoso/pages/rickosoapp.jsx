@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
-import { DivCenter, DivColum, DivRow } from "../../../component/Contenedores/Cajas";
+import { DivArticle, DivCenter, DivColum, DivMosaico, DivRow } from "../../../component/Contenedores/Cajas";
 import axios from "axios";
 import RandChar from "../../component/RandChar";
+import CardCharacter from "../../component/CardCharacter";
 
 function RickosoApp() {
 
     const [randChar, setRandChar] = useState({});
-    const [mainChar, setMainChar]= useState([]);
+    const [mainChar, setMainChar] = useState([]);
 
     const getRandomCharacter = async () => {
 
@@ -20,7 +21,7 @@ function RickosoApp() {
 
     }
 
-    const listMainCharacters = async() =>{
+    const listMainCharacters = async () => {
         const response = await axios.get('https://rickandmortyapi.com/api/character/[1,2,3,4,5]');
         setMainChar(response.data);
     }
@@ -73,8 +74,16 @@ function RickosoApp() {
                     <h1 className="tittle-app">Personajes principales</h1>
                 </DivCenter>
 
+                <DivArticle>
+                    <DivMosaico>
+                        {
+                            mainChar.map(
+                                perso => <CardCharacter key={perso.id} character={perso} />
+                            )
+                        }
+                    </DivMosaico>
+                </DivArticle>
                 
-
             </div>
         </>
     );
