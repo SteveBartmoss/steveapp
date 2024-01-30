@@ -34,19 +34,31 @@ function Prog1Variable() {
                     </TitleDiv>
 
                     <p className="content-curso">
-                        Las variables a las que anteriormente llamamos contenedores tienen un tipo especifico 
-                        para diferentes tipos de informacion, ya que por ejemeplo podemos tener un numero 
-                        entero o natural que no tienen una fracion o un punto decimal ya que no es igual 
-                        1 que 1.5, de la misma forma en la programcion se alamcena de diferente manera 
+                        Las variables a las que anteriormente llamamos contenedores tienen un tipo especifico
+                        para diferentes tipos de informacion, ya que por ejemeplo podemos tener un numero
+                        entero o natural que no tienen una fracion o un punto decimal ya que no es igual
+                        1 que 1.5, de la misma forma en la programcion se alamcena de diferente manera
                         un numero decimal y un entero.
                     </p>
 
                     <p className="content-curso">
-                        Algunos de los tipos de datos que existen en el lenguaje C son int, float, char, bool, 
-                        double y long double. int y float almacenan numeros pero int almacena enteros sin tomar en 
-                        cuenta ningun decimal mientras que float almacena un entero y 6 o 7 decimales de precision, 
-                        char solo almacena un dato de tipo caracater y double admite mayor numero de decimales ya que 
+                        Algunos de los tipos de datos que existen en el lenguaje C son int, float, char, bool,
+                        double y long double. int y float almacenan numeros pero int almacena enteros sin tomar en
+                        cuenta ningun decimal mientras que float almacena un entero y 6 o 7 decimales de precision,
+                        char solo almacena un dato de tipo caracater y double admite mayor numero de decimales ya que
                         almacena hasta 14 decimales y long double puede almacenar hasta 19 decimanles.
+                    </p>
+
+                    <TitleDiv>
+                        <h1 className="title-subject">Declaracion de variables</h1>
+                        <hr className="line" />
+                    </TitleDiv>
+
+                    <p className="content-curso">
+                        La declaracion de variables en lenguaje C sigue la siguiente sintaxis: 
+                        &#91; Tipo &#93; &#91; Nombre &#93; = &#91; Valor inicial &#93;.
+                        De esta manera se puedem declarar variables en el lenguaje C y muchos 
+                        otro lenguajes que tomen en cuenta el tipo de dato que se almacenara.
                     </p>
 
                 </DivRead>
