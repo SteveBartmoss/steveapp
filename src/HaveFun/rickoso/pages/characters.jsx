@@ -6,14 +6,33 @@ import { DivArticle, DivMosaico } from "../../../component/Contenedores/Cajas";
 function Characters() {
 
     const [personajes, setPersonajes] = useState([]);
+    const [next, setNext] = useState("");
+    const [prev, setPrev] = useState("");
 
     const listCharacters = async () => {
         try {
             const response = await axios.get('https://rickandmortyapi.com/api/character');
-            console.log(response.data.results);
+            //console.log(response.data.info.next);
             setPersonajes(response.data.results);
+            setNext(response.data.info.next);
+            setPrev(response.data.info.prev);
         }
         catch (error) {
+            console.error(error);
+        }
+    }
+
+    const nextList = async (url) =>{
+        try{
+            const response = await axios.get(url);
+            console.log(response.data);
+            setPersonajes(response.data.results);
+            setNext(response.data.info.next);
+            setPrev(response.data.info.prev);
+            //console.log(url);
+            //console.log(next);
+        }
+        catch (error){
             console.error(error);
         }
     }
@@ -33,6 +52,14 @@ function Characters() {
                         )
                     }
                 </DivMosaico>
+                <div>
+                    <button onClick={()=>nextList(next)}>
+                        Siguiente
+                    </button>
+                    <button onClick={()=>nextList(prev)}>
+                        Anterior
+                    </button>
+                </div>
             </DivArticle>
         </>
     );
