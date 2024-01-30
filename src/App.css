@@ -507,6 +507,18 @@
   background-color: var(--gris-7);
 }
 
+.div-next-button{
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+
 /*#endregion*/
 
 
@@ -527,6 +539,15 @@
 
 .Btn:hover{
   background-color: rgb(251,58,190);
+}
+
+.btn-page{
+  border: none;
+  background-color: var(--portal-1);
+  font-size: 3rem;
+  font-family: 'Roboto Mono';
+  border-radius: 1rem;
+  color: white;
 }
 /*#endregion*/
 
