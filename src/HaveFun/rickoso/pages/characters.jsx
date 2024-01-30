@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import CardCharacter from "../../component/CardCharacter";
-import { DivArticle, DivMosaico } from "../../../component/Contenedores/Cajas";
+import { DivArticle, DivButtonNext, DivCenter, DivMosaico } from "../../../component/Contenedores/Cajas";
 
 function Characters() {
 
@@ -22,8 +22,8 @@ function Characters() {
         }
     }
 
-    const nextList = async (url) =>{
-        try{
+    const nextList = async (url) => {
+        try {
             const response = await axios.get(url);
             console.log(response.data);
             setPersonajes(response.data.results);
@@ -32,7 +32,7 @@ function Characters() {
             //console.log(url);
             //console.log(next);
         }
-        catch (error){
+        catch (error) {
             console.error(error);
         }
     }
@@ -52,14 +52,14 @@ function Characters() {
                         )
                     }
                 </DivMosaico>
-                <div>
-                    <button onClick={()=>nextList(next)}>
-                        Siguiente
-                    </button>
-                    <button onClick={()=>nextList(prev)}>
+                <DivButtonNext>
+                    <button className="btn-page" onClick={() => nextList(prev)}>
                         Anterior
                     </button>
-                </div>
+                    <button className="btn-page" onClick={() => nextList(next)}>
+                        Siguiente
+                    </button>
+                </DivButtonNext>
             </DivArticle>
         </>
     );
