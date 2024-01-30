@@ -288,3 +288,11 @@ export function DivCardHave({children}){
         </div>
     );
 }
+
+export function DivButtonNext({children}){
+    return(
+        <div className="div-next-button">
+            {children}
+        </div>
+    );
+}
