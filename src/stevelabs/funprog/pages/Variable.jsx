@@ -62,7 +62,7 @@ function Prog1Variable() {
                     </p>
 
                     <p className="content-curso">
-                        La sintaxis que usa lenguaje C y otros lenguajes para los nombres de las 
+                        La sintaxis que usa lenguaje C y otros lenguajes para los nombres de las
                         variables son las siguientes:
                     </p>
 
@@ -79,6 +79,34 @@ function Prog1Variable() {
                             Las variables no pueden tener expacios deben ser una sola cadena de caracteres
                         </li>
                     </ul>
+
+                    <p className="content-curso">
+                        Lo anterior son reglas que se deben seguir pues de no ser asi, el compilador
+                        dara un error pero a continacion se mencionan algunas convenciones que puede
+                        ser tomados como consejos para que el codigo sea mas facil de entender para
+                        otras personas o si vuelver a leer tu codigo despues de un tiempo
+                    </p>
+
+                    <ul>
+                        <li className="list-item">
+                            Los nombres deben hacer sentido para la variable, si una variable almacena 
+                            la edad de una persona es buena idea llamara edad y no simplemente x, y o z
+                        </li>
+
+                        <li className="list-item">
+                            Los nombres deben hacer sentido para la variable, si una variable almacena 
+                            la edad de una persona es buena idea llamara edad y no simplemente x, y o z
+                        </li>
+
+                        <li className="list-item">
+                            Los nombres deben ser cortos sin perder el sentido del significado
+                        </li>
+                    </ul>
+
+                    <p className="content-curso">
+                        Siguiendo con el ultimo consejo de las recomendaciones en caso de que la variable 
+                        requiera mas de una palabra se pueden usar diferentes nomenclaturas como las siguientes:
+                    </p>
 
                     
 
