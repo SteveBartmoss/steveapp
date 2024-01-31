@@ -55,11 +55,33 @@ function Prog1Variable() {
                     </TitleDiv>
 
                     <p className="content-curso">
-                        La declaracion de variables en lenguaje C sigue la siguiente sintaxis: 
+                        La declaracion de variables en lenguaje C sigue la siguiente sintaxis:
                         &#91; Tipo &#93; &#91; Nombre &#93; = &#91; Valor inicial &#93;.
-                        De esta manera se puedem declarar variables en el lenguaje C y muchos 
+                        De esta manera se puedem declarar variables en el lenguaje C y muchos
                         otro lenguajes que tomen en cuenta el tipo de dato que se almacenara.
                     </p>
+
+                    <p className="content-curso">
+                        La sintaxis que usa lenguaje C y otros lenguajes para los nombres de las 
+                        variables son las siguientes:
+                    </p>
+
+                    <ul>
+                        <li className="list-item">
+                            Las variables no pueden empezar por un numero
+                        </li>
+
+                        <li className="list-item">
+                            Las variables no pueden ser palabra resevadas como for, int, float o main
+                        </li>
+
+                        <li className="list-item">
+                            Las variables no pueden tener expacios deben ser una sola cadena de caracteres
+                        </li>
+                    </ul>
+
+                    
+
 
                 </DivRead>
             </DivCurso>
