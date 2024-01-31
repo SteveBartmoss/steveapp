@@ -8,6 +8,35 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `28/01/2024`
+
+La nueva aplicacion de ricoso ya esta mas avanzada, ya se 
+tienen la pagina de locaciones, episodios y personajes, tambien 
+se tiene una pagina de inicio para la aplicacion que muestra 
+un personaje aleatorio y los persoanjes, se mejoraron algunos elementos
+como los contenedores algunas secciones, se agrego mas contenido al curso 
+de programacion y se cambio el diseno de as cards de los articulos y los 
+cursos.
+
+### `23/01/2024`
+
+Se esta trabajando en una nueva aplicacion para la pagina, la 
+cual mostrara informacion de una api de rick and morty, se hicieron 
+se hicieron las primeras pruebas de llamada y esta funcionando bien 
+lo proximo sera implementar el mostrar la respuesta de la api en la pagina 
+y posteriormente crear un componente para las tarjetas de cada personaje, 
+la primera pagina que estara implementandose sera la de personajes.
+
+### `16/01/2024`
+
+Se esta trabajando en completar el curso de programacion, se ha mejoro 
+el estilo de los ejemplos d codigo para que sea mas parecido al editor, 
+se ha mejoarado el footer de la pagina y se espera implementar en todas 
+las paginas, se trabajara en la pagina de road map para que este mas 
+completa y sea llamativa para el usuario.
+
+
+
 ### `30/12/2023`
 
 Se desplego la version 3 de la pagina con unos estilos mucho mas oscuros y 
