@@ -138,6 +138,11 @@ function Prog1Variable() {
                         a la comida kebab que suele estar atrevzada por una brocheta y de ahi proviene el nombre. 
                     </p>
 
+                    <p className="content-curso">
+                        Las convenciones anteriores funcionan para que nuestor codigo sea mas legible para otras 
+                        personas 
+                    </p>
+
                 </DivRead>
             </DivCurso>
         </>
