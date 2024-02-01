@@ -130,6 +130,14 @@ function Prog1Variable() {
                         en el lenguaje pascal y de ahi viene su nombre. 
                     </p>
 
+                    <p className="content-curso">
+                        kebab-case: en este caso nos dice que debemos usar un guion para separar las 
+                        palabras que componen el nombre de la variable y de esta manera se puede notar 
+                        aun mas que el nombre tiene dos palabras diferentes, algunos ejemplos serian 
+                        horas-hombre o horas-maquina la forma en que el guion separa las palabras recuerda 
+                        a la comida kebab que suele estar atrevzada por una brocheta y de ahi proviene el nombre. 
+                    </p>
+
                 </DivRead>
             </DivCurso>
         </>
