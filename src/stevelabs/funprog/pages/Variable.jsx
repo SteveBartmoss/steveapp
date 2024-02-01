@@ -116,6 +116,13 @@ function Prog1Variable() {
                         que se llame camel case.
                     </p>
 
+                    <p className="content-curso">
+                        snake_case: este tipo de convencion nos dice que para que la separacion de 
+                        las dos palabras se debe usar un guion bajo para separar dos palabras como 
+                        por ejemplo numero_monedas o numero_casas lo cual recuerda un poco a la forma 
+                        en que las serpientes se mueven y por eso el nombre.
+                    </p>
+                    
 
                 </DivRead>
             </DivCurso>
