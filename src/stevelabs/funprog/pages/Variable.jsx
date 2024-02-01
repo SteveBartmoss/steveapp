@@ -178,7 +178,20 @@ function Prog1Variable() {
                         otras personas y les sea mas facil entender el porque de una variable.
                     </p>
 
-                    
+                    <TitleDiv>
+                        <h1 className="title-subject">Compatibilidad entre tipo de variables</h1>
+                        <hr className="line" />
+                    </TitleDiv>
+
+                    <p className="content-curso">
+                        Aunque pudiera parecer logico que tipos de variables que trabajan con un mismo dato pueddan 
+                        ser compatibles entre si, esto no es del todo correcto ya que si bien float e int trabajan con numeros
+                        una variable de tipo int no puede almacenar un tipo de datos flotante y viceversa, aunque en la 
+                        practica algo curioso puede pasar pues algunos compiladores hacen la adaptacion de una variable a otra 
+                        pero con un problema y es que los decimales se ven afectados. Si asignamos un flotante a un entero el 
+                        compilador no arrojara un error pero solo tomara en cuenta la parte entera, los decimales seran ignorados 
+                        lo cual puede ser un problemas si requerimos de estos datos, de la misma manera 
+                    </p>
 
                 </DivRead>
             </DivCurso>
