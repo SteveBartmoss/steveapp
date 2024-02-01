@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCurso, DivRead, TitleDiv } from "../../../component/Contenedores/Cajas";
+import { DivCenter, DivCode, DivCurso, DivRead, TitleDiv } from "../../../component/Contenedores/Cajas";
 
 function Prog1Variable() {
     return (
@@ -42,8 +42,33 @@ function Prog1Variable() {
                     </p>
 
                     <p className="content-curso">
-                        Algunos de los tipos de datos que existen en el lenguaje C son int, float, char, bool,
-                        double y long double. int y float almacenan numeros pero int almacena enteros sin tomar en
+                        Algunos de los tipos de datos que existen en el lenguaje C son:
+                    </p>
+
+                    <ul>
+                        <li className="list-item">
+                            int
+                        </li>
+
+                        <li className="list-item">
+                            float
+                        </li>
+                        <li className="list-item">
+                            char
+                        </li>
+                        <li className="list-item">
+                            bool
+                        </li>
+                        <li className="list-item">
+                            double
+                        </li>
+                        <li className="list-item">
+                            long double
+                        </li>
+                    </ul>
+
+                    <p className="content-curso">
+                        Int y float almacenan numeros pero int almacena enteros sin tomar en
                         cuenta ningun decimal mientras que float almacena un entero y 6 o 7 decimales de precision,
                         char solo almacena un dato de tipo caracater y double admite mayor numero de decimales ya que
                         almacena hasta 14 decimales y long double puede almacenar hasta 19 decimanles.
@@ -56,7 +81,16 @@ function Prog1Variable() {
 
                     <p className="content-curso">
                         La declaracion de variables en lenguaje C sigue la siguiente sintaxis:
-                        &#91; Tipo &#93; &#91; Nombre &#93; = &#91; Valor inicial &#93;.
+
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">&#91; Tipo &#93; &#91; Nombre &#93; = &#91; Valor inicial &#93;</p>
+                        </DivCode>
+                    </DivCenter>
+
+                    <p className="content-curso">
                         De esta manera se puedem declarar variables en el lenguaje C y muchos
                         otro lenguajes que tomen en cuenta el tipo de dato que se almacenara.
                     </p>
@@ -89,12 +123,12 @@ function Prog1Variable() {
 
                     <ul>
                         <li className="list-item">
-                            Los nombres deben hacer sentido para la variable, si una variable almacena 
+                            Los nombres deben hacer sentido para la variable, si una variable almacena
                             la edad de una persona es buena idea llamara edad y no simplemente x, y o z
                         </li>
 
                         <li className="list-item">
-                            Los nombres deben hacer sentido para la variable, si una variable almacena 
+                            Los nombres deben hacer sentido para la variable, si una variable almacena
                             la edad de una persona es buena idea llamara edad y no simplemente x, y o z
                         </li>
 
@@ -104,45 +138,47 @@ function Prog1Variable() {
                     </ul>
 
                     <p className="content-curso">
-                        Siguiendo con el ultimo consejo de las recomendaciones en caso de que la variable 
+                        Siguiendo con el ultimo consejo de las recomendaciones en caso de que la variable
                         requiera mas de una palabra se pueden usar diferentes nomenclaturas como las siguientes:
                     </p>
 
                     <p className="content-curso">
-                        camelCase: este tipo de convencion nos dice que en caso de tener que usar dos 
-                        palabras para una variable, la segunda palabra debe empesar con una mayuscula 
-                        como por ejemplo edadAlumno o pasajePrecio de esta manera se entiende mejor 
-                        la division de entre las palaras y la forma recuerda a los camellos de ahi 
+                        camelCase: este tipo de convencion nos dice que en caso de tener que usar dos
+                        palabras para una variable, la segunda palabra debe empesar con una mayuscula
+                        como por ejemplo edadAlumno o pasajePrecio de esta manera se entiende mejor
+                        la division de entre las palaras y la forma recuerda a los camellos de ahi
                         que se llame camel case.
                     </p>
 
                     <p className="content-curso">
-                        snake_case: este tipo de convencion nos dice que para que la separacion de 
-                        las dos palabras se debe usar un guion bajo para separar dos palabras como 
-                        por ejemplo numero_monedas o numero_casas lo cual recuerda un poco a la forma 
+                        snake_case: este tipo de convencion nos dice que para que la separacion de
+                        las dos palabras se debe usar un guion bajo para separar dos palabras como
+                        por ejemplo numero_monedas o numero_casas lo cual recuerda un poco a la forma
                         en que las serpientes se mueven y por eso el nombre.
                     </p>
 
                     <p className="content-curso">
-                        PascalCase: aqui la convecion nos dice que para diferenciar la separacion una 
-                        variable con dos palabras ambas palabras deben iniciar con mayusculas como por 
-                        ejemplo VelocidadMax o VelocidadMin en este caso esta convencion se empezo usar 
-                        en el lenguaje pascal y de ahi viene su nombre. 
+                        PascalCase: aqui la convecion nos dice que para diferenciar la separacion una
+                        variable con dos palabras ambas palabras deben iniciar con mayusculas como por
+                        ejemplo VelocidadMax o VelocidadMin en este caso esta convencion se empezo usar
+                        en el lenguaje pascal y de ahi viene su nombre.
                     </p>
 
                     <p className="content-curso">
-                        kebab-case: en este caso nos dice que debemos usar un guion para separar las 
-                        palabras que componen el nombre de la variable y de esta manera se puede notar 
-                        aun mas que el nombre tiene dos palabras diferentes, algunos ejemplos serian 
-                        horas-hombre o horas-maquina la forma en que el guion separa las palabras recuerda 
-                        a la comida kebab que suele estar atrevzada por una brocheta y de ahi proviene el nombre. 
+                        kebab-case: en este caso nos dice que debemos usar un guion para separar las
+                        palabras que componen el nombre de la variable y de esta manera se puede notar
+                        aun mas que el nombre tiene dos palabras diferentes, algunos ejemplos serian
+                        horas-hombre o horas-maquina la forma en que el guion separa las palabras recuerda
+                        a la comida kebab que suele estar atrevzada por una brocheta y de ahi proviene el nombre.
                     </p>
 
                     <p className="content-curso">
-                        Las convenciones anteriores funcionan para que nuestor codigo sea mas legible para otras 
+                        Las convenciones anteriores funcionan para que nuestor codigo sea mas legible para otras
                         personas si es que alguien mas intenta darle uso a nuestro codigo o si debemos compartilo con
                         otras personas y les sea mas facil entender el porque de una variable.
                     </p>
+
+                    
 
                 </DivRead>
             </DivCurso>
