@@ -140,7 +140,8 @@ function Prog1Variable() {
 
                     <p className="content-curso">
                         Las convenciones anteriores funcionan para que nuestor codigo sea mas legible para otras 
-                        personas 
+                        personas si es que alguien mas intenta darle uso a nuestro codigo o si debemos compartilo con
+                        otras personas y les sea mas facil entender el porque de una variable.
                     </p>
 
                 </DivRead>
