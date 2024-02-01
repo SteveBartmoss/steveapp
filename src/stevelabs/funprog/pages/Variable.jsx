@@ -122,7 +122,13 @@ function Prog1Variable() {
                         por ejemplo numero_monedas o numero_casas lo cual recuerda un poco a la forma 
                         en que las serpientes se mueven y por eso el nombre.
                     </p>
-                    
+
+                    <p className="content-curso">
+                        PascalCase: aqui la convecion nos dice que para diferenciar la separacion una 
+                        variable con dos palabras ambas palabras deben iniciar con mayusculas como por 
+                        ejemplo VelocidadMax o VelocidadMin en este caso esta convencion se empezo usar 
+                        en el lenguaje pascal y de ahi viene su nombre. 
+                    </p>
 
                 </DivRead>
             </DivCurso>
