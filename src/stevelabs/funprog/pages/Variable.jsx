@@ -108,7 +108,13 @@ function Prog1Variable() {
                         requiera mas de una palabra se pueden usar diferentes nomenclaturas como las siguientes:
                     </p>
 
-                    
+                    <p className="content-curso">
+                        camelCase: este tipo de convencion nos dice que en caso de tener que usar dos 
+                        palabras para una variable, la segunda palabra debe empesar con una mayuscula 
+                        como por ejemplo edadAlumno o pasajePrecio de esta manera se entiende mejor 
+                        la division de entre las palaras y la forma recuerda a los camellos de ahi 
+                        que se llame camel case.
+                    </p>
 
 
                 </DivRead>
