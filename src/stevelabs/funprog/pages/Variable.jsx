@@ -207,13 +207,21 @@ function Prog1Variable() {
                     </p>
                     
                     <TitleDiv>
-                        <h1 className="title-subject">Conversion de valores Casting</h1>
+                        <h1 className="title-subject">Conversion de valores (Casting)</h1>
                         <hr className="line" />
                     </TitleDiv>
 
                     <p className="content-curso">
-
+                        Si bien podemos asignar valores diferentes a la variables y esperar que el compilador haga la tarea por nosotros
+                        tambien podemos hacer la conversion de la variable por nuestra cuenta y de esta manera obtendremos el tipo que 
+                        deseamos y no el tipo que el compilador cree que debemos obtener, la sintaxis es la siguiente:
                     </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">(Tipo de dato) Expresion</p>
+                        </DivCode>
+                    </DivCenter>
 
                 </DivRead>
             </DivCurso>
