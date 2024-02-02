@@ -8,13 +8,13 @@ function Pie() {
                 <Div70>
                     <ul className="lista">
                         <li>
-                            <a className="archor">SteveLabs</a>
+                            <a className="archor" href="stevelabs">SteveLabs</a>
                         </li>
                         <li>
-                            <a className="archor">Dumix</a>
+                            <a className="archor" href="dumix">Dumix</a>
                         </li>
                         <li>
-                            <a className="archor">Articulos</a>
+                            <a className="archor" href="articulos">Articulos</a>
                         </li>
                         <li>
                             <a className="archor">ChabgeLog</a>
