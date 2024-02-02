@@ -223,6 +223,24 @@ function Prog1Variable() {
                         </DivCode>
                     </DivCenter>
 
+                    <TitleDiv>
+                        <h1 className="title-subject">Constantes</h1>
+                        <hr className="line" />
+                    </TitleDiv>
+
+                    <p className="content-curso">
+                        Este es un tipo de variable un tanto curiosa ya que puede ser de los tipos anteriormente mencionados 
+                        pero una vez que se le asigno su valor inicial no se puede cambiar en ningun momento, esto puede ser util 
+                        cuando queremos asegurarnos de que el codigo no pueda cambiar o que queremos que siempre mantenga un valor 
+                        como el numero pi o la constante de aceleracion, su sintaxis es la siguiente:
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <p className="code-simple">const  &#91; Tipo &#93; &#91; Nombre &#93; = &#91; Valor &#93;</p>
+                        </DivCode>
+                    </DivCenter>
+
                 </DivRead>
             </DivCurso>
         </>
