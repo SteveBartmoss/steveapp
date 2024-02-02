@@ -192,11 +192,18 @@ function Prog1Variable() {
                     </p>
 
                     <p className="content-curso">
-                        Si asignamos un flotante a un entero el compilador no arrojara un error pero solo tomara en cuenta la 
-                        parte entera, los decimales seran ignorados lo cual puede ser un problema si requerimos de estos datos, 
-                        en el caso contrario realmente no existe probela pues asignarle a un flotante un valor entero solo 
-                        causa que tengamos el mismo entero pero con una parte decimal. En el caso de los caracteres esto puede 
-                        ser mucho peor
+                        Si asignamos un flotante a un entero el compilador no arrojara un error pero solo tomara en cuenta la
+                        parte entera, los decimales seran ignorados lo cual puede ser un problema si requerimos de estos datos,
+                        en el caso contrario realmente no existe probela pues asignarle a un flotante un valor entero solo
+                        causa que tengamos el mismo entero pero con una parte decimal.
+                    </p>
+
+                    <p className="content-curso">
+                        En el caso de los caracteres esto es curioso pues tomar el valor de una variable char y asignarla a una 
+                        variable int no ocaciona como tal problemas ya que un tipo caracter almacena los caracteracteres por su 
+                        valor numerico que puede estar contenido en -128 a 128 entero asi que el entero puede almacenar la 
+                        informacion del caracter pero eso no siempre quiere decir que este manejo sea correcto o que no ocaciones 
+                        problemas ya que dependiendo de como manejamos la informacion la salida puede ser incorrecta.
                     </p>
 
                 </DivRead>
