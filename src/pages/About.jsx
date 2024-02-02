@@ -28,14 +28,6 @@ function About() {
                 />
 
                 <div className="contenedor-logros">
-                    
-                    <a className="dumix-btn" href="changelog">Change log</a>
-
-                    <a className="dumix-btn" href="roadmap">Road Map</a>
-
-                </div>
-
-                <div className="contenedor-logros">
                     <h1 className="title1">Secciones del canal</h1>
 
                     <Stiker imge={ban} title="Videos informativos"
