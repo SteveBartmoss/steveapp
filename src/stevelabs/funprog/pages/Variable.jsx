@@ -205,6 +205,15 @@ function Prog1Variable() {
                         informacion del caracter pero eso no siempre quiere decir que este manejo sea correcto o que no ocaciones 
                         problemas ya que dependiendo de como manejamos la informacion la salida puede ser incorrecta.
                     </p>
+                    
+                    <TitleDiv>
+                        <h1 className="title-subject">Conversion de valores Casting</h1>
+                        <hr className="line" />
+                    </TitleDiv>
+
+                    <p className="content-curso">
+
+                    </p>
 
                 </DivRead>
             </DivCurso>
