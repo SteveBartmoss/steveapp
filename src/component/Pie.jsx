@@ -17,10 +17,10 @@ function Pie() {
                             <a className="archor" href="articulos">Articulos</a>
                         </li>
                         <li>
-                            <a className="archor">ChabgeLog</a>
+                            <a className="archor" href="changelog">ChabgeLog</a>
                         </li>
                         <li>
-                            <a className="archor">Road Map</a>
+                            <a className="archor" href="roadmap">Road Map</a>
                         </li>
                     </ul>
                 </Div70>
