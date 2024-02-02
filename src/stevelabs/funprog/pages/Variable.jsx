@@ -184,13 +184,19 @@ function Prog1Variable() {
                     </TitleDiv>
 
                     <p className="content-curso">
-                        Aunque pudiera parecer logico que tipos de variables que trabajan con un mismo dato pueddan 
+                        Aunque pudiera parecer logico que tipos de variables que trabajan con un mismo dato pueddan
                         ser compatibles entre si, esto no es del todo correcto ya que si bien float e int trabajan con numeros
-                        una variable de tipo int no puede almacenar un tipo de datos flotante y viceversa, aunque en la 
-                        practica algo curioso puede pasar pues algunos compiladores hacen la adaptacion de una variable a otra 
-                        pero con un problema y es que los decimales se ven afectados. Si asignamos un flotante a un entero el 
-                        compilador no arrojara un error pero solo tomara en cuenta la parte entera, los decimales seran ignorados 
-                        lo cual puede ser un problemas si requerimos de estos datos, de la misma manera 
+                        una variable de tipo int no puede almacenar un tipo de datos flotante y viceversa, aunque en la
+                        practica algo curioso puede pasar pues algunos compiladores hacen la adaptacion de una variable a otra
+                        pero con un problema y es que los decimales se ven afectados.
+                    </p>
+
+                    <p className="content-curso">
+                        Si asignamos un flotante a un entero el compilador no arrojara un error pero solo tomara en cuenta la 
+                        parte entera, los decimales seran ignorados lo cual puede ser un problema si requerimos de estos datos, 
+                        en el caso contrario realmente no existe probela pues asignarle a un flotante un valor entero solo 
+                        causa que tengamos el mismo entero pero con una parte decimal. En el caso de los caracteres esto puede 
+                        ser mucho peor
                     </p>
 
                 </DivRead>
