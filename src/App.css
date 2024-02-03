@@ -1600,6 +1600,15 @@ Contenido h2 {
 
 @media (min-width: 360px) and (max-width: 430px) {
 
+  .title-1{
+    font-size: 2.5rem;
+  }
+
+  .p-main{
+    font-size: 1.5rem;
+    padding: 0px 10px;
+  }
+
   .menu {
     font-size: 20px;
     list-style: none;
@@ -1610,7 +1619,11 @@ Contenido h2 {
     overflow-x: scroll;
     overflow-y: hidden;
   }
-  
+
+  .flex-div{
+    width: 100%;
+  }
+
 }
 
 /*media query 576 */
