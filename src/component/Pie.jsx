@@ -28,7 +28,7 @@ function Pie() {
                     <DivRow>
                         <Div60>
                             <h1 className="title1">Hola a todos</h1>
-                            <p className="Content">Esta pagina fue creada como primer
+                            <p className="content-footer">Esta pagina fue creada como primer
                                 portafolio pero no por eso es menos importante ya que
                                 recibira actualizaciones para hacerla mas interesante.
                                 La version actual seria 2.8.0 y se planea que siga
