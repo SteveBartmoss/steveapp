@@ -1610,35 +1610,7 @@ Contenido h2 {
     overflow-x: scroll;
     overflow-y: hidden;
   }
-
-  .iten {
-    text-decoration: none;
-    color: white;
-    padding: 15px;
-    display: block;
-    font-family: 'Roboto Mono';
-    font-weight: 900;
-  }
-
-  .iten:hover {
-    /*background-color: #236e86;*/
-    /*color: #44e1f2;*/
-    /*color: #3bd5e6;*/
-    /*background-color: #F2E307;*/
-    background-color: var(--aqua-2);
-  }
-
-  .menu li {
-    display: inline-block;
-    text-align: center;
-  }
-
-  .active {
-    /*background-color: #236e86;*/
-    /*background-color: #f2cc0f;*/
-    background-color: var(--aqua-2);
-  }
-
+  
 }
 
 /*media query 576 */
