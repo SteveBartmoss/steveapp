@@ -151,7 +151,7 @@
 
 .title-subject{
   font-size: 40px;
-  font-family: 'Roboto';
+  font-family: 'Roboto Mono';
   color: white;
 }
 
@@ -243,6 +243,15 @@
   font-size: 1.8rem;
   font-family: 'Roboto Mono';
   font-weight: bold;
+}
+
+.content-footer{
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Roboto Mono';
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*#endregion*/
