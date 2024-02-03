@@ -31,7 +31,7 @@ function Pie() {
                             <p className="content-footer">Esta pagina fue creada como primer
                                 portafolio pero no por eso es menos importante ya que
                                 recibira actualizaciones para hacerla mas interesante.
-                                La version actual seria 2.8.0 y se planea que siga
+                                La version actual seria 3.1.0 y se planea que siga
                                 evolucionando hasta volverse una plataforma mas completa.
                                 Tambien puedes pasar a mi canal de Youtube quiza encuentras
                                 contenido que te agrade y me agregas a tus canales
