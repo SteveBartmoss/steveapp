@@ -565,8 +565,8 @@
 /*#endregion*/
 
 .card-div {
-  width: 400px;
-  height: 290px;
+  width: 80%;
+  height: 80%;
   margin: 10px;
   background-color: var(--gris-13);
   padding-left: 10px;
