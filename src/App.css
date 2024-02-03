@@ -1624,6 +1624,12 @@ Contenido h2 {
     width: 100%;
   }
 
+  .square-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 /*media query 576 */
