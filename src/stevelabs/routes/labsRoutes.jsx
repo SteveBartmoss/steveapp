@@ -12,6 +12,7 @@ import { Prog1Condicionales } from "../funprog/pages/Condicionales";
 import { Prog1Bucles } from "../funprog/pages/Bucles";
 import { Prog1HolaMundo } from "../funprog/pages/FirstProg";
 import Prog1Variable from "../funprog/pages/Variable";
+import CoderHome from "../coderlife/CoderHome";
 
 function LabsRoutes(){
     return(
@@ -42,6 +43,8 @@ function LabsRoutes(){
 
                     <Route path="bucles" element={<Prog1Bucles />} />
                 </Route>
+
+                <Route path="coder" element={<CoderHome />} />
             </Routes>
         </div>
     );
