@@ -70,7 +70,7 @@ function HomeLabs() {
                             de desarolladores, juegos o simplemente reflexiones sobre temas de informatica
                         </p>
                         <div className="center">
-                            <a className="dumix-btn" href="#">Ver articulos</a>
+                            <a className="dumix-btn" href="stevelabs/coder">Ver articulos</a>
                         </div>
                     </div>
 
