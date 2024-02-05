@@ -13,6 +13,8 @@ import { Prog1Bucles } from "../funprog/pages/Bucles";
 import { Prog1HolaMundo } from "../funprog/pages/FirstProg";
 import Prog1Variable from "../funprog/pages/Variable";
 import CoderHome from "../coderlife/CoderHome";
+import RouterCoder from "../coderlife/routes/routerCoder";
+import Coder1 from "../coderlife/articles/coder1";
 
 function LabsRoutes(){
     return(
@@ -45,6 +47,9 @@ function LabsRoutes(){
                 </Route>
 
                 <Route path="coder" element={<CoderHome />} />
+
+                <Route path="coder/*" element={<RouterCoder />} />
+
             </Routes>
         </div>
     );
