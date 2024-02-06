@@ -89,7 +89,7 @@ function Prog1Presentacion() {
 
                     <p className="content-curso">
                         A continacion se dara una recomendacion de programas para tener un entorno
-                        en cual se puedan desarrollar los programas que se veran a lo largo del curso,
+                        en el cual se puedan desarrollar los programas que se veran a lo largo del curso,
                         aunque esta configuracion es opcional y puedes usar programas diferentes con los
                         que te sientas mas comodo.
                     </p>
@@ -147,20 +147,25 @@ function Prog1Presentacion() {
                     <h1 className="title1">Instalar el editor de codigo (linux)</h1>
 
                     <p className="content-curso">
-                        En un sistema linux la instalacion puede ser un poco mas tardada pero no deneria ser tan
+                        En un sistema linux la instalacion puede ser un poco mas tardada pero no deberia ser tan
                         dificil ya que si usas ubuntu, fedora o alguna otra distribucion mas amigable basta con
                         que busques en la tienda de software la aplicacion de vs code para instalar el editor de
-                        codigo. En caso de no poder usar la tienda basta con que se descarges el paquete .deb para
+                        codigo.
+                    </p>
+
+                    <p className="content-curso">
+                        En caso de no poder usar la tienda basta con que se descarges el paquete .deb para
                         distribuciones de debian o el archivo rmp para otras distribuciones, tambien estan disponible
                         el archivo, tar y snap de vs code. Una vez que se tiene descargado el paquete correspondiente
                         se debe usar algun gestor de paquetes para instalar el programa.
                     </p>
 
                     <p className="content-curso">
-                        En distribuciones basadas en debian se puede usar el comando dpkg intalls seguido del nombre
+                        En distribuciones basadas en debian se puede usar el comando dpkg install seguido del nombre
                         del paquete, tambien se puede usar apt install y el nombre del paquete con lo cual se instalara
-                        el programa del paquete debian pero es importante que al ejecutat cualquiera de los comandos
-                        anteriores debemos estar en el mismo direcotorio donde se encuentra el archivo .deb.
+                        el programa del paquete debian pero es importante que al ejecutar cualquiera de los comandos
+                        anteriores debemos estar en el mismo direcotorio donde se encuentra el archivo .deb y ejecutar 
+                        alguno de los dos comandos como administrador.
                     </p>
 
                     <p className="content-curso">
