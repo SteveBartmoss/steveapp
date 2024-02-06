@@ -19,7 +19,7 @@ function Prog1Algoritmo() {
                     </p>
 
                     <p className="content-curso">
-                        la anterior definición puede ser abrumadora pero es solo por la definición
+                        La anterior definición puede ser abrumadora pero es solo por la definición
                         formal de la misma ya que en realidad las personas usan un algoritmo todo el
                         tiempo. Seguir un manual, las instrucciones para una dirección o un proceso de
                         instalación de un programa es también seguir un algoritmo, en la programación
@@ -33,7 +33,7 @@ function Prog1Algoritmo() {
                     </div>
 
                     <p className="content-curso">
-                        Un algoritmo puede tener diferentes representacións ya que por ejemplo un manual de
+                        Un algoritmo puede tener diferentes representaciónes ya que por ejemplo un manual de
                         instrucciones puede componerse solamente de imágenes, solamente de texto o combinar
                         ambas pero aún con eso el resultado debe ser el mismo resolver el problema planteado
                         siguiendo los pasos descritos. En la programación hay diferentes maneras de representar
@@ -71,8 +71,8 @@ function Prog1Algoritmo() {
                     </div>
 
                     <p className="content-curso">
-                        Problema: crear un algoritmo que incremente una número hasta el que su valor sea 10
-                        Solución: tomamos como base el número 0 y preguntamos la base es igual a 10, si no es igual 10
+                        Problema: crear un algoritmo que incremente un número hasta que su valor sea 10
+                        Solución: tomamos como base el número 0 y preguntamos la base es igual a 10?, si no es igual 10
                         entonces a la base le sumamos uno, si  base es igual a 10 entonces hemos terminado.
                     </p>
 
@@ -80,7 +80,7 @@ function Prog1Algoritmo() {
                         El ejemplo
                         anterior es muy simple pero permite ver cómo se codificaria un programa que incremente una
                         variable hasta 10 o incluso hasta el número que queramos ya que se puede sustituir el número 10
-                        por cualquier otros, podemos identificar que en el ejemplo la base es la entrada de nuestro programa
+                        por cualquier otro, podemos identificar en el ejemplo que la base es la entrada de nuestro programa
                         que en este caso empieza como 0, y que nuestra salida es la base con el valor 10, los pasos Intermedios
                         serían preguntar si la base es igual a 10 y sumar uno a la base si no es a 10.
                     </p>
@@ -102,11 +102,11 @@ function Prog1Algoritmo() {
                     </p>
 
                     <p className="content-curso">
-                        Crear un algoritmo obtener el cuadro de un número.
+                        Crear un algoritmo para obtener el cuadro de un número.
                     </p>
 
                     <p className="content-curso">
-                        Crear el algoritmo para obtener el área de un cuadro.
+                        Crear un algoritmo para obtener el área de un cuadro.
                     </p>
 
                 </DivRead>
