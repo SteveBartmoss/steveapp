@@ -178,22 +178,22 @@ function Prog1Presentacion() {
                     <h1 className="title1">Lenguaje de programacion</h1>
 
                     <p className="content-curso">
-                        Se usara lenguaje C ya que este lenguaje permite tener una base ya que tiene la
+                        Se usara lenguaje C ya que este lenguaje permite tener una buena base para iniciar ya que tiene la
                         mayoria de convenciones que es bueno tenerlas en cuenta a la hora de empezar a
                         programar, con esto se puede tener una mejor idea de los principios de programacion
-                        y la logica de la programacion con la que se trabaja al inciar a trabajar
+                        y la logica de la programacion con la que se trabaja al inciar a programar.
                     </p>
 
                     <p className="content-curso">
                         En la mayoria de los sistemas operativos este lenguaje ya viene instalado por lo que
-                        no es necesario tener que instalar el lenguaje asi que este punto no siempre es necesario
+                        no es necesario tener que instalar el lenguaje asi que en este punto no siempre es necesario
                         intalar el lenguaje desde cero
                     </p>
 
                     <h1 className="title1">Compilador</h1>
 
                     <p className="content-curso">
-                        El compilador sera el encargado de crear el ejecutable o binario de nuestro programam
+                        El compilador sera el encargado de crear el ejecutable o binario de nuestro programa 
                         para poder ejecutarlo y ver su funcionamiento, este no viene instalado por defecto en
                         los sistemas operativos por lo que tenemos que instalarlo por nuestra cuenta y la recomendacion
                         es que se use gcc en los sistemas de linux o mingw para windows ya que con esto se podra comipilar
@@ -213,7 +213,7 @@ function Prog1Presentacion() {
                     <p className="content-curso">
                         En sistemas linux es un poco mas sencillo ya que el compilador gcc esta disponible en la
                         mayoria de gestores de paquetes asi que basta con usar el correspodiente y hacer la instalacion
-                        como se muestra a continiacion:
+                        como se muestra a continuacion:
                     </p>
 
                     <p className="content-curso">Para distribuciones basadas en debian</p>
