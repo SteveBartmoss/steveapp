@@ -254,6 +254,13 @@ function Prog1Variable() {
                         de una funcion solo existe dentro de si misma.
                     </p>
 
+                    <p className="content-curso">
+                        Una variable global puede ser usada en cualquier parte del codigo en que se declaro, si trataramos de usar una variable 
+                        que esta en otro archivo .c tendriamos el mismo problema de que la variable no esta declarada, pero siempre y cuando estemos 
+                        en el mismo archivo y la declamos para que sea global podremos usar la variable tanto dentro como fuera de funciones esto es util si 
+                        no tenemos claro como manejaremos ese dato pero en ocaciones puede ser mejor usar una variable local en caso de ser posible.
+                    </p>
+
                 </DivRead>
             </DivCurso>
         </>
