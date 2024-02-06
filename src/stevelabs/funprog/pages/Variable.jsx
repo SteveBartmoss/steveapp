@@ -241,6 +241,19 @@ function Prog1Variable() {
                         </DivCode>
                     </DivCenter>
 
+                    <TitleDiv>
+                        <h1 className="title-subject">Alcance de las variables</h1>
+                        <hr className="line" />
+                    </TitleDiv>
+
+                    <p className="content-curso">
+                        Una variable puede clasificarse por el tipo de alcance que tiene ya que puede ser global o local, este tema 
+                        se entiende mejor cuando se vean funciones o se entienda que es una funcion pero por el momento basta con decir 
+                        que una variable local solo existe y puede ser referenciada dentro de la funcion en que se declaro, si queremos usar 
+                        una variable local fuera de su alcance habra un error que indicara que no existe esa variable ya que lo que esta dentro 
+                        de una funcion solo existe dentro de si misma.
+                    </p>
+
                 </DivRead>
             </DivCurso>
         </>
