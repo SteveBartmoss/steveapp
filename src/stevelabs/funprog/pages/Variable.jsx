@@ -91,10 +91,25 @@ function Prog1Variable() {
                     </DivCenter>
 
                     <p className="content-curso">
+                        Con lo anterior podemos definir los siguientes ejemplos de de declaracion de variables:
+                    </p>
+
+                    <p className="content-curso">
                         De esta manera se puedem declarar variables en el lenguaje C y muchos
                         otro lenguajes que tomen en cuenta el tipo de dato que se almacenara.
                     </p>
 
+                    <DivCenter>
+                        <DivCode>
+                            <div className="div-lines-code">
+                                <p className="code-line">int edad=20;</p>
+                                <p className="code-line">float precio=9.99;</p>
+                                <p className="code-line">char opcion='C';</p>
+                            </div>
+                        </DivCode>
+                    </DivCenter>
+
+                    
                     <p className="content-curso">
                         La sintaxis que usa lenguaje C y otros lenguajes para los nombres de las
                         variables son las siguientes:
