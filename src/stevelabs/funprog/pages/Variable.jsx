@@ -109,7 +109,21 @@ function Prog1Variable() {
                         </DivCode>
                     </DivCenter>
 
-                    
+                    <p className="content-curso">
+                        Los ejemplos anterios son validos para declarar variables en el lenguaje C aun que tambien
+                        se puede declarar mas de una variable en una sola linea como se muestra a continuacion:
+                    </p>
+
+                    <DivCenter>
+                        <DivCode>
+                            <div className="div-lines-code">
+                                <p className="code-line">int edad=20,peso=60,numHermanos=3;</p>
+                                <p className="code-line">float precio=9.99,altura=1.78,calificacion=9.5;</p>
+                                <p className="code-line">char opcion='C',grupo='B',identificador='A';</p>
+                            </div>
+                        </DivCode>
+                    </DivCenter>
+
                     <p className="content-curso">
                         La sintaxis que usa lenguaje C y otros lenguajes para los nombres de las
                         variables son las siguientes:
@@ -214,13 +228,13 @@ function Prog1Variable() {
                     </p>
 
                     <p className="content-curso">
-                        En el caso de los caracteres esto es curioso pues tomar el valor de una variable char y asignarla a una 
-                        variable int no ocaciona como tal problemas ya que un tipo caracter almacena los caracteracteres por su 
-                        valor numerico que puede estar contenido en -128 a 128 entero asi que el entero puede almacenar la 
-                        informacion del caracter pero eso no siempre quiere decir que este manejo sea correcto o que no ocaciones 
+                        En el caso de los caracteres esto es curioso pues tomar el valor de una variable char y asignarla a una
+                        variable int no ocaciona como tal problemas ya que un tipo caracter almacena los caracteracteres por su
+                        valor numerico que puede estar contenido en -128 a 128 entero asi que el entero puede almacenar la
+                        informacion del caracter pero eso no siempre quiere decir que este manejo sea correcto o que no ocaciones
                         problemas ya que dependiendo de como manejamos la informacion la salida puede ser incorrecta.
                     </p>
-                    
+
                     <TitleDiv>
                         <h1 className="title-subject">Conversion de valores (Casting)</h1>
                         <hr className="line" />
@@ -228,7 +242,7 @@ function Prog1Variable() {
 
                     <p className="content-curso">
                         Si bien podemos asignar valores diferentes a la variables y esperar que el compilador haga la tarea por nosotros
-                        tambien podemos hacer la conversion de la variable por nuestra cuenta y de esta manera obtendremos el tipo que 
+                        tambien podemos hacer la conversion de la variable por nuestra cuenta y de esta manera obtendremos el tipo que
                         deseamos y no el tipo que el compilador cree que debemos obtener, la sintaxis es la siguiente:
                     </p>
 
@@ -244,9 +258,9 @@ function Prog1Variable() {
                     </TitleDiv>
 
                     <p className="content-curso">
-                        Este es un tipo de variable un tanto curiosa ya que puede ser de los tipos anteriormente mencionados 
-                        pero una vez que se le asigno su valor inicial no se puede cambiar en ningun momento, esto puede ser util 
-                        cuando queremos asegurarnos de que el codigo no pueda cambiar o que queremos que siempre mantenga un valor 
+                        Este es un tipo de variable un tanto curiosa ya que puede ser de los tipos anteriormente mencionados
+                        pero una vez que se le asigno su valor inicial no se puede cambiar en ningun momento, esto puede ser util
+                        cuando queremos asegurarnos de que el codigo no pueda cambiar o que queremos que siempre mantenga un valor
                         como el numero pi o la constante de aceleracion, su sintaxis es la siguiente:
                     </p>
 
@@ -262,17 +276,17 @@ function Prog1Variable() {
                     </TitleDiv>
 
                     <p className="content-curso">
-                        Una variable puede clasificarse por el tipo de alcance que tiene ya que puede ser global o local, este tema 
-                        se entiende mejor cuando se vean funciones o se entienda que es una funcion pero por el momento basta con decir 
-                        que una variable local solo existe y puede ser referenciada dentro de la funcion en que se declaro, si queremos usar 
-                        una variable local fuera de su alcance habra un error que indicara que no existe esa variable ya que lo que esta dentro 
+                        Una variable puede clasificarse por el tipo de alcance que tiene ya que puede ser global o local, este tema
+                        se entiende mejor cuando se vean funciones o se entienda que es una funcion pero por el momento basta con decir
+                        que una variable local solo existe y puede ser referenciada dentro de la funcion en que se declaro, si queremos usar
+                        una variable local fuera de su alcance habra un error que indicara que no existe esa variable ya que lo que esta dentro
                         de una funcion solo existe dentro de si misma.
                     </p>
 
                     <p className="content-curso">
-                        Una variable global puede ser usada en cualquier parte del codigo en que se declaro, si trataramos de usar una variable 
-                        que esta en otro archivo .c tendriamos el mismo problema de que la variable no esta declarada, pero siempre y cuando estemos 
-                        en el mismo archivo y la declamos para que sea global podremos usar la variable tanto dentro como fuera de funciones esto es util si 
+                        Una variable global puede ser usada en cualquier parte del codigo en que se declaro, si trataramos de usar una variable
+                        que esta en otro archivo .c tendriamos el mismo problema de que la variable no esta declarada, pero siempre y cuando estemos
+                        en el mismo archivo y la declamos para que sea global podremos usar la variable tanto dentro como fuera de funciones esto es util si
                         no tenemos claro como manejaremos ese dato pero en ocaciones puede ser mejor usar una variable local en caso de ser posible.
                     </p>
 
