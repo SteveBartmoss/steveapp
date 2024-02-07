@@ -110,7 +110,7 @@ function Prog1Variable() {
                     </DivCenter>
 
                     <p className="content-curso">
-                        Los ejemplos anterios son validos para declarar variables en el lenguaje C aun que tambien
+                        Los ejemplos anteriores son validos para declarar variables en el lenguaje C aun que tambien
                         se puede declarar mas de una variable en una sola linea como se muestra a continuacion:
                     </p>
 
@@ -123,6 +123,13 @@ function Prog1Variable() {
                             </div>
                         </DivCode>
                     </DivCenter>
+
+                    <p className="content-curso">
+                        Es importante notar que se pueden declarar multiples varibles en una sola linea siempre que 
+                        sean del mismo tipo, si trataramos de asignar mas de un tipo a una variable daria un error pues 
+                        no se puede tener mas de un tipo en una varible.
+                    </p>
+
 
                     <p className="content-curso">
                         La sintaxis que usa lenguaje C y otros lenguajes para los nombres de las
