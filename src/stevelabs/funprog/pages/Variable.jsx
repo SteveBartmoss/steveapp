@@ -164,7 +164,9 @@ function Prog1Variable() {
                         </li>
 
                         <li className="list-item">
-                            Los nombres deben ser cortos sin perder el sentido del significado
+                            Los nombres deben ser cortos sin perder el sentido del significado para la variable, 
+                            en general se busca que se pueda entender la relacion de la variable con el codigo 
+                            pero que no sea tan larga como para que estorbe al leer.
                         </li>
                     </ul>
 
