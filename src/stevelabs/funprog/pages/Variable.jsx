@@ -164,11 +164,6 @@ function Prog1Variable() {
                         </li>
 
                         <li className="list-item">
-                            Los nombres deben hacer sentido para la variable, si una variable almacena
-                            la edad de una persona es buena idea llamara edad y no simplemente x, y o z
-                        </li>
-
-                        <li className="list-item">
                             Los nombres deben ser cortos sin perder el sentido del significado
                         </li>
                     </ul>
