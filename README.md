@@ -8,6 +8,13 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `09/02/2024`
+
+La aplicacion de ricoso ya tiene la funcion de paginado para los pesonajes
+con lo cual se puede buscar por paginas siguientes y anteriores, el curso de programacion 
+tiene una seccion mas que esta dedicada a las variables, se mejoro un poco el diseno de la 
+aplicacion en movil y se seguira dando soporte para movil hasta que sea mejor
+
 ### `28/01/2024`
 
 La nueva aplicacion de ricoso ya esta mas avanzada, ya se 
