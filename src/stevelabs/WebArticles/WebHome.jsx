@@ -45,7 +45,7 @@ const WebHome = () => {
                     </p>
 
                     <DivCenter>
-                        <a>Ir al articulo</a>
+                        <a href="/webdeveloper/letvsvar">Ir al articulo</a>
                     </DivCenter>
                 </div>
 
