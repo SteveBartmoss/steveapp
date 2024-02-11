@@ -94,11 +94,6 @@ function Prog1Variable() {
                         Con lo anterior podemos definir los siguientes ejemplos de de declaracion de variables:
                     </p>
 
-                    <p className="content-curso">
-                        De esta manera se puedem declarar variables en el lenguaje C y muchos
-                        otro lenguajes que tomen en cuenta el tipo de dato que se almacenara.
-                    </p>
-
                     <DivCenter>
                         <DivCode>
                             <div className="div-lines-code">
@@ -108,6 +103,11 @@ function Prog1Variable() {
                             </div>
                         </DivCode>
                     </DivCenter>
+
+                    <p className="content-curso">
+                        De esta manera se puedem declarar variables en el lenguaje C y muchos
+                        otro lenguajes que tomen en cuenta el tipo de dato que se almacenara.
+                    </p>
 
                     <p className="content-curso">
                         Los ejemplos anteriores son validos para declarar variables en el lenguaje C aun que tambien
@@ -142,7 +142,7 @@ function Prog1Variable() {
                         </li>
 
                         <li className="list-item">
-                            Las variables no pueden ser palabra resevadas como for, int, float o main
+                            Las variables no pueden ser palabra reservadas como for, int, float o main
                         </li>
 
                         <li className="list-item">
