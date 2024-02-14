@@ -21,6 +21,18 @@ function Pokemons() {
         }
     }
 
+    const nextList=async(url)=>{
+        try{
+            const response = await axios.get(url);
+            setPokemons(response.data.results);
+            setNext(response.data.next);
+            setPrev(response.data.previous);
+        }
+        catch(error){
+            console.error(error);
+        }
+    }
+
     useEffect(() => {
         listPokemons();
     }, []);
