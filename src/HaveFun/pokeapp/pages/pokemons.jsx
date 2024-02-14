@@ -24,7 +24,11 @@ function Pokemons() {
         <>
             <h1 className="tittle-app">Pokemones</h1>
             <DivArticle>
-
+                {
+                    pokemons.map(pokemon=>
+                            <h1>{pokemon.name}</h1>
+                        )
+                }
             </DivArticle>
         </>
     );
