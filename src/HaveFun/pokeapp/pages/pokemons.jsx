@@ -6,6 +6,8 @@ import PokemonCard from "../../component/CardPokemon";
 function Pokemons() {
 
     const [pokemons, setPokemons] = useState([]);
+    const [next,setNext] = useState('');
+    const [prev,setPrev] = useState('');
 
     const listPokemons = async () => {
         try {
