@@ -13,6 +13,8 @@ function Pokemons() {
         try {
             const response = await axios.get('https://pokeapi.co/api/v2/pokemon');
             setPokemons(response.data.results);
+            setNext(response.data.next);
+            setPrev(response.data.previous);
         }
         catch (error) {
             console.error(error);
