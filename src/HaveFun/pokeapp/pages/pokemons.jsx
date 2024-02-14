@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { DivArticle, DivMosaico } from "../../../component/Contenedores/Cajas";
+import { DivArticle, DivButtonNext, DivMosaico } from "../../../component/Contenedores/Cajas";
 import axios from "axios";
 import PokemonCard from "../../component/CardPokemon";
 
@@ -48,7 +48,14 @@ function Pokemons() {
                         )
                     }
                 </DivMosaico>
-
+                <DivButtonNext>
+                    <button className="btn-page" onClick={()=>nextList(prev)}>
+                        Anterior
+                    </button>
+                    <button className="btn-page" onClick={()=>nextList(next)}>
+                        Siguiente
+                    </button>
+                </DivButtonNext>
             </DivArticle>
         </>
     );
