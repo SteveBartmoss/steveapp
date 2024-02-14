@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { DivArticle } from "../../../component/Contenedores/Cajas";
 import axios from "axios";
+import PokemonCard from "../../component/CardPokemon";
 
 function Pokemons() {
 
@@ -26,7 +27,7 @@ function Pokemons() {
             <DivArticle>
                 {
                     pokemons.map(pokemon=>
-                            <h1>{pokemon.name}</h1>
+                            <PokemonCard key={pokemon.name} pokemon={pokemon} />
                         )
                 }
             </DivArticle>
