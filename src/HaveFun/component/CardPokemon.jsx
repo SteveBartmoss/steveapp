@@ -20,6 +20,7 @@ function PokemonCard({pokemon}){
     return(
         <>
             <div className="div-character-card">
+                <img className="img-character" src={sprites.front_default} />
                 <h1 className="content-card">{pokemon.name}</h1>
             </div>
         </>
