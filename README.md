@@ -8,6 +8,13 @@ para agregar mas funcionalidades a la pagina y que no sea solo una pagina static
 
 Este es un resumen de los cambios que sufre la pagina para ver como evoluciona
 
+### `15/02/2024`
+
+La aplicacion de pokeapi ya tiene un inicio en el cual se muestran los pokemones en sus respectivas cards, 
+la implementacion de siguiente pagina y pagina anterior tambien esta implementada, el siguiente paso es 
+implementar una pagina de bienvenida y que se pueda consultar una pagina detalle de un pokemon, se han realizado 
+algunas correcciones al curso de programacion, se seguria trabajando en el apartado movil de la pagina
+
 ### `09/02/2024`
 
 La aplicacion de ricoso ya tiene la funcion de paginado para los pesonajes
