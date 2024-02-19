@@ -1,5 +1,6 @@
 import React from "react";
 import { Working } from "../component/Working";
+import { BackArticle } from "../component/Contenedores/Cajas";
 
 function RoadMap() {
     return (
@@ -11,53 +12,60 @@ function RoadMap() {
 
                 <h1 className="title1">17/01/2024</h1>
 
-                <h1 className="title1">Mejoras que llegaran a la pagina</h1>
 
-                <ul>
-                    <li>
-                        <p>Curso de porgamacion completo</p>
-                    </li>
 
-                    <li>
-                        <p>Dos secciones nuevas en have fun &#40; ricoso app y poke app &#41;</p>
-                    </li>
+                <BackArticle>
 
-                    <li>
-                        <p>Mas contenido para dumix</p>
-                    </li>
+                    <h1 className="title1">Mejoras que llegaran a la pagina</h1>
 
-                    <li>
-                        <p>Nuevos articulos de rows and colums</p>
-                    </li>
+                    <ul>
+                        <li>
+                            <p>Curso de porgamacion completo</p>
+                        </li>
 
-                    <li>
-                        <p>Nuevos trucos para linux</p>
-                    </li>
-                </ul>
+                        <li>
+                            <p>Dos secciones nuevas en have fun &#40; ricoso app y poke app &#41;</p>
+                        </li>
 
-                <h1 className="title1">Cursos nuevos que tendra la pagina</h1>
+                        <li>
+                            <p>Mas contenido para dumix</p>
+                        </li>
 
-                <ul>
-                    <li>
-                        <p>Curso basico de base de datos</p>
-                    </li>
+                        <li>
+                            <p>Nuevos articulos de rows and colums</p>
+                        </li>
 
-                    <li>
-                        <p>Curso de Programacion Orientad a objetos</p>
-                    </li>
+                        <li>
+                            <p>Nuevos trucos para linux</p>
+                        </li>
+                    </ul>
+                </BackArticle>
 
-                    <li>
-                        <p>Implementaciones y ejemplos de algoritmos</p>
-                    </li>
+                <BackArticle>
+                    <h1 className="title1">Cursos nuevos que tendra la pagina</h1>
 
-                    <li>
-                        <p>Curso basico de git</p>
-                    </li>
+                    <ul>
+                        <li>
+                            <p>Curso basico de base de datos</p>
+                        </li>
 
-                    <li>
-                        <p>Conceptos de creacion de creacion de UI en java</p>
-                    </li>
-                </ul>
+                        <li>
+                            <p>Curso de Programacion Orientad a objetos</p>
+                        </li>
+
+                        <li>
+                            <p>Implementaciones y ejemplos de algoritmos</p>
+                        </li>
+
+                        <li>
+                            <p>Curso basico de git</p>
+                        </li>
+
+                        <li>
+                            <p>Conceptos de creacion de creacion de UI en java</p>
+                        </li>
+                    </ul>
+                </BackArticle>
 
             </div>
             <Working />
