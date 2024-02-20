@@ -35,7 +35,7 @@ function Steve() {
                             han visto a un pingüino cabreado corriendo hacia ellos a más
                             de 100 millas por hora.”
                         </p>
-                        <p className="content-curso">Linus Torvals</p>
+                        <blockquote className="quote">Linus Torvals</blockquote>
                     </BackExp>
                 </Paper>
             </Expositor>
