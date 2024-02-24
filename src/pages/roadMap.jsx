@@ -68,7 +68,6 @@ function RoadMap() {
                 </BackArticle>
 
             </div>
-            <Working />
         </>
     );
 }
