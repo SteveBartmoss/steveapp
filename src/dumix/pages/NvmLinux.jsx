@@ -1,9 +1,15 @@
 import React from "react";
+import { DivCenter, Paper } from "../../component/Contenedores/Cajas";
 
 function NvmLinux(){
     return(
         <>
-        <h1>Node Version Manager</h1>
+        <Paper>
+            <DivCenter>
+                <h1 className="title-1">Node Version Manager</h1>
+            </DivCenter>
+        </Paper>
+        
 
         <p>
             Una gran herramienta a la hora de crear paginas web o 
