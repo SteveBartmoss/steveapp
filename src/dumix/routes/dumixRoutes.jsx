@@ -17,6 +17,7 @@ import Rwx from "../Linux1/pages/Permisos";
 import TerminalApp from "../pages/terminalApps";
 import Vimgg from "../pages/vimgg";
 import { BasicCli } from "../pages/BasicCli";
+import NvmLinux from "../pages/NvmLinux";
 
 function RoutesDumix (){
     return(
@@ -67,6 +68,10 @@ function RoutesDumix (){
 
             <Routes>
                 <Route path="clibasic" element={<BasicCli />} />
+            </Routes>
+
+            <Routes>
+                <Route path="nvmlinux" element={<NvmLinux />} />
             </Routes>
 
         </div>
