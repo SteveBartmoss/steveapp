@@ -30,6 +30,11 @@ function NvmLinux() {
                             instalar un programa.
                         </p>
 
+                        <p>
+                            Fue gracias a esto que descubri una herramienta para poder instalar 
+                            node js en una distribucion de linux de una forma rapida y simple, 
+                            nvm quiere decir node version manager 
+                        </p>
 
                     </DivRead>
                 </Div70>
