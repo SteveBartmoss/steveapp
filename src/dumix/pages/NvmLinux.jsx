@@ -23,10 +23,11 @@ function NvmLinux() {
                         </p>
 
                         <p className="content-curso">
-                            que no estan en los
-                            repositorios oficiales puese ser algo tardado o para algunos
-                            puede ser un dificil ya que aunque me guste usar linux
-                            debo admitir que en ocaciones puede ser algo frustante
+                            Esto es porque si el programa no esta en los repositorios 
+                            oficiales es algo tardado o para algunos puede ser dificil 
+                            ya que aunque me guste usar linux debo admitir que en ocaciones 
+                            puede ser algo frustante tener que seguir mas pasos para poder 
+                            instalar un programa.
                         </p>
 
 
