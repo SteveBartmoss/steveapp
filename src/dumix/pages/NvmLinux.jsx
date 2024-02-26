@@ -33,7 +33,9 @@ function NvmLinux() {
                         <p>
                             Fue gracias a esto que descubri una herramienta para poder instalar 
                             node js en una distribucion de linux de una forma rapida y simple, 
-                            nvm quiere decir node version manager 
+                            nvm quiere decir node version manager y como su nombre los indica es 
+                            mas que un simple instalador de node si no que tambien es un manejador 
+                            de versiones que nos permite mantener diferentes versiones.
                         </p>
 
                     </DivRead>
