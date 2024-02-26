@@ -71,6 +71,24 @@ function NvmLinux() {
                             terminal
                         </p>
 
+                        <p>
+                            Ya que verificamos la version del programa podemos usar el siguiente 
+                            comando para instalar node js
+                        </p>
+
+                        <DivCenter>
+                            <DivCode>
+                                <p className="code-simple">nvm install &#91; version de node &#93;</p>
+                            </DivCode>
+                        </DivCenter>
+
+                        <p> 
+                            Con esto podemos instalar la version que queremos ya sea la mas actual 
+                            o alguna en espefico, esto es util cuanod alguna herramienta o libreria 
+                            solo funciona en una version en especifico y con esta herramienta evitamos 
+                            tener estos problemas 
+                        </p>          
+
                         <h1 className="title1">Mas que un simple instalador</h1>
 
 
