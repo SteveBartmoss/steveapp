@@ -53,7 +53,23 @@ function NvmLinux() {
                             </DivCode>
                         </DivCenter>
 
-                        
+                        <p>
+                            Una vez que ejecutamos el comando podemos usar el siguiente comando 
+                            para verificar que todo se instalo correctamente
+                        </p>
+
+                        <DivCenter>
+                            <DivCode>
+                                <p className="code-simple">nvm --version</p>
+                            </DivCode>
+                        </DivCenter>
+
+                        <p>
+                            Este comando nos debe arrojar un numero que indica la version del programa 
+                            que se instalo, si este comando no es reconocido o no funciona se tiene 
+                            que reinciar nuestra terminal asi que bastara con cerrar y abrir una nueva 
+                            terminal
+                        </p>
 
                         <h1 className="title1">Mas que un simple instalador</h1>
 
