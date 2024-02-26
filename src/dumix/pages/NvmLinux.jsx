@@ -38,7 +38,7 @@ function NvmLinux() {
                             de versiones que nos permite mantener diferentes versiones.
                         </p>
 
-                        <p>
+                        <p className="content-curso">
                             Para instalar esta aplicacion debemos tener curl que es un comando
                             que nos permite traer datos desde un servidor mediante una url, este
                             comando puede ser util pero tambien debe ser usado con cuidado pues
@@ -53,7 +53,7 @@ function NvmLinux() {
                             </DivCode>
                         </DivCenter>
 
-                        <p>
+                        <p className="content-curso">
                             Una vez que ejecutamos el comando podemos usar el siguiente comando 
                             para verificar que todo se instalo correctamente
                         </p>
@@ -64,14 +64,14 @@ function NvmLinux() {
                             </DivCode>
                         </DivCenter>
 
-                        <p>
+                        <p className="content-curso">
                             Este comando nos debe arrojar un numero que indica la version del programa 
                             que se instalo, si este comando no es reconocido o no funciona se tiene 
                             que reinciar nuestra terminal asi que bastara con cerrar y abrir una nueva 
                             terminal
                         </p>
 
-                        <p>
+                        <p className="content-curso">
                             Ya que verificamos la version del programa podemos usar el siguiente 
                             comando para instalar node js
                         </p>
@@ -82,18 +82,18 @@ function NvmLinux() {
                             </DivCode>
                         </DivCenter>
 
-                        <p> 
+                        <p className="content-curso"> 
                             Con esto podemos instalar la version que queremos ya sea la mas actual 
                             o alguna en espefico, esto es util cuanod alguna herramienta o libreria 
                             solo funciona en una version en especifico y con esta herramienta evitamos 
                             tener estos problemas 
                         </p>
 
-                        <p>
+                        <p className="content-curso">
                             Estos son otros comandos utiles para usar en nvm 
                         </p>
 
-                        <p>
+                        <p className="content-curso">
                             Para cambiar la version de node que estamos usando
                         </p>
 
@@ -103,7 +103,7 @@ function NvmLinux() {
                             </DivCode>
                         </DivCenter>    
 
-                        <p>
+                        <p className="content-curso">
                             Para listar las versiones de node que tenemos instaladas
                         </p>
 
@@ -114,7 +114,6 @@ function NvmLinux() {
                         </DivCenter>  
 
                         <h1 className="title1">Mas que un simple instalador</h1>
-
 
                     </DivRead>
                 </Div70>
