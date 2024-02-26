@@ -87,7 +87,31 @@ function NvmLinux() {
                             o alguna en espefico, esto es util cuanod alguna herramienta o libreria 
                             solo funciona en una version en especifico y con esta herramienta evitamos 
                             tener estos problemas 
-                        </p>          
+                        </p>
+
+                        <p>
+                            Estos son otros comandos utiles para usar en nvm 
+                        </p>
+
+                        <p>
+                            Para cambiar la version de node que estamos usando
+                        </p>
+
+                        <DivCenter>
+                            <DivCode>
+                                <p className="code-simple">nvm use &#91; version de node &#93;</p>
+                            </DivCode>
+                        </DivCenter>    
+
+                        <p>
+                            Para listar las versiones de node que tenemos instaladas
+                        </p>
+
+                        <DivCenter>
+                            <DivCode>
+                                <p className="code-simple">nvm ls</p>
+                            </DivCode>
+                        </DivCenter>  
 
                         <h1 className="title1">Mas que un simple instalador</h1>
 
