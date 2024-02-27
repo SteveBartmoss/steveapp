@@ -115,6 +115,19 @@ function NvmLinux() {
 
                         <h1 className="title1">Mas que un simple instalador</h1>
 
+                        <p>
+                            Como se puede ver en los comando anteriores este software 
+                            puede ser muy util ya que podemos disponer de diferentes 
+                            versiones de node y cambiar la que usamos de una manera 
+                            facil y rapida, este tipo de comportamiento se puede ver 
+                            en herramientas como coda o mini conda que permiten manejar 
+                            la version de python que usamos y aun que esto puede ser 
+                            mas complejo al no solo manejar la version de python si no 
+                            tambien crear un ambiente de desarrollo se puede ver una 
+                            semejansa con la forma en que trabaja nvm con las versiones 
+                            de node
+                        </p>
+
                     </DivRead>
                 </Div70>
             </Paper>
