@@ -104,8 +104,8 @@ function DumixHome() {
                 <DivFlex>
                     <h1 className="title-1">Lista de comando basicos</h1>
                     <p className="p-main">
-                        Una recopilacion de los comandos basicos que te ayudaran 
-                        manejar linux desde la terminal como todo un sysadmin, o 
+                        Una recopilacion de los comandos basicos que te ayudaran
+                        manejar linux desde la terminal como todo un sysadmin, o
                         por lo menos te dejaran usar tu distribucion de linux
                     </p>
                     <DivCenter>
@@ -113,6 +113,20 @@ function DumixHome() {
                     </DivCenter>
                 </DivFlex>
             </DivSection1>
+
+            <DivSection2>
+                <DivFlex>
+                    <h1 className="title-1">Nvm en linux</h1>
+                    <p className="p-main">
+                        Si eres desarrollador web o trabajas con node js 
+                        entonces te interesa tener este gran manejador 
+                        de versiones de node
+                    </p>
+                    <DivCenter>
+                        <a className="dumix-btn" href="dumix/nvmlinux">Ir al post</a>
+                    </DivCenter>
+                </DivFlex>
+            </DivSection2>
             <DumixFooter />
         </>
     );
