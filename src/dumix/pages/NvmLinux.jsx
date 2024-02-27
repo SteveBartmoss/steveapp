@@ -115,7 +115,7 @@ function NvmLinux() {
 
                         <h1 className="title1">Mas que un simple instalador</h1>
 
-                        <p>
+                        <p className="content-curso">
                             Como se puede ver en los comando anteriores este software 
                             puede ser muy util ya que podemos disponer de diferentes 
                             versiones de node y cambiar la que usamos de una manera 
