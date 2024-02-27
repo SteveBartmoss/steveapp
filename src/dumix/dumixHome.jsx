@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
-import DumixAbout from "./pages/dumixAbout";
 import DivBaner from "../component/DivBaner";
 import { DivCenter, DivFlex, DivSection1, DivSection2 } from "../component/Contenedores/Cajas";
-import SquareDiv from "../component/Contenedores/SquareDiv";
-import CardDiv from "../component/Contenedores/CardDiv";
 import { DumixFooter } from "./component/DumixFooter";
 
 function DumixHome() {
