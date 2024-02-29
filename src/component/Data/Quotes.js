@@ -31,4 +31,13 @@ export const Quotes=[
         quote: 'Nunca confies en un ordenador que no puedas lanzar por una ventana',
         autor: 'Steve Wozniak'
     }
+    {
+        
+    }
+    El arte de la depuración consiste en averiguar lo que realmente le dijiste a tu programa que hiciera en lugar de lo que pensaste que le dijiste que hiciera". - Andrew Singer
+    A veces merece la pena quedarse en la cama el lunes, en lugar de pasarse el resto de la semana depurando el código del lunes. - Dan Salomon
+    "Primero, resuelve el problema. Después, escribe el código". - John Johnson
+    "El progreso sólo es posible si nos entrenamos para pensar en los programas sin pensar en ellos como piezas de código ejecutable. " - Edsger W. Dijkstra
+    (El buen código es su mejor documentación. Cuando esté a punto de añadir un comentario, pregúntese: "¿Cómo puedo mejorar el código para que este comentario no sea necesario?) Steve McConnell
+    (C hace fácil dispararte a ti mismo en el pie, C + + hace que sea más difícil, pero cuando lo haces te vuela toda la pierna) Bjarne Stroustrup
 ]
