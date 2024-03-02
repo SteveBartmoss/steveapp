@@ -40,26 +40,32 @@ export const Quotes=[
         autor: 'Steve Wozniak'
     },
     {
+        id: 9,
         quote: 'El arte de la depuración consiste en averiguar lo que realmente le dijiste a tu programa que hiciera en lugar de lo que pensaste que le dijiste que hiciera',
         autor: 'Andrew Singer'
     },
     {
+        id: 10,
         quote: 'A veces merece la pena quedarse en la cama el lunes, en lugar de pasarse el resto de la semana depurando el código del lunes',
         autor: 'Dan Salomon'
     },
     {
+        id: 11,
         quote: 'Primero, resuelve el problema. Después, escribe el código',
         autor: 'John Johnson'
     },
     {
+        id: 12,
         quote: 'El progreso sólo es posible si nos entrenamos para pensar en los programas sin pensar en ellos como piezas de código ejecutable',
         autor: 'Edsger W. Dijkstra'
     },
     {
+        id: 13,
         quote: 'El buen código es su mejor documentación. Cuando esté a punto de añadir un comentario, pregúntese: "¿Cómo puedo mejorar el código para que este comentario no sea necesario?',
         autor: 'Steve McConnell'
     },
     {
+        id: 14,
         quote: 'C hace fácil dispararte a ti mismo en el pie, C + + hace que sea más difícil, pero cuando lo haces te vuela toda la pierna',
         autor: 'Bjarne Stroustrup'
     }
