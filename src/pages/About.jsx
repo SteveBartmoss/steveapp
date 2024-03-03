@@ -21,12 +21,12 @@ function About() {
                     <Div70>
                         <DivSection2>
                             <DivRow>
-                                <div>
+                                <DivCenter>
                                     <img className="img-card" src="/Assets/perfil2.jpg" />
-                                </div>
+                                </DivCenter>
                                 <div>
-                                    <h1>Acerca de steve chambitas</h1>
-                                    <p>
+                                    <h1 className="title1">Acerca de steve chambitas</h1>
+                                    <p className="Content">
                                         Steve chambitas es un proyecto que tiene como objetivo dar a conocer algunos temas de programacion y de informatica, sin el rigor o formalidad
                                         que se maneja en una carrera. La idea es presentar los temas de manera simple para que las personas se interesen por la informatica, al mostrar
                                         los temas de formas mas formal tambien se vuelve mas complejo pudiendo abrumar a las personas o incluso asustarlas generando desinformacion.
