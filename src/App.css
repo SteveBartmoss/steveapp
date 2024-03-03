@@ -540,6 +540,10 @@
   justify-content: center;
 }
 
+.div-img-back{
+  background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc204dmhlazhuaXljM3M2Nm5kN3V5eXg1cXRraTh5NmgxN2FhMTYyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aRZ4vTsHnyW6A/giphy.gif') no-repeat center center/cover;
+}
+
 /*#endregion*/
 
 
