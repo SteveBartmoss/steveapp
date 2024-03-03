@@ -5,7 +5,7 @@ import ban from "../img/baner canal.png";
 import Pie from "../component/Pie";
 import ChangeLog from "./changeLog";
 import { useEffect } from "react";
-import { DivSection2, Paper } from "../component/Contenedores/Cajas";
+import { Div60, Div70, DivCenter, DivRow, DivSection2, Paper } from "../component/Contenedores/Cajas";
 
 
 
@@ -19,17 +19,23 @@ function About() {
             <Paper>
                 <DivSection2>
                     <div className="contenedor-logros">
-                        <img className="img-card" src="/Assets/perfil2.jpg" />
-                        <h1>Acerca de steve chambitas</h1>
-                        <p>
-                            Steve chambitas es un proyecto que tiene como objetivo dar a conocer algunos temas de programacion y de informatica, sin el rigor o formalidad
-                            que se maneja en una carrera. La idea es presentar los temas de manera simple para que las personas se interesen por la informatica, al mostrar
-                            los temas de formas mas formal tambien se vuelve mas complejo pudiendo abrumar a las personas o incluso asustarlas generando desinformacion.
-                            Dedio a temas relacionados con la escuela, el tranajo y personales los videos se suben uno por mes pero se espera que pronto
-                            se pueda mejorar esto para que el contenido sea mas constante. Se tienen planeadas diferentes secciones que pronto se mostraran
-                            en la pagina de news, con una descripcion de la seccion, el tiempo que falta para agregarse al canal y el porcentaje que tiene de avance
-                            espero que pronto el canal se vuelva mas atractivo para las personas
-                        </p>
+                    <DivCenter>
+                        <Div60>
+                            <DivRow>
+                            <img className="img-card" src="/Assets/perfil2.jpg" />
+                            <h1>Acerca de steve chambitas</h1>
+                            <p>
+                                Steve chambitas es un proyecto que tiene como objetivo dar a conocer algunos temas de programacion y de informatica, sin el rigor o formalidad
+                                que se maneja en una carrera. La idea es presentar los temas de manera simple para que las personas se interesen por la informatica, al mostrar
+                                los temas de formas mas formal tambien se vuelve mas complejo pudiendo abrumar a las personas o incluso asustarlas generando desinformacion.
+                                Dedio a temas relacionados con la escuela, el tranajo y personales los videos se suben uno por mes pero se espera que pronto
+                                se pueda mejorar esto para que el contenido sea mas constante. Se tienen planeadas diferentes secciones que pronto se mostraran
+                                en la pagina de news, con una descripcion de la seccion, el tiempo que falta para agregarse al canal y el porcentaje que tiene de avance
+                                espero que pronto el canal se vuelva mas atractivo para las personas
+                            </p>
+                            </DivRow>
+                        </Div60>
+                    </DivCenter>
                     </div>
                 </DivSection2>
 
