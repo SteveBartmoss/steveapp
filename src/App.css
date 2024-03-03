@@ -105,6 +105,10 @@
 
 /*#region estilos de imagenes */
 
+.img-card{
+  width: 80%;
+}
+
 .img-disc {
   width: 15%;
   height: 15%;
@@ -415,7 +419,6 @@
 
 .div-row {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   column-gap: 1rem;
 }
