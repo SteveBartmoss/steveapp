@@ -296,3 +296,11 @@ export function DivButtonNext({children}){
         </div>
     );
 }
+
+export function DivCardAbout({children}){
+    return(
+        <div className="div-card-about">
+            {children}
+        </div>
+    );
+}
