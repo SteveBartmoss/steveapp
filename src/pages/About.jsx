@@ -19,6 +19,7 @@ function About() {
             <Paper>
                 <DivSection1>
                     <Div70>
+                        <div className="div-card-about">
                         <DivSection2>
                             <DivRow>
                                 <DivCenter>
@@ -38,6 +39,7 @@ function About() {
                                 </div>
                             </DivRow>
                         </DivSection2>
+                        </div>
                     </Div70>
 
                     <Div70>
