@@ -231,66 +231,6 @@ function Steve() {
                     </DivColum>
                 </DivRow>
 
-
-
-
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-                    <Paper>
-
-                    </Paper>
-                </Expositor>
-
-                <Expositor>
-
-                </Expositor>
-
             </Div70>
 
             <Pie />
