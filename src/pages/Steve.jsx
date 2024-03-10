@@ -27,7 +27,7 @@ function Steve() {
                             <DivCenter>
                                 <h1 className="title1">Skills</h1>
                             </DivCenter>
-                            
+
                             <DivRow>
                                 <DivColum>
                                     <h1 className="content-curso">React</h1>
@@ -41,9 +41,49 @@ function Steve() {
                         </DivTopic>
 
                         <DivTopic>
-                            
+                            <h1 className="content-curso">Estado: hackeando a la nasa</h1>
+                            <h1 className="content-curso">Horas de programacion:</h1>
+                            <h1 className="content-curso">Meta de subs: </h1>
+                        </DivTopic>
+
+                        <DivTopic>
+                            <h1 className="title1">Manejador de versiones usado</h1>
+                            <p>Github un clasico</p>
+                            <h1 className="title1">Editor de codigo Favorito</h1>
+                            <img className="img-prog" src={"/Assets/vscode.png"} alt="imgLateral" />
+                            <h1 className="title1">Distribucion que usa actual mente</h1>
+                            <img className="img-prog" src={"/Assets/ubuntu.png"} alt="imgLateral" />
+                            <h1 className="title1">Lenguaje de programacion Favorito</h1>
+                            <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
+
+
+                        </DivTopic>
+                        <DivTopic>
+                            <div className="div-progres">
+                                <h1 className="title1">Lenguajes de programacion que uso</h1>
+                                <p className="Content">Y su porcentaje de uso</p>
+
+                                <p className="Content">JavaScript 90%</p>
+                                <div className="percent-bar">
+                                    <div className="percent-progres nine"></div>
+                                </div>
+                                <p className="Content">Python 10%</p>
+                                <div className="percent-bar">
+                                    <div className="percent-progres ten"></div>
+                                </div>
+                                <p className="Content">C 10%</p>
+                                <div className="percent-bar">
+                                    <div className="percent-progres ten"></div>
+                                </div>
+                                <p className="Content">Java 80%</p>
+                                <div className="percent-bar">
+                                    <div className="percent-progres eigth"></div>
+                                </div>
+
+                            </div>
                         </DivTopic>
                     </DivColum>
+
                     <DivColum>
                         <DivPublic>
                             <p className="content-curso">
@@ -211,39 +251,7 @@ function Steve() {
                 </Expositor>
 
                 <Expositor>
-                    <h1 className="title1">Manejador de versiones usado</h1>
-                    <p>Github un clasico</p>
-                    <h1 className="title1">Editor de codigo Favorito</h1>
-                    <img className="img-prog" src={"/Assets/vscode.png"} alt="imgLateral" />
-                    <h1 className="title1">Distribucion que usa actual mente</h1>
-                    <img className="img-prog" src={"/Assets/ubuntu.png"} alt="imgLateral" />
-                    <h1 className="title1">Lenguaje de programacion Favorito</h1>
-                    <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
-                    <h1 className="title1">Estado: hackeando a la nasa</h1>
-                    <h1 className="title1">Horas de programacion:</h1>
-                    <h1 className="title1">Meta de subs: </h1>
-                    <div className="div-progres">
-                        <h1 className="title1">Lenguajes de programacion que uso</h1>
-                        <p className="Content">Y su porcentaje de uso</p>
 
-                        <p className="Content">JavaScript 90%</p>
-                        <div className="percent-bar">
-                            <div className="percent-progres nine"></div>
-                        </div>
-                        <p className="Content">Python 10%</p>
-                        <div className="percent-bar">
-                            <div className="percent-progres ten"></div>
-                        </div>
-                        <p className="Content">C 10%</p>
-                        <div className="percent-bar">
-                            <div className="percent-progres ten"></div>
-                        </div>
-                        <p className="Content">Java 80%</p>
-                        <div className="percent-bar">
-                            <div className="percent-progres eigth"></div>
-                        </div>
-
-                    </div>
                 </Expositor>
 
             </Div70>
