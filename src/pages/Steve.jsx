@@ -11,21 +11,24 @@ import { BackExp, Div70, Expositor, GridPerfil, Paper, TitleExp } from "../compo
 
 
 function Steve() {
-    useEffect(()=>{
+    useEffect(() => {
         document.title = "stevechambitas"
-    },[]);
+    }, []);
     return (
 
         <>
             <Portada image={"/Assets/steveA.png"} />
-                           
-            
-            <div className="div-tags">
-                <h1 className="tag">React</h1>
-                <h1 className="tag">JavaScript</h1>
-                <h1 className="tag">Linux</h1>
-                <h1 className="tag">WebDeveloper</h1>
-            </div>
+
+            <Div70>
+                <div className="div-tags">
+                    <h1 className="tag">React</h1>
+                    <h1 className="tag">JavaScript</h1>
+                    <h1 className="tag">Linux</h1>
+                    <h1 className="tag">WebDeveloper</h1>
+                </div>
+            </Div70>
+
+
 
             <Expositor>
                 <Paper>
