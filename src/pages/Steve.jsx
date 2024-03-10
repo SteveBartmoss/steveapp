@@ -7,7 +7,7 @@ import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
 import Pie from "../component/Pie";
-import { BackExp, Div70, DivCard, DivColum, DivRow, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
+import { BackExp, Div70, DivCard, DivColum, DivPublic, DivRow, DivTopic, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
 
 
 function Steve() {
@@ -23,15 +23,15 @@ function Steve() {
 
                 <DivRow>
                     <DivColum>
-                        <DivCard>
+                        <DivTopic>
                             <h1 className="tag">React</h1>
                             <h1 className="tag">JavaScript</h1>
                             <h1 className="tag">Linux</h1>
                             <h1 className="tag">WebDeveloper</h1>
-                        </DivCard>
+                        </DivTopic>
                     </DivColum>
                     <DivColum>
-                        <BackExp>
+                        <DivPublic>
                             <p className="content-curso">
                                 “Algunas personas me han dicho que no creen que un pingüino
                                 gordo encarne el espíritu de Linux, lo que me dice que nunca
@@ -39,7 +39,7 @@ function Steve() {
                                 de 100 millas por hora.”
                             </p>
                             <blockquote className="quote">Linus Torvals</blockquote>
-                        </BackExp>
+                        </DivPublic>
                     </DivColum>
                 </DivRow>
 
