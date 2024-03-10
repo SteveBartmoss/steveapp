@@ -7,7 +7,7 @@ import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
 import Pie from "../component/Pie";
-import { BackExp, Div70, DivCard, DivColum, DivPublic, DivRow, DivTopic, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
+import { BackExp, Div70, DivCard, DivCenter, DivColum, DivPublic, DivRow, DivTopic, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
 
 
 function Steve() {
@@ -24,10 +24,24 @@ function Steve() {
                 <DivRow>
                     <DivColum>
                         <DivTopic>
-                            <h1 className="tag">React</h1>
-                            <h1 className="tag">JavaScript</h1>
-                            <h1 className="tag">Linux</h1>
-                            <h1 className="tag">WebDeveloper</h1>
+                            <DivCenter>
+                                <h1 className="title1">Skills</h1>
+                            </DivCenter>
+                            
+                            <DivRow>
+                                <DivColum>
+                                    <h1 className="content-curso">React</h1>
+                                    <h1 className="content-curso">JavaScript</h1>
+                                </DivColum>
+                                <DivColum>
+                                    <h1 className="content-curso">Linux</h1>
+                                    <h1 className="content-curso">WebDeveloper</h1>
+                                </DivColum>
+                            </DivRow>
+                        </DivTopic>
+
+                        <DivTopic>
+                            
                         </DivTopic>
                     </DivColum>
                     <DivColum>
