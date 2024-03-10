@@ -7,7 +7,7 @@ import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
 import Pie from "../component/Pie";
-import { BackExp, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
+import { BackExp, Div70, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
 
 
 function Steve() {
@@ -18,7 +18,8 @@ function Steve() {
 
         <>
             <Portada image={"/Assets/steveA.png"} />
-
+                           
+            
             <div className="div-tags">
                 <h1 className="tag">React</h1>
                 <h1 className="tag">JavaScript</h1>
