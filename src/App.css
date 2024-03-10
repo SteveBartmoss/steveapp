@@ -552,7 +552,7 @@
 .div-topics{
   width: 24rem;
   margin-top: 1rem;
-  background-color: var(--gris-8);
+  background-color: var(--gris-7);
   margin-right: 1rem;
   border-radius: 1rem;
 }
@@ -560,7 +560,7 @@
 .div-public{
   width: 54rem;
   margin-top: 1rem;
-  background-color: var(--gris-8);
+  background-color: var(--gris-7);
   border-radius: 1rem;
 }
 
