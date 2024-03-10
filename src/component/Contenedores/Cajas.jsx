@@ -305,9 +305,17 @@ export function DivCardAbout({children}){
     );
 }
 
-export function DivTopics({children}){
+export function DivTopic({children}){
     return(
         <div className="div-topics">
+            {children}
+        </div>
+    );
+}
+
+export function DivPublic({children}){
+    return(
+        <div className="div-public">
             {children}
         </div>
     );
