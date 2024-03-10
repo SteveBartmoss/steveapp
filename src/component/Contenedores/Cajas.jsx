@@ -304,3 +304,11 @@ export function DivCardAbout({children}){
         </div>
     );
 }
+
+export function DivTopics({children}){
+    return(
+        <div className="div-topics">
+            {children}
+        </div>
+    );
+}
