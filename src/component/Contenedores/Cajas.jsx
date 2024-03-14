@@ -320,3 +320,11 @@ export function DivPublic({children}){
         </div>
     );
 }
+
+export function DivPublicTitle({children}){
+    return(
+        <div className="div-public-title">
+            {children}
+        </div>
+    );
+}
