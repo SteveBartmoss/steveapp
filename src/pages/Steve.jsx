@@ -7,7 +7,7 @@ import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
 import Pie from "../component/Pie";
-import { BackExp, Div70, DivCard, DivCenter, DivColum, DivPublic, DivRow, DivTopic, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
+import { BackExp, Div70, DivCard, DivCenter, DivColum, DivPublic, DivPublicTitle, DivRow, DivTopic, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
 
 
 function Steve() {
@@ -96,7 +96,9 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Acerca de steve</h1>
+                            <DivPublicTitle>
+                                <h1 className="title1">Acerca de steve</h1>
+                            </DivPublicTitle>
                             <p className="content-curso">
                                 Estudiante de ingenieria en sistemas con cero
                                 porciento de probabilidadesde triunfar pero con el cien
