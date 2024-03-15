@@ -7,7 +7,7 @@ import Portada from "../component/Portada";
 import Actividad from "../component/Actividad";
 import Lateral from "../component/LateralSteve";
 import Pie from "../component/Pie";
-import { BackExp, Div70, DivCard, DivCenter, DivColum, DivPublic, DivPublicTitle, DivRow, DivTopic, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
+import { BackExp, Div70, DivCard, DivCenter, DivColum, DivPublic, DivPublicText, DivPublicTitle, DivRow, DivTopic, Expositor, GridPerfil, Paper, TitleExp } from "../component/Contenedores/Cajas";
 
 
 function Steve() {
@@ -99,14 +99,17 @@ function Steve() {
                             <DivPublicTitle>
                                 <p>Acerca de steve</p>
                             </DivPublicTitle>
-                            <p className="content-curso">
-                                Estudiante de ingenieria en sistemas con cero
-                                porciento de probabilidadesde triunfar pero con el cien
-                                porciento de fe, uno de mis gustos es la cultura geek,
-                                me gustan las peliculas de super heroes, la ciencia
-                                ficcion, los videojuegos y los temas de programacion
-                                aunque en esto ultimo no soy tan bueno.
-                            </p>
+                            <DivPublicText>
+                                <p>
+                                    Estudiante de ingenieria en sistemas con cero
+                                    porciento de probabilidadesde triunfar pero con el cien
+                                    porciento de fe, uno de mis gustos es la cultura geek,
+                                    me gustan las peliculas de super heroes, la ciencia
+                                    ficcion, los videojuegos y los temas de programacion
+                                    aunque en esto ultimo no soy tan bueno.
+                                </p>
+                            </DivPublicText>
+
                         </DivPublic>
 
                         <DivPublic>
@@ -188,7 +191,7 @@ function Steve() {
                                 Crear un editr ligero
                             </p>
                         </DivPublic>
-                        
+
                     </DivColum>
                 </DivRow>
 
