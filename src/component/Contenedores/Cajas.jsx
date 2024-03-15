@@ -328,3 +328,11 @@ export function DivPublicTitle({children}){
         </div>
     );
 }
+
+export function DivPublicText({children}){
+    return(
+        <div className="div-public-text">
+            {children}
+        </div>
+    );
+}
