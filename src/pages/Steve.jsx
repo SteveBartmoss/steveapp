@@ -97,7 +97,7 @@ function Steve() {
 
                         <DivPublic>
                             <DivPublicTitle>
-                                <h1 className="title1">Acerca de steve</h1>
+                                <p>Acerca de steve</p>
                             </DivPublicTitle>
                             <p className="content-curso">
                                 Estudiante de ingenieria en sistemas con cero
