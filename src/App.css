@@ -566,6 +566,10 @@
 
 .div-public-title{
   margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  font-family: Roboto;
 }
 
 /*#endregion*/
