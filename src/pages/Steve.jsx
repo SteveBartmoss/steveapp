@@ -113,7 +113,9 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Lenguajes usados</h1>
+                            <DivPublicTitle>
+                                <p>Lenguajes usados</p>
+                            </DivPublicTitle>
                             <img className="img-prog" src={"/Assets/java.png"} alt="imgLateral" />
                             <img className="img-prog" src={"/Assets/c.png"} alt="imgLateral" />
                             <img className="img-prog" src={"/Assets/c++.png"} alt="imgLateral" />
@@ -122,14 +124,18 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Bases de datos usadas</h1>
+                            <DivPublicTitle>
+                                <p>Bases de datos usadas</p>
+                            </DivPublicTitle>
                             <img className="img-prog" src={"/Assets/mysql.png"} alt="imgLateral" />
                             <img className="img-prog" src={"/Assets/sql.png"} alt="imgLateral" />
                             <img className="img-prog" src={"/Assets/mongo.png"} alt="imgLateral" />
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Mi perfil de spotify</h1>
+                            <DivPublicTitle>
+                                <p>Mi perfil de spotify</p>
+                            </DivPublicTitle>
                             <p className="Content">
                                 Si quieres saber que tipo de musica escuho
                                 o dar una vuelta mis playlist de spotify tienes un enlace a mi perfil
@@ -139,7 +145,9 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Mi perfil de steam</h1>
+                            <DivPublicTitle>
+                                <p>Mi perfil de steam</p>
+                            </DivPublicTitle>
                             <p className="Content">
                                 Si quires agregarme en steam para jugar o para ver mi
                                 biblioteca de juegos o las resenas de titulos que he jugado
@@ -150,7 +158,9 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Pc Check Actual</h1>
+                            <DivPublicTitle>
+                                <p>Pc Check Actual</p>
+                            </DivPublicTitle>
                             <p className="Content">
                                 El pc de edicion y para jugar de steve no resulta
                                 tan potente como el de otros creadores top, pero tiene
@@ -166,7 +176,9 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Lenguajes por aprender</h1>
+                            <DivPublicTitle>
+                                <p>Lenguajes por aprender</p>
+                            </DivPublicTitle>
                             <p className="content-curso">
                                 Rust
                                 Python
