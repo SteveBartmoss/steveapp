@@ -186,7 +186,9 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Tecnologias que pienso aprender</h1>
+                            <DivPublicTitle>
+                                <p>Tecnologias que pienso aprender</p>
+                            </DivPublicTitle>
                             <p className="content-curso">
                                 Docker
                                 Next Js
@@ -196,7 +198,9 @@ function Steve() {
                         </DivPublic>
 
                         <DivPublic>
-                            <h1 className="title1">Proyectos que tengo planeados</h1>
+                            <DivPublicTitle>
+                                <p>Proyectos que tengo planeados</p>
+                            </DivPublicTitle>
                             <p className="content-curso">
                                 Crear un tablero
                                 Terminar los cursos de las paginas
