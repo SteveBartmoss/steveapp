@@ -1,9 +1,5 @@
 /* paleta de colores 1
 
-
-
-
-
 #672d4b
 #8b2357
 #b46182
@@ -43,6 +39,9 @@
 #0D0D0D
 
 #024059
+
+
+
 */
 
 /* media querys mas comiunes 
@@ -122,11 +121,43 @@
   --ever-gray0: #7A8478;
   --ever-gray1: #859289;
   --ever-gray2: #9DA9A0;
+
+  
+  --gris-back: #23272f;
 }
 
 /*#endregion*/
 
+/*#region componente card */
+
+.card{
+  width: 40rem;
+  background-color: var(--gris-back);
+  border-radius: .5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.card-title{
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Poppins";
+}
+
+.card-text{
+  color: var(--ever-gray2);
+  font-size: 1rem;
+  font-family: "Poppins";
+}
+
+
+/*#endregion*/
+
 /*#region estilos de imagenes */
+
+.card-image{
+  width: 15rem;
+}
 
 .img-card{
   width: 80%;
