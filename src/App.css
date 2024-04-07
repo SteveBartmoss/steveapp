@@ -150,6 +150,20 @@
   font-family: "Poppins";
 }
 
+.card-header{
+  color: var(--ever-gray2);
+  font-size: 1rem;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 /*#endregion*/
 
