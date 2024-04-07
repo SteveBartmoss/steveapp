@@ -99,6 +99,29 @@
 
   --portal-1: #2B812C;
   --portal-2: #94EB0C;
+
+  --ever-bg-dim: #1E2326;
+  --ever-bg-0: #272E33;
+  --ever-bg-1: #2E383C;
+  --ever-bg-2: #374145;
+  --ever-bg-3: #414B50;
+  --ever-bg-4: #495156;
+  --ever-bg-5: #4F5B58;
+  --ever-bg-red: #4C3743;
+  --ever-bg-visual: #493B40;
+  --ever-bg-yellow: #45443C;
+  --ever-bg-green: #3C4841;
+  --ever-bg-blue: #384B55;
+  --ever-red: #E67E80;
+  --ever-orange: #E69875;
+  --ever-yellow: #DBBC7F;
+  --ever-green: #A7C080;
+  --ever-blue: #7FBBB3;
+  --ever-aqua: #83C092;
+  --ever-purple: #D699B6;
+  --ever-gray0: #7A8478;
+  --ever-gray1: #859289;
+  --ever-gray2: #9DA9A0;
 }
 
 /*#endregion*/
