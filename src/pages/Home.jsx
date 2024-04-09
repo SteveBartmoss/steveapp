@@ -5,7 +5,8 @@ import DivBaner from "../component/DivBaner";
 import FlexDiv from "../component/Contenedores/FlexDiv";
 import SquareDiv from "../component/Contenedores/SquareDiv";
 import CardDiv from "../component/Contenedores/CardDiv";
-import { DivCenter, DivSection1, DivSection2, Paper } from "../component/Contenedores/Cajas";
+import { Div70, DivCenter, DivColum, DivRow, DivSection1, DivSection2, Paper } from "../component/Contenedores/Cajas";
+import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../component/Card";
 
 function Home() {
 
@@ -18,6 +19,7 @@ function Home() {
             <Paper>
                 <DivBaner name="Baner" />
                 <DivSection1>
+
                     <FlexDiv>
                         <h1 className="title-1">Videos con mas visitas</h1>
                         <p className="p-main">
@@ -27,54 +29,104 @@ function Home() {
                         </p>
                     </FlexDiv>
 
-                    <SquareDiv>
+                    <DivRow>
+                        <DivColum>
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>Borrar System32</CardTitle>
+                                        <CardText>
+                                            La popular broma de borrar System32 para que tu pc
+                                            sea mas rapida puede generar mas problemas de lo
+                                            que crees
+                                        </CardText>
+                                        <CardFooter>
+                                            <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
 
-                        <CardDiv>
-                            <h1 className="title1">Borrar System32</h1>
-                            <p className="content-curso">
-                                La popular broma de borrar System32 para que tu pc
-                                sea mas rapida puede generar mas problemas de lo
-                                que crees
-                            </p>
-                            <DivCenter>
-                                <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                            </DivCenter>
-                        </CardDiv>
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>7/04/21</p>
+                                        </CardHeader>
+                                        <CardTitle>Fantasmas de pacman</CardTitle>
+                                        <CardText>
+                                            El popular juego guarda algunos secretos sobre el
+                                            comportamiento de sus enemigos
+                                        </CardText>
+                                        <CardFooter>
+                                            <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
 
-                        <CardDiv>
-                            <h1 className="title1">Fantasmas de pacman</h1>
-                            <p className="content-curso">
-                                El popular juego guarda algunos secretos sobre el
-                                comportamiento de sus enemigos
-                            </p>
-                            <DivCenter>
-                                <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                            </DivCenter>
-                        </CardDiv>
+                        </DivColum>
 
-                        <CardDiv>
-                            <h1 className="title1">CPU multi nucleo</h1>
-                            <p className="content-curso">
-                                Los procesadores tienen diferentes propiedades y una
-                                de ellas es el numero de nucleos que tiene
-                            </p>
-                            <DivCenter>
-                                <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                            </DivCenter>
-                        </CardDiv>
+                        <DivColum>
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>CPU multi nucleo</CardTitle>
+                                        <CardText>
+                                            Los procesadores tienen diferentes propiedades y una
+                                            de ellas es el numero de nucleos que tienen
+                                        </CardText>
+                                        <CardFooter>
+                                            <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
 
-                        <CardDiv>
-                            <h1 className="title1">Librerias</h1>
-                            <p className="content-curso">
-                                Las librerias de programacion son un tema recurrente dentro
-                                de la programacion
-                            </p>
-                            <DivCenter>
-                                <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                            </DivCenter>
-                        </CardDiv>
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>Librerias</CardTitle>
+                                        <CardText>
+                                            Las librerias de programacion son un tema recurrente dentro
+                                            de la programacion
+                                        </CardText>
+                                        <CardFooter>
+                                            <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
 
-                    </SquareDiv>
+                        </DivColum>
+
+                    </DivRow>
+
                 </DivSection1>
 
                 <DivSection2>
