@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../App.css";
 import Pie from "../component/Pie";
 import DivBaner from "../component/DivBaner";
@@ -10,9 +10,27 @@ import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../component/
 
 function Home() {
 
+    const [width,setWidth]=useState(window.innerWidth);
+    const [height,setHeight]=useState(window.innerHeight);
+
+    const handleResize=()=>{
+        setWidth(window.innerWidth);
+        setHeight(window.innerHeight);
+        console.log(width);
+        console.log(height);
+    }
+
+
     useEffect(() => {
         document.title = "stevechambitas"
+        window.addEventListener("resize",handleResize);
+
+        return ()=> {
+            window.removeEventListener("resize",handleResize);
+        };
     }, []);
+
+    
 
     return (
         <>
