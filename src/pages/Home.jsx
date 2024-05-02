@@ -47,103 +47,105 @@ function Home() {
                         </p>
                     </FlexDiv>
 
-                    <DivRow>
-                        <DivColum>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Borrar System32</CardTitle>
-                                        <CardText>
-                                            La popular broma de borrar System32 para que tu pc
-                                            sea mas rapida puede generar mas problemas de lo
-                                            que crees
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
+                    <Div70>
+                        <DivRow>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Borrar System32</CardTitle>
+                                            <CardText>
+                                                La popular broma de borrar System32 para que tu pc
+                                                sea mas rapida puede generar mas problemas de lo
+                                                que crees
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="https://www.youtube.com/watch?v=QsPAVmQFnUQ" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
 
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>7/04/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Fantasmas de pacman</CardTitle>
-                                        <CardText>
-                                            El popular juego guarda algunos secretos sobre el
-                                            comportamiento de sus enemigos
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>7/04/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Fantasmas de pacman</CardTitle>
+                                            <CardText>
+                                                El popular juego guarda algunos secretos sobre el
+                                                comportamiento de sus enemigos
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="https://www.youtube.com/watch?v=XLCuuMvgbec" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
 
-                        </DivColum>
+                            </DivColum>
 
-                        <DivColum>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>CPU multi nucleo</CardTitle>
-                                        <CardText>
-                                            Los procesadores tienen diferentes propiedades y una
-                                            de ellas es el numero de nucleos que tienen
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>CPU multi nucleo</CardTitle>
+                                            <CardText>
+                                                Los procesadores tienen diferentes propiedades y una
+                                                de ellas es el numero de nucleos que tienen
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="https://www.youtube.com/watch?v=AuPJ8kL-iLs" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
 
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Librerias</CardTitle>
-                                        <CardText>
-                                            Las librerias de programacion son un tema recurrente dentro
-                                            de la programacion
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Librerias</CardTitle>
+                                            <CardText>
+                                                Las librerias de programacion son un tema recurrente dentro
+                                                de la programacion
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="https://www.youtube.com/watch?v=V4ZxnSYly-Y" rel="noopener noreferrer" className="dumix-btn" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
 
-                        </DivColum>
+                            </DivColum>
 
-                    </DivRow>
+                        </DivRow>
+                    </Div70>
 
                 </DivSection1>
 
@@ -157,106 +159,109 @@ function Home() {
                         </p>
                     </FlexDiv>
 
-                    <DivRow>
-                        <DivColum>
-                            <Card>
-                                <DivRow>
+                    <Div70>
+                        <DivRow>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
 
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Juegos early access</CardTitle>
-                                        <CardText>
-                                            Los early access pueden ser una gran
-                                            oportunidad pero tambien pueden representar un riesgo
-                                            para tu cartera
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="rows/rc3" className="dumix-btn" >Ver articulo</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Juegos early access</CardTitle>
+                                            <CardText>
+                                                Los early access pueden ser una gran
+                                                oportunidad pero tambien pueden representar un riesgo
+                                                para tu cartera
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="rows/rc3" className="dumix-btn" >Ver articulo</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
 
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Una nueva esperanza</CardTitle>
-                                        <CardText>
-                                            En este mundo de juegos triple A los indie son
-                                            aire fresco con nuevas mecanicas o mejores historias
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="rows/rc4" className="dumix-btn" >Ver articulo</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Una nueva esperanza</CardTitle>
+                                            <CardText>
+                                                En este mundo de juegos triple A los indie son
+                                                aire fresco con nuevas mecanicas o mejores historias
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="rows/rc4" className="dumix-btn" >Ver articulo</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                        </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                            </DivColum>
 
-                        <DivColum>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>La gama alta</CardTitle>
-                                        <CardText>
-                                            Actualmente la mayoria de usuarios de pc tiene
-                                            la idea de que se debe llegar a la gama alta del pc gaming
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="rows/rc1" className="dumix-btn" >Ver articulo</a>
-                                        </CardFooter>
-                                    </DivColum>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>La gama alta</CardTitle>
+                                            <CardText>
+                                                Actualmente la mayoria de usuarios de pc tiene
+                                                la idea de que se debe llegar a la gama alta del pc gaming
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="rows/rc1" className="dumix-btn" >Ver articulo</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
 
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>16 de ram</CardTitle>
-                                        <CardText>
-                                            Antes 16 gigas de ram era una gloria para
-                                            la mayoria de personas pero ahora ya no es la misma
-                                            historia
-                                        </CardText>
-                                        <CardFooter>
-                                            <a href="rows/rc5" className="dumix-btn" >Ver articulo</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>16 de ram</CardTitle>
+                                            <CardText>
+                                                Antes 16 gigas de ram era una gloria para
+                                                la mayoria de personas pero ahora ya no es la misma
+                                                historia
+                                            </CardText>
+                                            <CardFooter>
+                                                <a href="rows/rc5" className="dumix-btn" >Ver articulo</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                        </DivColum>
-                    </DivRow>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                            </DivColum>
+                        </DivRow>
+
+                    </Div70>
 
                 </DivSection2>
 
@@ -270,101 +275,105 @@ function Home() {
                         </p>
                     </FlexDiv>
 
-                    <DivRow>
-                        <DivColum>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Mundos de Minecraft</CardTitle>
-                                        <CardText>
-                                            La generacion de los mundos de Minecraft
-                                            puede que te soprenda al tratarse de un proceso
-                                            algo complejo
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=6gle9QkZpbI" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                    <Div70>
+                        <DivRow>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Mundos de Minecraft</CardTitle>
+                                            <CardText>
+                                                La generacion de los mundos de Minecraft
+                                                puede que te soprenda al tratarse de un proceso
+                                                algo complejo
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=6gle9QkZpbI" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Que es el lag</CardTitle>
-                                        <CardText>
-                                            Esa ira que se siente cuando tu personaje
-                                            deja de moverse y todos parecen flash
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=HizfLah3KGE" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Que es el lag</CardTitle>
+                                            <CardText>
+                                                Esa ira que se siente cuando tu personaje
+                                                deja de moverse y todos parecen flash
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=HizfLah3KGE" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                        </DivColum>
-                        <DivColum>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>phising</CardTitle>
-                                        <CardText>
-                                            El test para saber que pan eres puede
-                                            no ser tan inofensivo como crees
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=KJD8Sq9O1ps" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                            </DivColum>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>phising</CardTitle>
+                                            <CardText>
+                                                El test para saber que pan eres puede
+                                                no ser tan inofensivo como crees
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=KJD8Sq9O1ps" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>HDD lento</CardTitle>
-                                        <CardText>
-                                            Los discos mecanicos tienen gran
-                                            capacidad pero son demasiado lentos
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Vdb4jy2NQPk" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>HDD lento</CardTitle>
+                                            <CardText>
+                                                Los discos mecanicos tienen gran
+                                                capacidad pero son demasiado lentos
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=Vdb4jy2NQPk" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                        </DivColum>
-                    </DivRow>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                            </DivColum>
+                        </DivRow>
+
+                    </Div70>
+
                 </DivSection1>
 
                 <DivSection2>
@@ -377,100 +386,103 @@ function Home() {
                         </p>
                     </FlexDiv>
 
-                    <DivRow>
-                        <DivColum>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Papers Please</CardTitle>
-                                        <CardText>
-                                            Un entrenido indie que implementa buenas
-                                            mecanicas y tiene una historia interesante
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=RLAiWG8Ysds&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=6" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                    <Div70>
+                        <DivRow>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Papers Please</CardTitle>
+                                            <CardText>
+                                                Un entrenido indie que implementa buenas
+                                                mecanicas y tiene una historia interesante
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=RLAiWG8Ysds&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=6" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Death Stranding</CardTitle>
-                                        <CardText>
-                                            Al principio crei que era un uber simulator
-                                            pero luego me lleve una gran sorpresa
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=TWe5LETi3SM&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=5" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Death Stranding</CardTitle>
+                                            <CardText>
+                                                Al principio crei que era un uber simulator
+                                                pero luego me lleve una gran sorpresa
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=TWe5LETi3SM&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=5" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                        </DivColum>
-                        <DivColum>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Need for Speed</CardTitle>
-                                        <CardText>
-                                            Esperaba que este fuera un digno sucesor de
-                                            la saga under ground pero no fue asi
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=jmLM6DvAn84&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=4" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                            </DivColum>
+                            <DivColum>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Need for Speed</CardTitle>
+                                            <CardText>
+                                                Esperaba que este fuera un digno sucesor de
+                                                la saga under ground pero no fue asi
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=jmLM6DvAn84&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=4" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                            <Card>
-                                <DivRow>
-                                    <DivColum>
-                                        <CardHeader>
-                                            <p>steve</p>
-                                            <p>18/01/21</p>
-                                        </CardHeader>
-                                        <CardTitle>Sunset Overdrive</CardTitle>
-                                        <CardText>
-                                            Un juego que no es tan valorado como
-                                            deberia ya que tiene algo que mostrar
-                                        </CardText>
-                                        <CardFooter>
-                                            <a className="dumix-btn" href="https://www.youtube.com/watch?v=Ip7WDHnbB5s&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=3" rel="noopener noreferrer" target="_blank">Ir al video</a>
-                                        </CardFooter>
-                                    </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Sunset Overdrive</CardTitle>
+                                            <CardText>
+                                                Un juego que no es tan valorado como
+                                                deberia ya que tiene algo que mostrar
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="https://www.youtube.com/watch?v=Ip7WDHnbB5s&list=PL54hUsqjhNIbL4g55Uo0I1mDrH71tCcJy&index=3" rel="noopener noreferrer" target="_blank">Ir al video</a>
+                                            </CardFooter>
+                                        </DivColum>
 
-                                    <DivColum>
-                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                    </DivColum>
-                                </DivRow>
-                            </Card>
-                        </DivColum>
-                    </DivRow>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+                            </DivColum>
+                        </DivRow>
+                    </Div70>
+
                 </DivSection2>
 
                 <DivSection1>
