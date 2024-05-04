@@ -1402,17 +1402,17 @@ Contenido h2 {
   text-decoration: none;
   padding: 15px;
   display: block;
-  font-family: 'Roboto';
-  font-weight: 900;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 .tema:hover {
   /*color: #3bd5e6;*/
-  background-color: #005b99;
+  background-color: var(--ever-bg-blue);
 }
 
 .select {
-  background-color: #005b99;
+  background-color: var(--ever-bg-blue);
 }
 
 .div-title {
