@@ -665,6 +665,16 @@
   align-items: center;
 }
 
+.div-panel-text{
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 60%;
+  text-align: justify;
+  background-color: var(--ever-bg-0);
+  padding: 1.5rem;
+  border-radius: .5rem;
+}
+
 /*#endregion*/
 
 
