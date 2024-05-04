@@ -218,8 +218,9 @@
 
 .title1 {
   font-size: 30px;
-  font-family: 'Roboto';
-  color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: var(--ever-orange);
 }
 
 .title-subject {
