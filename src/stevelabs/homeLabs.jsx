@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import LabsAbout from "./components/labsAbout";
-import { Div70, DivArticle, DivColum, DivMosaico, DivRow, Panel } from "../component/Contenedores/Cajas";
+import { Div70, DivArticle, DivColum, DivMainContent, DivMosaico, DivRow, Panel } from "../component/Contenedores/Cajas";
 import LabsFooter from "./components/labsFooter";
 import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../component/Card";
 
@@ -21,7 +21,7 @@ function HomeLabs() {
             </div>
 
             <Panel>
-                <Div70>
+                <DivMainContent>
                     <DivRow>
                         <DivColum>
                             <Card>
@@ -82,7 +82,7 @@ function HomeLabs() {
                                         <CardText>
                                             En este apartado puede consultar los articulos que fueron
                                             creados por un colaborador, los temas tratados seran sobre desarrollo de paginas
-                                            web y que permitiran tener informacion sobre este tipo de temas
+                                            web
                                         </CardText>
                                         <CardFooter>
                                             <a className="dumix-btn" href="webdeveloper">Ver articulos</a>
@@ -117,10 +117,11 @@ function HomeLabs() {
                             </Card>
                         </DivColum>
                     </DivRow>
-                </Div70>
-            </Panel>
+                </DivMainContent>
 
-            <LabsAbout />
+                <LabsAbout />
+                
+            </Panel>
 
             <LabsFooter />
         </>
