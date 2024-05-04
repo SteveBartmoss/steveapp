@@ -224,8 +224,9 @@
 
 .title-subject {
   font-size: 40px;
-  font-family: 'Roboto Mono';
-  color: white;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: var(--ever-purple);
 }
 
 .title-working {
@@ -245,10 +246,10 @@
 }
 
 .content-curso {
-  color: white;
+  color: var(--ever-gray2);
   font-size: 1.5rem;
   /*padding-left: 15px;*/
-  font-family: 'Roboto';
+  font-family: "Poppins";
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
