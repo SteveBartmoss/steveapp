@@ -5,7 +5,7 @@ function LabsAbout() {
     return (
         <>
             <PanelText>
-                <h1 className="title1">¿Programar es dificil?</h1>
+                <h1 className="maint-title">¿Programar es dificil?</h1>
                 <p className="main-text">La respuesta corta es si pero no solo debemos quedarnos con
                     eso ya que esto puede variar mucho dependiendo de lo que queremos hacer
                     ya que existen algoritmos bastantes complejos pero que no siempre debemos
@@ -21,7 +21,7 @@ function LabsAbout() {
 
                 <hr className="about-line"></hr>
 
-                <h1 className="title1">¿Porque deberia aprender a programar?</h1>
+                <h1 className="maint-title">¿Porque deberia aprender a programar?</h1>
 
                 <p className="main-text">Si no eres un usuario que esta enfocado a la informartica, las ingenierias de
                     computacion o ciencias puede que no sea una gran herramienta, no lo mal interpretes no es malo que aprendas
@@ -31,7 +31,7 @@ function LabsAbout() {
 
                 <hr className="about-line"></hr>
 
-                <h1 className="title1">La programacion esta en todos lados</h1>
+                <h1 className="maint-title">La programacion esta en todos lados</h1>
 
                 <p className="main-text">Aunque no lo paresca linux es muy popular en las empresas y de hecho si tienes
                     un telefono con sistema android esta usando un sistema operativo basado en linux sin saberlo, ademas del
