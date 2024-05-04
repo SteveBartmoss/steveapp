@@ -523,7 +523,7 @@
 .div-back-footer {
   display: flex;
   flex-direction: column;
-  background-color: var(--gris-14);
+  background-color: var(--ever-bg-0);
 }
 
 .div-nav-footer {
