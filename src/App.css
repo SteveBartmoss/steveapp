@@ -1375,7 +1375,7 @@ Contenido h2 {
   overflow-y: scroll;
   /*background-color: #24283B;*/
   /*background-color: #343434;*/
-  background-color: var(--gris-6);
+  background-color: var(--ever-bg-dim);
 }
 
 .close {
@@ -1434,7 +1434,7 @@ Contenido h2 {
 }
 
 .div-prime {
-  background-color: var(--gris-6);
+  background-color: var(--ever-bg-dim);
 }
 
 .bash {
