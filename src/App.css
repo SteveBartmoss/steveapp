@@ -334,9 +334,16 @@
   font-family: 'Roboto Mono';
 }
 .main-text{
-  color: white;
+  color: var(--ever-gray0);
   font-size: 1.3rem;
   font-family: "Poppins";
+}
+
+.maint-title{
+  color: var(--ever-purple);
+  font-size: 1.6rem;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 /*#endregion*/
