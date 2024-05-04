@@ -1421,7 +1421,7 @@ Contenido h2 {
   width: 1400px;
   height: 1000px;
   /*background-color: #1A1B26;*/
-  background-color: var(--gris-6);
+  background-color: var(--ever-bg-dim);
   padding-left: 30px;
   padding-right: 30px;
   overflow: hidden;
