@@ -5,7 +5,7 @@ function LabsAbout() {
         <div className="div-about">
 
             <h1 className="title1">¿Programar es dificil?</h1>
-            <p className="Content">La respuesta corta es si pero no solo debemos quedarnos con
+            <p className="main-text">La respuesta corta es si pero no solo debemos quedarnos con
                 eso ya que esto puede variar mucho dependiendo de lo que queremos hacer
                 ya que existen algoritmos bastantes complejos pero que no siempre debemos
                 imeplementar, ya que en muchos casos la programacion que usaremos no sera tan compleja
