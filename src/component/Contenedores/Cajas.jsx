@@ -352,3 +352,11 @@ export function DivMainContent({children}){
         </div>
     )
 }
+
+export function PanelText({children}){
+    return(
+        <div className="div-panel-text">
+            {children}
+        </div>
+    )
+}
