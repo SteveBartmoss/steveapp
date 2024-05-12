@@ -1385,6 +1385,21 @@ Contenido h2 {
   /*background-color: #24283B;*/
   /*background-color: #343434;*/
   background-color: var(--ever-bg-dim);
+  scrollbar-color: var(--ever-blue) rgba(49, 49, 49, 0.2);
+  scrollbar-width: thin;
+}
+
+.open::-webkit-scrollbar{
+  width: 5px;
+}
+
+.open::-webkit-scrollbar-track{
+  background-color: rgba(49, 49, 49, 0.2);
+}
+
+.open::-webkit-scrollbar-thumb{
+  background-color:  var(--ever-blue);
+  border-radius: 20px;
 }
 
 .close {
