@@ -94,7 +94,7 @@ function Prog1Presentacion() {
                         que te sientas mas comodo.
                     </p>
 
-                    <h1 className="title1">Editor de codigo</h1>
+                    <h1 className="sub-title">Editor de codigo</h1>
 
                     <p className="content-curso">
                         Con esta aplicacion podemos escribir el codigo del curso y puede ser el
@@ -136,7 +136,7 @@ function Prog1Presentacion() {
                         es bastante util
                     </p>
 
-                    <h1 className="title1">Instalar el editor de codigo (windows)</h1>
+                    <h1 className="sub-title">Instalar el editor de codigo (windows)</h1>
 
                     <p className="content-curso">
                         En el caso de un sistema windows basta con seguir el link de alguno de los editores
@@ -144,7 +144,7 @@ function Prog1Presentacion() {
                         requiere de una configuracion extra.
                     </p>
 
-                    <h1 className="title1">Instalar el editor de codigo (linux)</h1>
+                    <h1 className="sub-title">Instalar el editor de codigo (linux)</h1>
 
                     <p className="content-curso">
                         En un sistema linux la instalacion puede ser un poco mas tardada pero no deberia ser tan
@@ -175,7 +175,7 @@ function Prog1Presentacion() {
                         para la distribucion que se use.
                     </p>
 
-                    <h1 className="title1">Lenguaje de programacion</h1>
+                    <h1 className="sub-title">Lenguaje de programacion</h1>
 
                     <p className="content-curso">
                         Se usara lenguaje C ya que este lenguaje permite tener una buena base para iniciar ya que tiene la
@@ -190,7 +190,7 @@ function Prog1Presentacion() {
                         intalar el lenguaje desde cero
                     </p>
 
-                    <h1 className="title1">Compilador</h1>
+                    <h1 className="sub-title">Compilador</h1>
 
                     <p className="content-curso">
                         El compilador sera el encargado de crear el ejecutable o binario de nuestro programa 
@@ -200,7 +200,7 @@ function Prog1Presentacion() {
                         el codigo.
                     </p>
 
-                    <h1 className="title1">Instalar el compilador (windows)</h1>
+                    <h1 className="sub-title">Instalar el compilador (windows)</h1>
 
                     <p className="content-curso">
                         En el caso de windows su instalacion es sencilla ya que solo se debe descargar el instaldor
@@ -208,7 +208,7 @@ function Prog1Presentacion() {
                         ejecutar los comandos desde la terminal dewindows.
                     </p>
 
-                    <h1 className="title1">Instalar el compilador (linux)</h1>
+                    <h1 className="sub-title">Instalar el compilador (linux)</h1>
 
                     <p className="content-curso">
                         En sistemas linux es un poco mas sencillo ya que el compilador gcc esta disponible en la
@@ -241,7 +241,7 @@ function Prog1Presentacion() {
                     </DivCenter>
 
 
-                    <h1 className="title1">Entorno de desarrollo integrado (ide)</h1>
+                    <h1 className="sub-title">Entorno de desarrollo integrado (ide)</h1>
 
                     <p className="content-curso">
                         Un IDE es una herramienta muy util a la hora de programar ya que contiene bastantes herrmientas
