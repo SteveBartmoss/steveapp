@@ -220,7 +220,7 @@
   font-size: 30px;
   font-family: "Poppins";
   font-weight: 400;
-  color: var(--ever-orange);
+  color: white;
 }
 
 .title-subject {
@@ -234,6 +234,13 @@
   font-size: 4rem;
   font-family: 'Roboto Mono';
   color: white;
+}
+
+.sub-title{
+  font-size: 30px;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: var(--ever-orange);
 }
 
 /*#endregion*/
