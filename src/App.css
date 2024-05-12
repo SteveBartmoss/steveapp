@@ -1396,7 +1396,7 @@ Contenido h2 {
   overflow: hidden;
   /*background-color: #24283B;*/
   /*background-color: #343434;*/
-  background-color: var(--gris-6);
+  background-color: var(--ever-bg-dim);
 }
 
 .hidenItems {
