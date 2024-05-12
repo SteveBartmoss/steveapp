@@ -1488,8 +1488,8 @@ Contenido h2 {
   height: 2px;
   /*background-color: #005b99;*/
   /*border-color: #005b99;*/
-  background-color: var(--aqua-2);
-  border-color: var(--aqua-2);
+  background-color: var(--ever-bg-blue);
+  border-color: var(--ever-bg-blue);
   border-radius: 15%;
 }
 
