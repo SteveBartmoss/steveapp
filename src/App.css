@@ -785,8 +785,8 @@
   color: white;
   padding: 15px;
   display: block;
-  font-family: 'Roboto Mono';
-  font-weight: 900;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 .iten:hover {
