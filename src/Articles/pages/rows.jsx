@@ -1,16 +1,30 @@
-import React from "react";
-import { DivArticle, DivMosaico } from "../../component/Contenedores/Cajas";
+import React, { useEffect } from "react";
+import { DivArticle, DivColum, DivMainContent, DivMosaico, DivRow, Panel } from "../../component/Contenedores/Cajas";
 
 function Rows() {
+
+    useEffect(() => {
+        document.title = "Rows And Columns"
+    }, []);
+
     return (
         <>
-            {document.title = "Rows And Columns"}
 
             <DivArticle>
 
                 <div className="center">
                     <h1 className="title1">Rows and Colums</h1>
                 </div>
+
+                <Panel>
+                    <DivMainContent>
+                        <DivRow>
+                            <DivColum>
+                                
+                            </DivColum>
+                        </DivRow>
+                    </DivMainContent>
+                </Panel>
 
                 <DivMosaico>
 
