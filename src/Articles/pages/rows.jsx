@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { DivArticle, DivColum, DivMainContent, DivMosaico, DivRow, Panel } from "../../component/Contenedores/Cajas";
+import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../../component/Card";
 
 function Rows() {
 
@@ -20,8 +21,54 @@ function Rows() {
                     <DivMainContent>
                         <DivRow>
                             <DivColum>
-                                
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>La gama Alta no es todo</CardTitle>
+                                            <CardText>
+                                                Actualmente la mayoria de usuarios de pc tiene
+                                                la idea de que se debe llegar a la gama alta del pc gaming y tener
+                                                toda la configuracion de una computadora tope de gama llegano a formar
+                                                de cierta manera una elite conformada
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="rows/rc1">Ver articulo</a>
+                                            </CardFooter>
+                                        </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
+
+                                <Card>
+                                    <DivRow>
+                                        <DivColum>
+                                            <CardHeader>
+                                                <p>steve</p>
+                                                <p>18/01/21</p>
+                                            </CardHeader>
+                                            <CardTitle>Primeros pasos en programacion</CardTitle>
+                                            <CardText>
+                                                En este curso se abordan temas basicos de programacion
+                                                ya que esta orientado a personas que comienzan a programar por lo cual no
+                                                se esperan muchos conocimientos
+                                            </CardText>
+                                            <CardFooter>
+                                                <a className="dumix-btn" href="stevelabs/program1">Ir al curso</a>
+                                            </CardFooter>
+                                        </DivColum>
+                                        <DivColum>
+                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                        </DivColum>
+                                    </DivRow>
+                                </Card>
                             </DivColum>
+
                         </DivRow>
                     </DivMainContent>
                 </Panel>
@@ -95,7 +142,7 @@ function Rows() {
 
 
             </DivArticle>
-            
+
         </>
     );
 }
