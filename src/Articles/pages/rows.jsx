@@ -18,102 +18,109 @@ function Rows() {
                 </div>
 
                 <Panel>
-                    <DivMainContent>
-                        <DivRow>
-                            <DivColum>
-                                <Card>
-                                    <DivRow>
-                                        <DivColum>
-                                            <CardHeader>
-                                                <p>steve</p>
-                                                <p>18/01/21</p>
-                                            </CardHeader>
-                                            <CardTitle>La gama Alta no es todo</CardTitle>
-                                            <CardText>
-                                                Actualmente la mayoria de usuarios de pc tiene
-                                                la idea de que se debe llegar a la gama alta del pc gaming y tener
-                                                toda la configuracion de una computadora tope de gama llegano a formar
-                                                de cierta manera una elite conformada
-                                            </CardText>
-                                            <CardFooter>
-                                                <a className="dumix-btn" href="rows/rc1">Ver articulo</a>
-                                            </CardFooter>
-                                        </DivColum>
-                                        <DivColum>
-                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                        </DivColum>
-                                    </DivRow>
-                                </Card>
+                    <DivRow>
+                        <DivColum>
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>La gama Alta no es todo</CardTitle>
+                                        <CardText>
+                                            Actualmente la mayoria de usuarios de pc tiene
+                                            la idea de que se debe llegar a la gama alta del pc gaming y tener
+                                            toda la configuracion de una computadora tope de gama llegano a formar
+                                            de cierta manera una elite conformada
+                                        </CardText>
+                                        <CardFooter>
+                                            <a className="dumix-btn" href="rows/rc1">Ver articulo</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
 
-                                <Card>
-                                    <DivRow>
-                                        <DivColum>
-                                            <CardHeader>
-                                                <p>steve</p>
-                                                <p>18/01/21</p>
-                                            </CardHeader>
-                                            <CardTitle>Primeros pasos en programacion</CardTitle>
-                                            <CardText>
-                                                En este curso se abordan temas basicos de programacion
-                                                ya que esta orientado a personas que comienzan a programar por lo cual no
-                                                se esperan muchos conocimientos
-                                            </CardText>
-                                            <CardFooter>
-                                                <a className="dumix-btn" href="stevelabs/program1">Ir al curso</a>
-                                            </CardFooter>
-                                        </DivColum>
-                                        <DivColum>
-                                            <img className="card-image" src="/Assets/music.png" alt="discimg" />
-                                        </DivColum>
-                                    </DivRow>
-                                </Card>
-                            </DivColum>
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>Juegos que reunen polvo</CardTitle>
+                                        <CardText>
+                                            La mayoria de personas tienen en sus librerias juegos que ni
+                                            siquiera han pronado una sola vez lo que indica que las personas
+                                            compran juegos solo porque estan en oferta pero no llegan a probar
+                                            lo cual es algo desconcertante
+                                        </CardText>
+                                        <CardFooter>
+                                            <a className="dumix-btn" href="rows/rc2">Ir al curso</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
 
-                        </DivRow>
-                    </DivMainContent>
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>Juegos de acceso anticipado</CardTitle>
+                                        <CardText>
+                                            Los juegos de acceso anticipado pueden ser una gran
+                                            oportunidad pero tambien pueden representar un riesgo
+                                            para tu cartera
+                                        </CardText>
+                                        <CardFooter>
+                                            <a className="dumix-btn" href="rows/rc3">Ir al curso</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
+
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>Juegos de acceso anticipado</CardTitle>
+                                        <CardText>
+                                            Los juegos de acceso anticipado pueden ser una gran
+                                            oportunidad pero tambien pueden representar un riesgo
+                                            para tu cartera
+                                        </CardText>
+                                        <CardFooter>
+                                            <a className="dumix-btn" href="rows/rc3">Ir al curso</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
+
+                        </DivColum>
+
+                    </DivRow>
                 </Panel>
 
-                <DivMosaico>
-
-                    <div className="div-topic">
-                        <h1 className="title1">La gama Alta no es todo</h1>
-                        <p className="Content"> Actualmente la mayoria de usuarios de pc tiene
-                            la idea de que se debe llegar a la gama alta del pc gaming y tener
-                            toda la configuracion de una computadora tope de gama llegano a formar
-                            de cierta manera una elite conformada
-                        </p>
-                        <div className="center">
-                            <a className="dumix-btn" href="rows/rc1">Ver articulo</a>
-                        </div>
-                    </div>
-
-                </DivMosaico>
 
 
-                <div className="div-topic">
-                    <h1 className="title1">Juegos que reunen polvo</h1>
-                    <p className="Content">
-                        La mayoria de personas tienen en sus librerias juegos que ni
-                        siquiera han pronado una sola vez lo que indica que las personas
-                        compran juegos solo porque estan en oferta pero no llegan a probar
-                        lo cual es algo desconcertante
-                    </p>
-                    <div className="center">
-                        <a className="dumix-btn" href="rows/rc2">Ver articulo</a>
-                    </div>
-                </div>
-
-                <div className="div-topic">
-                    <h1 className="title1">Juegos de acceso anticipado</h1>
-                    <p className="Content">
-                        Los juegos de acceso anticipado pueden ser una gran
-                        oportunidad pero tambien pueden representar un riesgo
-                        para tu cartera
-                    </p>
-                    <div className="center">
-                        <a className="dumix-btn" href="rows/rc3">Ver articulo</a>
-                    </div>
-                </div>
 
                 <div className="div-topic">
                     <h1 className="title1">Los indie una nueva esperanza</h1>
