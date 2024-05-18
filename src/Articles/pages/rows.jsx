@@ -91,6 +91,13 @@ function Rows() {
                                 </DivRow>
                             </Card>
 
+
+
+
+                        </DivColum>
+
+                        <DivColum>
+
                             <Card>
                                 <DivRow>
                                     <DivColum>
@@ -98,14 +105,38 @@ function Rows() {
                                             <p>steve</p>
                                             <p>18/01/21</p>
                                         </CardHeader>
-                                        <CardTitle>Juegos de acceso anticipado</CardTitle>
+                                        <CardTitle>Los indie una nueva esperanza</CardTitle>
                                         <CardText>
-                                            Los juegos de acceso anticipado pueden ser una gran
-                                            oportunidad pero tambien pueden representar un riesgo
-                                            para tu cartera
+                                            En este mundo de juegos triple A los desarrolladores
+                                            independientes nos traen un sople de aire fresco
+                                            con nuevas mecanicas o mejores historias
                                         </CardText>
                                         <CardFooter>
-                                            <a className="dumix-btn" href="rows/rc3">Ir al curso</a>
+                                            <a className="dumix-btn" href="rows/rc4">Ir al curso</a>
+                                        </CardFooter>
+                                    </DivColum>
+                                    <DivColum>
+                                        <img className="card-image" src="/Assets/music.png" alt="discimg" />
+                                    </DivColum>
+                                </DivRow>
+                            </Card>
+
+                            <Card>
+                                <DivRow>
+                                    <DivColum>
+                                        <CardHeader>
+                                            <p>steve</p>
+                                            <p>18/01/21</p>
+                                        </CardHeader>
+                                        <CardTitle>16 gigas de ram no son como antes</CardTitle>
+                                        <CardText>
+                                            Hace algun tiempo 16 gigas de ram era una gloria para
+                                            la mayoria de personas pero ahora ya no es la misma
+                                            historia, ya que la poca optimizacion esta pasando
+                                            factura
+                                        </CardText>
+                                        <CardFooter>
+                                            <a className="dumix-btn" href="rows/rc5">Ir al curso</a>
                                         </CardFooter>
                                     </DivColum>
                                     <DivColum>
@@ -118,35 +149,6 @@ function Rows() {
 
                     </DivRow>
                 </Panel>
-
-
-
-
-                <div className="div-topic">
-                    <h1 className="title1">Los indie una nueva esperanza</h1>
-                    <p className="Content">
-                        En este mundo de juegos triple A los desarrolladores
-                        independientes nos traen un sople de aire fresco
-                        con nuevas mecanicas o mejores historias
-                    </p>
-                    <div className="center">
-                        <a className="dumix-btn" href="rows/rc4">Ver articulo</a>
-                    </div>
-                </div>
-
-                <div className="div-topic">
-                    <h1 className="title1">16 gigas de ram no son como antes</h1>
-                    <p className="Content">
-                        Hace algun tiempo 16 gigas de ram era una gloria para
-                        la mayoria de personas pero ahora ya no es la misma
-                        historia, ya que la poca optimizacion esta pasando
-                        factura
-                    </p>
-                    <div className="center">
-                        <a className="dumix-btn" href="rows/rc5">Ver articulo</a>
-                    </div>
-                </div>
-
 
             </DivArticle>
 
