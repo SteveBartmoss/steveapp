@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import LabsAbout from "./components/labsAbout";
-import { Div70, DivArticle, DivColum, DivMainContent, DivMosaico, DivRow, Panel } from "../component/Contenedores/Cajas";
+import { DivColum, DivMainContent, DivRow, Panel } from "../component/Contenedores/Cajas";
 import LabsFooter from "./components/labsFooter";
 import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../component/Card";
 
