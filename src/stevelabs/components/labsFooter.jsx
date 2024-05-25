@@ -1,5 +1,5 @@
 import React from "react";
-import { Div60, Div70, DivColum, DivFooter, DivRow, Paper } from "../../component/Contenedores/Cajas";
+import { Div60, Div70, DivColum, DivFooter, DivRow } from "../../component/Contenedores/Cajas";
 
 function LabsFooter() {
     return (
