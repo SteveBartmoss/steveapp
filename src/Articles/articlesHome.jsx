@@ -54,7 +54,7 @@ function ArticlesHome() {
                             posiblemente mejores ejemplos pues toman menos tiempo.
                         </p>
                         <div className="center">
-                            <a className="dumix-btn" href="#">Ver articulos</a>
+                            <a className="dumix-btn" href="articulos/info">Ver articulos</a>
                         </div>
                     </div>
 
