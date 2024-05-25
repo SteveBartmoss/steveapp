@@ -3,8 +3,6 @@ import "../App.css";
 import Pie from "../component/Pie";
 import DivBaner from "../component/DivBaner";
 import FlexDiv from "../component/Contenedores/FlexDiv";
-import SquareDiv from "../component/Contenedores/SquareDiv";
-import CardDiv from "../component/Contenedores/CardDiv";
 import { Div70, DivCenter, DivColum, DivRow, DivSection1, DivSection2, Paper } from "../component/Contenedores/Cajas";
 import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../component/Card";
 
