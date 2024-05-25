@@ -694,36 +694,6 @@
 /*#endregion*/
 
 
-/*#region botones*/
-.Btn {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  font-weight: bold;
-  padding: 10px 20px;
-  background: #3b062c;
-  color: white;
-  font-size: 15px;
-  margin: 10px 0;
-  font-family: 'Roboto';
-}
-
-.Btn:hover {
-  background-color: rgb(251, 58, 190);
-}
-
-.btn-page {
-  border: none;
-  background-color: var(--portal-1);
-  font-size: 3rem;
-  font-family: 'Roboto Mono';
-  border-radius: 1rem;
-  color: white;
-}
-
-/*#endregion*/
-
 .card-div {
   width: 80%;
   height: 80%;
