@@ -17,7 +17,7 @@ function Reviews(){
                     kojima prepararo para el jugador
                 </p>
                 <div className="center">
-                    <a className="dumix-btn" href="#">Ver review</a>
+                    <a className="dumix-btn" href="article/dead">Ver review</a>
                 </div>
             </div>
 
