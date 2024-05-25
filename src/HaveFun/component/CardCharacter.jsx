@@ -6,7 +6,7 @@ function CardCharacter({ character }) {
         <>
             <div className="div-character-card">
                 <DivCenter>
-                    <img className="img-character" src={character.image} />
+                    <img alt={character.name} className="img-character" src={character.image} />
                 </DivCenter>
                 <h1 className="content-card">{character.name}</h1>
                 <h1 className="content-card">{character.status}</h1>
