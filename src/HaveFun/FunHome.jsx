@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import DivBaner from "../component/DivBaner";
 import FooterHave from "./component/FooterHave";
-import { DivArticle, DivCardHave, DivCenter, DivColum, DivMainContent, DivMosaico, DivRow, Panel } from "../component/Contenedores/Cajas";
+import { DivArticle, DivColum, DivMainContent, DivRow, Panel } from "../component/Contenedores/Cajas";
 import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../component/Card";
 
 function FunHome() {
