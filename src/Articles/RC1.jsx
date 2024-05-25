@@ -1,6 +1,5 @@
 import React from "react";
 import Pie from "../component/Pie";
-import Card from "../component/Card";
 
 
 function Articulo() {
