@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { DivArticle, DivColum, DivMainContent, DivMosaico, DivRow, Panel } from "../../component/Contenedores/Cajas";
+import { DivArticle, DivColum, DivRow, Panel } from "../../component/Contenedores/Cajas";
 import { Card, CardFooter, CardHeader, CardText, CardTitle } from "../../component/Card";
 
 function Rows() {
