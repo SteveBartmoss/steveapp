@@ -47,6 +47,12 @@ function Pimp() {
                     blanco con con letras negras que puede quemarte la retina si 
                     lo usas todo el tiempo
                 </p>
+
+                <p>
+                    La forma mas simple de modificar esto es tan facil como 
+                    modificar las preferencias de la terminal y seleccionando 
+                    manualmente los colores de la terminal
+                </p>
             </div>
             <Working />
         </Paper>
