@@ -51,7 +51,9 @@ function Pimp() {
                 <p>
                     La forma mas simple de modificar esto es tan facil como 
                     modificar las preferencias de la terminal y seleccionando 
-                    manualmente los colores de la terminal
+                    manualmente los colores de la terminal lo cual es simple 
+                    pero a menos que tengamos mucho tiempo, puede ser tardado 
+                    crear muchos temas diferentes
                 </p>
             </div>
             <Working />
