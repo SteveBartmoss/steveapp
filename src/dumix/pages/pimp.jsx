@@ -41,20 +41,30 @@ function Pimp() {
 
             <div>
                 <p>
-                    Una manera simple de mejorar el aspecto de nuestra terminal 
-                    es cambiando el esquema de colores que viene por defecto ya que 
-                    puede que sea el tipico negro y letras blannca o el terrible color 
-                    blanco con con letras negras que puede quemarte la retina si 
+                    Una manera simple de mejorar el aspecto de nuestra terminal
+                    es cambiando el esquema de colores que viene por defecto ya que
+                    puede que sea el tipico negro y letras blannca o el terrible color
+                    blanco con con letras negras que puede quemarte la retina si
                     lo usas todo el tiempo
                 </p>
 
                 <p>
-                    La forma mas simple de modificar esto es tan facil como 
-                    modificar las preferencias de la terminal y seleccionando 
-                    manualmente los colores de la terminal lo cual es simple 
-                    pero a menos que tengamos mucho tiempo, puede ser tardado 
+                    La forma mas simple de modificar esto es tan facil como
+                    modificar las preferencias de la terminal y seleccionando
+                    manualmente los colores de la terminal lo cual es simple
+                    pero a menos que tengamos mucho tiempo, puede ser tardado
                     crear muchos temas diferentes
                 </p>
+
+                <h1 className="title1">Gogh</h1>
+                <hr className="line" />
+
+                <p>
+                    Esta es una gran herramienta te permite personalizar los colores 
+                    de tu terminal de una manera muy simple ya que solo necesitamos 
+                    un par de comandos
+                </p>
+
             </div>
             <Working />
         </Paper>
