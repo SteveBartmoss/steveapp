@@ -42,16 +42,14 @@ function LetVsVar() {
                     var x = 5;
                 </p>
 
+                <p className="content-curso">
+                    Aunque esto puede parecer conveniente, a menudo puede llevar a errores difíciles de entender y depurar.
+                </p>
 
+                <h1 className="title1">Declaraciones Duplicadas:</h1>
+                <hr className="line" />
+                
             </div>
-
-
-
-            <p>
-                Aunque esto puede parecer conveniente, a menudo puede llevar a errores difíciles de entender y depurar.
-            </p>
-
-            <h1>Declaraciones Duplicadas:</h1>
 
             <p>Con var, puedes declarar la misma variable múltiples veces sin error, lo que puede sobrescribir silenciosamente el valor de la variable y causar problemas.</p>
 
