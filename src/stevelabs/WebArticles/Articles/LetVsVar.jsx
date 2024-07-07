@@ -1,22 +1,37 @@
 import React from "react";
+import { DivCenter, DivCurso, DivRead, DivTitle } from "../../../component/Contenedores/Cajas";
+import CreatorSing from "../../../component/sing";
 
-let example1=' javascript function example() { if (true) { var x = 5; } console.log(x); // 5 (incluso fuera del bloque if) } example();'
+let example1 = ' javascript function example() { if (true) { var x = 5; } console.log(x); // 5 (incluso fuera del bloque if) } example();'
 
-let example2= 'javascript function example() { if (true) { let x = 5; } console.log(x); // ReferenceError: x is not defined } example();'
+let example2 = 'javascript function example() { if (true) { let x = 5; } console.log(x); // ReferenceError: x is not defined } example();'
 
-function LetVsVar(){
-    return(
+function LetVsVar() {
+    return (
         <>
-            <h1>Let vs Var</h1>
-                
-            <p>
-                El uso de var en JavaScript ha sido tradicionalmente la forma de declarar variables, pero con la introducción de let y const en ECMAScript 6 (ES6), hay varias razones por las cuales var ya no es aconsejable para la mayoría de los casos. Aquí te explico algunas de estas razones:
-                Problemas con var
+            <div className="div-about">
 
-                Ámbito de Función (Function Scope) en lugar de Ámbito de Bloque (Block Scope):
-                Las variables declaradas con var tienen ámbito de función, lo que significa que están disponibles en toda la función en la que se declaran, incluso si se declaran dentro de un bloque (por ejemplo, dentro de un if o un for).
-                Esto puede llevar a comportamientos inesperados y errores difíciles de depurar.
-            </p>
+                <DivCenter>
+                    <h1 className="main-title">Let vs Var</h1>
+                </DivCenter>
+
+                <hr className="line" />
+
+                <CreatorSing autor={"Steve"} date={"08/04/23"} img={"/Assets/steveA.png"} grade={"Free coder"} />
+
+                <div className="back-articles">
+                    <p className="content-curso">
+                        El uso de var en JavaScript ha sido tradicionalmente la forma de declarar variables, pero con la introducción de let y const en ECMAScript 6 (ES6), hay varias razones por las cuales var ya no es aconsejable para la mayoría de los casos. Aquí te explico algunas de estas razones:
+                        Problemas con var
+
+                        Ámbito de Función (Function Scope) en lugar de Ámbito de Bloque (Block Scope):
+                        Las variables declaradas con var tienen ámbito de función, lo que significa que están disponibles en toda la función en la que se declaran, incluso si se declaran dentro de un bloque (por ejemplo, dentro de un if o un for).
+                        Esto puede llevar a comportamientos inesperados y errores difíciles de depurar.
+                    </p>
+                </div>
+            </div>
+
+
 
             <h1>Problemas con el Hoisting:</h1>
 
@@ -38,7 +53,7 @@ function LetVsVar(){
             <h1>Declaraciones Duplicadas:</h1>
 
             <p>Con var, puedes declarar la misma variable múltiples veces sin error, lo que puede sobrescribir silenciosamente el valor de la variable y causar problemas.</p>
-            
+
             <p>
                 javascript
 
