@@ -41,21 +41,21 @@ function Pie() {
                         <DivRow>
                             <DivColum>
                                 <p className="Content">Cursos</p>
-                                <a className="link-tag">About</a>
+                                <a href="/" className="link-tag">About</a>
                             </DivColum>
                             <DivColum>
                                 <p className="Content">Developer</p>
-                                <a className="link-tag">How to</a>
+                                <a href="/" className="link-tag">How to</a>
                             </DivColum>
                             <DivColum>
                                 <p className="Content">Dumix</p>
-                                <a className="link-tag">Linux basico</a>
-                                <a className="link-tag">Comandos</a>
-                                <a className="link-tag">Vingg</a>
+                                <a href="/" className="link-tag">Linux basico</a>
+                                <a href="/" className="link-tag">Comandos</a>
+                                <a href="/" className="link-tag">Vingg</a>
                             </DivColum>
                             <DivColum>
                                 <p className="Content">Articulos</p>
-                                <a className="link-tag">Web Masters</a>
+                                <a href="/" className="link-tag">Web Masters</a>
                             </DivColum>
                         </DivRow>
                     </DivRow>
