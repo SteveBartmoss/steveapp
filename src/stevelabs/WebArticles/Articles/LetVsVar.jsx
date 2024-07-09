@@ -48,19 +48,22 @@ function LetVsVar() {
 
                 <h1 className="title1">Declaraciones Duplicadas:</h1>
                 <hr className="line" />
-                
+
+                <p className="content-curso">
+                    Con var, puedes declarar la misma variable múltiples veces sin error, 
+                    lo que puede sobrescribir silenciosamente el valor de la variable y causar problemas.
+                </p>
+
+                <p className="content-curso">
+                    javascript
+
+                    var x = 1;
+                    var x = 2;
+                    console.log(x); // 2
+                </p>
+
             </div>
-
-            <p>Con var, puedes declarar la misma variable múltiples veces sin error, lo que puede sobrescribir silenciosamente el valor de la variable y causar problemas.</p>
-
-            <p>
-                javascript
-
-                var x = 1;
-                var x = 2;
-                console.log(x); // 2
-            </p>
-
+            
             <h1>Ventajas de let y const</h1>
 
             <p>
