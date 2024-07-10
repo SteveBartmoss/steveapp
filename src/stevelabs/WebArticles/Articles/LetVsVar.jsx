@@ -50,7 +50,7 @@ function LetVsVar() {
                 <hr className="line" />
 
                 <p className="content-curso">
-                    Con var, puedes declarar la misma variable múltiples veces sin error, 
+                    Con var, puedes declarar la misma variable múltiples veces sin error,
                     lo que puede sobrescribir silenciosamente el valor de la variable y causar problemas.
                 </p>
 
@@ -62,14 +62,15 @@ function LetVsVar() {
                     console.log(x); // 2
                 </p>
 
-            </div>
-            
-            <h1>Ventajas de let y const</h1>
+                <h1 className="title1">Ventajas de let y const</h1>
+                <hr className="line" />
 
-            <p>
-                Ámbito de Bloque (Block Scope):
-                Las variables declaradas con let y const tienen ámbito de bloque, lo que significa que solo están disponibles dentro del bloque donde se declaran (por ejemplo, dentro de un if o for).
-            </p>
+                <p className="content-curso">
+                    Ámbito de Bloque (Block Scope):
+                    Las variables declaradas con let y const tienen ámbito de bloque, lo que significa que solo están disponibles dentro del bloque donde se declaran (por ejemplo, dentro de un if o for).
+                </p>
+
+            </div>
 
             <h1>Sin Hoisting de Inicialización:</h1>
 
