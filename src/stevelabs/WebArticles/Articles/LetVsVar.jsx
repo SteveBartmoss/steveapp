@@ -70,20 +70,20 @@ function LetVsVar() {
                     Las variables declaradas con let y const tienen ámbito de bloque, lo que significa que solo están disponibles dentro del bloque donde se declaran (por ejemplo, dentro de un if o for).
                 </p>
 
+                <h1 className="title1">Sin Hoisting de Inicialización:</h1>
+
+                <p className="content-curso">
+                    Aunque let y const también son hoisted, no están inicializados hasta que el intérprete alcanza su declaración en el código. Esto significa que usar la variable antes de su declaración resultará en un error.
+                </p>
+
+                <p className="content-curso">
+                    javascript
+
+                    console.log(x); // ReferenceError: x is not defined
+                    let x = 5;
+                </p>
+
             </div>
-
-            <h1>Sin Hoisting de Inicialización:</h1>
-
-            <p>
-                Aunque let y const también son hoisted, no están inicializados hasta que el intérprete alcanza su declaración en el código. Esto significa que usar la variable antes de su declaración resultará en un error.
-            </p>
-
-            <p>
-                javascript
-
-                console.log(x); // ReferenceError: x is not defined
-                let x = 5;
-            </p>
 
             <h1>Declaraciones Duplicadas Prohibidas:</h1>
 
