@@ -97,20 +97,26 @@ function LetVsVar() {
                     let x = 1;
                     let x = 2; // SyntaxError: Identifier 'x' has already been declared
                 </p>
+
+                <h1 className="title1">Constantes con const:</h1>
+                <hr className="line" />
+
+                <p className="content-curso">
+                    const se usa para declarar constantes, lo que garantiza que el valor de la variable no se puede reasignar después de su declaración. Esto es útil para variables cuyo valor no debe cambiar.
+                </p>
+
+                <p className="content-curso">
+                    javascript
+
+                    const y = 10;
+                    y = 15; // TypeError: Assignment to constant variable.
+                </p>
+
             </div>
 
-            <h1>Constantes con const:</h1>
 
-            <p>
-                const se usa para declarar constantes, lo que garantiza que el valor de la variable no se puede reasignar después de su declaración. Esto es útil para variables cuyo valor no debe cambiar.
-            </p>
 
-            <p>
-                javascript
 
-                const y = 10;
-                y = 15; // TypeError: Assignment to constant variable.
-            </p>
 
             <h1>Conclusión</h1>
 
