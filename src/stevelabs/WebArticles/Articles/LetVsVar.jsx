@@ -71,6 +71,7 @@ function LetVsVar() {
                 </p>
 
                 <h1 className="title1">Sin Hoisting de Inicialización:</h1>
+                <hr className="line" />
 
                 <p className="content-curso">
                     Aunque let y const también son hoisted, no están inicializados hasta que el intérprete alcanza su declaración en el código. Esto significa que usar la variable antes de su declaración resultará en un error.
@@ -83,20 +84,20 @@ function LetVsVar() {
                     let x = 5;
                 </p>
 
+                <h1 className="title1">Declaraciones Duplicadas Prohibidas:</h1>
+                <hr className="line" />
+
+                <p className="content-curso">
+                    Con let y const, intentar declarar una variable con el mismo nombre en el mismo ámbito resulta en un error.
+                </p>
+
+                <p className="content-curso">
+                    javascript
+
+                    let x = 1;
+                    let x = 2; // SyntaxError: Identifier 'x' has already been declared
+                </p>
             </div>
-
-            <h1>Declaraciones Duplicadas Prohibidas:</h1>
-
-            <p>
-                Con let y const, intentar declarar una variable con el mismo nombre en el mismo ámbito resulta en un error.
-            </p>
-
-            <p>
-                javascript
-
-                let x = 1;
-                let x = 2; // SyntaxError: Identifier 'x' has already been declared
-            </p>
 
             <h1>Constantes con const:</h1>
 
