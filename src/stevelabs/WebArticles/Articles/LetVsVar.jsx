@@ -1,5 +1,5 @@
 import React from "react";
-import { DivCenter, DivCurso, DivRead, DivTitle } from "../../../component/Contenedores/Cajas";
+import { DivCenter } from "../../../component/Contenedores/Cajas";
 import CreatorSing from "../../../component/sing";
 
 let example1 = ' javascript function example() { if (true) { var x = 5; } console.log(x); // 5 (incluso fuera del bloque if) } example();'
